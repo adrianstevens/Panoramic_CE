@@ -1,0 +1,223 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcesol.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_FREECELL          ICON                    "FreeCell.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcesol.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""FreeCellsol.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_COIN            WAVE                    "Res\\coin.wav"
+IDR_WAV_DEAL            WAVE                    "Res\\crdflp.wav"
+IDR_WAV_HOLDING         WAVE                    "Res\\Holding.WAV"
+IDR_WAV_LOSE            WAVE                    "Res\\loose.wav"
+IDR_WAV_WIN             WAVE                    "Res\\chaching.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BMP_Card            BITMAP                  "Res\\card.bmp"
+IDB_BMP_Clubs           BITMAP                  "Res\\13clubs.bmp"
+IDB_BMP_Diamonds        BITMAP                  "Res\\13Diamonds.bmp"
+IDB_BMP_Hearts          BITMAP                  "Res\\13Hearts.bmp"
+IDB_BMP_Spades          BITMAP                  "Res\\13Spades.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+IDFX_MAIN_VIEW          RCDATA                  "FreeCell.bfx"
+IDFX_OPTIONS_VIEW       RCDATA                  "Options.bfx"
+IDFX_MENU_VIEW          RCDATA                  "Menu.bfx"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "FreeCell"
+    IDC_FREECELL          	"FreeCell"
+    IDS_MAIN_CLASS          "VidClass"
+    IDS_SOFTKEY_TEXT_LEFT   "Options"
+    IDS_MENU_Menu           "Menu"
+    IDS_BTN_Hold            "Hold"
+    IDS_DEMO_Over           "We Hope you enjoyed trying out iSS Turbo Solitaire.  Please visit www.implicitsoftware.com to purchase this and other award winning software"
+    IDS_RESULT_Lose         "You Lose"
+    IDS_RESULT_JOB          "You Win! Jacks or Better"
+    IDS_RESULT_2P           "You Win! 2 Pair"
+    IDS_RESULT_3OK          "You Win! 3 of a Kind"
+    IDS_RESULT_4OK          "You Win! 4 of a Kind"
+    IDS_RESULT_FH           "You Win! Full House"
+    IDS_RESULT_S            "You Win! Straight"
+    IDS_RESULT_F            "You Win! Flush"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TOOLS               "Tools"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_BET_Deal        "Deal"
+    IDS_BTN_BET_Clear       "Clear"
+    IDS_BTN_BET_5           "$5"
+    IDS_BTN_BET_10          "$10"
+    IDS_BTN_BET_25          "$25"
+    IDS_BTN_BET_100         "$100"
+    IDS_NAME_VidTurbo       "FreeCell"
+    IDS_NAME_10s            "10s or Better"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RESULT_SF           "You Win! Straight Flush"
+    IDS_RESULT_RF           "You Win! Royal Flush"
+    IDS_RESULT_Pair         "You Win! Pair"
+    IDS_RESULT_10s          "You Win! 10s or Better"
+    IDS_RESULT_Four2s4s     "You Win! Four 2s, 3s or 4s"
+    IDS_RESULT_Four5sKs     "You Win! Four 5s or Better"
+    IDS_RESULT_Four2s10s    "You Win! Four 2s - 10s"
+    IDS_RESULT_FourJsKs     "You Win! Four Js, Qs, or Ks"
+    IDS_RESULT_FourAs       "You Win! Four Aces"
+    IDS_OPTS_ND_1           "# of Decks: 1"
+    IDS_OPTS_ND_2           "# of Decks: 2"
+    IDS_OPTS_ND_4           "# of Decks: 4"
+    IDS_OPTS_ND_8           "# of Decks: 8"
+    IDS_OPTS_PS_ON          "Play Sounds: On"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTS_PS_OFF         "Play Sounds: Off"
+    IDS_MENU_Resume         "Resume Game"
+    IDS_MENU_New            "New Game"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Help           "Help"
+    IDS_MENU_Quit           "Quit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NAME_Aces           "Aces and Faces"
+    IDS_NAME_Double         "Double Bonus"
+    IDS_NAME_JacksB         "Jacks or Better"
+    IDS_LOSE                "Would you like to start a new Game?"
+    IDS_LOSE_IT             "You Lose"
+    IDS_MENU_Save           "Save"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BGCOLOR_BLUE        "Table Color: Blue"
+    IDS_BGCOLOR_GREEN       "Table Color: Green"
+	IDS_BGCOLOR_PURPLE      "Table Color: Purple"
+    IDS_BGCOLOR_RED         "Table Color: Red"
+    IDS_GAMETYPE_Practice   "Game Type 1: Practice"
+	IDS_GAMETYPE_Standard   "Game Type 2: Standard"
+	IDS_GAMETYPE_Vegas      "Game Type 3: Vegas"
+	IDS_GAMETYPE_Other      "Game Type 4: Practice"
+    IDS_IMPLICIT_SOFTWARE   "Implicit Software Solutions Inc"
+    IDS_WEBSITE             "www.implicitsoftware.com"
+    IDS_VERSION             "1.1.3"
+    IDS_BANK                "Bank:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BET                 "Bet:"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "FreeCellsol.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,44 @@
+//
+// GuitarProSP.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+#include "resourcesp.h"
+
+/////////////////////////////////////////////////////////////////////////////
+HI_RES_AWARE CEUX {1}	// turn off the emulation layer
+			// Remove this resource to enable pixel-
+			// doubling on platforms that support it
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_MENU_Options RCDATA
+BEGIN
+    IDR_MENU_Options, 
+    2,
+    
+    I_IMAGENONE, IDMENU_Save, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Save, 0, NOMENU,
+
+    I_IMAGENONE, IDMENU_Cancel, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Cancel, 0, NOMENU,
+END
+
+IDR_MENU_Menu RCDATA
+BEGIN
+    IDR_MENU_Menu, 
+    1,
+    
+    I_IMAGENONE, IDMENU_Quit, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Quit, 0, NOMENU,
+END

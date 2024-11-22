@@ -1,0 +1,61 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="VideoPoker"
+InstallDir=%CE1%\Pano\Video Poker
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE14%
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"VideoPoker.exe" = 1
+"PanoVideoPoker.htm" = 1
+"eula.exe" = 1
+"eula.txt" = 1
+"VideoPoker90x90_192.png" = 1
+
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720, Shortcuts01.ARM720
+;CESetupDLL  = "Setup.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoVideoPoker,StartUp,0x00000001,00,00,00,00
+HKLM,Security\Shell\StartInfo\Start\Games\Panoramic VideoPoker.lnk,Icon,0x00000000,%InstallDir%\VideoPoker90x90_192.png
+
+[Files00.ARM720]
+"VideoPoker.exe",,,0x40000003
+"eula.exe",,,0x40000003
+"eula.txt",,,0x40000003
+"VideoPoker90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"PanoVideoPoker.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Video Poker", 0, "VideoPoker.exe"
+
+[Shortcuts01.ARM720]
+"Panoramic Video Poker.lnk", 0, "PanoVideoPoker.htm"
+
+
+
+

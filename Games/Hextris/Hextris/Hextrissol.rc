@@ -1,0 +1,160 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcesol.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Hextris             ICON                    "Hextris.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcesol.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Hextrissol.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+
+IDD_DLG_Child DIALOG  0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RCDATA
+//
+
+IDFX_MAIN_VIEW          RCDATA                  "Hextris.bfx"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic HexeGems"
+    IDC_Hextris             "HexeGems"
+    IDS_MAIN_CLASS          "HexeGems"
+    IDS_SOFTKEY_TEXT_LEFT   "Options"
+    IDS_SOFTKEY_TEXT_RIGHT  "Menu"
+    IDS_CloseWindowMessage  "The application is not responding.  Would you like to forcefully end this application?"
+    IDS_DEMO_Over           "We hope you enjoyed using iSS HexeGems, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided the trial software."
+    IDS_MENU_About          "About..."
+    IDS_MENU_Help           "Help..."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_View           "View"
+    IDS_MENU_SwitchTo       "Switch To"
+    IDS_MENU_EndProcess     "End Process"
+    IDS_MENU_EndTask        "End Task"
+    IDS_MENU_Tasks          "Applications"
+    IDS_MENU_Processes      "Processes"
+    IDS_MENU_Performance    "Performance"
+    IDS_MENU_Info           "Info"
+    IDS_MENU_Sort           "Sort"
+    IDS_MENU_Name           "Name"
+    IDS_MENU_Memory         "Memory Usage"
+    IDS_MENU_NetworkInfo    "Networking"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NAME_Hextris        "Panoramic HexeGems"
+    IDS_IMPLICIT_SOFTWARE   "Panoramic Software Inc"
+    IDS_WEBSITE             "www.panoramicsoft.com"
+    IDS_VERSION             "1.1.0"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit           "Exit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_CloseAll       "Close All"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "Hextrissol.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

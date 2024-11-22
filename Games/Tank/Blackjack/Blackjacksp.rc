@@ -1,0 +1,338 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcesp.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_BLACKJACK           ICON                    "res\\Blackjack.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcesp.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Blackjacksp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_WIN             WAVE                    "Res\\chaching.wav"
+IDR_WAV_COIN            WAVE                    "Res\\coin.wav"
+IDR_WAV_DEAL            WAVE                    "Res\\crdflp.wav"
+IDR_WAVE_LOSE           WAVE                    "Res\\loose.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_PNG_Clubs           GIF                     "Res\\13clubs.png"
+IDB_PNG_Diamonds        GIF                     "Res\\13Diamonds.png"
+IDB_PNG_Hearts          GIF                     "Res\\13Hearts.png"
+IDB_PNG_Spades          GIF                     "Res\\13Spades.png"
+IDB_PNG_BUTTON          GIF                     "Res\\bg_btn.png"
+IDB_PNG_CardBack        GIF                     "Res\\cardback.png"
+IDB_PNG_Flip            GIF                     "Res\\cardflip.png"
+IDB_PNG_Chips           GIF                     "Res\\chips.png"
+IDB_PNG_Count           GIF                     "Res\\count_btn.png"
+IDB_PNG_Felt            GIF                     "Res\\felt.png"
+IDB_PNG_Logo            GIF                     "Res\\logo.png"
+IDB_PNG_Pano            GIF                     "Res\\Pano.png"
+IDB_PNG_Table           GIF                     "Res\\Table.png"
+IDB_PNG_TableVGA        GIF                     "Res\\TableVGA.png"
+IDR_PNG_MenuBtn         GIF                     "Res\\menu_btn.png"
+IDR_PNG_Title           GIF                     "Res\\title.png"
+IDR_PNG_TitleVGA        GIF                     "Res\\titleVGA.png"
+IDR_PNG_Dollar          GIF                     "Res\\holla.png"
+IDR_PNG_DollarVGA       GIF                     "Res\\HollaVGA.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Options DIALOG  0, 0, 190, 202
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LISTBOX         IDC_LST_PLAYSOUNDS,7,47,126,14,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 0x200,143,21,13,14
+    LISTBOX         IDC_LST_DIFFICULTY,7,18,126,14,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 0x200,147,72,13,14
+    LISTBOX         IDC_LST_BACKGROUND,7,80,126,14,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 0x200,146,47,13,14
+END
+
+IDD_DLG_Basic DIALOG  0, 0, 186, 172
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Blackjack"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Options, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Options MENU 
+BEGIN
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_Blackjack MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic Blackjack"
+    IDC_BJACK               "BJACK"
+    IDS_IMPLICIT_SOFTWARE   "Panoramic Software Inc"
+    IDB_Blackjack           "Blackjack"
+    IDS_WEBSITE             "www.panoramicsoft.com"
+    IDS_BTNS_HIT            "Hit"
+    IDS_STRING7             "Stand"
+    IDS_STRING8             "Double"
+    IDS_STRING9             "Surrender"
+    IDS_STRING10            "Split"
+    IDS_STRING11            "Insurance"
+    IDS_RESULT_WIN          "Win"
+    IDS_RESULT_LOSE         "Lose"
+    IDS_RESULT_BLACKJACK    "Blackjack!"
+    IDS_RESULT_DRAW         "Draw"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TOOLS               "Tools"
+    IDS_BGCOLOR_BLUE        "Table Color: Blue"
+    IDS_BGCOLOR_GREEN       "Table Color: Green"
+    IDS_BGCOLOR_PURPLE      "Table Color: Purple"
+    IDS_BGCOLOR_RED         "Table Color: Red"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTNS_DEAL           "Deal"
+    IDS_BTNS_RESET          "Reset"
+    IDS_BTNS_5              "$5"
+    IDS_BTNS_10             "$10"
+    IDS_BTNS_25             "$25"
+    IDS_BTNS_100            "$100"
+    IDS_WIN                 "You Win"
+    IDS_BLACKJACK           "Blackjack!"
+    IDS_DRAW                "Draw"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOSE                "Lose"
+    IDS_SURRENDER           "Surrender"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Save           "Save"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_CMB_GD_Easy         "Easy"
+    IDS_CMB_GD_Normal       "Normal"
+    IDS_CMB_GD_Difficult    "Difficult"
+    IDS_CMB_GD_Custom       "Custom"
+    IDS_CMB_GD_Learn        "Learn to Play"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RESULT_SURRENDER    "Surrender"
+    IDS_RESULT_NULL         "            "
+    IDS_DEMO_Over           "We hope you enjoyed trying out Panoramic Blackjack.  Your trial has expired.  To purchase - please return to the website that provided your trial download."
+    IDS_Bank                "Bank"
+    IDS_Bet                 "Bet"
+    IDS_VERSION             "1.0.4"
+    IDS_DIFF_EASY           "Diff: 1 Easy"
+    IDS_DIFF_NORMAL         "Diff: 2 Normal"
+    IDS_DIFF_EXPERT         "Diff: 3 Expert"
+    IDS_SOUND_OFF           "Play Sound: Off"
+    IDS_SOUND_ON            "Play Sound: On"
+    IDS_MENU_Resume         "Resume Game"
+    IDS_MENU_New            "New Game"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Help           "Help"
+    IDS_MENU_Quit           "Quit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BJ_2to1             "Blackjack pays 2 to 1"
+    IDS_BJ_3to2             "Blackjack pays 3 to 2"
+    IDS_BROKE_CAPTION       "You're Broke"
+    IDS_BROKE_MESSAGE       "You're Broke! Would you like to start a new game?"
+    IDS_MENU_HiScores       "HiScores"
+    IDS_MENU_About          "About"
+    IDS_MENU_Exit           "Exit"
+    IDS_MENU_NewGame        "New Game"
+    IDS_MENU_Yes            "Yes"
+    IDS_MENU_No             "No"
+    IDS_MSG_Exit            "Are you sure you want to exit Panoramic Blackjack?"
+    IDS_ABOUT_1             "Panoramic BlackJack\r\nversion 1.0.4\r\nCopyright 2008\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com"
+    IDS_MENU_Back           "Back"
+    IDS_LBL_Bank            "Bank"
+    IDS_LBL_Date            "Date"
+    IDS_LBL_PlaySounds      "Play sounds"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBL_CardCountView   "Card Count:"
+    IDS_LBL_CardCounting    "Card Count Style:"
+    IDS_LBL_GameDifficulty  "Game Difficulty:"
+    IDS_CMB_CCV_On          "On"
+    IDS_CMB_CCV_Semi        "On demand"
+    IDS_CMB_CCV_Off         "Off"
+    IDS_CMB_CC_Wizard       "Wizard"
+    IDS_CMB_CC_KO           "KO"
+    IDS_CMB_CC_HiLow        "Hi Low"
+    IDS_CMB_CC_HiOpt1       "HiOpt1"
+    IDS_CMB_CC_HiOpt2       "HiOpt2"
+    IDS_CMB_CC_Zen          "Zen"
+    IDS_CMB_CC_OmegaII      "Omega II"
+    IDS_MENU_Ok             "Ok"
+    IDS_MSG_HiEndGame       "Your game is over but you achieved a high score!  Would you like to start a new game? "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_SHUFFLE         WAVE                    "Res\\shuffle.wav"
+IDR_WAV_BET             WAVE                    "Res\\bet.wav"
+IDR_WAV_BJ              WAVE                    "Res\\bj.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuBtnVGA      GIF                     "Res\\menu_btn_vga.png"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "Blackjacksp.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

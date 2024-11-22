@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GSPC", "GSPC.vcproj", "{ED5D07D3-7087-49B5-9D06-01993191CCF1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MSI", "..\MSI\MSI.vdproj", "{3DC9A7FC-269C-4EF9-96BF-D44AAF54AF5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5D07D3-7087-49B5-9D06-01993191CCF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED5D07D3-7087-49B5-9D06-01993191CCF1}.Debug|Win32.Build.0 = Debug|Win32
+		{ED5D07D3-7087-49B5-9D06-01993191CCF1}.Release|Win32.ActiveCfg = Release|Win32
+		{ED5D07D3-7087-49B5-9D06-01993191CCF1}.Release|Win32.Build.0 = Release|Win32
+		{3DC9A7FC-269C-4EF9-96BF-D44AAF54AF5C}.Debug|Win32.ActiveCfg = Debug
+		{3DC9A7FC-269C-4EF9-96BF-D44AAF54AF5C}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

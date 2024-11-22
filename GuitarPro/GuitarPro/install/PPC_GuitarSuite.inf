@@ -1,0 +1,86 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Guitar Suite"
+InstallDir=%CE1%\Panoramic\GuitarSuite
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE11%
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"GuitarSuite.exe" = 1
+"PanoGuitarSuite.htm" = 1
+"PanoGuitarSuite_de.htm" = 1
+"PanoGuitarSuite_du.htm" = 1
+"PanoGuitarSuite_es.htm" = 1
+"PanoGuitarSuite_fr.htm" = 1
+"PanoGuitarSuite_it.htm" = 1
+"PanoGuitarSuite_jp.htm" = 1
+;"eula.exe" = 1
+;"eula.txt" = 1
+"GuitarSuite90x90_192.png" = 1
+"data1.dac" = 1
+"datab1.dac" = 1
+"datac1.dac" = 1
+"data2.dac" = 1
+"datab2.dac" = 1
+"datac2.dac" = 1
+
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720, Shortcuts01.ARM720
+;CESetupDLL  = "Setup.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoGuitarSuite,StartUp,0x00000001,3E,F7,3E,39
+HKLM,Security\Shell\StartInfo\Start\Panoramic Guitar Suite.lnk,Icon,0x00000000,%InstallDir%\GuitarSuite90x90_192.png
+
+[Files00.ARM720]
+"GuitarSuite.exe",,,0x40000003
+;"eula.exe",,,0x40000003
+;"eula.txt",,,0x40000003
+"GuitarSuite90x90_192.png",,,0x40000003
+"data1.dac",,,0x40000003
+"data2.dac",,,0x40000003
+"datab1.dac",,,0x40000003
+"datab2.dac",,,0x40000003
+"datac1.dac",,,0x40000003
+"datac2.dac",,,0x40000003
+
+[Files01.ARM720]
+"PanoGuitarSuite.htm",,,0x40000003
+"PanoGuitarSuite_de.htm",,,0x40000003
+"PanoGuitarSuite_du.htm",,,0x40000003
+"PanoGuitarSuite_es.htm",,,0x40000003
+"PanoGuitarSuite_fr.htm",,,0x40000003
+"PanoGuitarSuite_it.htm",,,0x40000003
+"PanoGuitarSuite_jp.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Guitar Suite", 0, "GuitarSuite.exe"
+
+[Shortcuts01.ARM720]
+"Panoramic Guitar Suite.lnk", 0, "PanoGuitarSuite.htm"
+
+
+
+
+

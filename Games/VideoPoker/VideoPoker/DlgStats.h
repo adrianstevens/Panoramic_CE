@@ -1,0 +1,46 @@
+#pragma once
+
+#include "IssWnd.h"
+#include "ObjGui.h"
+#include "IssVPGame.h"
+
+class CDlgStats:public CIssWnd
+{
+public:
+	CDlgStats(void);
+	~CDlgStats(void);
+
+    void    Init(CIssVPGame* oGame);
+
+protected:
+	BOOL	OnPaint(HWND hWnd, HDC hDC, RECT& rcClient);
+	BOOL	OnInitDialog(HWND hWnd, WPARAM wParam, LPARAM lParam);
+	BOOL	OnCommand(HWND hWnd, WPARAM wParam, LPARAM lParam);
+	BOOL	OnSize(HWND hWnd, WPARAM wParam, LPARAM lParam);
+	BOOL	OnEraseBkgnd(HWND hWnd, WPARAM wParam, LPARAM lParam){return TRUE;};
+	BOOL	OnKeyUp(HWND hWnd, WPARAM wParam, LPARAM lParam);
+	BOOL	OnLButtonDown(HWND hWnd, POINT& pt);
+    BOOL    OnLButtonUp(HWND hWnd, POINT& pt);
+	BOOL	OnActivate(HWND hWnd, WPARAM wParam, LPARAM lParam);
+	BOOL	OnUser(HWND hWnd, UINT uiMessage, WPARAM wParam, LPARAM lParam);
+    BOOL    OnTimer(HWND hWnd, WPARAM wParam, LPARAM lParam);
+    BOOL    OnKeyDown(HWND hWnd, WPARAM wParam, LPARAM lParam);
+    BOOL    OnMouseMove(HWND hWnd, POINT& pt);
+
+private:	// functions
+	BOOL	FadeInScreen(HDC hDC, RECT rcClient);
+
+    void    PopulateList();
+
+    void    ResetStats();
+
+private:	// variables
+    CIssVPGame*      m_oGame;
+    CIssKineticList     m_oMenu;
+
+	BOOL			m_bFirstTime;
+	
+	int				m_iLogoHeight;
+	HFONT			m_hFontText;				// Font
+	HFONT			m_hFontSelected;			// Selected Font size
+};

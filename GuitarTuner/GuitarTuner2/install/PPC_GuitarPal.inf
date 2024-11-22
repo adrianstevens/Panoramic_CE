@@ -1,0 +1,48 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Guitar Pal"
+InstallDir=%CE1%\Panoramic\GuitarPal
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Shortcuts00.ARM720 = 0, %CE11%
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"GuitarTuner.exe" = 1
+;"PanoBlackjack.htm" = 1
+;"eula.exe" = 1
+;"eula.txt" = 1
+"GuitarPal90x90_192.png" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720
+;CESetupDLL  = "Setup.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoGuitarPal,StartUp,0x00000001,6E,8E,2E,7B ;Add a value to tell the system to add a demo key.
+HKLM,Security\Shell\StartInfo\Start\Panoramic GuitarPal.lnk,Icon,0x00000000,%InstallDir%\GuitarPal90x90_192.png
+
+[Files00.ARM720]
+"GuitarTuner.exe",,,0x40000003
+;"eula.exe",,,0x40000003
+;"eula.txt",,,0x40000003
+"GuitarPal90x90_192.png",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Guitar Pal", 0, "GuitarTuner.exe"

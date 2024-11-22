@@ -1,0 +1,263 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_guitartuner         ICON                    "res\\guitartuner.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""guitartunerppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_PNG_Wood            GIF                     "Res\\wood.png"
+IDB_PNG_Btn             GIF                     "Res\\incoming_btn.png"
+IDB_PNG_BtnVGA          GIF                     "Res\\incoming_btn_vga.png"
+IDB_PNG_BtnGreen        GIF                     "Res\\incoming_btn_grn.png"
+IDB_PNG_BtnGreenVGA     GIF                     "Res\\incoming_btn_grn_vga.png"
+IDB_PNG_BtnRed          GIF                     "Res\\incoming_btn_red.png"
+IDB_PNG_BtnRedVGA       GIF                     "Res\\incoming_btn_red_vga.png"
+IDB_PNG_Finger		    GIF                     "res\\finger.png"
+IDB_PNG_Note            GIF                     "Res\\note.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 186, 172
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Guitar Tuner"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_GuitarTuner MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+    MENUITEM "Quit",                        IDMENU_Quit
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic Guitar Tuner"
+    IDS_IMPLICIT_SOFTWARE   "Panoramic Software Inc"
+    IDB_guitartuner         "guitartuner"
+    IDS_WEBSITE             "www.panoramicsoft.com"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_About          "About"
+    IDS_MENU_Exit           "Exit"
+    IDS_MENU_Yes            "Yes"
+    IDS_MENU_No             "No"
+    IDS_MSG_Exit            "Are you sure you want to exit Panoramic guitartuner?"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Ok             "Ok"
+    IDS_ABOUT_1             "Panoramic Guitar Tuner\r\nversion 1.0.0\r\nCopyright 2009\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Quit           "Quit"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Mode           "Mode"
+    IDS_MENU_Guitar         "Guitar Tuner"
+    IDS_MENU_Banjo          "Banjo Tuner"
+    IDS_MENU_Chords         "Guitar Chords"
+    IDS_MENU_Metronome      "Metronome"
+    IDS_MENU_Options        "Options"
+	IDS_MENU_LeftHanded     "Left handed"
+	IDS_MENU_FretNumbers    "Show Fret Numbers"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_HIGH_A          WAVE                    "res\\HighA.wav"
+IDR_WAV_HIGH_AS         WAVE                    "res\\HighA#.wav"
+IDR_WAV_HIGH_B          WAVE                    "res\\HighB.wav"
+IDR_WAV_HIGH_C          WAVE                    "res\\HighC.wav"
+IDR_WAV_HIGH_D          WAVE                    "res\\HighD.wav"
+IDR_WAV_HIGH_DS         WAVE                    "res\\HighD#.wav"
+IDR_WAV_HIGH_E          WAVE                    "res\\HighE.wav"
+IDR_WAV_HIGH_F          WAVE                    "res\\HighF.wav"
+IDR_WAV_MID_A           WAVE                    "res\\MidA.wav"
+IDR_WAV_MID_CS          WAVE                    "res\\MidC#.wav"
+IDR_WAV_MID_D           WAVE                    "res\\MidD.wav"
+IDR_WAV_MID_FS          WAVE                    "res\\MidF#.wav"
+IDR_WAV_MID_G           WAVE                    "res\\MidG.wav"
+IDR_WAV_LOW_D           WAVE                    "res\\LowD.wav"
+IDR_WAV_LOW_DS          WAVE                    "res\\LowD#.wav"
+IDR_WAV_LOW_GS          WAVE                    "res\\LowG#.wav"
+IDR_WAV_LOW_E           WAVE                    "res\\LowE.wav"
+
+IDR_WAV_Win             WAVE                    "res\\big-win.wav"
+
+IDR_WAV_CLow			WAVE					"res\\c-low.wav"
+IDR_WAV_CsLow			WAVE					"res\\c#-low.wav"
+IDR_WAV_DLow			WAVE					"res\\d-low.wav"
+IDR_WAV_DsLow			WAVE					"res\\d#-low.wav"
+IDR_WAV_ELow			WAVE					"res\\e-low.wav"
+IDR_WAV_FLow			WAVE					"res\\f-low.wav"
+IDR_WAV_FsLow			WAVE					"res\\f#-low.wav"
+IDR_WAV_GLow			WAVE					"res\\g-low.wav"
+IDR_WAV_GsLow			WAVE					"res\\g#-low.wav"
+IDR_WAV_AMid			WAVE					"res\\a-mid.wav"
+IDR_WAV_AsMid			WAVE					"res\\a#-mid.wav"
+IDR_WAV_BMid			WAVE					"res\\b-mid.wav"
+IDR_WAV_CMid			WAVE					"res\\c-mid.wav"
+IDR_WAV_CsMid			WAVE					"res\\c#-mid.wav"		
+IDR_WAV_DMid			WAVE					"res\\d-mid.wav"
+IDR_WAV_DsMid			WAVE					"res\\d#-mid.wav"
+IDR_WAV_EMid			WAVE					"res\\e-mid.wav"						
+IDR_WAV_FMid			WAVE					"res\\f-mid.wav"
+IDR_WAV_FsMid			WAVE					"res\\f#-mid.wav"
+IDR_WAV_GMid			WAVE					"res\\g-mid.wav"
+IDR_WAV_GsMid			WAVE					"res\\g#-mid.wav"
+IDR_WAV_AHi				WAVE					"res\\a-hi.wav"
+IDR_WAV_AsHi			WAVE					"res\\a#-hi.wav"
+IDR_WAV_BHi				WAVE					"res\\b-hi.wav"
+IDR_WAV_CHi				WAVE					"res\\c-hi.wav"
+IDR_WAV_CsHi			WAVE					"res\\c#-hi.wav"
+IDR_WAV_DHi				WAVE					"res\\d-hi.wav"
+IDR_WAV_DsHi			WAVE					"res\\d#-hi.wav"
+IDR_WAV_EHi				WAVE					"res\\e-hi.wav"
+IDR_WAV_FHi				WAVE					"res\\f-hi.wav"
+IDR_WAV_FsHi			WAVE					"res\\f#-hi.wav"
+IDR_WAV_GHi				WAVE					"res\\g-hi.wav"
+IDR_WAV_GsHi			WAVE					"res\\g#-hi.wav"
+IDR_WAV_AVHi			WAVE					"res\\a-vhi.wav"
+IDR_WAV_AsVHi			WAVE					"res\\a#-vhi.wav"
+IDR_WAV_BVHi			WAVE					"res\\b-vhi.wav"
+IDR_WAV_CVHi			WAVE					"res\\c-vhi.wav"
+
+
+					
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "guitartunerppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

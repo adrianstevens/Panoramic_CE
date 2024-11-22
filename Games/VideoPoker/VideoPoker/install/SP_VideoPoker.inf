@@ -1,0 +1,52 @@
+[Version]
+Signature="$Windows NT$"
+Provider="iSS"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="FreeCell"
+InstallDir=%CE1%\ISS\FreeCell
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Shortcuts00.ARM720 = 0, %CE14%
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"FreeCell.exe" = 1
+"iSSFreeCell.htm" = 1
+"eula.exe" = 1
+"eula.txt" = 1
+
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720
+;CESetupDLL  = "Setup.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\iSS\iSSFreeCell,StartUp,0x00000001,1D,F7,3E,39 ;Add a value to tell the system to add a demo key.
+
+[Files00.ARM720]
+"FreeCell.exe",,,0x40000003
+"iSSFreeCell.htm",,,0x40000003
+"eula.exe",,,0x40000003
+"eula.txt",,,0x40000003
+
+[Shortcuts00.ARM720]
+"iSS FreeCell", 0, "FreeCell.exe"
+
+
+
+
+

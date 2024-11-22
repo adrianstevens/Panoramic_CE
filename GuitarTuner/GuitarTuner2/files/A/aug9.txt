@@ -1,0 +1,15 @@
+[Main]
+NumChords=1
+
+[1]
+TopFret=1
+TopIndicators=212222
+Str1=11
+Str2=
+Str3=12
+Str4=23
+Str5=23
+Str6=34
+Bridge1=245
+Bridge2=
+Notes=A, G,C#,F,B

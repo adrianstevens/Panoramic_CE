@@ -1,0 +1,326 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Hextris             ICON                    "Hextris.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDWAV_DOWN              WAVE                    "res\\down.wav"
+IDWAV_GAMEOVER          WAVE                    "res\\gameover.wav"
+IDWAV_LEVELUP           WAVE                    "res\\levelup.wav"
+IDWAV_LINECLEAR         WAVE                    "res\\lineclear.wav"
+IDWAV_LINECLEARMULTI    WAVE                    "res\\lineclearmulti.wav"
+IDWAV_MOVE              WAVE                    "res\\move.wav"
+IDWAV_NEWHIGHSCORE      WAVE                    "res\\newhighscore.wav"
+IDWAV_SWITCH            WAVE                    "res\\switch.wav"
+IDWAV_EXPLODE           WAVE                    "res\\fireball.wav"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Hextrisppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 216, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hextris"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Child DIALOG  0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_DLG_Child, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Hextris MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+    MENUITEM "Game",                        IDMENU_Game
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_Gems            GIF                     "res\\gems.png"
+IDR_PNG_Ghost           GIF                     "res\\gemsprev.png"
+IDR_BEVEL               GIF                     "res\\menu.png"
+IDR_SPLASH              GIF                     "res\\320.png"
+IDR_SPLASH_VGA          GIF                     "res\\640.png"
+IDR_PNG_ANI             GIF                     "res\\ani.png"
+IDR_LOGO                GIF                     "res\\Panologo.png"
+IDR_LOGO_Alpha          GIF                     "res\\PanoLogo_alpha.png"
+IDR_PNG_Explosion       GIF                     "res\\explosion.png"
+IDR_PNG_ExpAlpha        GIF                     "res\\explosion_alpha.png"
+IDR_PNG_Orb             GIF                     "res\\orb.png"
+IDR_PNG_OrbAlpha        GIF                     "res\\orbalpha.png"
+IDR_PNG_Fireball        GIF                     "res\\fireball.png"
+IDR_PNG_FireballAlpha   GIF                     "res\\fireball_alpha.png"
+IDR_MNA_B               GIF                     "res\\menu\\Alpha_B.png"
+IDR_MNA_BL              GIF                     "res\\menu\\Alpha_BL.png"
+IDR_MNA_BR              GIF                     "res\\menu\\Alpha_BR.png"
+IDR_MNA_L               GIF                     "res\\menu\\Alpha_L.png"
+IDR_MNA_M               GIF                     "res\\menu\\Alpha_M.png"
+IDR_MNA_T               GIF                     "res\\menu\\Alpha_T.png"
+IDR_MNA_TL              GIF                     "res\\menu\\Alpha_TL.png"
+IDR_MNA_TR              GIF                     "res\\menu\\Alpha_TR.png"
+IDR_MN_B                GIF                     "res\\menu\\Menu_B.png"
+IDR_MN_BL               GIF                     "res\\menu\\Menu_BL.png"
+IDR_MN_BR               GIF                     "res\\menu\\Menu_BR.png"
+IDR_MN_L                GIF                     "res\\menu\\Menu_L.png"
+IDR_MN_M                GIF                     "res\\menu\\Menu_M.png"
+IDR_MN_R                GIF                     "res\\menu\\Menu_R.png"
+IDR_MN_T                GIF                     "res\\menu\\Menu_T.png"
+IDR_MN_TL               GIF                     "res\\menu\\Menu_TL.png"
+IDR_MN_TR               GIF                     "res\\menu\\Menu_TR.png"
+IDR_GS1_B               GIF                     "res\\GameScreen\\GS1_B.png"
+IDR_GS1_BL              GIF                     "res\\GameScreen\\GS1_BL.png"
+IDR_GS1_BR              GIF                     "res\\GameScreen\\GS1_BR.png"
+IDR_GS1_L               GIF                     "res\\GameScreen\\GS1_L.png"
+IDR_GS1_R               GIF                     "res\\GameScreen\\GS1_R.png"
+IDR_GS1_T               GIF                     "res\\GameScreen\\GS1_T.png"
+IDR_GS1_TL              GIF                     "res\\GameScreen\\GS1_TL.png"
+IDR_GS1_TR              GIF                     "res\\GameScreen\\GS1_TR.png"
+IDR_GS2_B               GIF                     "res\\GameScreen\\GS2_B.png"
+IDR_GS2_BL              GIF                     "res\\GameScreen\\GS2_BL.png"
+IDR_GS2_BR              GIF                     "res\\GameScreen\\GS2_BR.png"
+IDR_GS2_L               GIF                     "res\\GameScreen\\GS2_L.png"
+IDR_GS2_R               GIF                     "res\\GameScreen\\GS2_R.png"
+IDR_GS2_T               GIF                     "res\\GameScreen\\GS2_T.png"
+IDR_GS2_TL              GIF                     "res\\GameScreen\\GS2_TL.png"
+IDR_GS2_TR              GIF                     "res\\GameScreen\\GS2_TR.png"
+IDR_GS_M                GIF                     "res\\GameScreen\\GS_M.png"
+IDR_MNA_R               GIF                     "res\\menu\\Alpha_R.png"
+IDR_GS3_B               GIF                     "res\\GameScreen\\GS3_B.png"
+IDR_GS3_BL              GIF                     "res\\GameScreen\\GS3_BL.png"
+IDR_GS3_BR              GIF                     "res\\GameScreen\\GS3_BR.png"
+IDR_GS3_L               GIF                     "res\\GameScreen\\GS3_L.png"
+IDR_GS3_M               GIF                     "res\\GameScreen\\GS3_M.png"
+IDR_GS3_R               GIF                     "res\\GameScreen\\GS3_R.png"
+IDR_GS3_T               GIF                     "res\\GameScreen\\GS3_T.png"
+IDR_GS3_TL              GIF                     "res\\GameScreen\\GS3_TL.png"
+IDR_GS3_TR              GIF                     "res\\GameScreen\\GS3_TR.png"
+IDR_TILE_BG             GIF                     "res\\tilebg.png"
+IDR_SLOGO               GIF                     "res\\logo.png"
+IDR_SLOGO_Alpha         GIF                     "res\\logo_alpha.png"
+IDR_GFont               GIF                     "res\\hexfont.png"
+IDR_GFont_Alpha         GIF                     "res\\hexfont_alpha.png"
+IDR_PNG_Items           GIF                     "res\\items.png"
+IDR_PNG_ItemsAlpha      GIF                     "res\\items_alpha.png"
+IDR_PNG_Pulse		    GIF                     "res\\pulse.png"
+IDR_PNG_PulseAlpha      GIF                     "res\\pulse_alpha.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PTMOD
+//
+
+IDR_PTMOD2              PTMOD                   "res\\Hexagems.mod"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic HexeGems"
+    IDC_Hextris             "HexeGems"
+    IDS_MAIN_CLASS          "HexeGems"
+    IDS_SOFTKEY_TEXT_LEFT   "Options"
+    IDS_SOFTKEY_TEXT_RIGHT  "Menu"
+    IDS_MENU_Restart        "Restart"
+    IDS_DEMO_Over           "We hope you enjoyed using Panoramic HexeGems, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided the trial software."
+    IDS_MENU_GameClassic    "New Game (Classic)"
+    IDS_MENU_GameChallenge  "New Game (Challenge)"
+    IDS_MENU_Game40         "New Game (40 Lines)"
+    IDS_MENU_GameTimed      "New Game (Timed)"
+    IDS_MENU_Pause          "Pause"
+    IDS_MENU_HiScores       "HiScores"
+    IDS_MENU_About          "About"
+    IDS_MENU_Help           "Help"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Game           "Game"
+    IDS_MSG_Exit            "Are you sure you want to exit Panoramic HexeGems?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBL_PowerSaving     "Power Save Mode"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NAME_Hextris        "Panoramic HexeGems"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBL_ScoreHigh       "New HiScore: %s\r\nCongratulations!"
+    IDS_IMPLICIT_SOFTWARE   "Panoramic Software Inc"
+    IDS_WEBSITE             "www.panoramicsoft.com"
+    IDS_VERSION             "0.9.0"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LBL_StartLevel      "Start Level: %d"
+    IDS_LBL_Score           "Score"
+    IDS_LBL_Date            "Date"
+    IDS_LBL_Mode            "Mode"
+    IDS_LBL_Level           "Level"
+    IDS_MENU_Yes            "Yes"
+    IDS_MENU_No             "No"
+    IDS_LBL_GameOver        "GAME OVER"
+    IDS_LBL_PlayAgain       "PLAY AGAIN?"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Quit           "Quit"
+    IDS_MENU_Exit           "Exit"
+    IDS_LBL_ScoreText       "HiScore: %s\r\nYour Score: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_NewGame        "New Game"
+    IDS_MENU_Resume         "Resume Game"
+    IDS_ABOUT_1             "HexeGems\r\nversion 1.0.2\r\nCopyright 2008-2009\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com"
+    IDS_MENU_Back           "Back"
+    IDS_LBL_Music           "Music:"
+    IDS_LBL_Effects         "Sound Effects:"
+    IDS_LBL_FPS             "Show Frames per Second"
+    IDS_LBL_GameMode        "Game Mode:"
+    IDS_LBL_Desc1           "Standard game mode.  Progressing through the levels"
+    IDS_LBL_GM1             "Game Mode: Standard"
+    IDS_LBL_Desc2           "Start with existing pieces at the start of each level"
+    IDS_LBL_GM2             "Game Mode: Obstacles"
+    IDS_LBL_Desc3           "Accumulate as many points as possible in 3 minutes"
+    IDS_LBL_GM3             "Game Mode: Time Trial"
+    IDS_LBL_Desc4           "Clear 40 lines as quickly as possible"
+    IDS_LBL_GM4             "Game Mode: Quick Lines"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "Hextrisppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

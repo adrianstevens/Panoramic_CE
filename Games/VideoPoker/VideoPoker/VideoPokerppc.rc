@@ -1,0 +1,375 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_VideoPoker            ICON                    "VideoPoker.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""VideoPokerppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_DEAL           WAVE                    "Res\\crdflp.wav"
+IDR_WAVE_HOLDON         WAVE                    "Res\\hold-on.wav"
+IDR_WAVE_HOLDOFF        WAVE                    "Res\\hold-off.wav"
+IDR_WAVE_BTN            WAVE                    "Res\\putdown.wav"
+//IDR_WAVE_PUTDOWN        WAVE                    "Res\\putdown.wav"
+IDR_WAVE_WIN            WAVE                    "Res\\win.wav"
+IDR_WAVE_JACKPOT        WAVE                    "Res\\jackpot.wav"
+IDR_WAVE_BIGWIN         WAVE                    "Res\\big-win.wav"
+IDR_WAVE_BET            WAVE                    "Res\\bet.wav"
+IDR_WAVE_LOSE           WAVE                    "Res\\lose.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_BMP_Spades          GIF                     "Res\\13Spades.png"
+IDB_BMP_Hearts          GIF                     "Res\\13Hearts.png"
+IDB_BMP_Diamonds        GIF                     "Res\\13Diamonds.png"
+IDB_BMP_Clubs           GIF                     "Res\\13clubs.png"
+IDB_BMP_Clubs_HR        GIF                     "Res\\13clubs_vga.png"
+IDB_BMP_Diamonds_HR     GIF                     "Res\\13Diamonds_vga.png"
+IDB_BMP_Hearts_HR       GIF                     "Res\\13Hearts_vga.png"
+IDB_BMP_Spades_HR       GIF                     "Res\\13Spades_vga.png"
+IDB_BMP_Clubs_Sm        GIF                     "Res\\13clubs_sm.png"
+IDB_BMP_Diamonds_Sm     GIF                     "Res\\13Diamonds_sm.png"
+IDB_BMP_Hearts_Sm       GIF                     "Res\\13Hearts_sm.png"
+IDB_BMP_Spades_Sm       GIF                     "Res\\13Spades_sm.png"
+
+IDB_PNG_Logo_HR         GIF                     "Res\\vidpoker_vga.png"
+IDB_PNG_Logo            GIF                     "Res\\vidpoker.png"
+IDR_PNG_MenuBtn         GIF                     "Res\\menu_btn.png"
+IDR_PNG_MenuBtnVGA      GIF                     "Res\\menu_btn_vga.png"
+
+IDB_PNG_Menu            GIF                     "Res\\bot_bar.png"
+IDB_PNG_Menu_HR         GIF                     "Res\\bot_bar_vga.png"
+IDB_PNG_MenuArray       GIF                     "Res\\menu_array.png"
+IDB_PNG_MenuArray_HR    GIF                     "Res\\menu_array_vga.png"
+IDB_PNG_MenuGlow        GIF                     "Res\\glow.png"
+IDB_PNG_MenuGlow_HR     GIF                     "Res\\glow_vga.png"
+IDB_PNG_MenuSelector    GIF                     "Res\\select_menu.png"
+IDB_PNG_MenuMid         GIF                     "Res\\bot_bar_middle.png"
+IDB_PNG_MenuMid_HR      GIF                     "Res\\bot_bar_middle_vga.png"
+
+IDB_PNG_BgRed           GIF                     "Res\\bg_red.png"
+IDB_PNG_BgPurple        GIF                     "Res\\bg_purple.png"
+IDB_PNG_BgGreen         GIF                     "Res\\bg_green.png"
+IDB_PNG_BgBlue          GIF                     "Res\\bg_blue.png"
+IDB_PNG_BgOrange        GIF                     "Res\\bg_orange.png"
+
+IDB_PNG_Selector        GIF                     "Res\\hold_select.png"
+IDB_PNG_Selector_HR     GIF                     "Res\\hold_select_vga.png"
+IDB_PNG_WinSelector     GIF                     "Res\\win_select.png"
+IDB_PNG_WinSelector_HR  GIF                     "Res\\win_select_vga.png"
+IDB_PNG_WinSelector_Sm  GIF                     "Res\\win_select_sm.png"
+IDB_PNG_WinGlow         GIF                     "Res\\win_glow.png"
+IDB_PNG_WinGlow_HR      GIF                     "Res\\win_glow_vga.png"
+IDR_PNG_MenuBack        GIF                     "res\\group.png"
+
+IDB_PNG_Loader          GIF                     "res\\loader.png"
+IDB_PNG_Loader_Inside   GIF                     "res\\loader_inside.png"
+IDB_PNG_Title           GIF                     "res\\title.png"
+IDB_PNG_Title_HR        GIF                     "res\\titleVGA.png"
+
+IDB_PNG_DigitalFont     GIF                     "res\\font_score.png"
+IDB_PNG_DigitalFont_HR  GIF                     "res\\font_score_vga.png"
+IDB_PNG_ScoreBox        GIF                     "res\\scorebox.png"
+IDB_PNG_ScoreBox_HR     GIF                     "res\\scorebox_vga.png"
+
+IDB_PNG_CardBack_HR     GIF                     "res\\cardback_vga.png"
+IDB_PNG_CardBack_Sm     GIF                     "res\\cardback_sm.png"
+IDB_PNG_CardBack        GIF                     "res\\cardback.png"
+IDB_PNG_Grid33          GIF                     "res\\grid33.png"
+IDB_PNG_Grid50          GIF                     "res\\grid50.png"
+
+IDB_PNG_MenuSlice_HR    GIF                     "res\\bar_vga.png"
+IDB_PNG_MenuSlice       GIF                     "res\\bar.png"
+IDB_PNG_Hold_HR         GIF                     "res\\hold_vga.png"
+IDB_PNG_Hold            GIF                     "res\\hold.png"
+
+IDB_PNG_BetOne_HR       GIF                     "res\\bet_vga.png"
+IDB_PNG_BetOne          GIF                     "res\\bet.png"
+IDB_PNG_BetMax_HR       GIF                     "res\\betmax_vga.png"
+IDB_PNG_BetMax          GIF                     "res\\betmax.png"
+IDB_PNG_BetX2_HR        GIF                     "res\\x2_vga.png"
+IDB_PNG_BetX2           GIF                     "res\\x2.png"
+IDB_PNG_Deal_HR         GIF                     "res\\deal_vga.png"
+IDB_PNG_Deal            GIF                     "res\\deal.png"
+IDB_PNG_MenuBtn_HR      GIF                     "res\\menu_vga.png"
+IDB_PNG_MenuBtn         GIF                     "res\\menu.png"
+
+IDB_PNG_Game10s_HR      GIF                     "res\\game_10s_vga.png"
+IDB_PNG_Game10s         GIF                     "res\\game_10s.png"
+IDB_PNG_GameJacks_HR    GIF                     "res\\game_jacks_vga.png"
+IDB_PNG_GameJacks       GIF                     "res\\game_jacks.png"
+IDB_PNG_GameAces_HR     GIF                     "res\\game_aces_vga.png"
+IDB_PNG_GameAces        GIF                     "res\\game_aces.png"
+IDB_PNG_GameBonus_HR    GIF                     "res\\game_bonus_vga.png"
+IDB_PNG_GameBonus       GIF                     "res\\game_bonus.png"
+IDB_PNG_GameDouble_HR   GIF                     "res\\game_double_vga.png"
+IDB_PNG_GameDouble      GIF                     "res\\game_double.png"
+IDB_PNG_GameStud_HR     GIF                     "res\\game_stud_vga.png"
+IDB_PNG_GameStud        GIF                     "res\\game_stud.png"
+
+IDB_PNG_MenuSep         GIF                     "res\\game_sep.png"
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+IDD_DLG_Basic DIALOG  0, 0, 216, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "VideoPoker"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Options DIALOG  0, 0, 176, 243
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    COMBOBOX        IDC_LST_BACKGROUND,22,77,120,65,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LST_PS,23,105,120,65,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LST_GAMETYPE,21,50,120,65,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_DLG_Options, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Options MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_VideoPoker MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+    MENUITEM "Game",                        IDMENU_Game
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "VideoPoker"
+    IDC_VideoPoker          "VideoPoker"
+    IDS_MAIN_CLASS          "VideoPokerClass"
+    IDS_SOFTKEY_TEXT_LEFT   "Options"
+    IDS_SOFTKEY_TEXT_RIGHT  "Menu"
+    IDS_BTN_Hold            "Hold"
+    IDS_DEMO_Over           "We hope you enjoyed trying out Panoramic VideoPoker, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided your trial download."
+
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RESULT_Lose         "You Lose"
+    IDS_RESULT_JOB          "You Win! Jacks or Better"
+    IDS_RESULT_2P           "You Win! 2 Pair"
+    IDS_RESULT_3OK          "You Win! 3 of a Kind"
+    IDS_RESULT_4OK          "You Win! 4 of a Kind"
+    IDS_RESULT_FH           "You Win! Full House"
+    IDS_RESULT_S            "You Win! Straight"
+    IDS_RESULT_F            "You Win! Flush"
+    IDS_RESULT_SF           "You Win! Straight Flush"
+    IDS_RESULT_RF           "You Win! Royal Flush"
+    IDS_RESULT_Pair         "You Win! Pair"
+    IDS_RESULT_10s          "You Win! 10s or Better"
+    IDS_RESULT_Four2s4s     "You Win! Four 2s, 3s or 4s"
+    IDS_RESULT_Four2s4swA     "You Win! Four 2/3/4 Bonus!!!"
+    IDS_RESULT_Four5sKs     "You Win! Four 5s or Better"
+    IDS_RESULT_Four2s10s    "You Win! Four 2s - 10s"
+    IDS_RESULT_FourJsKs     "You Win! Four Js, Qs, or Ks"
+    IDS_RESULT_FourAs       "You Win! Four Aces"
+    IDS_RESULT_FourAsw234   "You Win! Four Aces Bonus!!!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTS_PS_OFF         "Play Sounds: Off"
+    IDS_OPTS_PS_ON          "Play Sounds: On"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Undo           "Undo"
+    IDS_MENU_RestartGame    "Restart Game"
+    IDS_MENU_SelectGame     "Select Game"
+    IDS_MENU_NewGame        "New Game"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TOOLS               "Tools"
+    IDS_MENU_Ok             "OK"
+    IDS_MENU_No             "No"
+    IDS_MENU_Yes            "Yes"
+    IDS_MENU_About          "About"
+    IDS_MENU_Exit           "Exit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NAME_VideoPoker       "VideoPoker"
+    IDS_MSG_Exit            "Are you sure you want to exit Panoramic VideoPoker?"
+    IDS_ABOUT_1             "Panoramic VideoPoker\r\nversion 1.0.2\r\nCopyright 2009\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Game           "Game"
+    IDS_MENU_Resume         "Resume Game"
+    IDS_MENU_New            "New Game"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Help           "Help"
+    IDS_MENU_Quit           "Quit"
+    IDS_MENU_Stats          "Statistics"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOSE                "Would you like to start a new Game?"
+    IDS_LOSE_IT             "You Lose"
+    IDS_MENU_Save           "Save"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BGCOLOR_BLUE        "Table Color: Blue"
+    IDS_BGCOLOR_GREEN       "Table Color: Green"
+    IDS_BGCOLOR_PURPLE      "Table Color: Purple"
+    IDS_BGCOLOR_RED         "Table Color: Red"
+    IDS_BGCOLOR_ORANGE      "Table Color: Orange"
+    IDS_GAMETYPE_10s        "10s Or Better"
+    IDS_GAMETYPE_Aces       "Aces & Faces"
+    IDS_GAMETYPE_BonusDeluxe "Bonus Deluxe"
+    IDS_GAMETYPE_Double     "Double Bonus"
+    IDS_GAMETYPE_DoubleDouble     "Double Double"
+    IDS_GAMETYPE_Jacks      "Jacks Or Better"
+    IDS_GAMETYPE_Stud       "Stud"
+    IDS_WEBSITE             "www.panoramicsoft.com"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "VideoPokerppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

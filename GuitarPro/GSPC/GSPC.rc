@@ -1,0 +1,293 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "resourcepc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_CVLow           WAVE                    "..\\GuitarPro\\waves\\c-vlow.wav"
+IDR_WAV_CsVLow          WAVE                    "..\\GuitarPro\\waves\\c#-vlow.wav"
+IDR_WAV_DVLow           WAVE                    "..\\GuitarPro\\waves\\d-vlow.wav"
+IDR_WAV_DsVLow          WAVE                    "..\\GuitarPro\\waves\\d#-vlow.wav"
+IDR_WAV_EVLow           WAVE                    "..\\GuitarPro\\waves\\e-vlow.wav"
+IDR_WAV_FVLow           WAVE                    "..\\GuitarPro\\waves\\f-vlow.wav"
+IDR_WAV_FsVLow          WAVE                    "..\\GuitarPro\\waves\\f#-vlow.wav"
+IDR_WAV_GVLow           WAVE                    "..\\GuitarPro\\waves\\g-vlow.wav"
+IDR_WAV_GsVLow          WAVE                    "..\\GuitarPro\\waves\\g#-vlow.wav"
+IDR_WAV_ALow            WAVE                    "..\\GuitarPro\\waves\\a-low.wav"
+IDR_WAV_AsLow           WAVE                    "..\\GuitarPro\\waves\\a#-low.wav"
+IDR_WAV_BLow            WAVE                    "..\\GuitarPro\\waves\\b-low.wav"
+IDR_WAV_CLow            WAVE                    "..\\GuitarPro\\waves\\c-low.wav"
+IDR_WAV_CsLow           WAVE                    "..\\GuitarPro\\waves\\c#-low.wav"
+IDR_WAV_DLow            WAVE                    "..\\GuitarPro\\waves\\d-low.wav"
+IDR_WAV_DsLow           WAVE                    "..\\GuitarPro\\waves\\d#-low.wav"
+IDR_WAV_ELow            WAVE                    "..\\GuitarPro\\waves\\e-low.wav"
+IDR_WAV_FLow            WAVE                    "..\\GuitarPro\\waves\\f-low.wav"
+IDR_WAV_FsLow           WAVE                    "..\\GuitarPro\\waves\\f#-low.wav"
+IDR_WAV_GLow            WAVE                    "..\\GuitarPro\\waves\\g-low.wav"
+IDR_WAV_GsLow           WAVE                    "..\\GuitarPro\\waves\\g#-low.wav"
+IDR_WAV_AMid            WAVE                    "..\\GuitarPro\\waves\\a-mid.wav"
+IDR_WAV_AsMid           WAVE                    "..\\GuitarPro\\waves\\a#-mid.wav"
+IDR_WAV_BMid            WAVE                    "..\\GuitarPro\\waves\\b-mid.wav"
+IDR_WAV_CMid            WAVE                    "..\\GuitarPro\\waves\\c-mid.wav"
+IDR_WAV_CsMid           WAVE                    "..\\GuitarPro\\waves\\c#-mid.wav"
+IDR_WAV_DMid            WAVE                    "..\\GuitarPro\\waves\\d-mid.wav"
+IDR_WAV_DsMid           WAVE                    "..\\GuitarPro\\waves\\d#-mid.wav"
+IDR_WAV_EMid            WAVE                    "..\\GuitarPro\\waves\\e-mid.wav"
+IDR_WAV_FMid            WAVE                    "..\\GuitarPro\\waves\\f-mid.wav"
+IDR_WAV_FsMid           WAVE                    "..\\GuitarPro\\waves\\f#-mid.wav"
+IDR_WAV_GMid            WAVE                    "..\\GuitarPro\\waves\\g-mid.wav"
+IDR_WAV_GsMid           WAVE                    "..\\GuitarPro\\waves\\g#-mid.wav"
+IDR_WAV_AHi             WAVE                    "..\\GuitarPro\\waves\\a-hi.wav"
+IDR_WAV_AsHi            WAVE                    "..\\GuitarPro\\waves\\a#-hi.wav"
+IDR_WAV_BHi             WAVE                    "..\\GuitarPro\\waves\\b-hi.wav"
+IDR_WAV_CHi             WAVE                    "..\\GuitarPro\\waves\\c-hi.wav"
+IDR_WAV_CsHi            WAVE                    "..\\GuitarPro\\waves\\c#-hi.wav"
+IDR_WAV_DHi             WAVE                    "..\\GuitarPro\\waves\\d-hi.wav"
+IDR_WAV_DsHi            WAVE                    "..\\GuitarPro\\waves\\d#-hi.wav"
+IDR_WAV_EHi             WAVE                    "..\\GuitarPro\\waves\\e-hi.wav"
+IDR_WAV_FHi             WAVE                    "..\\GuitarPro\\waves\\f-hi.wav"
+IDR_WAV_FsHi            WAVE                    "..\\GuitarPro\\waves\\f#-hi.wav"
+IDR_WAV_GHi             WAVE                    "..\\GuitarPro\\waves\\g-hi.wav"
+IDR_WAV_GsHi            WAVE                    "..\\GuitarPro\\waves\\g#-hi.wav"
+IDR_WAV_AVHi            WAVE                    "..\\GuitarPro\\waves\\a-vhi.wav"
+IDR_WAV_AsVHi           WAVE                    "..\\GuitarPro\\waves\\a#-vhi.wav"
+IDR_WAV_BVHi            WAVE                    "..\\GuitarPro\\waves\\b-vhi.wav"
+IDR_WAV_CVHi            WAVE                    "..\\GuitarPro\\waves\\c-vhi.wav"
+IDR_WAV_CsVHi           WAVE                    "..\\GuitarPro\\waves\\cs-vhi.wav"
+IDR_WAV_DVHi            WAVE                    "..\\GuitarPro\\waves\\d-vhi.wav"
+IDR_WAV_DsVHi           WAVE                    "..\\GuitarPro\\waves\\ds-vhi.wav"
+IDR_WAV_EVHi            WAVE                    "..\\GuitarPro\\waves\\e-vhi.wav"
+IDR_WAV_FVHi            WAVE                    "..\\GuitarPro\\waves\\f-vhi.wav"
+IDR_WAV_FsVHi           WAVE                    "..\\GuitarPro\\waves\\fs-vhi.wav"
+IDR_WAV_GVHi            WAVE                    "..\\GuitarPro\\waves\\g-vhi.wav"
+IDR_WAV_GsVHi           WAVE                    "..\\GuitarPro\\waves\\gs-vhi.wav"
+IDR_WAV_Click1          WAVE                    "..\\GuitarPro\\waves\\click1.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+
+IDI_GSPC       ICON         "GSPC.ico"
+IDI_SMALL               ICON         "small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_GSPC MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",           IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_GSPC ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_PNG_Logo            GIF                     "..\\GuitarPro\\Res\\logo.png"
+IDR_PNG_MenuBtn         GIF                     "..\\GuitarPro\\Res\\menu_btn.png"
+IDR_PNG_MenuBtnVGA      GIF                     "..\\GuitarPro\\Res\\menu_btn_vga.png"
+IDR_PNG_Title           GIF                     "..\\GuitarPro\\Res\\title_qvga.png"
+IDR_PNG_TitleVGA        GIF                     "..\\GuitarPro\\Res\\title_vga.png"
+IDB_PNG_Top             GIF                     "..\\GuitarPro\\Res\\top.png"
+IDB_PNG_Top_HR          GIF                     "..\\GuitarPro\\Res\\top_vga.png"
+IDB_PNG_Menu            GIF                     "..\\GuitarPro\\Res\\bot.png"
+IDB_PNG_Menu_HR         GIF                     "..\\GuitarPro\\Res\\bot_vga.png"
+IDB_PNG_MenuArray       GIF                     "..\\GuitarPro\\Res\\menu_array.png"
+IDB_PNG_MenuArray_HR    GIF                     "..\\GuitarPro\\Res\\menu_array_vga.png"
+IDB_PNG_MenuGlow        GIF                     "..\\GuitarPro\\Res\\glow.png"
+IDB_PNG_MenuGlow_HR     GIF                     "..\\GuitarPro\\Res\\glow_vga.png"
+IDB_PNG_MenuSelector    GIF                     "..\\GuitarPro\\Res\\select_menu.png"
+IDB_PNG_Selector        GIF                     "..\\GuitarPro\\Res\\select.png"
+IDB_PNG_Selector_HR     GIF                     "..\\GuitarPro\\Res\\select_vga.png"
+IDR_PNG_MenuBack        GIF                     "..\\GuitarPro\\Res\\group.png"
+IDB_PNG_TopBar          GIF                     "..\\GuitarPro\\Res\\bar.png"
+IDB_PNG_TopBar_HR       GIF                     "..\\GuitarPro\\Res\\bar_vga.png"
+IDB_PNG_Seperator       GIF                     "..\\GuitarPro\\Res\\separate.png"
+IDB_PNG_Seperator_HR    GIF                     "..\\GuitarPro\\Res\\separate_vga.png"
+IDB_PNG_Neck1           GIF                     "..\\GuitarPro\\Res\\skin1.png"
+IDB_PNG_Neck2           GIF                     "..\\GuitarPro\\Res\\skin2.png"
+IDB_PNG_Neck3           GIF                     "..\\GuitarPro\\Res\\skin3.png"
+IDB_PNG_Neck4           GIF                     "..\\GuitarPro\\Res\\skin4.png"
+IDB_PNG_Neck5           GIF                     "..\\GuitarPro\\Res\\skin5.png"
+IDB_PNG_Neck6           GIF                     "..\\GuitarPro\\Res\\skin6.png"
+IDB_PNG_Neck8           GIF                     "..\\GuitarPro\\Res\\skin8.png"
+IDB_PNG_Neck1_HR        GIF                     "..\\GuitarPro\\Res\\skin1_vga.png"
+IDB_PNG_Neck2_HR        GIF                     "..\\GuitarPro\\Res\\skin2_vga.png"
+IDB_PNG_Neck3_HR        GIF                     "..\\GuitarPro\\Res\\skin3_vga.png"
+IDB_PNG_Neck4_HR        GIF                     "..\\GuitarPro\\Res\\skin4_vga.png"
+IDB_PNG_Neck5_HR        GIF                     "..\\GuitarPro\\Res\\skin5_vga.png"
+IDB_PNG_Neck6_HR        GIF                     "..\\GuitarPro\\Res\\skin6_vga.png"
+IDB_PNG_Neck8_HR        GIF                     "..\\GuitarPro\\Res\\skin8_vga.png"
+IDB_PNG_Note            GIF                     "..\\GuitarPro\\Res\\note.png"
+IDB_PNG_Note_HR         GIF                     "..\\GuitarPro\\Res\\note_vga.png"
+IDB_PNG_NoteRed         GIF                     "..\\GuitarPro\\Res\\note_rd.png"
+IDB_PNG_NoteRed_HR      GIF                     "..\\GuitarPro\\Res\\note_rd_vga.png"
+IDB_PNG_NoteDark        GIF                     "..\\GuitarPro\\Res\\note_dark.png"
+IDB_PNG_NoteDark_HR     GIF                     "..\\GuitarPro\\Res\\note_dark_vga.png"
+IDB_PNG_NoteGrey        GIF                     "..\\GuitarPro\\Res\\Note_Grey.png"
+IDB_PNG_NoteGrey_HR     GIF                     "..\\GuitarPro\\Res\\Note_Grey_vga.png"
+IDB_PNG_NoNote          GIF                     "..\\GuitarPro\\Res\\Note_No.png"
+IDB_PNG_NoNote_HR       GIF                     "..\\GuitarPro\\Res\\Note_No_vga.png"
+IDB_PNG_Nut             GIF                     "..\\GuitarPro\\Res\\whitebar.png"
+IDB_PNG_Nut_HR          GIF                     "..\\GuitarPro\\Res\\whitebar_vga.png"
+IDB_PNG_String1         GIF                     "..\\GuitarPro\\Res\\string1.png"
+IDB_PNG_String1_HR      GIF                     "..\\GuitarPro\\Res\\string1_vga.png"
+IDB_PNG_String2         GIF                     "..\\GuitarPro\\Res\\string2.png"
+IDB_PNG_String2_HR      GIF                     "..\\GuitarPro\\Res\\string2_vga.png"
+IDB_PNG_String3         GIF                     "..\\GuitarPro\\Res\\string3.png"
+IDB_PNG_String3_HR      GIF                     "..\\GuitarPro\\Res\\string3_vga.png"
+IDB_PNG_String4         GIF                     "..\\GuitarPro\\Res\\string4.png"
+IDB_PNG_String4_HR      GIF                     "..\\GuitarPro\\Res\\string4_vga.png"
+IDB_PNG_String5         GIF                     "..\\GuitarPro\\Res\\string5.png"
+IDB_PNG_String5_HR      GIF                     "..\\GuitarPro\\Res\\string5_vga.png"
+IDB_PNG_String6         GIF                     "..\\GuitarPro\\Res\\string6.png"
+IDB_PNG_String6_HR      GIF                     "..\\GuitarPro\\Res\\string6_vga.png"
+IDB_PNG_PitchBars_HR    GIF                     "..\\GuitarPro\\Res\\tuner_bars_vga.png"
+IDB_PNG_PitchBars       GIF                     "..\\GuitarPro\\Res\\tuner_bars.png"
+IDB_PNG_Alpha_HR        GIF                     "..\\GuitarPro\\Res\\Img_alpha_vga.png"
+IDB_PNG_Alpha           GIF                     "..\\GuitarPro\\Res\\Img_alpha.png"
+IDB_PNG_ImgOutline_HR   GIF                     "..\\GuitarPro\\Res\\Img_border_vga.png"
+IDB_PNG_ImgOutline      GIF                     "..\\GuitarPro\\Res\\Img_border.png"
+IDB_PNG_PitchArrows_HR  GIF                     "..\\GuitarPro\\Res\\Arrows_vga.png"
+IDB_PNG_PitchArrows     GIF                     "..\\GuitarPro\\Res\\Arrows.png"
+IDB_PNG_PitchArrow_HR   GIF                     "..\\GuitarPro\\Res\\Pitch_arw_vga.png"
+IDB_PNG_PitchArrow      GIF                     "..\\GuitarPro\\Res\\Pitch_Arw.png"
+IDB_PNG_PitchBG_HR      GIF                     "..\\GuitarPro\\Res\\Pitch_bg_vga.png"
+IDB_PNG_PitchBG         GIF                     "..\\GuitarPro\\Res\\Pitch_bg.png"
+IDB_PNG_Shine_HR        GIF                     "..\\GuitarPro\\Res\\shine_vga.png"
+IDB_PNG_Shine           GIF                     "..\\GuitarPro\\Res\\shine.png"
+IDB_PNG_BarBack_HR      GIF                     "..\\GuitarPro\\Res\\BarBack_vga.png"
+IDB_PNG_BarBack         GIF                     "..\\GuitarPro\\Res\\BarBack.png"
+IDB_PNG_BarInside_HR    GIF                     "..\\GuitarPro\\Res\\BarInside_vga.png"
+IDB_PNG_BarInside       GIF                     "..\\GuitarPro\\Res\\BarInside.png"
+IDB_PNG_Icons_HR        GIF                     "..\\GuitarPro\\Res\\Icons_vga.png"
+IDB_PNG_Icons           GIF                     "..\\GuitarPro\\Res\\Icons.png"
+IDB_PNG_Check_HR        GIF                     "..\\GuitarPro\\Res\\check_vga.png"
+IDB_PNG_Check           GIF                     "..\\GuitarPro\\Res\\check.png"
+IDB_PNG_MenuUp_HR       GIF                     "..\\GuitarPro\\Res\\arrw_vga.png"
+IDB_PNG_MenuUp          GIF                     "..\\GuitarPro\\Res\\arrw.png"
+IDB_PNG_OnOff           GIF                     "..\\GuitarPro\\Res\\OnOff.png"
+IDB_PNG_OnOff_HR        GIF                     "..\\GuitarPro\\Res\\OnOff_vga.png"
+IDB_PNG_Meter           GIF                     "..\\GuitarPro\\Res\\meter.png"
+IDB_PNG_Meter_HR        GIF                     "..\\GuitarPro\\Res\\meter_vga.png"
+IDB_PNG_LEDs            GIF                     "..\\GuitarPro\\Res\\led.png"
+IDB_PNG_LEDs_HR         GIF                     "..\\GuitarPro\\Res\\led_vga.png"
+IDB_PNG_Btn             GIF                     "..\\GuitarPro\\Res\\Btn_vga.png"
+IDB_PNG_BtnArrows_HR    GIF                     "..\\GuitarPro\\Res\\BtnArws_vga.png"
+IDB_PNG_BtnArrows       GIF                     "..\\GuitarPro\\Res\\BtnArws.png"
+IDB_PNG_Border_HR       GIF                     "..\\GuitarPro\\Res\\border_vga.png"
+IDB_PNG_Border          GIF                     "..\\GuitarPro\\Res\\border.png"
+IDB_PNG_Star_HR         GIF                     "..\\GuitarPro\\Res\\star_50.png"
+IDB_PNG_StarG_HR        GIF                     "..\\GuitarPro\\Res\\starg_50.png"
+IDB_PNG_Star            GIF                     "..\\GuitarPro\\Res\\star_25.png"
+IDB_PNG_StarG           GIF                     "..\\GuitarPro\\Res\\starg_25.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG   22, 17, 230, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_GSPC,IDC_MYICON,14,9,16,16
+       
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE  
+BEGIN
+   IDC_GSPC   "GSPC"
+   IDS_APP_TITLE       "GSPC"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

@@ -1,0 +1,30 @@
+[Main]
+NumChords=2
+
+[1]
+TopFret=1
+TopIndicators=120220
+Str1=
+Str2=12
+Str3=
+Str4=13
+Str5=14
+Str6=
+Bridge1=
+Bridge2=
+Notes= ,Bb,D,Ab,C,E
+
+[2]
+TopFret=3
+TopIndicators=
+Str1=
+Str2=31
+Str3=42
+Str4=31
+Str5=31
+Str6=43
+Bridge1=325
+Bridge2=
+Notes= ,D,Ab,C,E,Bb
+
+

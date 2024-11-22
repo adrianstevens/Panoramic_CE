@@ -1,0 +1,3026 @@
+$/Panoramic/GuitarPro
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  8/27/10  Time:  6:50p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  8/27/10  Time:  6:48p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.vcproj  *****************
+User: Adrian          Date:  8/27/10  Time:  6:48p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  globals.h  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  5/31/10  Time: 10:36a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/26/10  Time:  1:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/26/10  Time: 10:06a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  5/26/10  Time: 10:06a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  5/26/10  Time: 10:06a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  PPC_GuitarPro.inf  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PPC_GuitarPro_Demo.inf  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PPC_GuitarSuite.inf  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PPC_GuitarSuite_Demo.inf  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiBase.h  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.cpp  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.h  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.h  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.h  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.h  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/26/10  Time:  8:48a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  PanoGuitarSuite.htm  *****************
+User: Adrian          Date:  5/25/10  Time:  1:23p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  install  *****************
+User: Adrian          Date:  5/25/10  Time:  1:23p
+Added PanoGuitarSuite_it.htm
+
+*****************  install  *****************
+User: Adrian          Date:  5/25/10  Time:  1:23p
+Added PanoGuitarSuite_fr.htm
+
+*****************  install  *****************
+User: Adrian          Date:  5/25/10  Time:  1:23p
+Added PanoGuitarSuite_es.htm
+
+*****************  install  *****************
+User: Adrian          Date:  5/25/10  Time:  1:23p
+Added PanoGuitarSuite_du.htm
+
+*****************  install  *****************
+User: Adrian          Date:  5/25/10  Time:  1:23p
+Added PanoGuitarSuite_de.htm
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/21/10  Time:  9:32a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  5/21/10  Time:  9:32a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/21/10  Time:  9:32a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgMsgBox.cpp  *****************
+User: Adrian          Date:  5/21/10  Time:  9:32a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  resourceppc.h  *****************
+User: Adrian          Date:  5/18/10  Time:  9:27p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:27p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.h  *****************
+User: Adrian          Date:  5/18/10  Time:  9:27p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:27p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/18/10  Time:  9:27p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:26p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlayFav.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:26p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:26p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:26p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/18/10  Time:  9:26p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ChordFavs.h  *****************
+User: Adrian          Date:  5/18/10  Time:  9:26p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  install  *****************
+User: Adrian          Date:  5/18/10  Time:  7:45p
+Added PanoGuitarSuite_jp.htm
+
+*****************  PanoGuitarSuite.htm  *****************
+User: Katrina         Date:  5/13/10  Time:  5:46p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  5:45p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  5:45p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.h  *****************
+User: Adrian          Date:  5/13/10  Time:  5:45p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  5:38p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgAbout.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  5:25p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  5:25p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  5:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  resourceppc.h  *****************
+User: Katrina         Date:  5/13/10  Time:  5:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Katrina         Date:  5/13/10  Time:  5:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  5:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.h  *****************
+User: Adrian          Date:  5/13/10  Time:  5:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  5:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  3:58p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  2:56p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  2:52p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgAbout.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:23p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:23p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:23p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:23p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  2:23p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Katrina         Date:  5/13/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Katrina         Date:  5/13/10  Time:  2:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Katrina         Date:  5/13/10  Time:  2:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  5/13/10  Time:  2:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.h  *****************
+User: Adrian          Date:  5/13/10  Time:  2:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Katrina         Date:  5/13/10  Time:  1:19p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.cpp  *****************
+User: Adrian          Date:  5/13/10  Time: 10:30a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.h  *****************
+User: Adrian          Date:  5/13/10  Time: 10:30a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ChordFavs.h  *****************
+User: Adrian          Date:  5/13/10  Time: 10:30a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/13/10  Time: 10:30a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  5/13/10  Time: 10:30a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  5/13/10  Time: 10:30a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.h  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.h  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro2k8.vcproj  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.h  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ChordFavs.h  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.cpp  *****************
+User: Adrian          Date:  5/09/10  Time:  8:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  4/20/10  Time: 11:07a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.cpp  *****************
+User: Adrian          Date:  4/20/10  Time: 11:07a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  4/20/10  Time: 11:07a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.vcproj  *****************
+User: Patrick         Date:  4/20/10  Time: 11:03a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.sln  *****************
+User: Patrick         Date:  4/20/10  Time: 11:03a
+Checked in $/Panoramic/GuitarPro
+Comment:
+  
+
+*****************  resourceppc.h  *****************
+User: Patrick         Date:  4/19/10  Time:  4:29p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Patrick         Date:  4/19/10  Time:  4:29p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.vcproj  *****************
+User: Patrick         Date:  4/19/10  Time:  4:29p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.h  *****************
+User: Patrick         Date:  4/19/10  Time:  4:29p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Patrick         Date:  4/19/10  Time:  4:28p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  Version 4  *****************
+User: Adrian          Date:  4/16/10  Time:  1:21p
+Added GuitarPro2k8.sln
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  4/16/10  Time:  1:21p
+Added GuitarPro2k8.vcproj
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  4/16/10  Time:  1:14p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.h  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.h  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlayFav.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.h  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.h  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ChordFavs.h  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  4/16/10  Time:  1:13p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  resourceppc.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlayFav.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:11p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  globals.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  general_midi.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ChordFavs.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.h  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  chord-generator.cpp  *****************
+User: Adrian          Date:  3/21/10  Time:  9:10p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added b-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added a-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added c-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added c#-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added a#-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added g#-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added d-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:49p
+Added g-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:48p
+Added f#-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:48p
+Added f-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:48p
+Added d#-vlow.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/21/10  Time:  5:48p
+Added e-vlow.wav
+
+*****************  PPC_GuitarSuite_Demo.inf  *****************
+User: Adrian          Date:  3/19/10  Time:  5:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PPC_GuitarSuite.inf  *****************
+User: Adrian          Date:  3/19/10  Time:  5:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  install  *****************
+User: Adrian          Date:  3/19/10  Time:  4:56p
+Added dataC2.dac
+
+*****************  install  *****************
+User: Adrian          Date:  3/19/10  Time:  4:56p
+Added dataC1.dac
+
+*****************  install  *****************
+User: Adrian          Date:  3/19/10  Time:  4:56p
+Added dataB2.dac
+
+*****************  install  *****************
+User: Adrian          Date:  3/19/10  Time:  4:56p
+Added dataB1.dac
+
+*****************  GuiMetronome.h  *****************
+User: Adrian          Date:  3/15/10  Time:  9:39p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  Added Tap to set BPM
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  3/15/10  Time:  9:39p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  Added Tap to set BPM
+
+*****************  Res  *****************
+User: Adrian          Date:  3/15/10  Time: 12:40p
+Added starg_50.png
+
+*****************  Res  *****************
+User: Adrian          Date:  3/15/10  Time: 12:40p
+Added starg_25.png
+
+*****************  Res  *****************
+User: Adrian          Date:  3/15/10  Time: 12:40p
+Added star_50.png
+
+*****************  Res  *****************
+User: Adrian          Date:  3/15/10  Time: 12:40p
+Added star_25.png
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/15/10  Time: 12:40p
+Added GuiPlayFav.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/15/10  Time: 12:39p
+Added GuiPlayFav.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/15/10  Time: 12:39p
+Added ChordFavs.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/15/10  Time: 12:39p
+Added ChordFavs.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/15/10  Time: 12:37p
+Added globals.h
+
+*****************  ObjGui.h  *****************
+User: Adrian          Date:  3/15/10  Time:  9:56a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  3/15/10  Time:  9:56a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  3/15/10  Time:  9:56a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.h  *****************
+User: Adrian          Date:  3/15/10  Time:  9:56a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  3/15/10  Time:  9:56a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  3/15/10  Time:  9:56a
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  3/11/10  Time:  3:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.1.0 ... added timer to metronome
+
+*****************  GuiMetronome.h  *****************
+User: Adrian          Date:  3/11/10  Time:  3:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.1.0 ... added timer to metronome
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  3:07p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.1.0 ... added timer to metronome
+
+*****************  resourceppc.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  ObjGui.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  MyGenerator.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuitarPro.vcproj  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiPlay.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiMetronome.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiGuitarChords.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  GuiBase.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  DlgOptions.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  DlgGuitarPro.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  DlgAbout.h  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  DlgAbout.cpp  *****************
+User: Adrian          Date:  3/11/10  Time:  1:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  1.0.3 
+
+LOTS of improvements ... Favorites started but not exposed in release version
+
+*****************  glow_vga.png  *****************
+User: Adrian          Date:  3/11/10  Time:  1:32p
+Checked in $/Panoramic/GuitarPro/GuitarPro/Res
+Comment:
+  
+
+*****************  glow.png  *****************
+User: Adrian          Date:  3/11/10  Time:  1:32p
+Checked in $/Panoramic/GuitarPro/GuitarPro/Res
+Comment:
+  
+
+*****************  click1.wav  *****************
+User: Adrian          Date:  3/08/10  Time: 10:43a
+Checked in $/Panoramic/GuitarPro/GuitarPro/Waves
+Comment:
+  
+
+*****************  f#-low.wav  *****************
+User: Adrian          Date:  3/08/10  Time: 10:13a
+Checked in $/Panoramic/GuitarPro/GuitarPro/Waves
+Comment:
+  
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added F-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added Fs-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added E-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added D-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added Cs-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added Gs-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added Ds-VHi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  3/08/10  Time: 10:12a
+Added G-VHi.wav
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/07/10  Time:  9:27p
+Deleted DlgStats.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  3/07/10  Time:  9:27p
+Deleted DlgStats.h
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  5:46p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  5:46p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.h  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.h  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.h  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:53p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:52p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:52p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  3/03/10  Time:  3:52p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  PanoGuitarSuite.htm  *****************
+User: Adrian          Date:  2/25/10  Time:  5:28p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  menu_array_vga.png  *****************
+User: Katrina         Date:  2/25/10  Time:  2:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro/Res
+Comment:
+  
+
+*****************  menu_array.png  *****************
+User: Katrina         Date:  2/25/10  Time:  2:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro/Res
+Comment:
+  
+
+*****************  resourceppc.h  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.h  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.h  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.h  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:34p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.vcproj  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.h  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.h  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:33p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgMsgBox.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:32p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:32p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgAbout.cpp  *****************
+User: Katrina         Date:  2/25/10  Time:  2:32p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  2/10/10  Time:  8:03p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarSuite90x90_192.png  *****************
+User: Adrian          Date:  2/10/10  Time:  7:59p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  BeatBox_WAV.cpp  *****************
+User: Adrian          Date:  2/09/10  Time: 10:02a
+Checked in $/Panoramic/GuitarPro/GuitarPro/metronome
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  2/06/10  Time:  4:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  2/06/10  Time:  4:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  2/06/10  Time:  4:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  PPC_GuitarSuite_Demo.inf  *****************
+User: Adrian          Date:  2/04/10  Time:  4:37p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PPC_GuitarSuite.inf  *****************
+User: Adrian          Date:  2/04/10  Time:  4:37p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PanoGuitarSuite.htm  *****************
+User: Adrian          Date:  2/04/10  Time:  4:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  2/04/10  Time:  1:54p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  2/03/10  Time:  6:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.ico  *****************
+User: Adrian          Date:  2/03/10  Time:  6:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarTuner.cpp  *****************
+User: Adrian          Date:  2/03/10  Time:  6:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.h  *****************
+User: Adrian          Date:  2/03/10  Time:  6:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.h  *****************
+User: Adrian          Date:  2/03/10  Time:  6:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  splash.bmp  *****************
+User: Adrian          Date:  2/02/10  Time:  4:18p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  install_sidebar.bmp  *****************
+User: Adrian          Date:  2/02/10  Time:  4:17p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  install  *****************
+User: Adrian          Date:  2/02/10  Time:  2:44p
+Added PPC_GuitarSuite_Demo.nsi
+
+*****************  install  *****************
+User: Adrian          Date:  2/02/10  Time:  2:44p
+Added PPC_GuitarSuite_Demo.inf
+
+*****************  install  *****************
+User: Adrian          Date:  2/02/10  Time:  2:44p
+Added PPC_GuitarSuite.nsi
+
+*****************  install  *****************
+User: Adrian          Date:  2/02/10  Time:  2:44p
+Added PPC_GuitarSuite.inf
+
+*****************  install  *****************
+User: Adrian          Date:  2/02/10  Time:  2:44p
+Added PanoGuitarSuite.htm
+
+*****************  install  *****************
+User: Adrian          Date:  2/02/10  Time:  2:43p
+Added GuitarSuite90x90_192.png
+
+*****************  PPC_Install_Demo.ini  *****************
+User: Adrian          Date:  2/02/10  Time:  2:43p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  PPC_Install.ini  *****************
+User: Adrian          Date:  2/02/10  Time:  2:43p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  data2.dac  *****************
+User: Adrian          Date:  2/02/10  Time:  2:43p
+Checked in $/Panoramic/GuitarPro/GuitarPro/install
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  2/02/10  Time:  2:42p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  2/02/10  Time:  2:42p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  8:51p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  7:35p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  stdafx.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  resourcesp.h  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  resourceppc.h  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.h  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.h  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiTunerEar.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProsp.rc2  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProsp.rc  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc2  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarProppc.rc  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.vcproj  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuitarPro.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiGuitarChords.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:22p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.h  *****************
+User: Adrian          Date:  1/28/10  Time:  2:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgAbout.cpp  *****************
+User: Adrian          Date:  1/28/10  Time:  2:21p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  8:37p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  Arm_V4  *****************
+User: Adrian          Date:  1/25/10  Time:  2:25p
+Added ccrtrtti.pdb
+
+*****************  Arm_V4  *****************
+User: Adrian          Date:  1/25/10  Time:  2:25p
+Added ccrtrtti.lib
+
+*****************  RTTI  *****************
+User: Adrian          Date:  1/25/10  Time:  2:24p
+Added Arm_V4
+
+*****************  rtti_emulator  *****************
+User: Adrian          Date:  1/25/10  Time:  2:24p
+Added ccrtrtti.pdb
+
+*****************  rtti_emulator  *****************
+User: Adrian          Date:  1/25/10  Time:  2:24p
+Added ccrtrtti.lib
+
+*****************  RTTI  *****************
+User: Adrian          Date:  1/25/10  Time:  2:24p
+Added rtti_emulator
+
+*****************  Res  *****************
+User: Adrian          Date:  1/25/10  Time:  2:22p
+Added Note_dark.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/25/10  Time:  2:22p
+Added Note_dark_vga.png
+
+*****************  resourceppc.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjOptions.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  ObjGui.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  MyGenerator.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiPlay.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  GuiMetronome.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgOptions.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.h  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  DlgGuitarPro.cpp  *****************
+User: Adrian          Date:  1/25/10  Time:  2:15p
+Checked in $/Panoramic/GuitarPro/GuitarPro
+Comment:
+  
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:23p
+Added PPC_GuitarPro.inf
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added PanoguitarPro.htm
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added install_sidebar.bmp
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added GuitarPro90x90_192.png
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added GuitarPro90x90.png
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added eula.txt
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added eula.rtf
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added data2.dac
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added data1.dac
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added clc-logo.bmp
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added check.bmp
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added YourApp.ico
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added splash.bmp
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:22p
+Added SP_Install_Demo.ini
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:21p
+Added SP_Install.ini
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:21p
+Added PPC_Install_Demo.ini
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:21p
+Added PPC_Install.ini
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:21p
+Added PPC_GuitarPro_Demo.nsi
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:21p
+Added PPC_GuitarPro_Demo.inf
+
+*****************  install  *****************
+User: Adrian          Date:  1/22/10  Time:  8:21p
+Added PPC_GuitarPro.nsi
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:20p
+Added RTTI
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:20p
+Added install
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarProsp.rc
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarProppc.rc2
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarProppc.rc
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarPro.vcproj
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarPro.ico
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarPro.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuitarPro.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:19p
+Added GuiPlay.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiPlay.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiMetronome.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiMetronome.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiGuitarTuner.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiGuitarTuner.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiGuitarChords.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiGuitarChords.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiBase.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added GuiBase.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:18p
+Added group_beat.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added group_beat.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added general_midi.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added general_midi.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added FreqTuner.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added FreqTuner.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgStats.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgStats.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgOptions.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgOptions.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgMsgBox.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgMsgBox.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:17p
+Added DlgMenu.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added DlgMenu.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added DlgMainMenu.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added DlgGuitarPro.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added DlgGuitarPro.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added DlgAbout.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added DlgAbout.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added chord-generator.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added chord-generator.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added stdafx.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added stdafx.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added resourcesp.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:16p
+Added resourceppc.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added ObjOptions.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added ObjOptions.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added ObjGui.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added ObjGui.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added MyGenerator.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added MyGenerator.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added Metronome.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added Metronome.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added MetDefs.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added IssAlarmClock.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added IssAlarmClock.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added Hekus.lib
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:15p
+Added GuiTunerEar.h
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:14p
+Added GuiTunerEar.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/22/10  Time:  8:14p
+Added GuitarProsp.rc2
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:43p
+Added g-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:43p
+Added g-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added g-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added g#-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added g#-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added g#-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added f-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added f-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added f-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added f#-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added f#-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added f#-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added e-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:42p
+Added e-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added e-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added d-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added d-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added d-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added d#-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added d#-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added d#-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added click1.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:41p
+Added c-vhi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:39p
+Added c-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:39p
+Added c-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added c-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added c#-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added c#-low.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added c#-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added big-win.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added b-vhi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added b-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added b-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added a-vhi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added a-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added a-hi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:38p
+Added a#-vhi.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:37p
+Added a#-mid.wav
+
+*****************  Waves  *****************
+User: Adrian          Date:  1/21/10  Time:  6:37p
+Added a#-hi.wav
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/21/10  Time:  6:37p
+Added Waves
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added ZZ_Default.wav
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added ZZZ_Readme.Samples.txt
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Vibraslap.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Tambourine.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Splash Cymbal.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Side Stick.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Short Whistle.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Short Guiro.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:26p
+Added Ride Cymbal 2.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Ride Cymbal 1.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Ride Bell.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Pedal Hi-hat.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Open Triangle.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Open Hi-hat.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Open Hi Conga.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Open Cuica.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Mute Triangle.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Mute Hi Conga.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Mute Cuica.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:25p
+Added Maracas.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low-Mid tom.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Wood Block.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Tom.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Timbale.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Floor Tom.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Conga.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Bongo.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Low Agogo.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Long Whistle.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added Long Guiro.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added High Tom.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added High Timbale.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:24p
+Added High Floor Tom.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added High Agogo.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Hi Wood Block.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Hi Mid Tom.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Hi Bongo.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added hand clap.wav
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Electric Snare.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Crash Cymbal 2.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Crash Cymbal 1.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Cowbell.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Closed Hi-hat.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Claves.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:23p
+Added Chinese Cymbal.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:22p
+Added Cabasa.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:22p
+Added Bass Drum 1.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:22p
+Added Acoustic Snare.WAV
+
+*****************  Samples  *****************
+User: Adrian          Date:  1/21/10  Time:  6:22p
+Added Acoustic Bass Drum.WAV
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/21/10  Time:  6:22p
+Added Samples
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added whitebar_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added whitebar.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added tuner_bars_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added tuner_bars.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added Top_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added top_44.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added Top.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:33a
+Added Title_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added Title_qvga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String6_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String6.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String5_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String5.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String4_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String4.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String3_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String3.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String2_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:32a
+Added String2.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added String1_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added String1.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added Skin9_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added Skin9.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added Skin8_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added Skin8.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added Skin7_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:31a
+Added Skin7.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin6_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin6.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin5_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin5.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin4_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin4.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin3_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:30a
+Added Skin3.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added Skin2_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added Skin2.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added Skin1_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added Skin10_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added Skin10.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added Skin1.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added shine_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added shine.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added separate_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added separate.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:29a
+Added select_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added select_menu.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added select.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Pitch_bg_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Pitch_bg.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Pitch_Arw_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Pitch_Arw.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added OnOff_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added OnOff.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Note_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Note_rd_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Note_rd.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Note_No_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:28a
+Added Note_No.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added Note_Grey_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added Note_Grey.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added Note.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added meter_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added meter.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added menu_btn_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added menu_btn.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added menu_array_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added menu_array.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added logo.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added loader_inside.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added loader.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added led_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added led.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:27a
+Added Img_border_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Img_border.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Img_alpha_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Img_alpha.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Icons_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Icons.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added group.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added glow_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added glow.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added drop_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added drop.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added clear_btn_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added clear_btn.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Check_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Check.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:26a
+Added Btn_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added BtnArws_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added BtnArws.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Bot_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Bot.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Border_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Border.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added bar_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added BarInside_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added BarInside.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added BarBack_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added BarBack.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added bar.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added arrw_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added arrw.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Arrows_vga.png
+
+*****************  Res  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Arrows.png
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/21/10  Time:  9:25a
+Added Res
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added WaveFile.h
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added WaveFile.cpp
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added IBeatBox.h
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added BeatBox_WAV.h
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added BeatBox_WAV.cpp
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added BeatBox_MID.h
+
+*****************  metronome  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added BeatBox_MID.cpp
+
+*****************  GuitarPro  *****************
+User: Adrian          Date:  1/21/10  Time:  9:22a
+Added metronome
+
+*****************  Version 3  *****************
+User: Adrian          Date:  1/21/10  Time:  9:21a
+Added GuitarPro
+
+*****************  Version 2  *****************
+User: Adrian          Date:  1/21/10  Time:  9:21a
+Added GuitarPro.sln
+
+*****************  Version 1  *****************
+User: Adrian          Date:  1/21/10  Time:  9:13a
+Created GuitarPro
+Comment:
+  
+

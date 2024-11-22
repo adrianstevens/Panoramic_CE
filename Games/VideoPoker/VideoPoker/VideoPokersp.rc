@@ -1,0 +1,260 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcesp.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_VideoPoker      ICON                    "VideoPoker.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcesp.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""VideoPokersp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_UNDO            WAVE                    "Res\\pong.wav"
+IDR_WAVE_LOSE           WAVE                    "Res\\doubleex.wav"
+IDR_WAV_WIN             WAVE                    "Res\\nextlevel.wav"
+IDR_WAVE_DEAL           WAVE                    "Res\\crdflp.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_BMP_Spades          GIF                     "Res\\13Spades.png"
+IDB_BMP_Hearts          GIF                     "Res\\13Hearts.png"
+IDB_BMP_Diamonds        GIF                     "Res\\13Diamonds.png"
+IDB_BMP_Clubs           GIF                     "Res\\13clubs.png"
+IDB_BMP_Card            GIF                     "Res\\card.png"
+IDB_BMP_Clubs_HR        GIF                     "Res\\13clubsHR.png"
+IDB_BMP_Card_HR         GIF                     "Res\\cardHR.png"
+IDB_BMP_Diamonds_HR     GIF                     "Res\\13DiamondsHR.png"
+IDB_BMP_Hearts_HR       GIF                     "Res\\13HeartsHR.png"
+IDB_BMP_Spades_HR       GIF                     "Res\\13SpadesHR.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Options DIALOG  0, 0, 176, 243
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LISTBOX         IDC_LST_PS,7,103,126,13,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 0x200,141,70,13,14
+    LISTBOX         IDC_LST_GAMETYPE,7,67,126,13,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 0x200,140,103,13,14
+    LISTBOX         IDC_LST_BACKGROUND,7,67,126,13,LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_TABSTOP
+    CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_HORZ | 0x200,140,103,13,14
+END
+
+IDD_DLG_Basic DIALOG  0, 0, 216, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "VideoPoker"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Options, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 236
+    END
+
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Options MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_VideoPoker MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+    MENUITEM "Game",                        IDMENU_Game
+END
+
+IDR_MENU_Menu MENU 
+BEGIN
+    MENUITEM "Quit",                        IDMENU_Quit
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "VideoPoker"
+    IDC_VideoPoker            "VideoPoker"
+    IDS_MAIN_CLASS          "VideoPokerClass"
+    IDS_SOFTKEY_TEXT_LEFT   "Options"
+    IDS_SOFTKEY_TEXT_RIGHT  "Menu"
+    IDS_BTN_Hold            "Hold"
+    IDS_DEMO_Over           "We hope you enjoyed trying out iSS VideoPoker, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided your trial download."
+    IDS_AUTOPLAY_OFF        "Auto Complete: Off"
+    IDS_AUTOPLAY_Safe       "Auto Complete: Safe"
+    IDS_AUTOPLAY_ON         "Auto Complete: On"
+    IDS_RESULT_Lose         "You Lose"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Undo           "Undo"
+    IDS_MENU_Stats          "Statistics..."
+    IDS_MENU_ResetStats     "Reset Statistics"
+    IDS_MENU_RestartGame    "Restart Game"
+    IDS_MENU_SelectGame     "Select Game"
+    IDS_MENU_NewGame        "New Game"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TOOLS               "Tools"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTS_PS_OFF         "Play Sounds: Off"
+    IDS_OPTS_PS_ON          "Play Sounds: On"
+    IDS_NAME_VideoPoker       "VideoPoker"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Game           "Game"
+    IDS_MENU_Resume         "Resume Game"
+    IDS_MENU_New            "New Game"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Help           "Help"
+    IDS_MENU_Quit           "Quit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOSE                "Would you like to start a new Game?"
+    IDS_LOSE_IT             "You Lose"
+    IDS_MENU_Save           "Save"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BGCOLOR_BLUE        "Table Color: Blue"
+    IDS_BGCOLOR_GREEN       "Table Color: Green"
+    IDS_BGCOLOR_PURPLE      "Table Color: Purple"
+    IDS_BGCOLOR_RED         "Table Color: Red"
+    IDS_IMPLICIT_SOFTWARE   "Implicit Software Solutions Inc"
+    IDS_WEBSITE             "www.implicitsoftware.com"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "VideoPokersp.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
