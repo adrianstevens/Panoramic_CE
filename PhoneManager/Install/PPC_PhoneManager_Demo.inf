@@ -1,0 +1,75 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Phone Manager"
+InstallDir=%CE1%\Pano\PhoneManager
+
+[Strings]                  ; optional section
+today_path = Software\Microsoft\Today\Items\Phone Manager
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Files02.ARM720 = 0, %CE11%\Phone Manager
+Shortcuts00.ARM720 = 0, %CE11%\Phone Manager
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"CallOptions.exe" = 1
+"Contacts.exe" = 1
+"PanoPhoneServer.exe" = 1
+"setupdll.dll" = 1
+"icon.lnk" = 1
+"PanoPhoneMgr.dll" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720, Files02.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Pano\PanoPhoneManager,StartUp,0x00000001,00,00,00,00
+HKLM,%today_path%,Type,0x00010001,4
+HKLM,%today_path%,Enabled,0x00010001,0
+HKLM,%today_path%,Options,0x00010001,1
+HKLM,%today_path%,Order,0x00010001,1
+HKLM,%today_path%,Selectability,0x00010001,2
+HKLM,%today_path%,DLL,0x00000000,%CE2%\PanoPhoneMgr.dll
+
+[Files00.ARM720]
+"CallOptions.exe",,,0x40000003
+"Contacts.exe",,,0x40000003
+
+
+[Files01.ARM720]
+"PanoPhoneServer.exe",,,0x40000003
+"PanoPhoneMgr.dll",,,0x40000003
+
+
+[Files02.ARM720]
+"icon.lnk",,,0x40000003
+
+
+[Shortcuts00.ARM720]
+"Call Options", 0, "CallOptions.exe"
+"Call Favorites", 0, "contacts.exe"
+;"Contacts", 0, "contacts.exe -c"
+;"Call History", 0, "contacts.exe -h"
+
+
+
+

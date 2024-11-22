@@ -1,0 +1,60 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Contacts Manager"
+InstallDir=%CE1%\Panoramic\ContactsManager
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Files02.ARM720 = 0, %CE11%\Contacts Manager
+Shortcuts00.ARM720 = 0, %CE11%\Contacts Manager
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"PanoContacts.exe" = 1
+"icon.lnk" = 1
+"Contacts.lnk" = 1
+"Favorites.lnk" = 1
+"History.lnk" = 1
+"setupdll.dll" = 1
+"contactshelp.htm" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files01.ARM720, Files02.ARM720
+AddReg = RegSettings
+;CEShortcuts = Shortcuts00.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoContactsManager,StartUp,0x00000001,00,00,00,00
+
+
+[Files01.ARM720]
+"PanoContacts.exe",,,0x40000003
+"contactshelp.htm",,,0x40000003
+
+
+[Files02.ARM720]
+"icon.lnk",,,0x40000003
+"Contacts.lnk",,,0x40000003
+"Favorites.lnk",,,0x40000003
+"History.lnk",,,0x40000003
+
+[Shortcuts01.ARM720]
+"Panoramic Contacts Genius.lnk", 0, "contactshelp.htm"
+
+
+
+

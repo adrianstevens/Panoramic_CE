@@ -1,0 +1,21 @@
+SINGLE END-USER LICENSE AGREEMENT FOR PANORAMIC SOFTWARE INC.
+
+This Panoramic Software Inc. End-User License Agreement ("EULA") is a legal AGREEMENT between you and Panoramic Software Inc. for the Panoramic Software Inc. product purchased, which product includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT"). By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA. 
+
+SOFTWARE PRODUCT LICENSE The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold. 
+
+1) GRANT OF LICENSE. This EULA grants you, the computer software end-user, the following rights:
+Applications Software. The SOFTWARE PRODUCT may be used only by you.  You may install and use one copy of the SOFTWARE PRODUCT, or any prior version thereof for the same operating system, on a single computer. 
+
+2) DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.
+* The SOFTWARE PRODUCT is licensed as a single product. Its component parts may not be separated for use on more than one computer.
+* Rental. You may not rent, lease, or lend the SOFTWARE PRODUCT to any party.
+* Support Services. If this product was received as part of a "bundle" with an other software or hardware manufacturer's product, end-users are required to contact that manufacturer for first level support. Otherwise, Panoramic Software Inc. may provide you with support services related to the SOFTWARE PRODUCT ("Support Services"). With respect to technical information you provide to Panoramic Software Inc. as part of the Support Services, Panoramic Software Inc. may use such information for its business purpose, including for product updates and development.
+* Termination. Without prejudice to any of Panoramic Software Inc.'s other rights, Panoramic Software Inc. may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT and all of its component parts. 
+
+3) COPYRIGHT AND TRADEMARKS. All title, trademarks and copyrights in and pertaining to the SOFTWARE PRODUCT (including but not limited to any images, animation, and text. You may not copy the printed materials accompanying the SOFTWARE PRODUCT.
+
+4) LIMITED WARRANTY. Panoramic Software Inc. warrants that (a) the SOFTWARE PRODUCT will, for a period of ninety (90) days from the date of your receipt, perform substantially in accordance with Panoramic Software Inc.' written materials accompanying it, and (b) any Support Services provided by Panoramic Software Inc. shall be substantially as described in applicable written materials provided to you by Panoramic Software Inc., and (c) Panoramic Software Inc. support engineers will make commercially reasonable efforts to solve any problem issues with the SOFTWARE PRODUCT. 
+
+5) LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL PANORAMIC SOFTWARE INC. OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVERARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE PRODUCT OR THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF PANORAMIC SOFTWARE INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, PANORAMIC SOFTWARE INC.'S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS EULA SHALL BE LIMITED TO TEN CANADIAN DOLLARS (CND $10.00).
+

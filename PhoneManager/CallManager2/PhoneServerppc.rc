@@ -1,0 +1,247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_PHONESERVER         ICON                    "PhoneServer.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    MENUITEM "Help",                        32771
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDR_CSV_AREACODES       TXT                     "..\\common\\files\\area-codes.csv"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""PhoneServerppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Modal DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "iSS Phone Manager"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Basic DIALOG  0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Modal, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "PhoneServer"
+    IDC_PHONESERVER         "PHONESERVER"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Quit                "Quit"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_CALL_BK             GIF                     "..\\common\\res\\callbg.png"
+IDR_PNG_CALL_BKVGA          GIF                     "..\\common\\res\\callbg_vga.png"
+IDR_PNG_CALL_Call           GIF                     "..\\common\\res\\caller_bubble.png"
+IDR_PNG_CALL_CallVGA        GIF                     "..\\common\\res\\caller_bubble_vga.png"
+IDR_PNG_CALL_Icons          GIF                     "..\\common\\res\\phone_icons.png"
+IDR_PNG_CALL_IconsVGA       GIF                     "..\\common\\res\\phone_icons_vga.png"
+IDR_PNG_CALL_Details        GIF                     "..\\common\\res\\details_img.png"
+IDR_PNG_CALL_DetailsVGA     GIF                     "..\\common\\res\\details_img_vga.png"
+IDR_PNG_CALL_Globe          GIF                     "..\\common\\res\\globe_array.png"
+IDR_PNG_DetailsDefault      GIF                     "..\\common\\res\\Img_default_details.png"
+IDR_PNG_DetailsDefaultVGA   GIF                     "..\\common\\res\\Img_default_details_vga.png"
+IDR_PNG_CALL_ImgBorder      GIF                     "..\\common\\res\\Img_border.png"
+IDR_PNG_CALL_ImgBorderVGA   GIF                     "..\\common\\res\\Img_border_vga.png"
+IDR_PNG_CALL_ImgAlpha       GIF                     "..\\common\\res\\Img_alpha.png"
+IDR_PNG_CALL_ImgAlphaVGA    GIF                     "..\\common\\res\\Img_alpha_vga.png"
+IDR_PNG_CALL_Button         GIF                     "..\\common\\res\\Incoming_btn.png"
+IDR_PNG_CALL_ButtonGreen    GIF                     "..\\common\\res\\Incoming_btn_grn.png"
+IDR_PNG_CALL_ButtonRed      GIF                     "..\\common\\res\\Incoming_btn_red.png"
+IDR_PNG_CALL_ButtonVGA      GIF                     "..\\common\\res\\Incoming_btn_vga.png"
+IDR_PNG_CALL_ButtonGreenVGA GIF                     "..\\common\\res\\Incoming_btn_grn_vga.png"
+IDR_PNG_CALL_ButtonRedVGA   GIF                     "..\\common\\res\\Incoming_btn_red_vga.png"
+IDR_PNG_FavoritesSlider     GIF                     "..\\common\\res\\slider.png"
+IDR_PNG_FavoritesSliderVGA  GIF                     "..\\common\\res\\slider_vga.png"  
+IDR_PNG_FavoritesSliderBg   GIF                     "..\\common\\res\\slider_bg.png"                     
+IDR_PNG_FavoritesSliderBgVGA GIF                    "..\\common\\res\\slider_bg_vga.png"
+IDR_PNG_FavoritesArrowArray GIF                     "..\\common\\res\\arrow_array.png"
+IDR_PNG_FavoritesArrowArrayVGA GIF                  "..\\common\\res\\arrow_array_vga.png"
+IDR_PNG_CALL_Bar            GIF                     "..\\common\\res\\bar.png"
+IDR_PNG_CALL_BarVGA         GIF                     "..\\common\\res\\bar_vga.png"
+IDR_PNG_CALL_Indicators     GIF                     "..\\common\\res\\stat_icons.png"
+IDR_PNG_CALL_IndicatorsVGA  GIF                     "..\\common\\res\\stat_icons_vga.png"
+IDR_PNG_ContactsBorder      GIF                     "..\\common\\Res\\cnt_border.png"
+IDR_PNG_ContactsBorderVGA   GIF                     "..\\common\\Res\\cnt_border_vga.png"
+
+IDR_PNG_MenuArray       GIF                     "..\\common\\Res\\Green\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\common\\Res\\Green\\menu_array_vga.png"
+IDR_PNG_Selector        GIF                     "..\\common\\res\\Green\\select.png"
+
+IDR_PNG_B_MenuArray       GIF                   "..\\Common\\Res\\blue\\menu_array.png"
+IDR_PNG_B_MenuArrayVGA    GIF                   "..\\Common\\Res\\blue\\menu_array_vga.png"
+IDR_PNG_B_Selector        GIF                     "..\\Common\\Res\\blue\\select.png"
+
+IDR_PNG_O_MenuArray       GIF                   "..\\Common\\Res\\orange\\menu_array.png"
+IDR_PNG_O_MenuArrayVGA    GIF                   "..\\Common\\Res\\orange\\menu_array_vga.png"
+IDR_PNG_O_Selector        GIF                     "..\\Common\\Res\\orange\\select.png"
+
+IDR_PNG_PI_MenuArray       GIF                  "..\\Common\\Res\\pink\\menu_array.png"
+IDR_PNG_PI_MenuArrayVGA    GIF                  "..\\Common\\Res\\pink\\menu_array_vga.png"
+IDR_PNG_PI_Selector        GIF                     "..\\Common\\Res\\pink\\select.png"
+
+IDR_PNG_P_MenuArray       GIF                   "..\\Common\\Res\\purple\\menu_array.png"
+IDR_PNG_P_MenuArrayVGA    GIF                   "..\\Common\\Res\\purple\\menu_array_vga.png"
+IDR_PNG_P_Selector        GIF                     "..\\Common\\Res\\purple\\select.png"
+
+IDR_PNG_R_MenuArray       GIF                   "..\\Common\\Res\\red\\menu_array.png"
+IDR_PNG_R_MenuArrayVGA    GIF                   "..\\Common\\Res\\red\\menu_array_vga.png"
+IDR_PNG_R_Selector        GIF                     "..\\Common\\Res\\red\\select.png"
+
+IDR_PNG_Group           GIF                     "..\\common\\Res\\group.png"
+
+
+
+
+#endif    // English (Canada) resources
+ /////////////////////////////////////////////////////////////////////////////
+ 
+ 
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "PhoneServerppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

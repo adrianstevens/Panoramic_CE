@@ -1,0 +1,69 @@
+//
+// ExplorerPPC.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+HI_RES_AWARE CEUX {1}	// turn off the emulation layer
+			// Remove this resource to enable pixel-
+			// doubling on platforms that support it
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHMENUBAR
+//
+
+IDR_MENU SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU, 
+    2,
+    
+    I_IMAGENONE, IDMENU_Accept, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Accept, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_Deny, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Deny, 0, NOMENU,
+END
+
+IDR_MENU_YesNo SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU_YesNo, 
+    2,
+    
+    I_IMAGENONE, IDMENU_Yes, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Yes, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_No, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_No, 0, NOMENU,
+END
+
+IDR_MENU_InstallCancel SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU_InstallCancel, 
+    1,
+    
+    I_IMAGENONE, IDMENU_Install, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Install, 0, NOMENU,
+   
+END
+
+IDR_MENU_OkCancel SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU_OkCancel, 
+    2,
+    
+    I_IMAGENONE, IDMENU_Ok, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Ok, 0, NOMENU,
+
+	I_IMAGENONE, IDMENU_Cancel, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Cancel, 0, NOMENU,
+   
+END

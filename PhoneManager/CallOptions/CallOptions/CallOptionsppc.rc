@@ -1,0 +1,255 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CallOptions         ICON                    "CallOptions.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""CallOptionsppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Unlock MENU 
+BEGIN
+    MENUITEM "Unlock",                      IDMENU_Unlock
+END
+
+IDR_MENU_OkCancel MENU 
+BEGIN
+    MENUITEM "Ok",                          IDMENU_Ok
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_Quit MENU 
+BEGIN
+    MENUITEM "Quit",                        IDMENU_Quit
+END
+
+IDR_MENU_MenuBack MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_Done MENU 
+BEGIN
+    MENUITEM "Done",                        IDMENU_Done
+END
+
+IDR_MENU_EditBack MENU 
+BEGIN
+    MENUITEM "Edit",                        IDMENU_Edit
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_AddCancel MENU 
+BEGIN
+    MENUITEM "Add",                         IDMENU_Add
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 200, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_ContactsBorder  GIF                     "..\\..\\Common\\RES\\cnt_border.png"
+IDR_PNG_ContactsBorderVGA GIF                     "..\\..\\Common\\RES\\cnt_border_vga.png"
+IDR_PNG_Group           GIF                     "..\\..\\Common\\Res\\group.png"
+IDR_PNG_DetailsBtn      GIF                     "..\\..\\Common\\Res\\incoming_btn.png"
+IDR_PNG_DetailsBtnVGA   GIF                     "..\\..\\Common\\RES\\incoming_btn_vga.png"
+IDR_PNG_DetailsBtnGrn   GIF                     "..\\..\\Common\\Res\\incoming_btn_grn.png"
+IDR_PNG_DetailsBtnGrnVGA GIF                     "..\\..\\Common\\RES\\incoming_btn_grn_vga.png"
+IDR_PNG_Back            GIF                     "..\\..\\Common\\Res\\back.png"
+IDR_PNG_BackVGA         GIF                     "..\\..\\Common\\RES\\back_vga.png"
+IDR_PNG_MenuArray       GIF                     "..\\..\\Common\\Res\\Green\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\..\\Common\\Res\\Green\\menu_array_vga.png"
+IDR_PNG_Selector        GIF                     "..\\..\\Common\\Res\\Green\\select.png"
+IDR_PNG_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\Green\\back.png"
+IDR_PNG_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\Green\\back_vga.png"
+IDR_PNG_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\Green\\menu_btn.png"
+IDR_PNG_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\Green\\menu_btn_vga.png"
+IDR_PNG_B_MenuArray     GIF                     "..\\..\\Common\\Res\\blue\\menu_array.png"
+IDR_PNG_B_MenuArrayVGA  GIF                     "..\\..\\Common\\Res\\blue\\menu_array_vga.png"
+IDR_PNG_B_Selector      GIF                     "..\\..\\Common\\Res\\blue\\select.png"
+IDR_PNG_B_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\blue\\back.png"
+IDR_PNG_B_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\blue\\back_vga.png"
+IDR_PNG_B_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\blue\\menu_btn.png"
+IDR_PNG_B_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\blue\\menu_btn_vga.png"
+IDR_PNG_O_MenuArray     GIF                     "..\\..\\Common\\Res\\orange\\menu_array.png"
+IDR_PNG_O_MenuArrayVGA  GIF                     "..\\..\\Common\\Res\\orange\\menu_array_vga.png"
+IDR_PNG_O_Selector      GIF                     "..\\..\\Common\\Res\\orange\\select.png"
+IDR_PNG_O_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\orange\\back.png"
+IDR_PNG_O_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\orange\\back_vga.png"
+IDR_PNG_O_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\orange\\menu_btn.png"
+IDR_PNG_O_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\orange\\menu_btn_vga.png"
+IDR_PNG_PI_MenuArray    GIF                     "..\\..\\Common\\Res\\pink\\menu_array.png"
+IDR_PNG_PI_MenuArrayVGA GIF                     "..\\..\\Common\\Res\\pink\\menu_array_vga.png"
+IDR_PNG_PI_Selector     GIF                     "..\\..\\Common\\Res\\pink\\select.png"
+IDR_PNG_PI_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\pink\\back.png"
+IDR_PNG_PI_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\pink\\back_vga.png"
+IDR_PNG_PI_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\pink\\menu_btn.png"
+IDR_PNG_PI_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\pink\\menu_btn_vga.png"
+IDR_PNG_P_MenuArray     GIF                     "..\\..\\Common\\Res\\purple\\menu_array.png"
+IDR_PNG_P_MenuArrayVGA  GIF                     "..\\..\\Common\\Res\\purple\\menu_array_vga.png"
+IDR_PNG_P_Selector      GIF                     "..\\..\\Common\\Res\\purple\\select.png"
+IDR_PNG_P_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\purple\\back.png"
+IDR_PNG_P_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\purple\\back_vga.png"
+IDR_PNG_P_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\purple\\menu_btn.png"
+IDR_PNG_P_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\purple\\menu_btn_vga.png"
+IDR_PNG_R_MenuArray     GIF                     "..\\..\\Common\\Res\\red\\menu_array.png"
+IDR_PNG_R_MenuArrayVGA  GIF                     "..\\..\\Common\\Res\\red\\menu_array_vga.png"
+IDR_PNG_R_Selector      GIF                     "..\\..\\Common\\Res\\red\\select.png"
+IDR_PNG_R_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\red\\back.png"
+IDR_PNG_R_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\red\\back_vga.png"
+IDR_PNG_R_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\red\\menu_btn.png"
+IDR_PNG_R_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\red\\menu_btn_vga.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "CallOptions"
+    IDC_CallOptions         "CallOptions"
+    IDS_Yes                 "Yes"
+    IDS_No                  "No"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_HELP                "HELP"
+    IDS_MENU_Unlock         "Unlock"
+    IDS_MENU_Ok             "Ok"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Quit           "Quit"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Add            "Add..."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Remove         "Remove"
+    IDS_MENU_Done           "Done"
+    IDS_MENU_Edit           "Edit"
+    IDS_MENU_AddNew         "Add new"
+    IDS_MENU_AddContact     "Add contact"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "CallOptionsppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

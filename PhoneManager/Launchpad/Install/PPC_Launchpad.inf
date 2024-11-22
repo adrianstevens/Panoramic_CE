@@ -1,0 +1,75 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Launchpad"
+InstallDir=%CE1%\Panoramic\Launchpad
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Files02.ARM720 = 0, %CE11%
+Shortcuts00.ARM720 = 0, %CE11%
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"Panolauncher.exe" = 1
+;"PanoStart.exe" = 1
+"SetupDll.dll" = 1
+"launchpadhelp.htm" = 1
+"launchpadhelp_de.htm" = 1
+"launchpadhelp_du.htm" = 1
+"launchpadhelp_fr.htm" = 1
+"launchpadhelp_es.htm" = 1
+"launchpadhelp_no.htm" = 1
+"launchpadhelp_ru.htm" = 1
+"launchpadhelp_ro.htm" = 1
+"launchpadhelp_pt.htm" = 1
+"launchpadhelp_zh.htm" = 1
+"Launchpad90x90_192.png" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts01.ARM720,Shortcuts00.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoLaunchpad,StartUp,0x00000001,1D,F7,3E,38
+HKLM,Security\Shell\StartInfo\Start\Panoramic Launchpad.lnk,Icon,0x00000000,%InstallDir%\Launchpad90x90_192.png
+
+[Files00.ARM720]
+"Panolauncher.exe",,,0x40000003
+"Launchpad90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"launchpadhelp.htm",,,0x40000003
+"launchpadhelp_de.htm",,,0x40000003
+"launchpadhelp_du.htm",,,0x40000003
+"launchpadhelp_fr.htm",,,0x40000003
+"launchpadhelp_es.htm",,,0x40000003
+"launchpadhelp_no.htm",,,0x40000003
+"launchpadhelp_ru.htm",,,0x40000003
+"launchpadhelp_ro.htm",,,0x40000003
+"launchpadhelp_pt.htm",,,0x40000003
+"launchpadhelp_zh.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Launchpad", 0, "panolauncher.exe"
+
+[Shortcuts01.ARM720]
+"Panoramic Launchpad.lnk", 0, "launchpadhelp.htm"
+
+
+
+

@@ -1,0 +1,1177 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Launcherppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Unlock MENU 
+BEGIN
+    MENUITEM "Unlock",                      IDMENU_Unlock
+END
+
+IDR_MENU_OkCancel MENU 
+BEGIN
+    MENUITEM "Ok",                          IDMENU_Ok
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_OpenMenu MENU 
+BEGIN
+    MENUITEM "Open",                        IDMENU_Open
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_SaveMenu MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 200, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Add DIALOG  0, 0, 186, 191
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_DLG_Add, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuArray       GIF                     "..\\..\\Common\\Res\\Green\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\..\\Common\\Res\\Green\\menu_array_vga.png"
+IDR_PNG_Selector        GIF                     "..\\..\\Common\\Res\\Green\\select.png"
+IDR_PNG_FavoritesImgSelect GIF                     "..\\..\\Common\\Res\\Green\\Img_select.png"
+IDR_PNG_FavoritesImgSelectVGA GIF                     "..\\..\\Common\\Res\\Green\\Img_select_vga.png"
+IDR_PNG_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\Green\\back.png"
+IDR_PNG_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\Green\\back_vga.png"
+IDR_PNG_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\Green\\btn.png"
+IDR_PNG_Glow            GIF                     "..\\..\\Common\\Res\\Green\\glow.png"
+IDR_PNG_GlowVGA         GIF                     "..\\..\\Common\\Res\\Green\\glow_vga.png"
+IDR_PNG_Group           GIF                     "..\\..\\Common\\Res\\group.png"
+IDR_PNG_ToolbarSelector_p GIF                     "..\\..\\Common\\Res\\tool_selected.png"
+IDR_PNG_ToolbarSelector_l GIF                     "..\\..\\Common\\Res\\tool_selected_lan.png"
+IDR_PNG_ToolbarSelectorVGA_p GIF                     "..\\..\\Common\\Res\\tool_selected_vga.png"
+IDR_PNG_ToolbarSelectorVGA_l GIF                     "..\\..\\Common\\Res\\tool_selected_lan_vga.png"
+IDR_PNG_ToolbarIconArray GIF                     "Res\\prog_icons.png"
+IDR_PNG_ToolbarIconArrayVGA GIF                     "Res\\prog_icons_vga.png"
+IDR_PNG_FavoritesAdd    GIF                     "..\\..\\Common\\Res\\add.png"
+IDR_PNG_FavoritesAddVGA GIF                     "..\\..\\Common\\Res\\add_vga.png"
+IDR_PNG_FavoritesGrid   GIF                     "..\\..\\Common\\Res\\grid.png"
+IDR_PNG_FavoritesGridVGA GIF                     "..\\..\\Common\\Res\\grid_vga.png"
+IDR_PNG_FavoritesImgAlpha GIF                     "..\\..\\Common\\Res\\Img_alpha.png"
+IDR_PNG_FavoritesImgAlphaVGA GIF                     "..\\..\\Common\\Res\\Img_alpha_vga.png"
+IDR_PNG_FavoritesImgBorder GIF                     "..\\..\\Common\\Res\\Img_border.png"
+IDR_PNG_FavoritesImgBorderVGA GIF                     "..\\..\\Common\\Res\\Img_border_vga.png"
+IDR_PNG_FavoritesImgDefault GIF                     "..\\..\\Common\\Res\\Img_default55.png"
+IDR_PNG_FavoritesImgDefaultVGA GIF                     "..\\..\\Common\\Res\\Img_default100.png"
+IDR_PNG_FavoritesImgShadow GIF                     "..\\..\\Common\\Res\\Img_shadow.png"
+IDR_PNG_FavoritesImgShadowVGA GIF                     "..\\..\\Common\\Res\\Img_shadow_vga.png"
+IDR_PNG_FavoritesNameBbl GIF                     "..\\..\\Common\\Res\\Name_bubble.png"
+IDR_PNG_FavoritesNameBblVGA GIF                     "..\\..\\Common\\Res\\Name_bubble_vga.png"
+IDR_PNG_DetailsBtn      GIF                     "..\\..\\Common\\Res\\btn.png"
+IDR_PNG_FavoritesSlider GIF                     "..\\..\\Common\\Res\\slider.png"
+IDR_PNG_FavoritesSliderLan GIF                     "..\\..\\Common\\Res\\slider_lan.png"
+IDR_PNG_FavoritesSliderBg GIF                     "..\\..\\Common\\Res\\slider_bg.png"
+IDR_PNG_FavoritesSliderBgLan GIF                     "..\\..\\Common\\Res\\slider_bg_lan.png"
+IDR_PNG_FavoritesSliderVGA GIF                     "..\\..\\Common\\Res\\slider_vga.png"
+IDR_PNG_FavoritesSliderLanVGA GIF                     "..\\..\\Common\\Res\\slider_lan_vga.png"
+IDR_PNG_FavoritesSliderBgVGA GIF                     "..\\..\\Common\\Res\\slider_bg_vga.png"
+IDR_PNG_FavoritesSliderBgLanVGA GIF                     "..\\..\\Common\\Res\\slider_bg_lan_vga.png"
+IDR_PNG_FavoritesArrowArray GIF                     "..\\..\\Common\\Res\\arrow_array.png"
+IDR_PNG_FavoritesArrowArrayVGA GIF                     "..\\..\\Common\\Res\\arrow_array_vga.png"
+IDR_PNG_DetailsDefault  GIF                     "..\\..\\Common\\Res\\Img_default_details.png"
+IDR_PNG_DetailsDefaultVGA GIF                     "..\\..\\Common\\Res\\Img_default_details_vga.png"
+IDR_PNG_ContactsBorder  GIF                     "..\\..\\Common\\Res\\cnt_border.png"
+IDR_PNG_ContactsBorderVGA GIF                     "..\\..\\Common\\Res\\cnt_border_vga.png"
+IDR_PNG_ContactsSelector GIF                     "..\\..\\Common\\Res\\cnt_sel.png"
+IDR_PNG_ContactsLetterBubble GIF                     "..\\..\\Common\\Res\\letter_bubble.png"
+IDR_PNG_Font            GIF                     "..\\..\\Common\\Res\\font.png"
+IDR_PNG_FontVGA         GIF                     "..\\..\\Common\\Res\\font_vga.png"
+IDR_PNG_B_MenuArray     GIF                     "..\\..\\Common\\RES\\blue\\menu_array.png"
+IDR_PNG_B_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\blue\\menu_array_vga.png"
+IDR_PNG_O_MenuArray     GIF                     "..\\..\\Common\\RES\\orange\\menu_array.png"
+IDR_PNG_O_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\orange\\menu_array_vga.png"
+IDR_PNG_PI_MenuArray    GIF                     "..\\..\\Common\\RES\\pink\\menu_array.png"
+IDR_PNG_PI_MenuArrayVGA GIF                     "..\\..\\Common\\RES\\pink\\menu_array_vga.png"
+IDR_PNG_P_MenuArray     GIF                     "..\\..\\Common\\RES\\purple\\menu_array.png"
+IDR_PNG_P_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\purple\\menu_array_vga.png"
+IDR_PNG_R_MenuArray     GIF                     "..\\..\\Common\\RES\\red\\menu_array.png"
+IDR_PNG_R_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\red\\menu_array_vga.png"
+IDR_PNG_B_Selector      GIF                     "..\\..\\Common\\RES\\blue\\select.png"
+IDR_PNG_O_Selector      GIF                     "..\\..\\Common\\RES\\orange\\select.png"
+IDR_PNG_PI_Selector     GIF                     "..\\..\\Common\\RES\\pink\\select.png"
+IDR_PNG_P_Selector      GIF                     "..\\..\\Common\\RES\\purple\\select.png"
+IDR_PNG_R_Selector      GIF                     "..\\..\\Common\\RES\\red\\select.png"
+IDR_PNG_B_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\blue\\btn_vga.png"
+IDR_PNG_B_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\blue\\back.png"
+IDR_PNG_B_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\blue\\back_vga.png"
+IDR_PNG_B_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\blue\\btn.png"
+IDR_PNG_O_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\orange\\btn_vga.png"
+IDR_PNG_O_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\orange\\btn.png"
+IDR_PNG_O_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\orange\\back.png"
+IDR_PNG_O_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\orange\\back_vga.png"
+IDR_PNG_PI_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\pink\\back.png"
+IDR_PNG_PI_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\pink\\back_vga.png"
+IDR_PNG_PI_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\pink\\btn.png"
+IDR_PNG_PI_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\pink\\btn_vga.png"
+IDR_PNG_P_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\purple\\back.png"
+IDR_PNG_P_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\purple\\back_vga.png"
+IDR_PNG_P_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\purple\\btn.png"
+IDR_PNG_P_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\purple\\btn_vga.png"
+IDR_PNG_R_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\red\\btn_vga.png"
+IDR_PNG_R_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\red\\back_vga.png"
+IDR_PNG_R_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\red\\back.png"
+IDR_PNG_R_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\red\\btn.png"
+IDR_PNG_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\green\\btn_vga.png"
+IDR_PNG_B_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\blue\\Img_select_vga.png"
+IDR_PNG_B_Glow          GIF                     "..\\..\\Common\\RES\\blue\\glow.png"
+IDR_PNG_B_GlowVGA       GIF                     "..\\..\\Common\\RES\\blue\\glow_vga.png"
+IDR_PNG_B_FavSelect     GIF                     "..\\..\\Common\\RES\\blue\\Img_select.png"
+IDR_PNG_O_Glow          GIF                     "..\\..\\Common\\RES\\orange\\glow.png"
+IDR_PNG_O_GlowVGA       GIF                     "..\\..\\Common\\RES\\orange\\glow_vga.png"
+IDR_PNG_O_FavSelect     GIF                     "..\\..\\Common\\RES\\orange\\Img_select.png"
+IDR_PNG_O_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\orange\\Img_select_vga.png"
+IDR_PNG_PI_Glow         GIF                     "..\\..\\Common\\RES\\pink\\glow.png"
+IDR_PNG_PI_GlowVGA      GIF                     "..\\..\\Common\\RES\\pink\\glow_vga.png"
+IDR_PNG_PI_FavSelect    GIF                     "..\\..\\Common\\RES\\pink\\Img_select.png"
+IDR_PNG_PI_FavSelectVGA GIF                     "..\\..\\Common\\RES\\pink\\Img_select_vga.png"
+IDR_PNG_P_Glow          GIF                     "..\\..\\Common\\RES\\purple\\glow.png"
+IDR_PNG_P_GlowVGA       GIF                     "..\\..\\Common\\RES\\purple\\glow_vga.png"
+IDR_PNG_P_FavSelect     GIF                     "..\\..\\Common\\RES\\purple\\Img_select.png"
+IDR_PNG_P_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\purple\\Img_select_vga.png"
+IDR_PNG_R_Glow          GIF                     "..\\..\\Common\\RES\\red\\glow.png"
+IDR_PNG_R_GlowVGA       GIF                     "..\\..\\Common\\RES\\red\\glow_vga.png"
+IDR_PNG_R_FavSelect     GIF                     "..\\..\\Common\\RES\\red\\Img_select.png"
+IDR_PNG_R_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\red\\Img_select_vga.png"
+IDR_PNG_B_Arrow         GIF                     "..\\..\\Common\\RES\\blue\\arrow.png"
+IDR_PNG_B_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\blue\\arrow_lan.png"
+IDR_PNG_B_ArrowVGA      GIF                     "..\\..\\Common\\RES\\blue\\vga_arrow.png"
+IDR_PNG_B_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\blue\\vga_arrow_lan.png"
+IDR_PNG_Arrow_LanVGA    GIF                     "..\\..\\Common\\RES\\green\\vga_arrow_lan.png"
+IDR_PNG_Arrow           GIF                     "..\\..\\Common\\RES\\green\\arrow.png"
+IDR_PNG_Arrow_Lan       GIF                     "..\\..\\Common\\RES\\green\\arrow_lan.png"
+IDR_PNG_ArrowVGA        GIF                     "..\\..\\Common\\RES\\green\\vga_arrow.png"
+IDR_PNG_O_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\orange\\vga_arrow_lan.png"
+IDR_PNG_O_Arrow         GIF                     "..\\..\\Common\\RES\\orange\\arrow.png"
+IDR_PNG_O_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\orange\\arrow_lan.png"
+IDR_PNG_O_ArrowVGA      GIF                     "..\\..\\Common\\RES\\orange\\vga_arrow.png"
+IDR_PNG_PI_ArrowVGA     GIF                     "..\\..\\Common\\RES\\pink\\vga_arrow.png"
+IDR_PNG_PI_Arrow_LanVGA GIF                     "..\\..\\Common\\RES\\pink\\vga_arrow_lan.png"
+IDR_PNG_PI_Arrow        GIF                     "..\\..\\Common\\RES\\pink\\arrow.png"
+IDR_PNG_PI_Arrow_Lan    GIF                     "..\\..\\Common\\RES\\pink\\arrow_lan.png"
+IDR_PNG_P_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\purple\\vga_arrow_lan.png"
+IDR_PNG_P_Arrow         GIF                     "..\\..\\Common\\RES\\purple\\arrow.png"
+IDR_PNG_P_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\purple\\arrow_lan.png"
+IDR_PNG_P_ArrowVGA      GIF                     "..\\..\\Common\\RES\\purple\\vga_arrow.png"
+IDR_PNG_R_ArrowVGA      GIF                     "..\\..\\Common\\RES\\red\\vga_arrow.png"
+IDR_PNG_R_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\red\\vga_arrow_lan.png"
+IDR_PNG_R_Arrow         GIF                     "..\\..\\Common\\RES\\red\\arrow.png"
+IDR_PNG_R_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\red\\arrow_lan.png"
+IDR_PNG_DetailsBtnVGA   GIF                     "..\\..\\Common\\RES\\btn_vga.png"
+IDR_PNG_HistoryArray    GIF                     "..\\..\\Common\\Res\\history.png"
+IDR_PNG_HistoryArrayVGA GIF                     "..\\..\\Common\\Res\\history_vga.png"
+IDR_PNG_CallBg          GIF                     "..\\..\\Common\\RES\\callbg.png"
+IDR_PNG_CallBgVGA       GIF                     "..\\..\\Common\\RES\\callbg_vga.png"
+IDR_PNG_FolderArrow     GIF                     "res\\arrow.png"
+IDR_PNG_FolderArrowVGA  GIF                     "res\\arrow_vga.png"
+IDR_PNG_FolderArrowFlip GIF                     "res\\arrow_flip.png"
+IDR_PNG_FolderArrowFlipVGA GIF                     "res\\arrow_flip_vga.png"
+IDR_PNG_DropBack        GIF                     "res\\dropbg.png"
+IDR_PNG_DropBack128     GIF                     "res\\dropbg2.png"
+IDR_PNG_DropBackVGA     GIF                     "res\\dropbg_vga.png"
+IDR_PNG_Shine           GIF                     "res\\shine.png"
+IDR_PNG_Shine128        GIF                     "res\\shine2.png"
+IDR_PNG_ShineVGA        GIF                     "res\\shine_vga.png"
+IDR_PNG_ProgBorder      GIF                     "res\\Prog_border.png"
+IDR_PNG_ProgBorderVGA   GIF                     "res\\Prog_border_vga.png"
+IDR_PNG_Today           GIF                     "Res\\Today.png"
+IDR_PNG_TodayVGA        GIF                     "Res\\Today_vga.png"
+IDR_PNG_StartVGA2       GIF                     "Res\\startHR_2.png"
+IDR_PNG_StartVGA        GIF                     "Res\\startHR.png"
+IDR_PNG_Start352        GIF                     "Res\\start35x36_2.png"
+IDR_PNG_Start35         GIF                     "Res\\start35x36.png"
+IDR_PNG_Start2          GIF                     "Res\\start_2.png"
+IDR_PNG_Start           GIF                     "Res\\start.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Launcher            ICON                    "Launcher.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Launchpad"
+    IDC_Contacts            "Launchpad"
+    IDS_About_Launchpad     "About Launchpad"
+    IDS_Close               "Close"
+    IDS_VERSION_Launchpad   "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\nAll Rights Reserved\r\nwww.panoramicsoft.com\r\n"
+    IDS_NO_Programs         "No programs found"
+    IDS_SELECT_Program      "Select Program"
+    IDS_SELECT_Setting      "Select Setting"
+    IDS_OPEN_File           "Open File"
+    IDS_SAVE_File           "Save File"
+    IDS_FILE_ExistOverwrite "File already exists.  Would you like to overwrite?"
+    IDS_Name                "Name:"
+    IDS_Type                "Type:"
+    IDS_Warning             "Warning"
+    IDS_MY_Device           "My Device"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options        "Options"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Help           "Help"
+    IDS_MENU_About          "About"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Quit           "Quit"
+    IDS_OK                  "OK"
+    IDS_HELP                "HELP"
+    IDS_MENU_Unlock         "Unlock"
+    IDS_MENU_Ok             "Ok"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_RemoveItem     "Remove item"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram     "Add program link"
+    IDS_MENU_AddSetting     "Add settings link"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_DeleteContact  "Delete contact"
+    IDS_MENU_SmartArrange   "Smart arrange"
+    IDS_MENU_LockItems      "Lock items"
+    IDS_TOOLBAR_FAV         "Favorites"
+    IDS_TOOLBAR_CONTACTS    "Contacts"
+    IDS_TOOLBAR_HISTORY     "History"
+    IDS_TOOLBAR_EXIT        "Exit"
+    IDS_SLIDER_Personal     "Personal"
+    IDS_SLIDER_Business     "Business"
+    IDS_TOOLBAR_PROGRAMS    "Programs"
+    IDS_TOOLBAR_SETTINGS    "Settings"
+    IDS_SLIDER_Programs     "Programs"
+    IDS_SLIDER_Games        "Games"
+    IDS_MENU_Open           "Select"
+    IDS_MENU_Save           "Save"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TRIAL_Over          "Thank you for trying Panoramic Launchpad.  Your trial period is now over.  Please return to the location that provided your download to purchase"
+    IDS_Yes                 "Yes"
+    IDS_No                  "No"
+    IDS_On                  "On"
+    IDS_Off                 "Off"
+    IDS_Large               "Large"
+    IDS_Small               "Small"
+    IDS_Normal              "Normal"
+    IDS_Windows             "Start"
+    IDS_Rocket              "Rocket"
+    IDS_Default             "Default"
+    IDS_COLOR_Blue          "Blue"
+    IDS_COLOR_Green         "Green"
+    IDS_COLOR_Pink          "Pink"
+    IDS_COLOR_Purple        "Purple"
+    IDS_COLOR_Orange        "Orange"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COLOR_Red           "Red"
+    IDS_SLIDER_Apps         "Apps"
+    IDS_SLIDER_Settings     "Settings"
+    IDS_SLIDER_Utilities    "Utilities"
+    IDS_SLIDER_Music        "Music"
+    IDS_SLIDER_Folders      "Folders"
+    IDS_SLIDER_Files        "Files"
+    IDS_SLIDER_Pictures     "Pictures"
+    IDS_SLIDER_Favorites    "Favorites"
+    IDS_SLIDER_Videos       "Videos"
+    IDS_CAT_General         "General"
+    IDS_SoftReset           "You may have to soft reset your device in order for some of the changes to take effect"
+    IDS_OPTION_ShowName     "Show name:"
+    IDS_OPTION_HideOnAppLaunch "Hide on app launch:"
+    IDS_OPTION_SetTodayMenu "Set today screen menu:"
+    IDS_OPTION_SetStartMenu "Set Start Menu icon:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTION_ColorScheme  "Color scheme:"
+    IDS_OPTION_IconSize     "Icon size:"
+    IDS_OPTION_LeftSliderTitle "Left slider title:"
+    IDS_OPTION_RightSliderTitle "Right slider title:"
+    IDS_OPTION_StartMenu    "Start Menu:"
+    IDS_OPTION_SeparateBySection "Separate by section:"
+    IDS_MENU_AddFileFolder  "Add file/folder link"
+    IDS_MENU_AddFavorite    "Add Favorite"
+    IDS_Back                "Back"
+    IDS_Connections         "Connections"
+    IDS_Today               "<Today>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_About_Launchpad_DE  "Über Launchpad"
+    IDS_Close_DE            "Schliessen"
+    IDS_VERSION_Launchpad_DE 
+                            "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\nAlle Rechte vorbehalten\r\nwww.panoramicsoft.com\r\n"
+    IDS_NO_Programs_DE      "Keine Programme gefunden"
+    IDS_SELECT_Program_DE   "Programm auswählen"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT_Setting_DE   "Einstellung auswählen"
+    IDS_OPEN_File_DE        "Datei öffnen"
+    IDS_SAVE_File_DE        "Datei speichern"
+    IDS_FILE_ExistOverwrite_DE "Die Datei existiert bereits.Überschreiben?"
+    IDS_Name_DE             "Name:"
+    IDS_Type_DE             "Typ:"
+    IDS_Warning_DE          "Warnung"
+    IDS_MY_Device_DE        "Mein Gerät"
+    IDS_TRIAL_Over_DE       "Vielen Dank für den Test von Panoramic Launchpad. Die Testperiode ist nun abgelaufen. Bitte besuchen Sie die Website, von der Sie LaunchPad heruntergeladen haben, um die Vollversion von Launchpad zu erwerben."
+    IDS_Yes_DE              "Ja"
+    IDS_No_DE               "Nein"
+    IDS_On_DE               "An"
+    IDS_Off_DE              "Aus"
+    IDS_Large_DE            "Groß"
+    IDS_Small_DE            "Klein"
+    IDS_Normal_DE           "Normal"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_DE     "Optionen"
+    IDS_MENU_Help_DE        "Hilfe"
+    IDS_MENU_About_DE       "Über"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Unlock_DE      "Entsperren"
+    IDS_MENU_Ok_DE          "Ok"
+    IDS_MENU_Cancel_DE      "Abbrechen"
+    IDS_MENU_RemoveItem_DE  "Eintrag entfernen"
+    IDS_MENU_LockItems_DE   "Einträge sperren"
+    IDS_TOOLBAR_FAV_DE      "Favoriten"
+    IDS_TOOLBAR_EXIT_DE     "Ende"
+    IDS_SLIDER_Personal_DE  "Privat"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram_DE  "Programm-Link"
+    IDS_MENU_AddSetting_DE  "Einstellungen-Link"
+    IDS_MENU_Quit_DE        "Quit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SLIDER_Business_DE  "Geschäftlich"
+    IDS_TOOLBAR_PROGRAMS_DE "Program."
+    IDS_TOOLBAR_SETTINGS_DE "Einstellung."
+    IDS_SLIDER_Programs_DE  "Program."
+    IDS_SLIDER_Games_DE     "Spiele"
+    IDS_MENU_Open_DE        "Öffnen"
+    IDS_MENU_Save_DE        "Speichern"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Windows_DE          "Windows"
+    IDS_Rocket_DE           "Rakete"
+    IDS_Default_DE          "Standard"
+    IDS_COLOR_Blue_DE       "Blau"
+    IDS_COLOR_Green_DE      "Grün"
+    IDS_COLOR_Pink_DE       "Rosa"
+    IDS_COLOR_Purple_DE     "Lila"
+    IDS_COLOR_Orange_DE     "Orange"
+    IDS_COLOR_Red_DE        "Rot"
+    IDS_SLIDER_Apps_DE      "Anwend."
+    IDS_SLIDER_Settings_DE  "Einstell."
+    IDS_SLIDER_Utilities_DE "Hilfsprog."
+    IDS_SLIDER_Music_DE     "Musik"
+    IDS_SLIDER_Folders_DE   "Ordner"
+    IDS_SLIDER_Files_DE     "Dateien"
+    IDS_SLIDER_Pictures_DE  "Bilder"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SLIDER_Favorites_DE "Favoriten"
+    IDS_SLIDER_Videos_DE    "Videos"
+    IDS_CAT_General_DE      "Allgemein"
+    IDS_SoftReset_DE        "Möglicherweise müssen Sie Soft-Reset des Geräts, um für einige der Änderungen wirksam"
+    IDS_OPTION_ShowName_DE  "Namen anzeigen:"
+    IDS_OPTION_HideOnAppLaunch_DE "Nach Programmstart verstecken:"
+    IDS_OPTION_SetTodayMenu_DE "Heute-Bildschirm Softkey:"
+    IDS_OPTION_SetStartMenu_DE "Startmenü-Symbol:"
+    IDS_OPTION_ColorScheme_DE "Farbschema:"
+    IDS_OPTION_IconSize_DE  "Symbolgrösse:"
+    IDS_OPTION_LeftSliderTitle_DE "Titel linker Schieberegler:"
+    IDS_OPTION_RightSliderTitle_DE "Titel rechter Schieberegler:"
+    IDS_OPTION_StartMenu_DE "Startmenü:"
+    IDS_OPTION_SeparateBySection_DE "Nach Kategorie unterteilen:"
+    IDS_MENU_AddFileFolder_DE "Datei-/Ordner-Link"
+    IDS_MENU_AddFavorite_DE "Favoriten hinzufügen"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Back_DE             "Zurück"
+    IDS_Connections_DE      "Verbindungen"
+    IDS_Today_DE            "<Heute>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_About_Launchpad_ES  "Acerca de Launchpad"
+    IDS_Close_ES            "Cerrar"
+    IDS_VERSION_Launchpad_ES 
+                            "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\ntodos los Derechos Reservados\r\nwww.panoramicsoft.com \r\n"
+    IDS_NO_Programs_ES      "Programas no encontrados"
+    IDS_SELECT_Program_ES   "Seleccionar Programa"
+    IDS_SELECT_Setting_ES   "Seleccionar Configuración"
+    IDS_OPEN_File_ES        "Abrir Archivo"
+    IDS_SAVE_File_ES        "Guardar Archivo"
+    IDS_FILE_ExistOverwrite_ES "Archivo existente. Desea sobreescribirlo?"
+    IDS_Name_ES             "Nombre:"
+    IDS_Type_ES             "Tipo:"
+    IDS_Warning_ES          "Atención"
+    IDS_MY_Device_ES        "Mi Dispositivo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_ES     "Opciones"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Help_ES        "Ayuda"
+    IDS_MENU_About_ES       "Acerca de"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Quit_ES        "Quit"
+    IDS_MENU_Unlock_ES      "Liberar"
+    IDS_MENU_Ok_ES          "OK"
+    IDS_MENU_Cancel_ES      "Cancela"
+    IDS_MENU_RemoveItem_ES  "Borrar ítem"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram_ES  "vínculo a programa"
+    IDS_MENU_AddSetting_ES  "vínculo a config."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_LockItems_ES   "Bloquear ítems"
+    IDS_TOOLBAR_FAV_ES      "Favoritos"
+    IDS_TOOLBAR_EXIT_ES     "Salir"
+    IDS_SLIDER_Personal_ES  "Personal"
+    IDS_SLIDER_Business_ES  "Negocios"
+    IDS_TOOLBAR_PROGRAMS_ES "Program."
+    IDS_TOOLBAR_SETTINGS_ES "Config."
+    IDS_SLIDER_Programs_ES  "Program."
+    IDS_SLIDER_Games_ES     "Juegos"
+    IDS_MENU_Open_ES        "Seleccione"
+    IDS_MENU_Save_ES        "Guardar"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TRIAL_Over_ES       "Gracias por probar Panoramic Launchpad. Su periodo de prueba ha expirado. Por favor, vuelva a la pagina de descarga para comprarlo."
+    IDS_Yes_ES              "Sí"
+    IDS_No_ES               "No"
+    IDS_On_ES               "Encendido"
+    IDS_Off_ES              "Apagado"
+    IDS_Large_ES            "Grandes"
+    IDS_Small_ES            "Pequeño"
+    IDS_Normal_ES           "Normal"
+    IDS_Windows_ES          "Windows"
+    IDS_Rocket_ES           "Rocket"
+    IDS_Default_ES          "Predeterminado"
+    IDS_COLOR_Blue_ES       "Azul"
+    IDS_COLOR_Green_ES      "Verde"
+    IDS_COLOR_Pink_ES       "Rosa"
+    IDS_COLOR_Purple_ES     "Púrpura"
+    IDS_COLOR_Orange_ES     "Naranja"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COLOR_Red_ES        "Rojo"
+    IDS_SLIDER_Apps_ES      "Programas"
+    IDS_SLIDER_Settings_ES  "Config."
+    IDS_SLIDER_Utilities_ES "Utilidades"
+    IDS_SLIDER_Music_ES     "Música"
+    IDS_SLIDER_Folders_ES   "Carpetas"
+    IDS_SLIDER_Files_ES     "Archivos"
+    IDS_SLIDER_Pictures_ES  "Fotos"
+    IDS_SLIDER_Favorites_ES "Favoritos"
+    IDS_SLIDER_Videos_ES    "Vídeos"
+    IDS_CAT_General_ES      "General"
+    IDS_SoftReset_ES        "Debe realizar un soft reset de su dispositivo para que los cambios tengan efecto"
+    IDS_OPTION_ShowName_ES  "Mostrar nombre:"
+    IDS_OPTION_HideOnAppLaunch_ES "Esconder en el lanzador de apl:"
+    IDS_OPTION_SetTodayMenu_ES "Poner menu Pantalla Hoy:"
+    IDS_OPTION_SetStartMenu_ES "Poner icono Menú de Inicio:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTION_ColorScheme_ES "Color Tema:"
+    IDS_OPTION_IconSize_ES  "Tamaño Icono:"
+    IDS_OPTION_LeftSliderTitle_ES "Título Barra Izquierda:"
+    IDS_OPTION_RightSliderTitle_ES "Título Barra Derecha:"
+    IDS_OPTION_StartMenu_ES "Menú Inicio:"
+    IDS_OPTION_SeparateBySection_ES "Separado por sección:"
+    IDS_MENU_AddFileFolder_ES "link Archivo/Carpeta"
+    IDS_MENU_AddFavorite_ES "Agregar Favoritos"
+    IDS_Back_ES             "Atrás"
+    IDS_Connections_ES      "Conecciones"
+    IDS_Today_ES            "<Hoy>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_About_Launchpad_FR  "À propos de Launchpad"
+    IDS_Close_FR            "Fermer"
+    IDS_VERSION_Launchpad_FR 
+                            "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\nTous droits réservés\r\nwww.panoramicsoft.com\r\n"
+    IDS_NO_Programs_FR      "Aucun programme trouvé"
+    IDS_SELECT_Program_FR   "Choisissez un programme"
+    IDS_SELECT_Setting_FR   "Choisissez un paramétrage"
+    IDS_OPEN_File_FR        "Ouvrir le fichier"
+    IDS_SAVE_File_FR        "Enregistrer le fichier"
+    IDS_FILE_ExistOverwrite_FR 
+                            "Ce fichier existe déjà. Voulez-vous le remplacer?"
+    IDS_Name_FR             "Nom:"
+    IDS_Type_FR             "Type:"
+    IDS_Warning_FR          "Attention"
+    IDS_MY_Device_FR        "Mon appareil"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_FR     "Options"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Help_FR        "Aide"
+    IDS_MENU_About_FR       "À propos"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Quit_FR        "Quit"
+    IDS_MENU_Unlock_FR      "Déverrouiller"
+    IDS_MENU_Ok_FR          "Ok"
+    IDS_MENU_Cancel_FR      "Annuler"
+    IDS_MENU_RemoveItem_FR  "Supprimer l'élément"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram_FR  "Ajouter un programme"
+    IDS_MENU_AddSetting_FR  "Ajouter un paramétrage"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_LockItems_FR   "Verrouiller les éléments"
+    IDS_TOOLBAR_FAV_FR      "Favoris"
+    IDS_TOOLBAR_EXIT_FR     "Quitter"
+    IDS_SLIDER_Personal_FR  "Personnel"
+    IDS_SLIDER_Business_FR  "Travail"
+    IDS_TOOLBAR_PROGRAMS_FR "Program."
+    IDS_TOOLBAR_SETTINGS_FR "Paramèt."
+    IDS_SLIDER_Programs_FR  "Program."
+    IDS_SLIDER_Games_FR     "Jeux"
+    IDS_MENU_Open_FR        "Sélectionner"
+    IDS_MENU_Save_FR        "Enregistrer"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TRIAL_Over_FR       "Merci d'avoir essayé Panoramic Launchpad. Votre période d'essai est à présent terminée. Rendez vous sur le site qui vous a permis de télécharger cette version pour en faire l'achat."
+    IDS_Yes_FR              "Oui"
+    IDS_No_FR               "No"
+    IDS_On_FR               "Oui"
+    IDS_Off_FR              "Non"
+    IDS_Large_FR            "Grande"
+    IDS_Small_FR            "Petite"
+    IDS_Normal_FR           "Normale"
+    IDS_Windows_FR          "Windows"
+    IDS_Rocket_FR           "Fusée"
+    IDS_Default_FR          "Standard"
+    IDS_COLOR_Blue_FR       "Bleu"
+    IDS_COLOR_Green_FR      "Vert"
+    IDS_COLOR_Pink_FR       "Rose"
+    IDS_COLOR_Purple_FR     "Violet"
+    IDS_COLOR_Orange_FR     "Orange"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COLOR_Red_FR        "Rouge"
+    IDS_SLIDER_Apps_FR      "Apps"
+    IDS_SLIDER_Settings_FR  "Paramèt."
+    IDS_SLIDER_Utilities_FR "Utilit."
+    IDS_SLIDER_Music_FR     "Musique"
+    IDS_SLIDER_Folders_FR   "Dossiers"
+    IDS_SLIDER_Files_FR     "Fichiers"
+    IDS_SLIDER_Pictures_FR  "Images"
+    IDS_SLIDER_Favorites_FR "Favoris"
+    IDS_SLIDER_Videos_FR    "Vidéos"
+    IDS_CAT_General_FR      "Général"
+    IDS_SoftReset_FR        "Vous devrez probablement réinitialiser votre appareil pour que certains réglages prennent effet."
+    IDS_OPTION_ShowName_FR  "Afficher le nom:"
+    IDS_OPTION_HideOnAppLaunch_FR "Fermer au lancement d'une application:"
+    IDS_OPTION_SetTodayMenu_FR "Touche écran d'accueil:"
+    IDS_OPTION_SetStartMenu_FR "Icône menu démarrer:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTION_ColorScheme_FR "Couleur d'habillage:"
+    IDS_OPTION_IconSize_FR  "Taille icône:"
+    IDS_OPTION_LeftSliderTitle_FR "Titre de gauche de la touche glissante:"
+    IDS_OPTION_RightSliderTitle_FR "Titre de droite de la touche glissante:"
+    IDS_OPTION_StartMenu_FR "Menu démarrer:"
+    IDS_OPTION_SeparateBySection_FR "Ranger par onglet:"
+    IDS_MENU_AddFileFolder_FR "Ajouter fichier/dossier"
+    IDS_MENU_AddFavorite_FR "Ajouter un favori"
+    IDS_Back_FR             "Retour"
+    IDS_Connections_FR      "Connexions"
+    IDS_Today_FR            "<Ajourd'hui>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_About_Launchpad_IT  "Informazioni su Launchpad"
+    IDS_Close_IT            "Chiudere"
+    IDS_VERSION_Launchpad_IT 
+                            "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\nTutti i diritti riservati\r\nwww.panoramicsoft.com\r\n"
+    IDS_NO_Programs_IT      "N. programmi trovati"
+    IDS_SELECT_Program_IT   "Select Program"
+    IDS_SELECT_Setting_IT   "Selezionare Impostazione"
+    IDS_OPEN_File_IT        "Apri file"
+    IDS_SAVE_File_IT        "Salva file"
+    IDS_FILE_ExistOverwrite_IT "Il file esiste già. Vuoi sovrascriverlo?"
+    IDS_Name_IT             "Nome:"
+    IDS_Type_IT             "Tipo:"
+    IDS_Warning_IT          "Avvertenza"
+    IDS_MY_Device_IT        "Mio Device"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_IT     "Opzioni"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Help_IT        "Aiuto"
+    IDS_MENU_About_IT       "Info"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Quit_IT        "Quit"
+    IDS_MENU_Unlock_IT      "Sblocca"
+    IDS_MENU_Ok_IT          "Ok"
+    IDS_MENU_Cancel_IT      "Annulla"
+    IDS_MENU_RemoveItem_IT  "Rimuovi elemento"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram_IT  "Aggiungi link programma"
+    IDS_MENU_AddSetting_IT  "Aggiungi impostazioni di collegamento"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_LockItems_IT   "Bloccare gli oggetti"
+    IDS_TOOLBAR_FAV_IT      "Preferiti"
+    IDS_TOOLBAR_EXIT_IT     "Uscita"
+    IDS_SLIDER_Personal_IT  "Personali"
+    IDS_SLIDER_Business_IT  "Affari"
+    IDS_TOOLBAR_PROGRAMS_IT "Program."
+    IDS_TOOLBAR_SETTINGS_IT "Impostazioni"
+    IDS_SLIDER_Programs_IT  "Program."
+    IDS_SLIDER_Games_IT     "Giochi"
+    IDS_MENU_Open_IT        "Seleziona"
+    IDS_MENU_Save_IT        "Salvare"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TRIAL_Over_IT       "Ti ringraziamo per aver provato panoramica Launchpad. Il tuo periodo di prova si è ormai conclusa. Si prega di tornare alla posizione che ha fornito il download per l'acquisto di"
+    IDS_Yes_IT              "Sì"
+    IDS_No_IT               "No"
+    IDS_On_IT               "Su"
+    IDS_Off_IT              "Dis."
+    IDS_Large_IT            "Grande"
+    IDS_Small_IT            "Piccolo"
+    IDS_Normal_IT           "Normale"
+    IDS_Windows_IT          "Windows"
+    IDS_Rocket_IT           "Razzo"
+    IDS_Default_IT          "Default"
+    IDS_COLOR_Blue_IT       "Blu"
+    IDS_COLOR_Green_IT      "Verde"
+    IDS_COLOR_Pink_IT       "Rosa"
+    IDS_COLOR_Purple_IT     "Viola"
+    IDS_COLOR_Orange_IT     "Arancione"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COLOR_Red_IT        "Rosso"
+    IDS_SLIDER_Apps_IT      "Apps"
+    IDS_SLIDER_Settings_IT  "Impostaz."
+    IDS_SLIDER_Utilities_IT "Utilità"
+    IDS_SLIDER_Music_IT     "Musica"
+    IDS_SLIDER_Folders_IT   "Cartelle"
+    IDS_SLIDER_Files_IT     "File"
+    IDS_SLIDER_Pictures_IT  "Immagini"
+    IDS_SLIDER_Favorites_IT "Preferiti"
+    IDS_SLIDER_Videos_IT    "Video"
+    IDS_CAT_General_IT      "Generale"
+    IDS_SoftReset_IT        "Potrebbe essere necessario reimpostare il dispositivo soft per alcune delle modifiche abbiano effetto"
+    IDS_OPTION_ShowName_IT  "Visualizza Nome:"
+    IDS_OPTION_HideOnAppLaunch_IT "Nascondi sulla app lancio:"
+    IDS_OPTION_SetTodayMenu_IT "Oggi schermata del menu:"
+    IDS_OPTION_SetStartMenu_IT "Impostare l'icona del menu di avvio:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTION_ColorScheme_IT "Schema di colori:"
+    IDS_OPTION_IconSize_IT  "Icon size:"
+    IDS_OPTION_LeftSliderTitle_IT "Sinistra cursore titolo:"
+    IDS_OPTION_RightSliderTitle_IT "Diritto di scorrimento titolo:"
+    IDS_OPTION_StartMenu_IT "Start Menu:"
+    IDS_OPTION_SeparateBySection_IT "Separato dalla sezione:"
+    IDS_MENU_AddFileFolder_IT "Aggiungi file o cartella link"
+    IDS_MENU_AddFavorite_IT "Aggiungi Preferito"
+    IDS_Back_IT             "Indietro"
+    IDS_Connections_IT      "Connessioni"
+    IDS_Today_IT            "<Today>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_About_Launchpad_DU  "Over Launchpad"
+    IDS_Close_DU            "Sluiten"
+    IDS_VERSION_Launchpad_DU 
+                            "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\nAlle rechten voorbehouden\r\nwww.panoramicsoft.com\r\n"
+    IDS_NO_Programs_DU      "Geen programma's gevonden"
+    IDS_SELECT_Program_DU   "Select Program"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT_Setting_DU   "Selecteer Instellen"
+    IDS_OPEN_File_DU        "Bestand openen"
+    IDS_SAVE_File_DU        "Bestand opslaan"
+    IDS_FILE_ExistOverwrite_DU "Bestand al bestaat. Wilt u het overschrijven?"
+    IDS_Name_DU             "Naam:"
+    IDS_Type_DU             "Type:"
+    IDS_Warning_DU          "Waarschuwing"
+    IDS_MY_Device_DU        "Mijn apparaat"
+    IDS_TRIAL_Over_DU       "Bedankt voor het uitproberen van Panoramisch Launchpad. Uw proefperiode is nu voorbij. Ga terug naar de locatie die je download te kopen"
+    IDS_Yes_DU              "Ja"
+    IDS_No_DU               "Nee"
+    IDS_On_DU               "Aan"
+    IDS_Off_DU              "Uit"
+    IDS_Large_DU            "Grote"
+    IDS_Small_DU            "Klein"
+    IDS_Normal_DU           "Normaal"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_DU     "Opties"
+    IDS_MENU_Help_DU        "Help"
+    IDS_MENU_About_DU       "Over"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Unlock_DU      "Ontgrendelen"
+    IDS_MENU_Ok_DU          "Oke"
+    IDS_MENU_Cancel_DU      "Annuleren"
+    IDS_MENU_RemoveItem_DU  "Verwijder item"
+    IDS_MENU_LockItems_DU   "Lock objecten"
+    IDS_TOOLBAR_FAV_DU      "Favorieten"
+    IDS_TOOLBAR_EXIT_DU     "Afsluiten"
+    IDS_SLIDER_Personal_DU  "Persoonlijke"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram_DU  "Programma toevoegen link"
+    IDS_MENU_AddSetting_DU  "Add link Instellingen"
+    IDS_MENU_Quit_DU        "Quit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SLIDER_Business_DU  "Zaak"
+    IDS_TOOLBAR_PROGRAMS_DU "Programma's"
+    IDS_TOOLBAR_SETTINGS_DU "Paramèt."
+    IDS_SLIDER_Programs_DU  "Programma's"
+    IDS_SLIDER_Games_DU     "Games"
+    IDS_MENU_Open_DU        "Selecteer"
+    IDS_MENU_Save_DU        "Redden"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Windows_DU          "Windows"
+    IDS_Rocket_DU           "Raket"
+    IDS_Default_DU          "Standaard"
+    IDS_COLOR_Blue_DU       "Blauw"
+    IDS_COLOR_Green_DU      "Groen"
+    IDS_COLOR_Pink_DU       "Roze"
+    IDS_COLOR_Purple_DU     "Paars"
+    IDS_COLOR_Orange_DU     "Oranje"
+    IDS_COLOR_Red_DU        "Rood"
+    IDS_SLIDER_Apps_DU      "Apps"
+    IDS_SLIDER_Settings_DU  "Instellingen"
+    IDS_SLIDER_Utilities_DU "Utilities"
+    IDS_SLIDER_Music_DU     "Muziek"
+    IDS_SLIDER_Folders_DU   "Mappen"
+    IDS_SLIDER_Files_DU     "Bestanden"
+    IDS_SLIDER_Pictures_DU  "Pictures"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SLIDER_Favorites_DU "Favorieten"
+    IDS_SLIDER_Videos_DU    "Video's"
+    IDS_CAT_General_DU      "Algemeen"
+    IDS_SoftReset_DU        "Je kan het zo zijn dat zachte reset van uw apparaat om voor een aantal van de wijzigingen van kracht te worden"
+    IDS_OPTION_ShowName_DU  "Toon naam:"
+    IDS_OPTION_HideOnAppLaunch_DU "Verberg op app starten:"
+    IDS_OPTION_SetTodayMenu_DU "Stel vandaag scherm menu:"
+    IDS_OPTION_SetStartMenu_DU "Set Menu Start icoon:"
+    IDS_OPTION_ColorScheme_DU "Kleurenschema:"
+    IDS_OPTION_IconSize_DU  "Icon size:"
+    IDS_OPTION_LeftSliderTitle_DU "Resterende schuifknop titel:"
+    IDS_OPTION_RightSliderTitle_DU "Recht schuifknop titel:"
+    IDS_OPTION_StartMenu_DU "Menu Start:"
+    IDS_OPTION_SeparateBySection_DU "Gescheiden door sectie:"
+    IDS_MENU_AddFileFolder_DU "Voeg bestand/map link"
+    IDS_MENU_AddFavorite_DU "Favoriet toevoegen"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Back_DU             "Terug"
+    IDS_Connections_DU      "Aansluitingen"
+    IDS_Today_DU            "<Today>"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_About_Launchpad_PT  "Sobre Launchpad"
+    IDS_Close_PT            "Fechar"
+    IDS_VERSION_Launchpad_PT 
+                            "Launchpad\r\n%s\r\n\r\nCopyright 2009\r\nPanoramic Software Inc\r\nTodos os Direitos Reservados\r\nwww.panoramicsoft.com\r\n"
+    IDS_NO_Programs_PT      "Não programas encontrados"
+    IDS_SELECT_Program_PT   "Selecione Programa"
+    IDS_SELECT_Setting_PT   "Selecione Configuração"
+    IDS_OPEN_File_PT        "Aberto Arquivo"
+    IDS_SAVE_File_PT        "Salvar Arquivo"
+    IDS_FILE_ExistOverwrite_PT "Arquivo já existe. Gostaria de sobrescrever?"
+    IDS_Name_PT             "Nome:"
+    IDS_Type_PT             "Tipo:"
+    IDS_Warning_PT          "Aviso"
+    IDS_MY_Device_PT        "My Device"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_PT     "Opções"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Help_PT        "Ajuda"
+    IDS_MENU_About_PT       "Sobre"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Quit_PT        "Quit"
+    IDS_MENU_Unlock_PT      "Desbloquear"
+    IDS_MENU_Ok_PT          "Ok"
+    IDS_MENU_Cancel_PT      "Cancelar"
+    IDS_MENU_RemoveItem_PT  "Remover item"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_AddProgram_PT  "Adicionar link programa"
+    IDS_MENU_AddSetting_PT  "Adicionar definições de ligação"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_LockItems_PT   "Bloquear itens"
+    IDS_TOOLBAR_FAV_PT      "Favoritos"
+    IDS_TOOLBAR_EXIT_PT     "Sair"
+    IDS_SLIDER_Personal_PT  "Pessoal"
+    IDS_SLIDER_Business_PT  "Negócio"
+    IDS_TOOLBAR_PROGRAMS_PT "Programas"
+    IDS_TOOLBAR_SETTINGS_PT "Definições"
+    IDS_SLIDER_Programs_PT  "Programas"
+    IDS_SLIDER_Games_PT     "Jogos"
+    IDS_MENU_Open_PT        "Selecione"
+    IDS_MENU_Save_PT        "Salvar"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TRIAL_Over_PT       "Obrigado por experimentar Panorâmica Launchpad. Seu julgamento período já terminou. Por favor, volte para o local que desde o seu download a compra"
+    IDS_Yes_PT              "Sim"
+    IDS_No_PT               "Não"
+    IDS_On_PT               "Ligado"
+    IDS_Off_PT              "Desligado"
+    IDS_Large_PT            "Large"
+    IDS_Small_PT            "Pequeno"
+    IDS_Normal_PT           "Normal"
+    IDS_Windows_PT          "Windows"
+    IDS_Rocket_PT           "Foguete"
+    IDS_Default_PT          "Defeito"
+    IDS_COLOR_Blue_PT       "Azul"
+    IDS_COLOR_Green_PT      "Verde"
+    IDS_COLOR_Pink_PT       "Rosa"
+    IDS_COLOR_Purple_PT     "Purple"
+    IDS_COLOR_Orange_PT     "Laranja"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COLOR_Red_PT        "Vermelho"
+    IDS_SLIDER_Apps_PT      "Apps"
+    IDS_SLIDER_Settings_PT  "Definições"
+    IDS_SLIDER_Utilities_PT "Utilitários"
+    IDS_SLIDER_Music_PT     "Música"
+    IDS_SLIDER_Folders_PT   "Pastas"
+    IDS_SLIDER_Files_PT     "Arquivos"
+    IDS_SLIDER_Pictures_PT  "Fotos"
+    IDS_SLIDER_Favorites_PT "Favoritos"
+    IDS_SLIDER_Videos_PT    "Videos"
+    IDS_CAT_General_PT      "Geral"
+    IDS_SoftReset_PT        "Poderá ter de repor o dispositivo suave, para que alguns dos que as alterações tenham efeito"
+    IDS_OPTION_ShowName_PT  "Mostrar nome:"
+    IDS_OPTION_HideOnAppLaunch_PT "Ocultar na app lançamento:"
+    IDS_OPTION_SetTodayMenu_PT "Definir hoje tela do menu:"
+    IDS_OPTION_SetStartMenu_PT "Definir a Menu Iniciar ícone:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPTION_ColorScheme_PT "Esquema de cores:"
+    IDS_OPTION_IconSize_PT  "Icon size:"
+    IDS_OPTION_LeftSliderTitle_PT "Esquerda deslizante título:"
+    IDS_OPTION_RightSliderTitle_PT "Direito deslizante título:"
+    IDS_OPTION_StartMenu_PT "Menu Iniciar:"
+    IDS_OPTION_SeparateBySection_PT "Separada por secção:"
+    IDS_MENU_AddFileFolder_PT "Adicionar arquivo / pasta link"
+    IDS_MENU_AddFavorite_PT "Adicionar Favorito"
+    IDS_Back_PT             "Costas"
+    IDS_Connections_PT      "Conexões"
+    IDS_Today_PT            "<Today>"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Blank DIALOG  0, 0, 186, 191
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Blank, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "Launcherppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

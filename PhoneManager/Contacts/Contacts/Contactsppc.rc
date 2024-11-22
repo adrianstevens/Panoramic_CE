@@ -1,0 +1,352 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_Contacts            ICON                    "Contacts.ico"
+IDI_ICO_Contacts        ICON                    "Res\\Contacts.ico"
+IDI_ICO_Favorites       ICON                    "Res\\Favorites.ico"
+IDI_ICO_History         ICON                    "Res\\History.ico"
+IDI_ICO_Folder          ICON                    "Res\\folder.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Contactsppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Unlock MENU 
+BEGIN
+    MENUITEM "Unlock",                      IDMENU_Unlock
+END
+
+IDR_MENU_OkCancel MENU 
+BEGIN
+    MENUITEM "Ok",                          IDMENU_Ok
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 200, 205
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Add DIALOG  0, 0, 186, 191
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+    END
+
+    IDD_DLG_Add, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuArray       GIF                     "..\\..\\Common\\Res\\Green\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\..\\Common\\Res\\Green\\menu_array_vga.png"
+IDR_PNG_Selector        GIF                     "..\\..\\Common\\Res\\Green\\select.png"
+IDR_PNG_FavoritesImgSelect GIF                     "..\\..\\Common\\Res\\Green\\Img_select.png"
+IDR_PNG_FavoritesImgSelectVGA GIF                     "..\\..\\Common\\Res\\Green\\Img_select_vga.png"
+IDR_PNG_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\Green\\back.png"
+IDR_PNG_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\Green\\back_vga.png"
+IDR_PNG_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\Green\\btn.png"
+IDR_PNG_Glow            GIF                     "..\\..\\Common\\Res\\Green\\glow.png"
+IDR_PNG_GlowVGA         GIF                     "..\\..\\Common\\Res\\Green\\glow_vga.png"
+IDR_PNG_Group           GIF                     "..\\..\\Common\\Res\\group.png"
+IDR_PNG_ToolbarSelector_p GIF                     "..\\..\\Common\\Res\\tool_selected.png"
+IDR_PNG_ToolbarSelector_l GIF                     "..\\..\\Common\\Res\\tool_selected_lan.png"
+IDR_PNG_ToolbarSelectorVGA_p GIF                     "..\\..\\Common\\Res\\tool_selected_vga.png"
+IDR_PNG_ToolbarSelectorVGA_l GIF                     "..\\..\\Common\\Res\\tool_selected_lan_vga.png"
+IDR_PNG_ToolbarIconArray GIF                     "..\\..\\Common\\Res\\tool_icons.png"
+IDR_PNG_ToolbarIconArrayVGA GIF                     "..\\..\\Common\\Res\\tool_icons_vga.png"
+IDR_PNG_FavoritesAdd    GIF                     "..\\..\\Common\\Res\\add.png"
+IDR_PNG_FavoritesAddVGA GIF                     "..\\..\\Common\\Res\\add_vga.png"
+IDR_PNG_FavoritesGrid   GIF                     "..\\..\\Common\\Res\\grid.png"
+IDR_PNG_FavoritesGridVGA GIF                     "..\\..\\Common\\Res\\grid_vga.png"
+IDR_PNG_FavoritesImgAlpha GIF                     "..\\..\\Common\\Res\\Img_alpha.png"
+IDR_PNG_FavoritesImgAlphaVGA GIF                     "..\\..\\Common\\Res\\Img_alpha_vga.png"
+IDR_PNG_FavoritesImgBorder GIF                     "..\\..\\Common\\Res\\Img_border.png"
+IDR_PNG_FavoritesImgBorderVGA GIF                     "..\\..\\Common\\Res\\Img_border_vga.png"
+IDR_PNG_FavoritesImgDefault GIF                     "..\\..\\Common\\Res\\Img_default55.png"
+IDR_PNG_FavoritesImgDefaultVGA GIF                     "..\\..\\Common\\Res\\Img_default100.png"
+IDR_PNG_FavoritesImgShadow GIF                     "..\\..\\Common\\Res\\Img_shadow.png"
+IDR_PNG_FavoritesImgShadowVGA GIF                     "..\\..\\Common\\Res\\Img_shadow_vga.png"
+IDR_PNG_FavoritesNameBbl GIF                     "..\\..\\Common\\Res\\Name_bubble.png"
+IDR_PNG_FavoritesNameBblVGA GIF                     "..\\..\\Common\\Res\\Name_bubble_vga.png"
+IDR_PNG_DetailsBtn      GIF                     "..\\..\\Common\\Res\\btn.png"
+IDR_PNG_FavoritesSlider GIF                     "..\\..\\Common\\Res\\slider.png"
+IDR_PNG_FavoritesSliderLan GIF                     "..\\..\\Common\\Res\\slider_lan.png"
+IDR_PNG_FavoritesSliderBg GIF                     "..\\..\\Common\\Res\\slider_bg.png"
+IDR_PNG_FavoritesSliderBgLan GIF                     "..\\..\\Common\\Res\\slider_bg_lan.png"
+IDR_PNG_FavoritesSliderVGA GIF                     "..\\..\\Common\\Res\\slider_vga.png"
+IDR_PNG_FavoritesSliderLanVGA GIF                     "..\\..\\Common\\Res\\slider_lan_vga.png"
+IDR_PNG_FavoritesSliderBgVGA GIF                     "..\\..\\Common\\Res\\slider_bg_vga.png"
+IDR_PNG_FavoritesSliderBgLanVGA GIF                     "..\\..\\Common\\Res\\slider_bg_lan_vga.png"
+IDR_PNG_FavoritesArrowArray GIF                     "..\\..\\Common\\Res\\arrow_array.png"
+IDR_PNG_FavoritesArrowArrayVGA GIF                     "..\\..\\Common\\Res\\arrow_array_vga.png"
+IDR_PNG_DetailsDefault  GIF                     "..\\..\\Common\\Res\\Img_default_details.png"
+IDR_PNG_DetailsDefaultVGA GIF                     "..\\..\\Common\\Res\\Img_default_details_vga.png"
+IDR_PNG_ContactsBorder  GIF                     "..\\..\\Common\\Res\\cnt_border.png"
+IDR_PNG_ContactsBorderVGA GIF                     "..\\..\\Common\\Res\\cnt_border_vga.png"
+IDR_PNG_ContactsSelector GIF                     "..\\..\\Common\\Res\\cnt_sel.png"
+IDR_PNG_ContactsLetterBubble GIF                     "..\\..\\Common\\Res\\letter_bubble.png"
+IDR_PNG_ContactsLetterBubbleVGA GIF                     "..\\..\\Common\\Res\\letter_bubble_vga.png"
+IDR_PNG_Font            GIF                     "..\\..\\Common\\Res\\font.png"
+IDR_PNG_FontVGA         GIF                     "..\\..\\Common\\Res\\font_vga.png"
+IDR_PNG_B_MenuArray     GIF                     "..\\..\\Common\\RES\\blue\\menu_array.png"
+IDR_PNG_B_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\blue\\menu_array_vga.png"
+IDR_PNG_O_MenuArray     GIF                     "..\\..\\Common\\RES\\orange\\menu_array.png"
+IDR_PNG_O_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\orange\\menu_array_vga.png"
+IDR_PNG_PI_MenuArray    GIF                     "..\\..\\Common\\RES\\pink\\menu_array.png"
+IDR_PNG_PI_MenuArrayVGA GIF                     "..\\..\\Common\\RES\\pink\\menu_array_vga.png"
+IDR_PNG_P_MenuArray     GIF                     "..\\..\\Common\\RES\\purple\\menu_array.png"
+IDR_PNG_P_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\purple\\menu_array_vga.png"
+IDR_PNG_R_MenuArray     GIF                     "..\\..\\Common\\RES\\red\\menu_array.png"
+IDR_PNG_R_MenuArrayVGA  GIF                     "..\\..\\Common\\RES\\red\\menu_array_vga.png"
+IDR_PNG_B_Selector      GIF                     "..\\..\\Common\\RES\\blue\\select.png"
+IDR_PNG_O_Selector      GIF                     "..\\..\\Common\\RES\\orange\\select.png"
+IDR_PNG_PI_Selector     GIF                     "..\\..\\Common\\RES\\pink\\select.png"
+IDR_PNG_P_Selector      GIF                     "..\\..\\Common\\RES\\purple\\select.png"
+IDR_PNG_R_Selector      GIF                     "..\\..\\Common\\RES\\red\\select.png"
+IDR_PNG_B_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\blue\\btn_vga.png"
+IDR_PNG_B_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\blue\\back.png"
+IDR_PNG_B_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\blue\\back_vga.png"
+IDR_PNG_B_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\blue\\btn.png"
+IDR_PNG_O_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\orange\\btn_vga.png"
+IDR_PNG_O_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\orange\\btn.png"
+IDR_PNG_O_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\orange\\back.png"
+IDR_PNG_O_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\orange\\back_vga.png"
+IDR_PNG_PI_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\pink\\back.png"
+IDR_PNG_PI_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\pink\\back_vga.png"
+IDR_PNG_PI_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\pink\\btn.png"
+IDR_PNG_PI_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\pink\\btn_vga.png"
+IDR_PNG_P_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\purple\\back.png"
+IDR_PNG_P_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\purple\\back_vga.png"
+IDR_PNG_P_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\purple\\btn.png"
+IDR_PNG_P_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\purple\\btn_vga.png"
+IDR_PNG_R_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\red\\btn_vga.png"
+IDR_PNG_R_DetailsBackGreenVGA GIF                     "..\\..\\Common\\RES\\red\\back_vga.png"
+IDR_PNG_R_DetailsBackGreen GIF                     "..\\..\\Common\\RES\\red\\back.png"
+IDR_PNG_R_DetailsBtnGreen GIF                     "..\\..\\Common\\RES\\red\\btn.png"
+IDR_PNG_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\green\\btn_vga.png"
+IDR_PNG_B_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\blue\\Img_select_vga.png"
+IDR_PNG_B_Glow          GIF                     "..\\..\\Common\\RES\\blue\\glow.png"
+IDR_PNG_B_GlowVGA       GIF                     "..\\..\\Common\\RES\\blue\\glow_vga.png"
+IDR_PNG_B_FavSelect     GIF                     "..\\..\\Common\\RES\\blue\\Img_select.png"
+IDR_PNG_O_Glow          GIF                     "..\\..\\Common\\RES\\orange\\glow.png"
+IDR_PNG_O_GlowVGA       GIF                     "..\\..\\Common\\RES\\orange\\glow_vga.png"
+IDR_PNG_O_FavSelect     GIF                     "..\\..\\Common\\RES\\orange\\Img_select.png"
+IDR_PNG_O_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\orange\\Img_select_vga.png"
+IDR_PNG_PI_Glow         GIF                     "..\\..\\Common\\RES\\pink\\glow.png"
+IDR_PNG_PI_GlowVGA      GIF                     "..\\..\\Common\\RES\\pink\\glow_vga.png"
+IDR_PNG_PI_FavSelect    GIF                     "..\\..\\Common\\RES\\pink\\Img_select.png"
+IDR_PNG_PI_FavSelectVGA GIF                     "..\\..\\Common\\RES\\pink\\Img_select_vga.png"
+IDR_PNG_P_Glow          GIF                     "..\\..\\Common\\RES\\purple\\glow.png"
+IDR_PNG_P_GlowVGA       GIF                     "..\\..\\Common\\RES\\purple\\glow_vga.png"
+IDR_PNG_P_FavSelect     GIF                     "..\\..\\Common\\RES\\purple\\Img_select.png"
+IDR_PNG_P_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\purple\\Img_select_vga.png"
+IDR_PNG_R_Glow          GIF                     "..\\..\\Common\\RES\\red\\glow.png"
+IDR_PNG_R_GlowVGA       GIF                     "..\\..\\Common\\RES\\red\\glow_vga.png"
+IDR_PNG_R_FavSelect     GIF                     "..\\..\\Common\\RES\\red\\Img_select.png"
+IDR_PNG_R_FavSelectVGA  GIF                     "..\\..\\Common\\RES\\red\\Img_select_vga.png"
+IDR_PNG_B_Arrow         GIF                     "..\\..\\Common\\RES\\blue\\arrow.png"
+IDR_PNG_B_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\blue\\arrow_lan.png"
+IDR_PNG_B_ArrowVGA      GIF                     "..\\..\\Common\\RES\\blue\\vga_arrow.png"
+IDR_PNG_B_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\blue\\vga_arrow_lan.png"
+IDR_PNG_Arrow_LanVGA    GIF                     "..\\..\\Common\\RES\\green\\vga_arrow_lan.png"
+IDR_PNG_Arrow           GIF                     "..\\..\\Common\\RES\\green\\arrow.png"
+IDR_PNG_Arrow_Lan       GIF                     "..\\..\\Common\\RES\\green\\arrow_lan.png"
+IDR_PNG_ArrowVGA        GIF                     "..\\..\\Common\\RES\\green\\vga_arrow.png"
+IDR_PNG_O_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\orange\\vga_arrow_lan.png"
+IDR_PNG_O_Arrow         GIF                     "..\\..\\Common\\RES\\orange\\arrow.png"
+IDR_PNG_O_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\orange\\arrow_lan.png"
+IDR_PNG_O_ArrowVGA      GIF                     "..\\..\\Common\\RES\\orange\\vga_arrow.png"
+IDR_PNG_PI_ArrowVGA     GIF                     "..\\..\\Common\\RES\\pink\\vga_arrow.png"
+IDR_PNG_PI_Arrow_LanVGA GIF                     "..\\..\\Common\\RES\\pink\\vga_arrow_lan.png"
+IDR_PNG_PI_Arrow        GIF                     "..\\..\\Common\\RES\\pink\\arrow.png"
+IDR_PNG_PI_Arrow_Lan    GIF                     "..\\..\\Common\\RES\\pink\\arrow_lan.png"
+IDR_PNG_P_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\purple\\vga_arrow_lan.png"
+IDR_PNG_P_Arrow         GIF                     "..\\..\\Common\\RES\\purple\\arrow.png"
+IDR_PNG_P_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\purple\\arrow_lan.png"
+IDR_PNG_P_ArrowVGA      GIF                     "..\\..\\Common\\RES\\purple\\vga_arrow.png"
+IDR_PNG_R_ArrowVGA      GIF                     "..\\..\\Common\\RES\\red\\vga_arrow.png"
+IDR_PNG_R_Arrow_LanVGA  GIF                     "..\\..\\Common\\RES\\red\\vga_arrow_lan.png"
+IDR_PNG_R_Arrow         GIF                     "..\\..\\Common\\RES\\red\\arrow.png"
+IDR_PNG_R_Arrow_Lan     GIF                     "..\\..\\Common\\RES\\red\\arrow_lan.png"
+IDR_PNG_DetailsBtnVGA   GIF                     "..\\..\\Common\\RES\\btn_vga.png"
+IDR_PNG_HistoryArray    GIF                     "..\\..\\Common\\Res\\history.png"
+IDR_PNG_HistoryArrayVGA GIF                     "..\\..\\Common\\Res\\history_vga.png"
+IDR_PNG_CallBg          GIF                     "..\\..\\Common\\RES\\callbg.png"
+IDR_PNG_CallBgVGA       GIF                     "..\\..\\Common\\RES\\callbg_vga.png"
+IDR_PNG_HistoryArrow    GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\arrows.png"
+IDR_PNG_HistoryArrowVGA GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\arrows_vga.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Pano Contacts"
+    IDC_Contacts            "Contacts"
+    IDS_MENU_SetContactPicture "Set contact picture"
+    IDS_MENU_SetContactCamera "Take picture of contact"
+    IDS_MENU_SetContactRingtone "Set contact ringtone"
+    IDS_Yes                 "Yes"
+    IDS_No                  "No"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Conversation   "Conversation history"
+    IDS_MENU_Options        "Options"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Help           "Help"
+    IDS_MENU_About          "About"
+    IDS_MENU_Quit           "Quit"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_HELP                "HELP"
+    IDS_MENU_Unlock         "Unlock"
+    IDS_MENU_Ok             "Ok"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_AddItem        "Add contact"
+    IDS_MENU_RemoveItem     "Remove contact"
+    IDS_MENU_EditContact    "Edit contact"
+    IDS_MENU_NewContact     "New contact"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_DeleteContact  "Delete contact"
+    IDS_MENU_SmartArrange   "Smart arrange"
+    IDS_MENU_LockItems      "Lock items"
+    IDS_TOOLBAR_FAV         "Favorites"
+    IDS_TOOLBAR_CONTACTS    "Contacts"
+    IDS_TOOLBAR_HISTORY     "History"
+    IDS_TOOLBAR_EXIT        "Exit"
+    IDS_SLIDER_Personal     "Personal"
+    IDS_SLIDER_Business     "Business"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "Contactsppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

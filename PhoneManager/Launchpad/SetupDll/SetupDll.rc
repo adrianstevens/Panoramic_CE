@@ -1,0 +1,183 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifdef EVC4ISS
+#include "newres.h"
+#ifndef WIN32_PLATFORM_WFSP
+#include "afxres.h"
+#endif
+#else
+#include "afxres.h"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifdef EVC4ISS\r\n"
+    "#include ""newres.h""\r\n"
+    "#ifndef WIN32_PLATFORM_WFSP\r\n"
+    "#include ""afxres.h""\r\n"
+    "#endif\r\n"
+    "#else\r\n"
+    "#include ""afxres.h""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""SetupDll.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    MENUITEM "Accept",                      IDMENU_Accept
+    MENUITEM "Deny",                        IDMENU_Deny
+END
+
+IDR_MENU_InstallCancel MENU 
+BEGIN
+    MENUITEM "Install",                     IDMENU_Install
+END
+
+IDR_MENU_OkCancel MENU 
+BEGIN
+    MENUITEM "Ok",                          IDMENU_Ok
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+EULA                    TXT                     "eula.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 157, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Ok             "Ok"
+    IDS_MENU_Accept         "Accept"
+    IDS_MENU_Deny           "Deny"
+    IDS_MENU_Install        "Install"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_CMPT_Install        "Install selected components:"
+    IDS_CMPT_Battery        "Battery Monitor"
+    IDS_CMPT_Explorer       "File Explorer Pro"
+    IDS_CMPT_Regedit        "Registry Editor"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CMPT_Notepad        "Notepad"
+    IDS_CMPT_Taskman        "Task Manager"
+    IDS_CMPT_SciCalc        "Calculator Pro"
+    IDS_CMPT_FreeCell       "FreeCell"
+    IDS_CMPT_MineSweeper    "Minesweeper"
+    IDS_CMPT_Tasks          "Task Switcher"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_Contacts        "Select initial settings:"
+    IDS_MSG_DeleteSettings  "Would you like to delete your saved settings?"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "SetupDll.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

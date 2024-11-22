@@ -1,0 +1,8 @@
+EXPORTS
+
+PHExtInitialize           @1
+PHExtShowPhoneMsg         @2
+PHExtGetPhoneViewInfo    @3
+PHExtGetPhoneControlMetrics @4
+PHExtDoVerb                @5
+PHExtOnPhoneStateChange		@6

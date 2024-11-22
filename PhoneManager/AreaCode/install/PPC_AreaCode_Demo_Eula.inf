@@ -1,0 +1,56 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Area Code Genius"
+InstallDir=%CE1%\Panoramic\AreaCode
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE11%
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"PanoAreaCode.exe" = 1
+"areacodehelp.htm" = 1
+"AreaCode90x90_192.png" = 1
+"eula.exe" = 1
+"eula.txt" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\AreaCode,StartUp,0x00000001,00,00,00,00
+HKLM,Security\Shell\StartInfo\Start\Panoramic Area Code Genius.lnk,Icon,0x00000000,%InstallDir%\AreaCode90x90_192.png
+
+[Files00.ARM720]
+"PanoAreaCode.exe",,,0x40000003
+"AreaCode90x90_192.png",,,0x40000003
+"eula.exe",,,0x40000003
+"eula.txt",,,0x40000003
+
+[Files01.ARM720]
+"areacodehelp.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Area Code Genius", 0, "panoareacode.exe"
+
+[Shortcuts02.ARM720]
+"Panoramic Area Code Genius.lnk", 0, "areacodehelp.htm"
+
+
+
+

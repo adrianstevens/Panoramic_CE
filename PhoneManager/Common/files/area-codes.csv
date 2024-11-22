@@ -1,0 +1,559 @@
+1,,011,1,North America,,,25,44,19,,USD/CAD ($),English/Spanish/French,528720588,2008,
+1,,011,1,Canada,,,25,44,19,Ottawa,CAD ($),English/French,33783000,2009,1
+1,,011,1,Unitied States,,,25,44,19,Washington DC,USD ($),English/Spanish,528720588,2008,2
+64,,00,0,New Zealand,,12,18,45,81,Wellington,New Zealand dollar (NZD),English/Maori ,4315800,2009,25
+1,201,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,202,011,1,United States,Washington D.C.,-5,26,53,17,Washington,US dollar ($)(USD),English,591833,2008,2
+1,203,011,1,United States,Connecticut,-5,26,53,17,Hartford,US dollar ($)(USD),English,3501252,2008,2
+1,204,011,1,Canada,Manitoba,-6,24,53,10,Winnipeg,Canadian dollar ($) (CAD),English/French,1213815,2009,1
+1,205,011,1,United States,Alabama,-6,25,53,22,Montgomery,US dollar ($)(USD),English,4661900,2008,2
+1,206,011,1,United States,Washington,-8,23,46,16,Olympia,US dollar ($)(USD),English,6549224,2008,2
+1,207,011,1,United States,Maine,-5,27,49,14,Augusta,US dollar ($)(USD),English,1316456,2008,2
+1,208,011,1,United States,Idaho,-7,24,43,14,Boise,US dollar ($)(USD),English,1523816,2008,2
+1,209,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,210,011,1,United States,Texas,-6,25,44,22,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,211,011,1,,Community Services,,,,,,,,,,
+1,212,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,213,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,214,011,1,United States,Texas,-6,25,44,22,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,215,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,216,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,217,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,218,011,1,United States,Minnesota,-6,25,50,14,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,219,011,1,United States,Indiana,-5,25,53,17,Indianapolis,US dollar ($)(USD),English,6376792,2008,2
+1,224,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,225,011,1,United States,Louisiana,-6,26,41,23,Baton Rouge,US dollar ($)(USD),English,4410796,2008,2
+1,226,011,1,Canada,Ontario,-5,25,53,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,228,011,1,United States,Mississippi,-6,26,42,22,Jackson,US dollar ($)(USD),English,2938618,2008,2
+1,229,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,231,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,234,011,1,United States,Ohio,-5,25,56,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,236,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,239,011,1,United States,Florida,-5,25,57,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,240,011,1,United States,Maryland,-5,26,52,19,Annapolis,US dollar ($)(USD),English,5633597,2008,2
+1,242,011,1,Bahamas,,-5,27,43,30,Nassau,Bahamian dollar ($) (BSD),English,330549,2007,3
+1,246,011,1,Barbados,,-4,27,58,36,Bridgetown,Barbadian dollar ($) (BBD),English,279000,2006,4
+1,248,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,250,011,1,Canada,British Columbia,-8,24,40,11,Victoria,Canadian dollar ($) (CAD),English/French,4419974,2009,1
+1,251,011,1,United States,Alabama,-6,25,53,22,Montgomery,US dollar ($)(USD),English,4661900,2008,2
+1,252,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,253,011,1,United States,Washington,-8,23,46,16,Olympia,US dollar ($)(USD),English,6549224,2008,2
+1,254,011,1,United States,Texas,-6,25,44,22,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,256,011,1,United States,Alabama,-6,25,53,22,Montgomery,US dollar ($)(USD),English,4661900,2008,2
+1,260,011,1,United States,Indiana,-5,25,53,17,Indianapolis,US dollar ($)(USD),English,6376792,2008,2
+1,262,011,1,United States,Wisconsin,-6,25,51,15,Madison,US dollar ($)(USD),English,5627967,2008,2
+1,264,011,1,Anguilla,,-4,26,64,34,The Valley,E Caribbean dollar (XCD),English,13477,2006,5
+1,267,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,268,011,1,Antigua & Barbuda,,-4,27,55,35,Saint John's,E Caribbean dollar (XCD),English,85632,2009,6
+1,269,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,270,011,1,United States,Kentucky,-6,25,55,20,Frankfort,US dollar ($)(USD),English,4269245,2008,2
+1,276,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,278,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,281,011,1,United States,Texas,-6,25,44,22,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,283,011,1,United States,Ohio,-5,25,56,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,284,011,1,British Virgin Islands,,-4,27,53,34,Road Town,US dollar ($)(USD),English,22016,2005,7
+1,289,011,1,Canada,Ontario,-5,25,55,14,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,301,011,1,United States,Maryland,-5,26,52,19,Annapolis,US dollar ($)(USD),English,5633597,2008,2
+1,302,011,1,United States,Delaware,-5,26,52,19,Dover,US dollar ($)(USD),English,873092,2008,2
+1,303,011,1,United States,Colorado,-7,24,50,18,Denver,US dollar ($)(USD),English,4939456,2008,2
+1,304,011,1,United States,West Virginia,-5,26,48,19,Charleston,US dollar ($)(USD),English,1812035,2007,2
+1,305,011,1,United States,Florida,-5,26,50,28,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,306,011,1,Canada,Saskatchewan,-6,24,49,8,Regina,Canadian dollar ($) (CAD),English/French,1015985,2008,1
+1,307,011,1,United States,Wyoming,-7,24,47,15,Cheyenne,US dollar ($)(USD),English,532668,2008,2
+1,308,011,1,United States,Nebraska,-6,24,50,16,Lincoln,US dollar ($)(USD),English,1783432,2008,2
+1,309,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,310,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,311,011,1,,Local or Gov Use,,,,,,,,,,
+1,312,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,313,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,314,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,315,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,316,011,1,United States,Kansas,-6,25,47,18,Topeka,US dollar ($)(USD),English,2802134,2008,2
+1,317,011,1,United States,Indiana,-5,25,53,17,Indianapolis,US dollar ($)(USD),English,6376792,2008,2
+1,318,011,1,United States,Louisiana,-6,26,41,24,Baton Rouge,US dollar ($)(USD),English,4410796,2008,2
+1,319,011,1,United States,Iowa,-6,24,55,17,Des Moines,US dollar ($)(USD),English,3002555,2008,2
+1,320,011,1,United States,Minnesota,-6,24,56,13,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,321,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,323,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,325,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,330,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,331,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,334,011,1,United States,Alabama,-6,25,53,22,Montgomery,US dollar ($)(USD),English,4661900,2008,2
+1,336,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,337,011,1,United States,Louisiana,-6,26,41,24,Baton Rouge,US dollar ($)(USD),English,4410796,2008,2
+1,339,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,340,011,1,U.S. Virgin Islands,,-4,28,46,35,Charlotte Amalie,US dollar ($)(USD),English,108448,2007,8
+1,341,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,345,011,1,Cayman Islands,,-5,27,42,35,George Town,Cayman Is dollar (KYD),English,51900,2006,9
+1,347,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,351,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,352,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,360,011,1,United States,Washington,-8,23,46,16,Olympia,US dollar ($)(USD),English,6549224,2008,2
+1,361,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,369,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,380,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,385,011,1,United States,Utah,-7,23,52,17,Salt Lake City,US dollar ($)(USD),English,2736424,2008,2
+1,386,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,401,011,1,United States,Rhode Island,-5,26,55,15,Providence,US dollar ($)(USD),English,1050788,2008,2
+1,402,011,1,United States,Nebraska,-6,23,58,17,Lincoln,US dollar ($)(USD),English,1783432,2008,2
+1,403,011,1,Canada,Alberta,-7,24,45,7,Edmonton,Canadian dollar ($) (CAD),English/French,3585142,2008,1
+1,404,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,405,011,1,United States,Oklahoma,-6,25,46,21,Oklahoma City,US dollar ($)(USD),English,3617316,2008,2
+1,406,011,1,United States,Montana,-7,24,47,14,Helena,US dollar ($)(USD),English,967440,2008,2
+1,407,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,408,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,409,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,410,011,1,United States,Maryland,-5,26,52,19,Annapolis,US dollar ($)(USD),English,5633597,2008,2
+1,411,011,1,,Information,,,,,,,,,,
+1,412,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,413,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,414,011,1,United States,Wisconsin,-6,23,62,14,Madison,US dollar ($)(USD),English,5627967,2008,2
+1,415,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,416,011,1,Canada,Ontario,-5,25,55,14,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,417,011,1,United States,Missouri,-6,24,56,20,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,418,011,1,Canada,Quebec,-5,25,58,13,Quebec City,Canadian dollar ($) (CAD),English/French,7750504,2008,1
+1,419,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,423,011,1,United States,Tennessee,-5,25,53,20,Nashville,US dollar ($)(USD),English,6214888,2008,2
+1,424,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,425,011,1,United States,Washington,-8,23,46,16,Olympia,US dollar ($)(USD),English,6549224,2008,2
+1,430,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,432,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,434,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,435,011,1,United States,Utah,-7,23,52,17,Salt Lake City,US dollar ($)(USD),English,2736424,2008,2
+1,438,011,1,Canada,Quebec,-5,25,58,13,Quebec City,Canadian dollar ($) (CAD),English/French,7750504,2008,1
+1,440,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,441,011,1,Bermuda,,-4,27,48,26,Hamilton,Bermudian dollar (BMD),English/Portuguese,67837,2009,10
+1,442,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,443,011,1,United States,Maryland,-5,26,52,19,Annapolis,US dollar ($)(USD),English,5633597,2008,2
+1,450,011,1,Canada,Quebec,-5,25,58,13,Quebec City,Canadian dollar ($) (CAD),English/French,7750504,2008,1
+1,456,011,1,,International call,,,,,,,,,,
+1,464,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,469,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,470,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,473,011,1,Grenada,,-4,28,48,39,St. George's,E Caribbean dollar (XCD),English/Patois,110000,2005,11
+1,475,011,1,United States,Connecticut,-5,26,53,17,Hartford,US dollar ($)(USD),English,3501252,2008,2
+1,478,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,479,011,1,United States,Arkansas,-6,24,56,21,Little Rock,US dollar ($)(USD),English,2855390,2008,2
+1,480,011,1,United States,Arizona,-7,23,53,21,Phoenix,US dollar ($)(USD),English,6500180,2008,2
+1,484,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,500,011,1,,Communications Services,,,,,,,,,,
+1,501,011,1,United States,Arkansas,-6,24,56,21,Little Rock,US dollar ($)(USD),English,2855390,2008,2
+1,502,011,1,United States,Kentucky,-5,25,55,20,Frankfort,US dollar ($)(USD),English,4269245,2008,2
+1,503,011,1,United States,Oregon,-8,24,38,17,Salem,US dollar ($)(USD),English,3747455,2008,2
+1,504,011,1,United States,Louisiana,-6,26,41,24,Baton Rouge,US dollar ($)(USD),English,4410796,2008,2
+1,505,011,1,United States,New Mexico,-7,24,47,23,Santa Fe,US dollar ($)(USD),English,1984356,2008,2
+1,506,011,1,Canada,New Brunswick,-4,26,57,14,Fredericton,Canadian dollar ($) (CAD),English/French,734000,2008,1
+1,507,011,1,United States,Minnesota,-6,25,50,14,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,508,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,509,011,1,United States,Washington,-8,23,46,16,Olympia,US dollar ($)(USD),English,6549224,2008,2
+1,510,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,512,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,513,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,514,011,1,Canada,Quebec,-5,25,58,13,Quebec City,Canadian dollar ($) (CAD),English/French,7750504,2008,1
+1,515,011,1,United States,Iowa,-6,24,55,17,Des Moines,US dollar ($)(USD),English,3002555,2008,2
+1,516,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,517,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,518,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,519,011,1,Canada,Ontario,-5,26,49,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,520,011,1,United States,Arizona,-7,23,53,21,Phoenix,US dollar ($)(USD),English,6500180,2008,2
+1,530,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,540,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,541,011,1,United States,Oregon,-8,24,38,17,Salem,US dollar ($)(USD),English,3747455,2008,2
+1,551,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,555,011,1,,Directory Assistance,,,,,,,,,,
+1,557,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,559,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,561,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,562,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,563,011,1,United States,Iowa,-6,24,55,17,Des Moines,US dollar ($)(USD),English,3002555,2008,2
+1,564,011,1,United States,Washington,-8,23,46,16,Olympia,US dollar ($)(USD),English,6549224,2008,2
+1,567,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,570,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,571,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,573,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,574,011,1,United States,Indiana,-5,25,53,17,Indianapolis,US dollar ($)(USD),English,6376792,2008,2
+1,575,011,1,United States,New Mexico,-7,24,47,23,Santa Fe,US dollar ($)(USD),English,1984356,2008,2
+1,580,011,1,United States,Oklahoma,-6,25,46,21,Oklahoma City,US dollar ($)(USD),English,3617316,2008,2
+1,585,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,586,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,600,011,1,,Special needs,,,,,,,,,,
+1,601,011,1,United States,Mississippi,-6,26,42,22,Jackson,US dollar ($)(USD),English,2938618,2008,2
+1,602,011,1,United States,Arizona,-7,23,53,21,Phoenix,US dollar ($)(USD),English,6500180,2008,2
+1,603,011,1,United States,New Hampshire,-5,26,55,15,Concord,US dollar ($)(USD),English,1315809,2008,2
+1,604,011,1,Canada,British Columbia,-8,24,40,12,Victoria,Canadian dollar ($) (CAD),English/French,4419974,2009,1
+1,605,011,1,United States,South Dakota,-6,24,51,16,Pierre,US dollar ($)(USD),English,804194,2008,2
+1,606,011,1,United States,Kentucky,-5,25,55,20,Frankfort,US dollar ($)(USD),English,4269245,2008,2
+1,607,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,608,011,1,United States,Wisconsin,-6,23,62,14,Madison,US dollar ($)(USD),English,5627967,2008,2
+1,609,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,610,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,611,011,1,,Repair Service,,,,,,,,,,
+1,612,011,1,United States,Minnesota,-6,25,50,14,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,613,011,1,Canada,Ontario,-5,26,49,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,614,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,615,011,1,United States,Tennessee,-6,25,53,20,Nashville,US dollar ($)(USD),English,6214888,2008,2
+1,616,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,617,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,618,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,619,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,620,011,1,United States,Kansas,-6,24,52,19,Topeka,US dollar ($)(USD),English,2802134,2008,2
+1,623,011,1,United States,Arizona,-7,23,53,21,Phoenix,US dollar ($)(USD),English,6500180,2008,2
+1,626,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,627,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,628,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,630,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,631,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,636,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,641,011,1,United States,Iowa,-6,24,55,17,Des Moines,US dollar ($)(USD),English,3002555,2008,2
+1,646,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,647,011,1,Canada,Ontario,-5,26,49,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,649,011,1,Turks & Caicos Islands,,-5,27,47,31,Cockburn Town,US dollar ($)(USD),English,36605,2008,12
+1,650,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,651,011,1,United States,Minnesota,-6,25,50,14,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,660,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,661,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,662,011,1,United States,Mississippi,-6,26,42,22,Jackson,US dollar ($)(USD),English,2938618,2008,2
+1,664,011,1,Montserrat,,-4,28,47,37,Plymouth Brades ,E Caribbean dollar (XCD),English,4488,2005,13
+1,669,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,670,011,1,N. Mariana Islands,,10,15,49,39,Saipan,US dollar ($)(USD),English/Chamorro,86616,2007,14
+1,671,011,1,Guam,,10,15,47,42,Hagåtña,US dollar ($)(USD),English/Chamorro,178000,2009,15
+1,678,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,679,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,682,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,684,011,1,American Samoa,,-11,17,59,60,Pago Pago,US dollar ($)(USD),English/Samoan,65628,2009,16
+1,689,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,700,011,1,,Long Distance carrier,,,,,,,,,,
+1,701,011,1,United States,North Dakota,-6,24,52,13,Bismarck,US dollar ($)(USD),English,641481,2008,2
+1,702,011,1,United States,Nevada,-8,23,51,19,Carson City,US dollar ($)(USD),English,2600167,2008,2
+1,703,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,704,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,705,011,1,Canada,Ontario,-5,26,49,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,706,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,707,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,708,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,709,011,1,Canada,Newfoundland,-4,26,59,10,St. John's,Canadian dollar ($) (CAD),English/French,508944,2008,1
+1,710,011,1,,U.S. Government,,,,,,,,,,
+1,711,011,1,,Relay Service for TTY,,,,,,,,,,
+1,712,011,1,United States,Iowa,-6,24,55,17,Des Moines,US dollar ($)(USD),English,3002555,2008,2
+1,713,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,714,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,715,011,1,United States,Wisconsin,-6,23,62,14,Madison,US dollar ($)(USD),English,5627967,2008,2
+1,716,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,717,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,718,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,719,011,1,United States,Colorado,-7,24,50,18,Denver,US dollar ($)(USD),English,4939456,2008,2
+1,720,011,1,United States,Colorado,-7,24,50,18,Denver,US dollar ($)(USD),English,4939456,2008,2
+1,724,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,727,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,731,011,1,United States,Tennessee,-6,25,53,20,Nashville,US dollar ($)(USD),English,6214888,2008,2
+1,732,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,734,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,737,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,740,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,747,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,754,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,757,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,758,011,1,Saint Lucia,,-4,28,47,37,Castries,E Caribbean dollar (XCD),English/French Creole,160765,2005,17
+1,760,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,762,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,763,011,1,United States,Minnesota,-6,25,50,14,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,764,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,765,011,1,United States,Indiana,-5,25,53,17,Indianapolis,US dollar ($)(USD),English,6376792,2008,2
+1,767,011,1,Dominica,,-4,28,46,36,Roseau,E Caribbean dollar (XCD),English,72660,2009,18
+1,769,011,1,United States,Mississippi,-6,26,42,22,Jackson,US dollar ($)(USD),English,2938618,2008,2
+1,770,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,772,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,773,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,774,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,775,011,1,United States,Nevada,-8,24,42,18,Carson City,US dollar ($)(USD),English,2600167,2008,2
+1,778,011,1,Canada,British Columbia,-8,24,40,12,Victoria,Canadian dollar ($) (CAD),English/French,4419974,2009,1
+1,779,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,780,011,1,Canada,Alberta,-7,24,45,7,Edmonton,Canadian dollar ($) (CAD),English/French,3585142,2008,1
+1,781,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,784,011,1,St Vincent & the Grenadines,,-4,28,48,38,Kingstown,E Caribbean dollar (XCD),English,120000,2008,19
+1,785,011,1,United States,Kansas,-6,24,52,19,Topeka,US dollar ($)(USD),English,2802134,2008,2
+1,786,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,787,011,1,Puerto Rico ,,-4,26,63,35,San Juan,US dollar ($)(USD),Spanish/English,3994259,2007,20
+1,800,011,1,,Toll Free,,,,,,,,,,
+1,801,011,1,United States,Utah,-7,23,52,17,Salt Lake City,US dollar ($)(USD),English,2736424,2008,2
+1,802,011,1,United States,Vermont,-5,26,54,15,Montpelier,US dollar ($)(USD),English,621270,2008,2
+1,803,011,1,United States,South Carolina,-5,25,58,22,Columbia,US dollar ($)(USD),English,4407709,2008,2
+1,804,011,1,United States,Virginia,-5,26,51,20,Richmond,US dollar ($)(USD),English,7769089,2008,2
+1,805,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,806,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,807,011,1,Canada,Ontario,-5,26,49,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,808,011,1,United States,Hawaii,-10,22,28,32,Honolulu,US dollar ($)(USD),English,1288198,2008,2
+1,809,011,1,Dominican Republic,,-4,26,59,34,Santo Domingo de Guzmán,Peso (DOP),Spanish,10090000,2009,21
+1,810,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,811,011,1,,Mobile customer service,,,,,,,,,,
+1,812,011,1,United States,Indiana,-5,25,53,17,Indianapolis,US dollar ($)(USD),English,6376792,2008,2
+1,813,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,814,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,815,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,816,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,817,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,818,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,819,011,1,Canada,Quebec,-5,26,51,13,Quebec City,Canadian dollar ($) (CAD),English/French,7750504,2008,1
+1,822,011,1,,future toll-free,,,,,,,,,,
+1,828,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,829,011,1,Dominican Republic,,-4,26,59,34,Santo Domingo de Guzmán,Peso (DOP),Spanish,10090000,2009,21
+1,830,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,831,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,832,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,833,011,1,,future toll-free,,,,,,,,,,
+1,835,011,1,United States,Pennsylvania,-5,26,51,18,Harrisburg,US dollar ($)(USD),English,12432792,2008,2
+1,843,011,1,United States,South Carolina,-5,25,58,22,Columbia,US dollar ($)(USD),English,4407709,2008,2
+1,844,011,1,,future toll-free,,,,,,,,,,
+1,845,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,847,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,848,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,849,011,1,Dominican Republic,,-4,26,59,34,Santo Domingo de Guzmán,Peso (DOP),Spanish,10090000,2009,21
+1,850,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,855,011,1,,future toll-free,,,,,,,,,,
+1,856,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,857,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,858,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,859,011,1,United States,Kentucky,-5,25,55,20,Frankfort,US dollar ($)(USD),English,4269245,2008,2
+1,860,011,1,United States,Connecticut,-5,26,53,17,Hartford,US dollar ($)(USD),English,3501252,2008,2
+1,862,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,863,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,864,011,1,United States,South Carolina,-5,25,58,22,Columbia,US dollar ($)(USD),English,4407709,2008,2
+1,865,011,1,United States,Tennessee,-5,25,53,20,Nashville,US dollar ($)(USD),English,6214888,2008,2
+1,866,011,1,,Toll-free,,,,,,,,,,
+1,867,011,1,Canada,Canadian Territories,-7,24,46,3,Whitehorse/Yellowknife/Iqaluit,Canadian dollar ($) (CAD),English/French,31530/42514/31152,2008,1
+1,868,011,1,Trinidad & Tobago,,-4,27,50,38,Port of Spain,Tobago dollar (TTD),English,1305000,2005,22
+1,869,011,1,Saint Kitts & Nevis,,-4,27,55,35,Basseterre,E Caribbean dollar (XCD),English,42696,2005,23
+1,870,011,1,United States,Arkansas,-6,24,56,21,Little Rock,US dollar ($)(USD),English,2855390,2008,2
+1,872,011,1,United States,Illinois,-6,25,52,17,Springfield,US dollar ($)(USD),English,12901563,2008,2
+1,876,011,1,Jamaica,,-5,27,44,35,Kingston,Jamaican dollar (JMD),English,2825928,2009,24
+1,877,011,1,,Toll-free service,,,,,,,,,,
+1,878,011,1,United States,Pennsylvania,-5,26,51,18,,US dollar ($)(USD),English,,2008,2
+1,888,011,1,,Toll-free,,,,,,,,,,
+1,900,011,1,,premium-rate,,,,,,,,,,
+1,901,011,1,United States,Tennessee,-6,25,53,20,Nashville,US dollar ($)(USD),English,6214888,2008,2
+1,902,011,1,Canada,Nova Scotia/PEI,-4,26,59,13,Halifax/Charlottetown,Canadian dollar ($) (CAD),English/French,938310/139818,2008,1
+1,903,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,904,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,905,011,1,Canada,Ontario,-5,26,49,12,Toronto,Canadian dollar ($) (CAD),English/French,13150000,2009,1
+1,906,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,907,011,1,United States,Alaska,-9,23,39,6,Juneau,US dollar ($)(USD),English,686293,2008,2
+1,908,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,909,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,910,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,911,011,1,,Emergency Services,,,,,,,,,,
+1,912,011,1,United States,Georgia,-5,26,47,22,Atlanta,US dollar ($)(USD),English,9685744,2008,2
+1,913,011,1,United States,Kansas,-6,24,52,19,Topeka,US dollar ($)(USD),English,2802134,2008,2
+1,914,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,915,011,1,United States,Texas,-6,24,47,21,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,916,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,917,011,1,United States,New York,-5,26,53,17,Albany,US dollar ($)(USD),English,19490297,2008,2
+1,918,011,1,United States,Oklahoma,-6,25,46,21,Oklahoma City,US dollar ($)(USD),English,3617316,2008,2
+1,919,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,920,011,1,United States,Wisconsin,-6,23,62,14,Madison,US dollar ($)(USD),English,5627967,2008,2
+1,925,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,927,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,928,011,1,United States,Arizona,-7,23,53,21,Phoenix,US dollar ($)(USD),English,6500180,2008,2
+1,931,011,1,United States,Tennessee,-6,25,53,20,Nashville,US dollar ($)(USD),English,6214888,2008,2
+1,935,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,936,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,937,011,1,United States,Ohio,-5,25,55,16,Columbus,US dollar ($)(USD),English,11485910,2008,2
+1,939,011,1,Puerto Rico ,,-4,26,63,35,San Juan,US dollar ($)(USD),Spanish/English,3994259,2007,20
+1,940,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,941,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,947,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+1,949,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,951,011,1,United States,California,-8,24,39,21,Sacramento,US dollar ($)(USD),English,36756666,2008,2
+1,952,011,1,United States,Minnesota,-6,25,50,14,Saint Paul,US dollar ($)(USD),English,5220393,2008,2
+1,954,011,1,United States,Florida,-5,26,49,26,Tallahassee,US dollar ($)(USD),English,18328340,2008,2
+1,956,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,957,011,1,United States,New Mexico,-7,24,47,23,Santa Fe,US dollar ($)(USD),English,1984356,2008,2
+1,959,011,1,United States,Connecticut,-5,26,53,17,Hartford,US dollar ($)(USD),English,3501252,2008,2
+1,970,011,1,United States,Colorado,-7,24,50,18,Denver,US dollar ($)(USD),English,4939456,2008,2
+1,971,011,1,United States,Oregon,-8,24,38,17,Salem,US dollar ($)(USD),English,3747455,2008,2
+1,972,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,973,011,1,United States,New Jersey,-5,26,53,17,Trenton,US dollar ($)(USD),English,8682661,2008,2
+1,975,011,1,United States,Missouri,-6,25,49,18,Jefferson City,US dollar ($)(USD),English,5911605,2008,2
+1,978,011,1,United States,Massachusetts,-5,26,55,15,Boston,US dollar ($)(USD),English,6497967,2008,2
+1,979,011,1,United States,Texas,-6,24,53,23,Austin,US dollar ($)(USD),English,24326974,2008,2
+1,980,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,984,011,1,United States,North Carolina,-5,25,59,21,Raleigh,US dollar ($)(USD),English,9222414,2008,2
+1,985,011,1,United States,Louisiana,-6,26,41,24,Baton Rouge,US dollar ($)(USD),English,4410796,2008,2
+1,989,011,1,United States,Michigan,-5,25,53,14,Lansing,US dollar ($)(USD),English,10003422,2008,2
+64,,00,0,New Zealand,,12,18,45,81,Wellington,New Zealand dollar (NZD),English/Maori ,4315800,2009,25
+93,,00,0,Afghanistan,,4,7,58,23,Kabul,Afghani (AFN),Dari (Persian)/Pashto,28150000,2009,26
+355,,00,0,Albania,,1,5,46,17,Tirana,Lek (ALL),Albanian,3639453,2009,27
+213,,00,0,Algeria,,1,3,49,23,Algiers,Algerian dinar (DZD),Arabic /French,34895000,2009,28
+376,,00,,Andorra,,2,3,48,16,Andorra la Vella,Euro (EUR),Catalan,84484,2008,29
+244,,00,0,Angola,,1,5,42,60,Luanda,Kwanza (AOA),Portuguese,18498000,2009,30
+599,,00,0,Antilles Netherland,,-4,25,70,40,Willemstad,Antillean guilder (ANG),Dutch/English/Papiamento,183000,2005,31
+54,,00,0,Argentina,,-3,27,51,72,Buenos Aires,Peso (ARS),Spanish,40482000,2008,32
+374,,00,0,Armenia,,4,6,55,18,Yerevan,Dram (AMD),Armenian,3230100,2008,33
+297,,00,,Aruba,,-4,26,61,39,Oranjestad,Aruban florin (AWG),Dutch/Papiamento,106050,2008,34
+61,,0011,0,Australia,,10,14,55,72,Canberra,Australian dollar (AUD),English ,21885016,2009,35
+43,,00,0,Austria,,1,5,41,13,Vienna,Euro (€) (EUR),German,8356707,2009,36
+994,,00,0,Azerbaijan,,4,7,48,18,Baku,Manat (AZN),Azerbaijani,8832000,2009,37
+973,,00,,Bahrain,,3,7,51,28,Manama,Bahraini dinar (BHD),Arabic/English,791000,2009,38
+880,,00,0,Bangladesh,,6,10,52,30,Dhaka,Taka (BDT),Bengali/Bangla,162221000,2009,39
+375,,8-10*,8,Belarus,,3,4,57,11,Minsk,rouble (BYR),Belarusian/Russian,9689800,2008,40
+32,,00,0,Belgium,,1,4,43,12,Brussels,Euro (€) (EUR),Dutch/French/German,10665867,2008,41
+501,,00,,Belize,,-6,25,53,36,Belmopan,Belize dollar (BZD),English/Kriol/Spanish ,320000,2008,42
+229,,00,,Benin,,1,3,49,42,Porto-Novo,W. African CFA franc (XOF),French,8935000,2009,43
+975,,00,,Bhutan,,6,10,53,27,Thimphu,Ngultrum (BTN),Dzongkha,697000,2009,44
+591,,00,0,Bolivia,,-4,27,55,63,Sucre,Boliviano (BOB),Spanish/Quechua,9863000,2009,45
+387,,00,0,Bosnia Herzegovina,,2,5,45,16,Sarajevo,Herzegovina mark (BAM),Bosnian/Croatian/Serbian,4613414,2009,46
+267,,00,,Botswana,,2,5,49,69,Gaborone,Pula (BWP),English/Setswana ,1950000,2009,47
+55,,00xx,0,Brazil,,-3,28,57,57,Brasília,Real (R$) (BRL),Portuguese,191241714,2009,48
+673,,00,,Brunei Darussalam,,8,12,54,47,Bandar Seri Begawan,Brunei dollar (BND),Malay,400000,2009,49
+359,,00,0,Bulgaria,,3,5,48,15,Sofia,Lev (BGN),Bulgarian,7606551,2008,50
+226,,00,,Burkina Faso,,0,4,37,39,Ouagadougou,W. African CFA franc (XOF),French/Mòoré/Dioula,15757000,2009,51
+237,,00,,Cameroon,,1,4,49,45,Yaoundé,C. African CFA franc (XAF),French/English,19522000,2009,52
+236,,00,,Central African Republic,,1,4,53,43,Bangui,C. African CFA franc (XAF),Sango/French,4422000,2009,53
+235,,00,,Republic of Chad,,1,4,52,36,N'Djamena,CFA franc (XAF),French/Arabic,11206000,2009,54
+56,,00,0,Chile,,-4,27,48,76,Santiago,Peso (CLP),Spanish,16928873,2009,55
+86,,00,0,China,,8,11,56,21,Beijing,Chinese Yuan (CNY),Chinese,1345751000,2009,56
+57,,00xxx,0x,Colombia,,-5,26,56,44,Bogotá,Peso (COP),Spanish,44928970,2009,57
+242,,00,,Congo Republic,,1,4,52,50,Brazzaville,C. African CFA franc (XAF),French/Kongo/Kituba,3686000,2009,58
+682,,00,,Cook Islands,,-10,16,69,65,Avarua,New Zealand dollar (NZD),English/Maori,19569,2006,59
+506,,00,,Costa Rica,,-6,25,57,41,San José,Costa Rican colón (CRC),Spanish/Mekatelyu ,4509290,2009,60
+385,,00,0,Croatia,,1,6,37,15,Zagreb,kuna (HRK),Croatian,4489409,2009,61
+53,,00,0,Cuba,,-5,26,51,31,Havana,Cuban peso (CUP),Spanish,11451652,2008,62
+357,,00,,Republic of Cyprus ,,2,6,46,21,Nicosia ,Euro (EUR),Greek/Turkish,793963,2009,63
+420,,00,,Czech Republic,,1,5,44,12,Prague,Czech koruna (CZK),Czech,10476543,2009,64
+45,,00,,Denmark,,1,4,45,10,Copenhagen,Danish krone (DKK),Danish,5519441,2009,65
+253,,00,,Djibouti,,3,7,44,40,Djibouti,Franc (DJF),Arabic/French,864000,2009,66
+593,,00,0,Ecuador,,-5,26,51,50,Quito,US dollar ($)(USD),Spanish,13625000,2008,67
+20,,00,0,Egypt,,2,4,61,27,Cairo,Egyptian pound (EGP),Arabic,82999000,2009,68
+503,,00,,El Salvador,,-6,25,54,39,San Salvador,US dollar ($)(USD),Spanish/English,7100000,2008,69
+240,,00,,Equatorial Guinea,,1,3,57,48,Malabo,C. African CFA franc (XAF),Spanish/French,676000,2009,70
+372,,00,,Estonia,,2,4,54,8,Tallinn,Estonian kroon (EEK),Estonian,1340415,2009,71
+251,,00,0,Ethiopia,,3,6,48,42,Addis Ababa,Birr (ETB),Tigrinya/Amharic,82825000,2009,72
+298,,00,,Faeroe Islands,,0,2,52,6,Tórshavn,Faroese króna (DKK),Faroese/Danish,49006,2009,73
+679,,00,,Fiji,,12,17,57,71,Suva,Fijian dollar (FJD),English/Bau Fijian,849000,2009,74
+358,,00,0,Finland,,2,5,43,7,Helsinki,Euro (€) (EUR),Finnish/Swedish,5342344,2009,75
+33,,00,0,France,,1,3,50,14,Paris,Euro (€) (EUR),French,65073482,2009,76
+594,,00,,French Guiana,,-3,29,42,46,Cayenne,Euro (€) (EUR),French,221500,2008,77
+241,,00,,Gabon Republic,,1,4,47,51,Libreville,CFA franc (XAF),French,1475000,2009,78
+995,,8-10*,,Georgia,,4,6,53,17,Tbilisi,Lari (GEL),Georgian,4260000,2009,79
+49,,00,0,Germany,,1,4,46,12,Berlin,Euro (€) (EUR),German,82060000,2008,80
+233,,00,0,Ghana,,0,2,58,43,Accra,Ghanaian cedi (GHS),English,23837000,2009,81
+350,,00,,Gibraltar,,1,3,44,21,Gibraltar,Gibraltar pound (£)(GIP),English/Spanish,28875,2008,82
+30,,00,0,Greece,,2,5,48,17,Athens,Euro (€) (EUR),Greek,11257285,2009,83
+299,,00,,Greenland,,-4,29,51,4,Nuuk (Godthåb),Danish krone (DKK),Greenlandic,57564,2007,84
+590,,00,,Guadeloupe,,-4,26,65,37,Basse-Terre ,Euro (€) (EUR),French,405500,2008,85
+502,,00,,Guatemala,,-6,25,52,37,Guatemala City,Quetzal (GTQ),Spanish/Mayan dialects,14000000,2009,86
+224,,00,,Republic of Guinea ,,0,3,39,38,Conakry,Guinean franc (GNF),French,10069000,2009,87
+245,,00,,Guinea-Bissau,,0,3,35,38,Bissau,W. African CFA franc (XOF),Portuguese/Crioulo,1611000,2009,88
+592,,001,,Guyana,,-4,27,59,46,Georgetown,Guyanese dollar (GYD),English/Guyanese Creole,772298,2009,89
+509,,00,,Haiti,,-5,26,58,34,Port-au-Prince,Gourde (HTG),French/Haitian Creole,10033000,2009,90
+504,,00,,Honduras,,-6,25,55,37,Tegucigalpa,Lempira (HNL),Spanish,7810848,2009,91
+852,,001,,Hong Kong,,8,12,54,32,Victoria,Hong Kong dollar (HKD),Chinese/English,7008900,2008,92
+36,,00,06,Hungary,,1,5,46,14,Budapest,Forint (HUF),Hungarian,10020000,2009,93
+354,,00,,Iceland,,0,30,56,6,Reykjavík,Icelandic króna (ISK),Icelandic,319756,2008,94
+91,,00,0,India,,5,9,54,34,New Delhi,Indian rupee (INR),Hindi/English,1198003000,2009,95
+62,,00x,0,Indonesia,,8,13,37,54,Jakarta,Rupiah (IDR),Indonesian,229965000,2009,96
+98,,00,0,Iran,,4,7,52,23,Tehran,Iranian rial (IRR),Persian/Azeri/Kurdish,74196000,2009,97
+964,,00,,Iraq,,3,6,55,22,Baghdad,Iraqi dinar (IQD),Arabic/Kurdish,31234000,2009,98
+353,,00,0,Ireland,,0,3,45,11,Dublin,Euro (€) (EUR),Irish/English,4422100,2008,99
+972,,00x,0,Israel,,2,6,48,23,Jerusalem,Israeli new sheqel (ILS),Hebrew/Arabic/English,7411000,2009,100
+39,,00,,Italy,,1,5,42,16,Rome,Euro (€) (EUR),Italian,60088880,2009,101
+225,,00,,Ivory Coast,,0,2,55,43,Yamoussoukro,W. African CFA franc (XOF),French,21075000,2009,102
+81,,010,0,Japan,,9,14,54,20,Tokyo ,Japanese Yen (JPY),Japanese/Aynu itak,127590000,2009,103
+962,,00,0,Jordan,,2,6,50,24,Amman,Jordanian dinar (JOD),Arabic,6316000,2009,104
+7,,8-10*,8,Russia,,8,12,45,8,Moscow,Ruble (RUB),Russian ,142008838,2008,105
+254,,000,0,Kenya,,3,7,40,50,Nairobi,Kenyan shilling (KES),Swahili/English,39802000,2009,106
+965,,00,,Kuwait,,3,7,48,24,Kuwait City,Kuwaiti dinar (KWD),Arabic/English,2985000,2009,107
+996,,00,0,Kyrghyzstan,,6,9,52,18,Bishkek,Som (KGS),Kyrgyz/Russian,5482000,2009,108
+856,,00,0,Laos,,7,12,45,34,Vientiane,Kip (LAK),Lao,6320000,2009,109
+371,,00,,Latvia,,2,4,53,7,Riga,Lats (Ls) (LVL),Latvian,2231503,2009,110
+961,,00,0,Lebanon,,2,6,48,23,Beirut,Lebanese pound (LBP),Arabic,4224000,2009,111
+266,,00,,Lesotho,,2,5,52,72,Maseru,Loti (LSL),Southern Sotho/English,2067000,2009,112
+231,,00,,Liberia,,0,3,40,45,Monrovia,Liberian dollar (LRD),English,3955000,2009,113
+218,,00,0,Libya,,2,4,53,26,Tripoli,Dinar (LYD),Arabic,6420000,2009,114
+423,,00,,Liechtenstein,,1,5,40,13,Vaduz,Swiss franc (CHF),German,35446,2008,115
+370,,00,0,Lithuania,,2,4,52,9,Vilnius,Lithuanian litas (Lt) (LTL),Lithuanian,3555179,2009,116
+352,,00,,Luxembourg,,1,3,51,12,Luxembourg,Euro (€) (EUR),German/French,493500,2009,117
+853,,00,,Macau,,8,13,44,31,Macao,Macanese pataca (MOP),Cantonese/Portuguese,546200,2009,118
+389,,00,0,Macedonia,,1,4,54,16,Skopje,Macedonian denar (MKD),Macedonian,2114550,2009,119
+261,,00,,Madagascar,,3,6,57,66,Antananarivo,Malagasy ariary (MGA),Malagasy/French/English,19625000,2009,120
+265,,00,,Malawi,,2,5,57,61,Lilongwe,Kwacha (D) (MWK),English,15263000,2009,121
+60,,00,0,Malaysia,,8,13,40,48,Kuala Lumpur,Ringgit (RM) (MYR),Malay,28310000,2009,122
+960,,00,,Maldives,,5,9,49,46,Malé,Maldivian Rufiyaa (MRf),Dhivehi,309000,2009,123
+223,,00,,Mali,,0,2,54,34,Bamako,CFA franc (XOF),French,13010000,2009,124
+356,,00,,Malta,,1,6,34,21,Valletta,Euro (€) (EUR),Maltese/English,413609,2008,125
+596,,00,,Martinique,,-4,26,67,38,Fort-de-France,Euro (€) (EUR),French,402000,2008,126
+222,,00,,Mauritania,,0,2,48,34,Nouakchott,Ouguiya (MRO),Arabic,3291000,2009,127
+230,,00,,Mauritius,,4,7,58,64,Port Louis,Mauritian rupee (MUR),English,1288000,2009,128
+52,,00,01,Mexico,,-7,24,51,28,Mexico City,Peso (MXN),Spanish ,111211789,2009,129
+373,,00,0,Moldova,,2,5,50,13,Chisinau,Moldovan leu (MDL),Moldovan/Russian,4128047,2008,130
+377,,00,,Monaco,,1,5,39,16,Monaco,Euro (€) (EUR),French,32965,2009,131
+976,,001,0,Mongolia,,7,13,44,13,Ulan Bator,Tögrög (MNT),Mongolian,2671000,2009,132
+382,,00,0,Montenegro,,1,5,46,17,Podgorica,Euro (€) (EUR),Montenegrin,678177,2008,133
+212,,00,0,Morocco,,0,2,51,24,Rabat,Moroccan dirham (MAD),Arabic,31993000,2009,134
+258,,00,,Mozambique,,2,5,60,64,Maputo,Metical (MZN),Portuguese,22894000,2009,135
+264,,00,0,Namibia,,1,4,53,71,Windhoek,Namibian dollar (NAD),English/German/Afrikaans,2171000,2009,136
+674,,00,,Nauru,,12,16,54,52,Yaren,Australian dollar (AUD),English/Nauruan,10000,2009,137
+977,,00,0,Nepal,,6,10,47,27,Kathmandu,Rupee (NPR),Nepal/Sherpa/Maithili,29331000,2009,138
+31,,00,0,Netherlands,,1,3,50,11,Amsterdam,Euro (€) (EUR),Dutch,16500156,2009,139
+687,,00,,New Caledonia,,011,16,51,67,Nouméa,CFP franc (XPF),French,249000,2009,140
+505,,00,,Nicaragua,,-6,25,56,39,Managua,Córdoba (NIO),Spanish/Miskito Creole ,5891199,2009,141
+227,,00,,Niger,,1,3,54,36,Niamey,W. African CFA franc (XOF),French/Hausa/Fulfulde,13272679,2008,142
+234,,009,0,Nigeria,,1,3,54,44,Abuja,Nigerian naira (NGN),English/Hausa/Igbo,154729000,2009,143
+850,,99,,North Korea,,9,14,46,19,Pyongyang,North Korean won (KPW),Korean,23906000,2009,144
+47,,00,,Norway,,1,3,53,5,Oslo,Norwegian krone (NOK),Norwegian,4835685,2009,145
+968,,00,,Oman,,4,7,56,32,Muscat,Rial (OMR),Arabic,2845000,2009,146
+92,,00,0,Pakistan,,5,8,52,25,Islamabad,Pakistani Rupee (PKR),Urdu/Pashto/English,180808000,2009,147
+507,,00,,Panama,,-5,26,50,43,Panama City,Balboa (PAB),Spanish,3220000,2008,148
+595,,00,0,Paraguay,,-4,27,58,66,Asunción,Guaraní (PYG),Spanish/Guaraní,6349000,2009,149
+51,,00,0,Peru,,-5,26,55,58,Lima,Nuevo Sol (PEN),Spanish,29132013,2009,150
+63,,00,0,Philippines,,8,14,42,41,Manila,Philippine Peso (PHP),Filipino/English,91983000,2009,151
+48,,00,0,Poland,,1,5,40,12,Warsaw,Zloty (PLN),Polish,38130302,2009,152
+351,,00,,Portugal,,0,3,43,20,Lisbon,Euro (€) (EUR),Portuguese/Mirandese,10707924,2009,153
+974,,00,,Qatar,,3,7,51,28,Doha,Riyal (QAR),Arabic,1409000,2009,154
+262,,00,,Reunion Is.,,4,8,44,68,Saint-Denis,Euro (€) (EUR),French,827000,2009,155
+40,,00,0,Romania,,2,7,34,15,Bucharest,Leu (RON),Romanian,21498616,2009,156
+250,,00,,Rwanda,,2,5,54,52,Kigali,Rwandan franc (RWF),Kinyarwanda/French,9998000,2009,157
+685,,0,,Samoa,,-11,16,70,62,Apia,Tala (WST),Samoan/English,179000,2009,158
+378,,00,,San Marino,,1,5,43,16,City of San Marino,Euro (€) (EUR),Italian,29973,2008,159
+966,,00,0,Saudi Arabia,,3,6,55,28,Riyadh,Riyal (SAR),Arabic,28686633,2009,160
+221,,00,,Senegal,,0,3,36,38,Dakar,CFA franc (XOF),French/Wolof  ,12534000,2009,161
+381,,00,0,Serbia,,1,7,33,15,Belgrade,Serbian dinar (RSD),Serbian,7365507,2008,162
+248,,00,,Seychelles,,4,7,52,55,Victoria,Seychellois rupee (SCR),English/French/Seychellois Creole,84000,2009,163
+232,,00,0,Sierra Leone,,0,4,30,43,Freetown,Leone (SLL),English,5696000,2009,164
+65,,00x,,Singapore,,8,11,55,49,Singapore City ,Singapore dollar (SGD),Malay/English/Chinese,4737000,2009,165
+421,,00,0,Slovakia,,1,5,45,13,Bratislava,Euro (€) (EUR),Slovak,5379455,2001,166
+386,,00,0,Slovenia,,1,5,44,14,Ljubljana,Euro (€) (EUR),Slovene,2053355,2009,167
+677,,00,,Solomon Islands,,011,16,52,59,Honiara,Solomon Is dollar (SBD),English,523000,2009,168
+252,,00,,Somalia,,3,7,49,42,Mogadishu,Somali shilling (SOS),Somali/Arabic,9133000,2009,169
+27,,00,0,South Africa,,2,5,51,80,Pretoria ,Rand (ZAR),Afrikaans/English,49320000,2009,170
+82,,00x,0,South Korea,,9,13,55,22,Seoul,Won (KRW),Korean,48379392,2009,171
+34,,00,,Spain,,1,3,45,19,Madrid,Euro (€) (EUR),Spanish/Aranese,46661950,2009,172
+94,,00,0,Sri Lanka,,5,10,46,44,Sri Jayawardenapura-Kotte,Sri Lankan rupee (LKR),Sinhala/Tamil,20238000,2009,173
+508,,00,,St Pierre & Miquelon ,,-3,27,58,16,Saint-Pierre,Euro (€) (EUR),French,6125,2006,174
+249,,00,0,Sudan,,3,5,54,36,Khartoum,Sudanese pound (SDG),Arabic/English,42272000,2009,175
+597,,00,0,Surinam,,-3,29,41,47,Paramaribo,Surinamese dollar (SRD),Dutch/Sranan Tongo,472000,2009,176
+268,,00,,Swaziland,,2,4,62,74,Lobamba,Lilangeni (SZL),English/SiSwati,1185000,2009,177
+46,,00,0,Sweden,,1,4,49,5,Stockholm,Swedish krona (SEK),Swedish,9263872,2009,178
+41,,00,0,Switzerland,,1,5,38,14,Berne,Swiss franc (CHF),German/French/Italian,7739100,2009,179
+963,,00,0,Syria,,2,6,50,22,Damascus,Syrian pound (SYP),Arabic,21906000,2009,180
+992,,8-10*,8,Tadjikistan,,5,8,53,20,Dushanbe,Somoni (TJS),Tajik,7349145,2009,181
+689,,00,,French Polynesia/Tahiti ,,-10,18,61,72,Papeete,CFP franc (XPF),French,264000,2009,182
+886,,002,0,Taiwan ROC,,8,13,50,31,Taipei,New Taiwan dollar (TWD),Mandarin,23069000,2009,183
+255,,000,0,Tanzania,,3,6,48,55,Dodoma,Tanzanian shilling (TZS),Swahili/English,43739000,2009,184
+66,,001,0,Thailand,,7,12,42,36,Bangkok,Thai Baht (THB),Thai,67764000,2009,185
+228,,00,,Togo,,0,2,59,44,Lomé,CFA franc (XOF),French,6619000,2009,186
+676,,00,,Tonga,,13,16,68,68,Nuku alofa,Pa anga (TOP),Tongan/English,104000,2009,187
+216,,00,,Tunisia,,1,5,39,20,Tunis,Tunisian dinar (TND),Arabic,10327800,2008,188
+90,,00,0,Turkey,,2,7,39,19,Ankara,Turkish lira (TRY),Turkish,74816000,2009,189
+256,,000,0,Uganda,,3,6,44,48,Kampala,Ugandan shilling (UGX),English/Swahili,32710000,2009,190
+380,,8-10*,8,Ukraine,,2,6,47,12,Kiev,Hryvnia (UAH),Ukrainian,46179226,2008,191
+971,,00,0,United Arab Emirates,,4,6,63,29,Abu Dhabi,UAE dirham (AED),Arabic,4599000,2009,192
+44,,00,0,United Kingdom,,0,3,46,10,London,Pound sterling (GBP),English,61113205,2009,193
+598,,00,0,Uruguay,,-3,27,60,77,Montevideo,Uruguayan peso (UYU),Spanish,3361000,2009,194
+678,,00,,Vanuatu,,11,16,60,66,Port Vila,Vanuatu vatu (VUV),Bislama/English/French,240000,2009,195
+379,,00,,Vatican City,,1,6,34,17,Vatican City,Euro (€) (EUR),Italian,826,2009,196
+58,,00,0,Venezuela,,-4,25,70,43,Caracas,Bolívar fuerte (VEF),Spanish,26814843,2009,197
+84,,00,0,Vietnam,,7,13,39,37,Hanoi,Dong (VND),Vietnamese,85789573,2009,198
+967,,00,0,Yemen,,3,6,58,36,San‘a’,Yemeni rial (YER),Arabic,23580000,2009,199
+243,,00,0,DR Congo,,1,5,45,53,Kinshasa,Congolese franc (CDF),French/Lingala/Kongo,66020000,2009,200
+260,,00,0,Zambia,,2,5,52,63,Lusaka,Zambian kwacha (ZMK),English/Nyanja/Bemba,12935000,2009,201
+263,,0,0,Zimbabwe,,2,5,53,67,Harare,Dollar ($) (ZWD),Shona/isiNdebele/English,12523000,2009,202

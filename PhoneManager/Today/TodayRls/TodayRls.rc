@@ -1,0 +1,316 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""TodayRls.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TODAY_CUSTOM DIALOG  0, 0, 191, 94
+STYLE DS_SETFONT | DS_CONTROL | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "Today Settings"
+FONT 10, "Microsoft Sans Serif"
+BEGIN
+END
+
+IDD_DLG_Basic DIALOG  0, 0, 200, 206
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Modal DIALOG  0, 0, 186, 166
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TODAY_CUSTOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+    END
+
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 193
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_DLG_Modal, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Unlock MENU 
+BEGIN
+    MENUITEM "Unlock",                      IDMENU_Unlock
+END
+
+IDR_MENU_Quit MENU 
+BEGIN
+    MENUITEM "Quit",                        IDMENU_Quit
+END
+
+IDR_MENU_OkCancel MENU 
+BEGIN
+    MENUITEM "Ok",                          IDMENU_Ok
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_MenuBack MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_EditBack MENU 
+BEGIN
+    MENUITEM "Edit",                        IDMENU_Edit
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_Done MENU 
+BEGIN
+    MENUITEM "Done",                        IDMENU_Done
+    MENUITEM "Menu",                        IDMENU_Menu
+END
+
+IDR_MENU_NewDoneMenu MENU 
+BEGIN
+    MENUITEM "Done",                        IDMENU_Done
+    MENUITEM "Menu",                        IDMENU_Menu
+END
+
+IDR_MENU_Voicemail MENU 
+BEGIN
+    MENUITEM "Ok",                          IDMENU_Ok
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_ProfileVGA          GIF                     "..\\..\\Common\\RES\\profile_vga.png"
+IDR_Profile             GIF                     "..\\..\\Common\\RES\\profile.png"
+IDR_PNG_VoiceVGA        GIF                     "Res\\today_voice_vga.png"
+IDR_PNG_Voice           GIF                     "Res\\today_voice.png"
+IDR_PNG_TimeVGA         GIF                     "Res\\today_time_vga.png"
+IDR_PNG_TimeFontVGA     GIF                     "Res\\timefont_vga.png"
+IDR_PNG_TimeFontSmall   GIF                     "Res\\timefont_sm.png"
+IDR_PNG_TimeFont        GIF                     "Res\\timefont.png"
+IDR_PNG_Time            GIF                     "Res\\today_time.png"
+IDR_PNG_SmsVGA          GIF                     "Res\\today_sms_vga.png"
+IDR_PNG_Sms             GIF                     "Res\\today_sms.png"
+IDR_PNG_Selector        GIF                     "..\\..\\Common\\Res\\Green\\select.png"
+IDR_PNG_NotifyGreenVGA  GIF                     "..\\..\\Common\\Res\\green\\notification_vga.png"
+IDR_PNG_NotifyGreen     GIF                     "..\\..\\Common\\Res\\green\\notification.png"
+IDR_PNG_NotifyBlueVGA   GIF                     "..\\..\\Common\\Res\\blue\\notification_vga.png"
+IDR_PNG_NotifyBlue      GIF                     "..\\..\\Common\\Res\\blue\\notification.png"
+IDR_PNG_NotifyRedVGA    GIF                     "..\\..\\Common\\Res\\red\\notification_vga.png"
+IDR_PNG_NotifyRed       GIF                     "..\\..\\Common\\Res\\red\\notification.png"
+IDR_PNG_NotifyOrangeVGA GIF                     "..\\..\\Common\\Res\\orange\\notification_vga.png"
+IDR_PNG_NotifyOrange    GIF                     "..\\..\\Common\\Res\\orange\\notification.png"
+IDR_PNG_NotifyPinkVGA   GIF                     "..\\..\\Common\\Res\\pink\\notification_vga.png"
+IDR_PNG_NotifyPink      GIF                     "..\\..\\Common\\Res\\pink\\notification.png"
+IDR_PNG_NotifyPurpleVGA GIF                     "..\\..\\Common\\Res\\purple\\notification_vga.png"
+IDR_PNG_NotifyPurple    GIF                     "..\\..\\Common\\Res\\purple\\notification.png"
+IDR_PNG_MissedVGA       GIF                     "Res\\today_missed_vga.png"
+IDR_PNG_Missed          GIF                     "Res\\today_missed.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\..\\Common\\Res\\Green\\menu_array_vga.png"
+IDR_PNG_MenuArray       GIF                     "..\\..\\Common\\Res\\Green\\menu_array.png"
+IDR_PNG_MailVGA         GIF                     "Res\\today_mail_vga.png"
+IDR_PNG_Mail            GIF                     "Res\\today_mail.png"
+IDR_PNG_Group           GIF                     "..\\..\\Common\\Res\\group.png"
+IDR_PNG_FavoritesImgDefaultVGA GIF                     "..\\..\\Common\\Res\\Img_default100.png"
+IDR_PNG_FavoritesImgDefault GIF                     "..\\..\\Common\\Res\\Img_default55.png"
+IDR_PNG_FavoritesImgBorderVGA GIF                     "..\\..\\Common\\Res\\Img_border_vga.png"
+IDR_PNG_FavoritesImgBorder GIF                     "..\\..\\Common\\Res\\Img_border.png"
+IDR_PNG_FavoritesImgAlphaVGA GIF                     "..\\..\\Common\\Res\\Img_alpha_vga.png"
+IDR_PNG_FavoritesImgAlpha GIF                     "..\\..\\Common\\Res\\Img_alpha.png"
+IDR_PNG_DetailsDefaultVGA GIF                     "..\\..\\Common\\Res\\Img_default_details_vga.png"
+IDR_PNG_DetailsDefault  GIF                     "..\\..\\Common\\Res\\Img_default_details.png"
+IDR_PNG_DetailsBtnVGA   GIF                     "..\\..\\Common\\RES\\btn_vga.png"
+IDR_PNG_DetailsBtnGreenVGA GIF                     "..\\..\\Common\\RES\\green\\btn_vga.png"
+IDR_PNG_DetailsBtnGreen GIF                     "..\\..\\Common\\Res\\Green\\btn.png"
+IDR_PNG_DetailsBtn      GIF                     "..\\..\\Common\\Res\\btn.png"
+IDR_PNG_DetailsBackGreenVGA GIF                     "..\\..\\Common\\Res\\Green\\back_vga.png"
+IDR_PNG_DetailsBackGreen GIF                     "..\\..\\Common\\Res\\Green\\back.png"
+IDR_PNG_ContactsBorderVGA GIF                     "..\\..\\Common\\RES\\cnt_border_vga.png"
+IDR_PNG_ContactsBorder  GIF                     "..\\..\\Common\\RES\\cnt_border.png"
+IDR_PNG_TodaySelector   GIF                     "Res\\todayselect.png"
+IDR_PNG_BT              GIF                     "Res\\today_Bluetooth.png"
+IDR_PNG_BTVGA           GIF                     "Res\\today_Bluetooth_vga.png"
+IDR_PNG_Wifi            GIF                     "Res\\today_wifi.png"
+IDR_PNG_WifiVGA         GIF                     "Res\\today_wifi_vga.png"
+IDR_PNG_ContactsSelector GIF                     "..\\..\\Common\\RES\\cnt_sel.png"
+IDR_PNG_CallBgVGA       GIF                     "..\\..\\Common\\RES\\callbg_vga.png"
+IDR_PNG_CallBg          GIF                     "..\\..\\Common\\RES\\callbg.png"
+IDR_PNG_Shine           GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\shine.png"
+IDR_PNG_ShineVGA        GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\shine_vga.png"
+IDR_PNG_DropBgVGA       GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\dropbg_vga.png"
+IDR_PNG_DropBg          GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\dropbg.png"
+IDR_PNG_NotifyVGA       GIF                     "Res\\notify_vga.png"
+IDR_PNG_Notify          GIF                     "Res\\notify.png"
+IDR_PNG_Alarm           GIF                     "Res\\alarm.png"
+IDR_PNG_AlarmVGA        GIF                     "Res\\alarm_vga.png"
+IDR_PNG_ButtonSelected  GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\green\\menu_btn.png"
+IDR_PNG_ButtonSelectedVGA GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\green\\menu_btn_vga.png"
+IDR_PNG_Button          GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\incoming_btn.png"
+IDR_PNG_ButtonVGA       GIF                     "C:\\DEV\\Panoramic\\PhoneManager\\Common\\RES\\incoming_btn_vga.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Today"
+    IDC_Today               "Today"
+    IDS_MENU_EditContact    "Edit contact"
+    IDS_MENU_Conversation   "Conversation history"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Help           "Help"
+    IDS_MENU_SetContactPicture "Set contact picture"
+    IDS_MENU_SetContactCamera "Take picture of contact"
+    IDS_MENU_SetContactRingtone "Set contact ringtone"
+    IDS_MENU_Okay           "Ok"
+    IDS_Yes                 "Yes"
+    IDS_No                  "No"
+    IDS_Today               "<Today>"
+    IDS_NO_Programs         "No programs found"
+    IDS_SELECT_Program      "Select Program"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_HELP                "HELP"
+    IDS_MENU_Unlock         "Unlock"
+    IDS_MENU_Ok             "Add"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Quit           "Quit"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Add            "Add..."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Done           "Done"
+    IDS_MENU_Menu           "Menu"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Remove         "Remove"
+    IDS_MENU_Edit           "Edit"
+    IDS_MENU_AddNew         "Add new"
+    IDS_MENU_AddContact     "Add contact"
+    IDS_MENU_NewDone        "Done"
+    IDS_MENU_NewMenu        "Menu"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECT_Setting      "Select Setting"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "TodayRls.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
