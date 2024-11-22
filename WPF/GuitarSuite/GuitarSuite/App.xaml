@@ -1,0 +1,10 @@
+﻿<Application x:Class="GuitarSuite.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml" Exit="Application_Exit">
+    <!--Application Resources-->
+    <Application.Resources>
+        <local:LocalizedStrings xmlns:local ="clr-namespace:GuitarSuite" x:Key="LocalizedStrings" />
+
+    </Application.Resources>
+</Application>

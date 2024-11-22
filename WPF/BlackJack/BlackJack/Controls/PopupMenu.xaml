@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="BlackJack.PopupMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="480" d:DesignWidth="480">
+	<UserControl.Resources>
+        <DataTemplate x:Key="myDataTemplate">
+            <StackPanel >
+            <Grid Width="380" Height="70" Name="gridSingle" Visibility="{Binding visSingle}">
+                <TextBlock x:Name="txtItem" Margin="17,8,8,8" Text="{Binding szItem}" FontSize="32" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            </Grid>
+                <Grid Width="480" Height="90" Name="gridDouble" Visibility="{Binding visDouble}">
+            	<Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="txtItem2" Margin="17,8,8,8" Text="{Binding szItem}" FontSize="29.333" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.RowSpan="2"/>
+                <TextBlock x:Name="txtItem3" Margin="17,8,8,8" Text="{Binding szSubItem}" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Grid.RowSpan="2" Foreground="#FF8F8F8F"/>
+            </Grid>
+                <Grid Width="480" Height="12" Name="gridSeparator" Visibility="{Binding visSeparator}">
+            	<Rectangle Fill="#FFFFFFFF" Height="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="350"/>           
+            </Grid>
+            <Grid x:Name="gridImage" Height="Auto" Width="380" Visibility="{Binding visImage}">
+            	<StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+            		<Image x:Name="img" Margin="0,10" Source="{Binding szSubItem}" VerticalAlignment="Center"/>
+            		<TextBlock x:Name="txtImageText" Margin="10,10,0,10" Text="{Binding szItem}" FontSize="32" VerticalAlignment="Center" Width="287"/>
+            	</StackPanel>
+            </Grid>
+            </StackPanel>
+        </DataTemplate>
+        <Style x:Key="ListBoxItemStyle1" TargetType="ListBoxItem">
+        	<Setter Property="Background" Value="Transparent"/>
+        	<Setter Property="BorderThickness" Value="0"/>
+        	<Setter Property="BorderBrush" Value="Transparent"/>
+        	<Setter Property="Padding" Value="0"/>
+        	<Setter Property="HorizontalContentAlignment" Value="Left"/>
+        	<Setter Property="VerticalContentAlignment" Value="Top"/>
+        	<Setter Property="Template">
+        		<Setter.Value>
+        			<ControlTemplate TargetType="ListBoxItem">
+        				<Border x:Name="LayoutRoot" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalAlignment}" VerticalAlignment="{TemplateBinding VerticalAlignment}">
+        					<ContentControl x:Name="ContentContainer" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" Foreground="{TemplateBinding Foreground}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+        				</Border>
+        			</ControlTemplate>
+        		</Setter.Value>
+        	</Setter>
+        </Style>        
+	</UserControl.Resources>
+    
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!-- for "dialogbox" effect -->
+        <Rectangle Fill="Black" Opacity="0.6" RadiusX="10" RadiusY="10" Name="MyBackground" MouseLeftButtonDown="Background_MouseLeftButtonDown"></Rectangle>
+        <Grid Name="gridMain" Height="489"  Width="480" RenderTransformOrigin="0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Border
+                VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="mainBorder"
+                BorderThickness="0,2,0,2" Height="Auto" Width="Auto" Background="#FF141414">
+                <Border.BorderBrush>
+                    <SolidColorBrush Color="White" Opacity="0.375"/>
+                </Border.BorderBrush>
+                <ListBox Name="myListBox" Margin="0,0,0,66" FontSize="36" ItemTemplate="{StaticResource myDataTemplate}" ItemsSource="{Binding}" SelectionChanged="myListBox_SelectionChanged" ItemContainerStyle="{StaticResource ListBoxItemStyle1}" Background="Black" />
+            </Border>
+            <Canvas Height="55" Width="50" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="215,0,0,10" MouseLeftButtonDown="Canvas_MouseLeftButtonDown">
+                <Ellipse Height="48" Width="48" StrokeThickness="3" Canvas.Top="4" Fill="Black">
+                    <Ellipse.Stroke>
+                        <SolidColorBrush Color="White" />
+                    </Ellipse.Stroke>
+                </Ellipse>
+                <TextBlock Height="55" TextWrapping="Wrap" Text="X" Width="32" FontSize="32" FontWeight="Bold" Canvas.Left="14" Canvas.Top="4" Foreground="White" />
+            </Canvas>
+        </Grid>
+    </Grid>
+</UserControl>

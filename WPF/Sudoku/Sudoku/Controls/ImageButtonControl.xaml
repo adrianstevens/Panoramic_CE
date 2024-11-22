@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Sudoku.Controls.ImageButtonControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:my="clr-namespace:BlackJack.Controls"
+    d:DesignHeight="72" d:DesignWidth="72" Loaded="UserControl_Loaded">
+
+    <!--<my:TiltContentControl ManipulationCompleted="TiltContentControl_ManipulationCompleted" Width="Auto" Height="50" Margin="0">
+        <Grid x:Name="LayoutMain" Height="50">-->
+    <Grid x:Name="LayoutMain" Background="#01000000" MouseLeftButtonDown="LayoutMain_MouseLeftButtonDown">
+            <Image Name="baseCircle" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" IsHitTestVisible="False"/>
+            <Image Name="imgMain" Stretch="Fill" VerticalAlignment="Center" HorizontalAlignment="Center" IsHitTestVisible="False" />
+    </Grid>
+    <!--</Grid>
+    </my:TiltContentControl>-->
+
+</UserControl>

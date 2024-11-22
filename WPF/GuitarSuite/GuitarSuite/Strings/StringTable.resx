@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_APP_TITLE" xml:space="preserve">
+    <value>Guitar Suite</value>
+  </data>
+  <data name="IDS_MENU_MoreApps" xml:space="preserve">
+    <value>More Apps</value>
+  </data>
+  <data name="IDS_MENU_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="IDS_MENU_Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="IDS_MENU_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="IDS_MENU_Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="IDS_MENU_Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="IDS_MENU_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="IDS_MENU_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="IDS_MENU_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="IDS_MENU_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="IDS_MENU_Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="IDS_MENU_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="IDS_MENU_Stop" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="IDS_MENU_Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="IDS_MENU_Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="IDS_MENU_Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="IDS_INFO_Pitch" xml:space="preserve">
+    <value>Pitch</value>
+  </data>
+  <data name="IDS_INFO_SignalQuality" xml:space="preserve">
+    <value>Signal Quality</value>
+  </data>
+  <data name="IDS_INFO_Frequency" xml:space="preserve">
+    <value>Frequency (Hz)</value>
+  </data>
+  <data name="IDS_INFO_Meter" xml:space="preserve">
+    <value>Meter</value>
+  </data>
+  <data name="IDS_INFO_Tempo" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="IDS_INFO_Hz" xml:space="preserve">
+    <value>%iHz</value>
+  </data>
+  <data name="IDS_WEBSITE" xml:space="preserve">
+    <value>www.panoramicsoft.com</value>
+  </data>
+  <data name="IDS_VERSION" xml:space="preserve">
+    <value>1.5.0</value>
+  </data>
+  <data name="IDS_MSG_DemoOver" xml:space="preserve">
+    <value>We hope you enjoyed trying out Panoramic Guitar Suite, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided your trial download.</value>
+  </data>
+  <data name="IDS_MSG_Exit" xml:space="preserve">
+    <value>Are you sure you want to exit Panoramic Guitar Suite?</value>
+  </data>
+  <data name="IDS_MSG_About" xml:space="preserve">
+    <value>v1.5.0\r\nCopyright 2009-2011\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com</value>
+  </data>
+  <data name="IDS_MSG_SetBPM" xml:space="preserve">
+    <value>Tap to\r\nset BPM</value>
+  </data>
+  <data name="IDS_OPT_Prestissimo" xml:space="preserve">
+    <value>Prestissimo</value>
+  </data>
+  <data name="IDS_OPT_Presto" xml:space="preserve">
+    <value>Presto</value>
+  </data>
+  <data name="IDS_OPT_Allegro" xml:space="preserve">
+    <value>Allegro</value>
+  </data>
+  <data name="IDS_OPT_Moderato" xml:space="preserve">
+    <value>Moderato</value>
+  </data>
+  <data name="IDS_OPT_Andante" xml:space="preserve">
+    <value>Andante</value>
+  </data>
+  <data name="IDS_OPT_Adagio" xml:space="preserve">
+    <value>Adagio</value>
+  </data>
+  <data name="IDS_OPT_Larghetto" xml:space="preserve">
+    <value>Larghetto</value>
+  </data>
+  <data name="IDS_OPT_Largo" xml:space="preserve">
+    <value>Largo</value>
+  </data>
+  <data name="IDS_OPT_Tempo" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="IDS_OPT_Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="IDS_OPT_ScalesOff" xml:space="preserve">
+    <value>Scales off</value>
+  </data>
+  <data name="IDS_OPT_Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="IDS_OPT_On" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="IDS_OPT_RomanNumerals" xml:space="preserve">
+    <value>Roman Numerals</value>
+  </data>
+  <data name="IDS_OPT_Numbers" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="IDS_OPT_SlowStrum" xml:space="preserve">
+    <value>Slow strum</value>
+  </data>
+  <data name="IDS_OPT_FastStrum" xml:space="preserve">
+    <value>Fast strum</value>
+  </data>
+  <data name="IDS_OPT_FreeStrum" xml:space="preserve">
+    <value>Free strum</value>
+  </data>
+  <data name="IDS_MENU_Chords" xml:space="preserve">
+    <value>Chords</value>
+  </data>
+  <data name="IDS_MENU_TuneByEar" xml:space="preserve">
+    <value>Tune by ear</value>
+  </data>
+  <data name="IDS_MENU_Tuner" xml:space="preserve">
+    <value>Tuner</value>
+  </data>
+  <data name="IDS_MENU_Metronome" xml:space="preserve">
+    <value>Metronome</value>
+  </data>
+  <data name="IDS_MENU_PlayMode" xml:space="preserve">
+    <value>Scales</value>
+  </data>
+  <data name="IDS_MENU_Digital" xml:space="preserve">
+    <value>Digital Tuner</value>
+  </data>
+  <data name="IDS_OPT_Rosewood" xml:space="preserve">
+    <value>Rosewood</value>
+  </data>
+  <data name="IDS_OPT_Alder" xml:space="preserve">
+    <value>Alder</value>
+  </data>
+  <data name="IDS_OPT_Rebel" xml:space="preserve">
+    <value>Rebel</value>
+  </data>
+  <data name="IDS_OPT_Fire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="IDS_OPT_SonicBlue" xml:space="preserve">
+    <value>Sonic Blue</value>
+  </data>
+  <data name="IDS_OPT_Carbon" xml:space="preserve">
+    <value>Carbon</value>
+  </data>
+  <data name="IDS_OPT_PinkBubbles" xml:space="preserve">
+    <value>Pink Bubbles</value>
+  </data>
+  <data name="IDS_OPT_PlaySounds" xml:space="preserve">
+    <value>volume</value>
+  </data>
+  <data name="IDS_OPT_LeftHanded" xml:space="preserve">
+    <value>left handed</value>
+  </data>
+  <data name="IDS_OPT_Skin" xml:space="preserve">
+    <value>skin</value>
+  </data>
+  <data name="IDS_OPT_FretIndicators" xml:space="preserve">
+    <value>fret indicators</value>
+  </data>
+  <data name="IDS_OPT_TunerFrequency" xml:space="preserve">
+    <value>tuner sample frequency</value>
+  </data>
+  <data name="IDS_OPT_TunerCutoff" xml:space="preserve">
+    <value>tuner input cutoff</value>
+  </data>
+  <data name="IDS_OPT_ChordStrumMode" xml:space="preserve">
+    <value>chord strum mode</value>
+  </data>
+  <data name="IDS_OPT_Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="IDS_OPT_11025Hz" xml:space="preserve">
+    <value>11025Hz</value>
+  </data>
+  <data name="IDS_OPT_22050Hz" xml:space="preserve">
+    <value>22050Hz</value>
+  </data>
+  <data name="IDS_OPT_44100Hz" xml:space="preserve">
+    <value>44100Hz</value>
+  </data>
+  <data name="IDS_OPT_Metal" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="IDS_OPT_Wood" xml:space="preserve">
+    <value>Wood</value>
+  </data>
+  <data name="IDS_OPT_BassGuitar" xml:space="preserve">
+    <value>Bass Guitar</value>
+  </data>
+  <data name="IDS_OPT_Lute" xml:space="preserve">
+    <value>Lute</value>
+  </data>
+  <data name="IDS_OPT_Ukulele" xml:space="preserve">
+    <value>Ukulele</value>
+  </data>
+  <data name="IDS_OPT_Banjo" xml:space="preserve">
+    <value>Banjo</value>
+  </data>
+  <data name="IDS_OPT_BassGuitar5" xml:space="preserve">
+    <value>Bass Guitar (5)</value>
+  </data>
+  <data name="IDS_OPT_Guitar" xml:space="preserve">
+    <value>Guitar</value>
+  </data>
+  <data name="IDS_OPT_MetronomeSound" xml:space="preserve">
+    <value>Metronome Sound</value>
+  </data>
+  <data name="IDS_OPT_Instrument" xml:space="preserve">
+    <value>instrument</value>
+  </data>
+  <data name="IDS_OPT_Major" xml:space="preserve">
+    <value>Major</value>
+  </data>
+  <data name="IDS_OPT_HarmonicMinor" xml:space="preserve">
+    <value>Harmonic Minor</value>
+  </data>
+  <data name="IDS_OPT_MelodicMinorAscending" xml:space="preserve">
+    <value>Melodic Minor Ascending</value>
+  </data>
+  <data name="IDS_OPT_MelodicMinorDescending" xml:space="preserve">
+    <value>Melodic Minor Descending</value>
+  </data>
+  <data name="IDS_OPT_PentatonicMajor" xml:space="preserve">
+    <value>Pentatonic Major</value>
+  </data>
+  <data name="IDS_OPT_PentatonicMinor" xml:space="preserve">
+    <value>Pentatonic Minor</value>
+  </data>
+  <data name="IDS_OPT_PentatonicBlues" xml:space="preserve">
+    <value>Pentatonic Blues</value>
+  </data>
+  <data name="IDS_OPT_PentatonicNeutral" xml:space="preserve">
+    <value>Pentatonic Neutral</value>
+  </data>
+  <data name="IDS_OPT_Dorian" xml:space="preserve">
+    <value>Dorian</value>
+  </data>
+  <data name="IDS_OPT_Phrygian" xml:space="preserve">
+    <value>Phrygian</value>
+  </data>
+  <data name="IDS_OPT_Lydian" xml:space="preserve">
+    <value>Lydian</value>
+  </data>
+  <data name="IDS_OPT_Mixolydian" xml:space="preserve">
+    <value>Mixolydian</value>
+  </data>
+  <data name="IDS_OPT_Aeolian" xml:space="preserve">
+    <value>Aeolian</value>
+  </data>
+  <data name="IDS_OPT_Locrian" xml:space="preserve">
+    <value>Locrian</value>
+  </data>
+  <data name="IDS_OPT_HalfDiminished" xml:space="preserve">
+    <value>Half Diminished</value>
+  </data>
+  <data name="IDS_OPT_WholeDiminished" xml:space="preserve">
+    <value>Whole Diminished</value>
+  </data>
+  <data name="IDS_OPT_Whole" xml:space="preserve">
+    <value>Whole</value>
+  </data>
+  <data name="IDS_OPT_Augmented" xml:space="preserve">
+    <value>Augmented</value>
+  </data>
+  <data name="IDS_OPT_Chromatic" xml:space="preserve">
+    <value>Chromatic</value>
+  </data>
+  <data name="IDS_OPT_RomanianMinor" xml:space="preserve">
+    <value>Romanian Minor</value>
+  </data>
+  <data name="IDS_OPT_SpanishGypsy" xml:space="preserve">
+    <value>Spanish Gypsy</value>
+  </data>
+  <data name="IDS_OPT_Blues" xml:space="preserve">
+    <value>Blues</value>
+  </data>
+  <data name="IDS_OPT_DoubleHarmonic" xml:space="preserve">
+    <value>Double Harmonic</value>
+  </data>
+  <data name="IDS_OPT_EightToneSpanish" xml:space="preserve">
+    <value>Eight Tone Spanish</value>
+  </data>
+  <data name="IDS_OPT_Enigmatic" xml:space="preserve">
+    <value>Enigmatic</value>
+  </data>
+  <data name="IDS_OPT_LeadingWholeTone" xml:space="preserve">
+    <value>Leading Whole Tone</value>
+  </data>
+  <data name="IDS_OPT_LydianAugmented" xml:space="preserve">
+    <value>Lydian Augmented</value>
+  </data>
+  <data name="IDS_OPT_NeopolitanMajor" xml:space="preserve">
+    <value>Neopolitan Major</value>
+  </data>
+  <data name="IDS_OPT_NeopolitanMinor" xml:space="preserve">
+    <value>Neopolitan Minor</value>
+  </data>
+  <data name="IDS_OPT_Pelog" xml:space="preserve">
+    <value>Pelog</value>
+  </data>
+  <data name="IDS_OPT_Prometheus" xml:space="preserve">
+    <value>Prometheus</value>
+  </data>
+  <data name="IDS_OPT_PrometheusNeopolitan" xml:space="preserve">
+    <value>Prometheus Neopolitan</value>
+  </data>
+  <data name="IDS_OPT_SixToneSymmetrical" xml:space="preserve">
+    <value>SixTone Symmetrical</value>
+  </data>
+  <data name="IDS_OPT_SuperLocrian" xml:space="preserve">
+    <value>SuperLocrian</value>
+  </data>
+  <data name="IDS_OPT_LydianMinor" xml:space="preserve">
+    <value>LydianMinor</value>
+  </data>
+  <data name="IDS_OPT_LydianDiminished" xml:space="preserve">
+    <value>Lydian Diminished</value>
+  </data>
+  <data name="IDS_OPT_NineToneScale" xml:space="preserve">
+    <value>Nine Tone Scale</value>
+  </data>
+  <data name="IDS_OPT_AuxiliaryDiminished" xml:space="preserve">
+    <value>Auxiliary Diminished</value>
+  </data>
+  <data name="IDS_OPT_AuxiliaryAugmented" xml:space="preserve">
+    <value>Auxiliary Augmented</value>
+  </data>
+  <data name="IDS_OPT_AuxiliaryDiminishedBlues" xml:space="preserve">
+    <value>Auxiliary Diminished Blues</value>
+  </data>
+  <data name="IDS_OPT_MajorLocrian" xml:space="preserve">
+    <value>Major Locrian</value>
+  </data>
+  <data name="IDS_OPT_Overtone" xml:space="preserve">
+    <value>Overtone</value>
+  </data>
+  <data name="IDS_OPT_DiminishedWholeTone" xml:space="preserve">
+    <value>Diminished Whole Tone</value>
+  </data>
+  <data name="IDS_OPT_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="IDS_TUN_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="IDS_TUN_Drop" xml:space="preserve">
+    <value>Drop</value>
+  </data>
+  <data name="IDS_TUN_Fourths" xml:space="preserve">
+    <value>Fourths</value>
+  </data>
+  <data name="IDS_TUN_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="IDS_TUN_Modal" xml:space="preserve">
+    <value>Modal</value>
+  </data>
+  <data name="IDS_TUN_Shifted" xml:space="preserve">
+    <value>Shifted</value>
+  </data>
+  <data name="IDS_TUN_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="IDS_TUN_Half" xml:space="preserve">
+    <value>Half</value>
+  </data>
+  <data name="IDS_TUN_Full" xml:space="preserve">
+    <value>Full</value>
+  </data>
+  <data name="IDS_TUN_Down" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="IDS_TUN_Up" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="IDS_TUN_Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="IDS_TUN_SlackKey" xml:space="preserve">
+    <value>SlackKey</value>
+  </data>
+  <data name="IDS_CHORD_Maj" xml:space="preserve">
+    <value>maj</value>
+  </data>
+  <data name="IDS_CHORD_5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="IDS_CHORD_6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="IDS_CHORD_7" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="IDS_CHORD_Maj7" xml:space="preserve">
+    <value>maj7</value>
+  </data>
+  <data name="IDS_CHORD_9" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="IDS_CHORD_Maj9" xml:space="preserve">
+    <value>maj9</value>
+  </data>
+  <data name="IDS_CHORD_11" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="IDS_CHORD_13" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="IDS_CHORD_Maj13" xml:space="preserve">
+    <value>maj13</value>
+  </data>
+  <data name="IDS_CHORD_M" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="IDS_CHORD_M6" xml:space="preserve">
+    <value>m6</value>
+  </data>
+  <data name="IDS_CHORD_M7" xml:space="preserve">
+    <value>m7</value>
+  </data>
+  <data name="IDS_CHORD_M9" xml:space="preserve">
+    <value>m9</value>
+  </data>
+  <data name="IDS_CHORD_M11" xml:space="preserve">
+    <value>m11</value>
+  </data>
+  <data name="IDS_CHORD_M13" xml:space="preserve">
+    <value>m13</value>
+  </data>
+  <data name="IDS_CHORD_Sus2" xml:space="preserve">
+    <value>sus2</value>
+  </data>
+  <data name="IDS_CHORD_Sus4" xml:space="preserve">
+    <value>sus4</value>
+  </data>
+  <data name="IDS_CHORD_Dim" xml:space="preserve">
+    <value>dim</value>
+  </data>
+  <data name="IDS_CHORD_Aug" xml:space="preserve">
+    <value>aug</value>
+  </data>
+  <data name="IDS_CHORD_7sus4" xml:space="preserve">
+    <value>7sus4</value>
+  </data>
+  <data name="IDS_CHORD_7b5" xml:space="preserve">
+    <value>7b5</value>
+  </data>
+  <data name="IDS_CHORD_7b9" xml:space="preserve">
+    <value>7b9</value>
+  </data>
+  <data name="IDS_CHORD_9sus4" xml:space="preserve">
+    <value>9sus4</value>
+  </data>
+  <data name="IDS_CHORD_Add9" xml:space="preserve">
+    <value>add9</value>
+  </data>
+  <data name="IDS_CHORD_Aug9" xml:space="preserve">
+    <value>aug9</value>
+  </data>
+  <data name="IDS_TUNE_Mandolin" xml:space="preserve">
+    <value>Mandolin</value>
+  </data>
+  <data name="IDS_TUNE_Mandola" xml:space="preserve">
+    <value>Mandola</value>
+  </data>
+  <data name="IDS_TUNE_Pipa" xml:space="preserve">
+    <value>Pipa</value>
+  </data>
+  <data name="IDS_TUNE_Bouzouki" xml:space="preserve">
+    <value>Bouzouki</value>
+  </data>
+  <data name="IDS_TUNE_Bouzouki2" xml:space="preserve">
+    <value>Bouzouki 2</value>
+  </data>
+  <data name="IDS_TUNE_Bouzouki3" xml:space="preserve">
+    <value>Bouzouki 3</value>
+  </data>
+  <data name="IDS_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="IDS_OPT_Retro" xml:space="preserve">
+    <value>Retro</value>
+  </data>
+  <data name="IDS_OPT_Silent" xml:space="preserve">
+    <value>Silent</value>
+  </data>
+  <data name="IDS_OPT_Synth" xml:space="preserve">
+    <value>Synth</value>
+  </data>
+  <data name="IDS_MENU_Purchase" xml:space="preserve">
+    <value>Purchase Guitar Suite</value>
+  </data>
+  <data name="IDS_MSG_DemoOverShort" xml:space="preserve">
+    <value>We hope you enjoyed using Panoramic Guitar Suite, your trial has now expired.</value>
+  </data>
+  <data name="IDS_OPT_Accoustic" xml:space="preserve">
+    <value>Acoustic Guitar</value>
+  </data>
+  <data name="IDS_OPT_Overdrive" xml:space="preserve">
+    <value>Electric Guitar</value>
+  </data>
+  <data name="IDS_OPT_SoundType" xml:space="preserve">
+    <value>instrument sound</value>
+  </data>
+  <data name="IDS_OPT_CustomTuning" xml:space="preserve">
+    <value>custom tuning</value>
+  </data>
+  <data name="IDS_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="IDS_OPT_Flat" xml:space="preserve">
+    <value>Flat (♭)</value>
+  </data>
+  <data name="IDS_OPT_Notation" xml:space="preserve">
+    <value>accidentals notation</value>
+  </data>
+  <data name="IDS_OPT_Sharp" xml:space="preserve">
+    <value>Sharp (♯)</value>
+  </data>
+  <data name="IDS_OPT_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="IDS_OPT_Sensitivity" xml:space="preserve">
+    <value>tuning sensitivity</value>
+  </data>
+  <data name="IDS_OPT_TuningRange" xml:space="preserve">
+    <value>tuning range</value>
+  </data>
+</root>

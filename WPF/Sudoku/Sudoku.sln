@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sudoku", "Sudoku\Sudoku.csproj", "{9D1C5A9D-CA43-40AF-92C7-0F4F918A1AF8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SilentInstall", "SilentInstall\SilentInstall.vdproj", "{1A266570-F8BD-43C0-AC84-017B7AC4C67A}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sudoku\\Sudoku.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = Sudoku\\
+		SccProjectUniqueName2 = SilentInstall\\SilentInstall.vdproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = SilentInstall\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D1C5A9D-CA43-40AF-92C7-0F4F918A1AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1C5A9D-CA43-40AF-92C7-0F4F918A1AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1C5A9D-CA43-40AF-92C7-0F4F918A1AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1C5A9D-CA43-40AF-92C7-0F4F918A1AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A266570-F8BD-43C0-AC84-017B7AC4C67A}.Debug|Any CPU.ActiveCfg = Debug
+		{1A266570-F8BD-43C0-AC84-017B7AC4C67A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

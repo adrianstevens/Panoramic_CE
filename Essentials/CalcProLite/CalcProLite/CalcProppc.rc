@@ -1,0 +1,286 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CALCPRO             ICON                    "CalcPro.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""CalcProppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_BASIC DIALOG  0, 0, 216, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calc Pro Lite"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Child DIALOG  0, 0, 186, 90
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CONTROL | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Calculator MENU 
+BEGIN
+    MENUITEM "File",                        IDMENU_File
+    MENUITEM "View",                        IDMENU_View
+END
+
+IDR_MENU_Graph MENU 
+BEGIN
+    MENUITEM "Graph",                       IDMENU_Graph
+    MENUITEM "Reset",                       IDMENU_Reset
+END
+
+IDR_MENU_WSheet MENU 
+BEGIN
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_OpenMenu MENU 
+BEGIN
+    MENUITEM "Open",                        IDMENU_Open
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_SaveMenu MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDR_TXT_BUTTON_BLUE     TXT                     "files\\btn-blue.ini"
+IDR_TXT_BUTTON_BLACK    TXT                     "files\\btn-black.ini"
+IDR_TXT_BUTTON_GREEN    TXT                     "files\\btn-green.ini"
+IDR_TXT_BUTTON_PINK     TXT                     "files\\btn-pink.ini"
+iDR_TXT_BUTTON_SILVER   TXT                     "files\\btn-silver.ini"
+IDR_TXT_LAYOUTSTANDARD  TXT                     "files\\layout_standard.ini"
+IDR_TXT_LAYOUTUNIT      TXT                     "files\\layout_unit.ini"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Child, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuBack        GIF                     "res\\group.png"
+IDR_PNG_MenuSelect      GIF                     "res\\select.png"
+IDR_PNG_MenuArray       GIF                     "res\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "res\\menu_array_vga.png"
+IDR_PNG_About           GIF                     "res\\about.png"
+IDR_PNG_MenuBar         GIF                     "res\\bar_400.png"
+IDR_PNG_MenuBarBlue     GIF                     "res\\bar_400blue.png"
+IDR_PNG_MenuBarPink     GIF                     "res\\bar_400pink.png"
+IDR_PNG_MenuBarSteel    GIF                     "res\\bar_400steel.png"
+IDR_PNG_MenuIcons       GIF                     "res\\icons_sm.png"
+IDR_PNG_MenuIconsVGA    GIF                     "res\\icons_lg.png"
+IDR_PNG_Button          GIF                     "res\\incoming_btn.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic CalcPro"
+    IDS_DEMO_Over           "We hope you enjoyed using Panoramic Calc Pro, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided the trial software."
+    IDC_Calc                "Calc"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Open           "Open"
+    IDS_MENU_ViewTape       "View Tape..."
+    IDS_NAME_Calc           "Panoramic Calc Pro"
+    IDS_MENU_File           "File"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Graph          "Graphing"
+    IDS_MENU_Unit           "Unit Converter"
+    IDS_MENU_Currency       "European Currencies"
+    IDS_MENU_DateTime       "Date and Time"
+    IDS_MENU_Translate      "Translate Graph"
+    IDS_MENU_ZoomOut        "Zoom Out"
+    IDS_MENU_ZoomIn         "Zoom In"
+    IDS_MENU_Reset          "Reset"
+    IDS_MENU_Mode           "Mode"
+    IDS_MENU_PointOnGraph   "Point on Graph"
+    IDS_MENU_CenterGraph    "Center on Graph"
+    IDS_MENU_Zoom           "Select and Zoom"
+    IDS_MENU_Constants      "Constants"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Stats          "Statistics"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit           "Exit"
+    IDS_MENU_About          "About..."
+    IDS_MENU_Help           "Help..."
+    IDS_MENU_Edit           "Edit"
+    IDS_MENU_Copy           "Copy"
+    IDS_MENU_Paste          "Paste"
+    IDS_MENU_View           "View"
+    IDS_MENU_Standard       "Standard"
+    IDS_MENU_Scientific     "Scientific"
+    IDS_MENU_BaseConv       "Base Conversions"
+    IDS_MENU_Financial      "Financial"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Regional       "Use Regional Settings"
+    IDS_MENU_Save           "Save"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Button_SecondFunction "2ndF"
+    IDS_Button_Hyp          "Hyp"
+    IDS_Button_Binary       "BIN"
+    IDS_Button_Octal        "OCT"
+    IDS_Button_Hex          "HEX"
+    IDS_Button_Decimal      "DEC"
+    IDS_Button_Degrees      "DEG"
+    IDS_Button_Radians      "RAD"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Button_Grad         "GRAD"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_TICKSOFT       WAVE                    "res\\clicksoft.wav"
+IDR_WAVE_TICK           WAVE                    "res\\click.wav"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "CalcProppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

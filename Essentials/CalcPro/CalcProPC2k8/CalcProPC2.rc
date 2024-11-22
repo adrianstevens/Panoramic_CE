@@ -1,0 +1,799 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcepc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CALCPRO             ICON                    "calcpro.ico"
+IDI_SMALL               ICON                    "small.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcepc.h\0"
+END
+
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""CalcPropc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_BASIC DIALOGEX 0, 0, 214, 204
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_OVERLAPPEDWINDOW
+CAPTION "Calc Pro"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_DLG_Child DIALOG  0, 0, 186, 90
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CONTROL | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Calculator MENU 
+BEGIN
+    MENUITEM "File",                        IDMENU_File
+    MENUITEM "View",                        IDMENU_View
+END
+
+IDR_MENU_Graph MENU 
+BEGIN
+    MENUITEM "Graph",                       IDMENU_Graph
+    MENUITEM "Reset",                       IDMENU_Reset
+END
+
+IDR_MENU_WSheet MENU 
+BEGIN
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_OpenMenu MENU 
+BEGIN
+    MENUITEM "Open",                        IDMENU_Open
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_SaveMenu MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDR_TXT_BUTTON_BLUE     TXT                     "files\\btn-blue.ini"
+IDR_TXT_BUTTON_BLACK    TXT                     "files\\btn-black.ini"
+IDR_TXT_BUTTON_GREEN    TXT                     "files\\btn-green.ini"
+IDR_TXT_BUTTON_PINK     TXT                     "files\\btn-pink.ini"
+IDR_TXT_BUTTON_SILVER   TXT                     "files\\btn-silver.ini"
+IDR_TXT_LAYOUTBASE      TXT                     "files\\layout_base.ini"
+IDR_TXT_LAYOUTSCI       TXT                     "files\\layout_sci.ini"
+IDR_TXT_LAYOUTSTANDARD  TXT                     "files\\layout_standard.ini"
+IDR_TXT_LAYOUTGRAPH     TXT                     "files\\layout_graph.ini"
+IDR_TXT_LAYOUTUNIT      TXT                     "files\\layout_unit.ini"
+IDR_TXT_LAYOUTSTATS     TXT                     "files\\layout_stats.ini"
+IDR_TXT_LAYOUTFINANCIAL TXT                     "files\\layout_financial.ini"
+IDR_TXT_LAYOUTSCIRPN    TXT                     "files\\layout_sci_rpn.ini"
+IDR_TXT_LAYOUTWSHEET    TXT                     "files\\layout_worksheet.ini"
+IDR_TXT_LAYOUTWSSTATS   TXT                     "files\\layout_wsstats.ini"
+IDR_TXT_LAYOUTDATE      TXT                     "files\\layout_timedate.ini"
+IDR_TXT_LAYOUTCONST     TXT                     "files\\layout_const.ini"
+IDR_TXT_CONSTANTS       TXT                     "files\\constants.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_BASIC, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_DLG_Child, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuBack        GIF                     "..\\CalcPro\\res\\group.png"
+IDR_PNG_MenuSelect      GIF                     "..\\CalcPro\\res\\select.png"
+IDR_PNG_MenuArray       GIF                     "..\\CalcPro\\res\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\CalcPro\\res\\menu_array_vga.png"
+IDR_PNG_About           GIF                     "..\\CalcPro\\res\\about.png"
+IDR_PNG_MenuBar         GIF                     "..\\CalcPro\\res\\bar_400.png"
+IDR_PNG_MenuBarBlue     GIF                     "..\\CalcPro\\res\\bar_400blue.png"
+IDR_PNG_MenuBarPink     GIF                     "..\\CalcPro\\res\\bar_400pink.png"
+IDR_PNG_MenuBarSteel    GIF                     "..\\CalcPro\\res\\bar_400steel.png"
+IDR_PNG_MenuIcons       GIF                     "..\\CalcPro\\res\\icons_sm.png"
+IDR_PNG_MenuIconsVGA    GIF                     "..\\CalcPro\\res\\icons_lg.png"
+IDR_PNG_Button          GIF                     "..\\CalcPro\\res\\incoming_btn.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_TICKSOFT       WAVE                    "..\\CalcPro\\res\\clicksoft.wav"
+IDR_WAVE_TICK           WAVE                    "..\\CalcPro\\res\\click.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic CalcPro"
+    IDS_DEMO_Over           "We hope you enjoyed using Panoramic Calc Pro, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided the trial software."
+    IDC_Calc                "Calc"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_SaveGraph      "Save Bitmap"
+    IDS_MENU_Open           "Open"
+    IDS_MENU_ViewTape       "View Tape..."
+    IDS_NAME_Calc           "Panoramic Calc Pro"
+    IDS_MENU_File           "File"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies "Update Currencies"
+    IDS_Button_SecondFunction "2ndF"
+    IDS_Button_Hyp          "Hyp"
+    IDS_Button_Binary       "BIN"
+    IDS_Button_Octal        "OCT"
+    IDS_Button_Hex          "HEX"
+    IDS_Button_Decimal      "DEC"
+    IDS_Button_Degrees      "DEG"
+    IDS_Button_Radians      "RAD"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Graph          "Graphing"
+    IDS_MENU_Unit           "Unit Converter"
+    IDS_MENU_Currency       "World Currencies"
+    IDS_MENU_DateTime       "Date and Time"
+    IDS_MENU_Translate      "Translate Graph"
+    IDS_MENU_ZoomOut        "Zoom Out"
+    IDS_MENU_ZoomIn         "Zoom In"
+    IDS_MENU_Reset          "Reset"
+    IDS_MENU_Mode           "Mode"
+    IDS_MENU_PointOnGraph   "Point on Graph"
+    IDS_MENU_CenterGraph    "Center on Graph"
+    IDS_MENU_Zoom           "Select and Zoom"
+    IDS_MENU_Constants      "Constants"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Stats          "Statistics"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit           "Exit"
+    IDS_MENU_About          "About..."
+    IDS_MENU_Help           "Help..."
+    IDS_MENU_Edit           "Edit"
+    IDS_MENU_Copy           "Copy"
+    IDS_MENU_Paste          "Paste"
+    IDS_MENU_View           "View"
+    IDS_MENU_Standard       "Standard"
+    IDS_MENU_Scientific     "Scientific"
+    IDS_MENU_BaseConv       "Base Conversions"
+    IDS_MENU_Financial      "Financial"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Regional       "Use Regional Settings"
+    IDS_MENU_Save           "Save"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_Button_Grad         "GRAD"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UNIT_Distance       "Length"
+    IDS_UNIT_Temperature    "Temperature"
+    IDS_UNIT_Speed          "Speed"
+    IDS_UNIT_Volume         "Volume"
+    IDS_UNIT_Mass           "Weight (Mass)"
+    IDS_UNIT_Cooking        "Cooking"
+    IDS_UNIT_Computers      "Data Storage"
+    IDS_UNIT_Area           "Area"
+    IDS_UNIT_Energy         "Energy"
+    IDS_UNIT_Power          "Power"
+    IDS_UNIT_Force          "Force"
+    IDS_UNIT_Pressure       "Pressure"
+    IDS_UNIT_FuelEcon       "Fuel Economy"
+    IDS_UNIT_Time           "Time"
+    IDS_UNIT_Angles         "Angle"
+    IDS_UNIT_Torque         "Torque"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UNIT_Density        "Density"
+    IDS_UNIT_Acceleration   "Acceleration"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UL_miles            "Miles"
+    IDS_UL_mi               "mi"
+    IDS_UL_yards            "Yards"
+    IDS_UL_yd               "yd"
+    IDS_UL_feet             "Feet"
+    IDS_UL_ft               "ft"
+    IDS_UL_inches           "Inches"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UL_in               "in"
+    IDS_UL_nautical_miles   "Nautical miles"
+    IDS_UL_nm               "nm"
+    IDS_UL_kilometers       "Kilometers"
+    IDS_UL_km               "km"
+    IDS_UL_meters           "Meters"
+    IDS_UL_m                "m"
+    IDS_UL_centimeters      "Centimeters"
+    IDS_UL_cm               "cm"
+    IDS_UL_millimeters      "Millimeters"
+    IDS_UL_mm               "mm"
+    IDS_UL_decimeters       "Decimeters"
+    IDS_UL_dm               "dm"
+    IDS_UL_nanometers       "Nanometers"
+    IDS_UL_nanm             "nm"
+    IDS_UL_leagues          "Leagues (nautical)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UL_leg              "leg"
+    IDS_UT_Rankine          "Rankine"
+    IDS_UT_R                "°R"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UT_Celcius          "Celsius"
+    IDS_UT_C                "°C"
+    IDS_UT_Fahrenheit       "Fahrenheit"
+    IDS_UT_F                "°F"
+    IDS_UT_Kelvin           "Kelvin"
+    IDS_UT_K                "°K"
+    IDS_US_Miles_per_Hour   "Miles per hour"
+    IDS_US_mph              "mph"
+    IDS_US_Kilometers_per_Hour "Kilometers per hour"
+    IDS_US_km_h             "km/h"
+    IDS_US_Knots            "Knots"
+    IDS_US_nmph             "nmph"
+    IDS_US_Feet_per_Second  "Feet per second"
+    IDS_US_f_s              "f/s"
+    IDS_US_Meters_per_Second "Meters per second"
+    IDS_US_m_s              "m/s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_US_Speed_of_Light   "Speed of light"
+    IDS_US_c                "c"
+    IDS_US_Speed_of_Sound   "Speed of sound"
+    IDS_US_Mach             "Mach"
+    IDS_US_Feet_per_Minute  "Feet per minute"
+    IDS_US_ft_min           "ft/min"
+    IDS_US_Meters_per_Minute "Meters per minute"
+    IDS_US_m_min            "m/min"
+    IDS_US_Inch_per_Second  "Inches per second"
+    IDS_US_in_s             "in/s"
+    IDS_US_Kilometes_per_Second "Kilometers per second"
+    IDS_US_km_s             "km/s"
+    IDS_UV_Gallons_liquid_US "Gallons, liquid (US)"
+    IDS_UV_gal_US           "gal (US)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UV_Gallons_dry_US   "Gallons, dry (US)"
+    IDS_UV_gal_US_dry       "gal (US dry)"
+    IDS_UV_Gallons_UK       "Gallons (UK)"
+    IDS_UV_gal_UK           "gal (UK)"
+    IDS_UV_Quarts_liquid_US "Quarts, liquid (US)"
+    IDS_UV_qt_US            "qt (US)"
+    IDS_UV_Quarts_dry_US    "Quarts, dry (US)"
+    IDS_UV_qt_US_dry        "qt (US dry)"
+    IDS_UV_Quarts_UK        "Quarts (UK)"
+    IDS_UV_qt_UK            "qt (UK)"
+    IDS_UV_Pints_liquid_US  "Pints, liquid (US)"
+    IDS_UV_pt_US            "pt (US)"
+    IDS_UV_Pints_dry_US     "Pints, dry (US)"
+    IDS_UV_pt_US_dry        "pt (US dry)"
+    IDS_UV_Pints_UK         "Pints (UK)"
+    IDS_UV_pt_UK            "pt (UK)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UV_Cups_US          "Cups (US)"
+    IDS_UV_c_US             "c (US)"
+    IDS_UV_Cups_metric      "Cups (metric)"
+    IDS_UV_c                "c"
+    IDS_UV_Gill_US          "Gill (US)"
+    IDS_UV_gi_US            "gi (US)"
+    IDS_UV_Gill_UK          "Gill (UK)"
+    IDS_UV_gi_UK            "gi (UK)"
+    IDS_UV_Fluid_Ounces_US  "Fluid ounces (US)"
+    IDS_UV_fl_oz_US         "fl oz (US)"
+    IDS_UV_Fluid_Ounces_UK  "Fluid ounces (UK)"
+    IDS_UV_fl_oz_UK         "fl oz (UK)"
+    IDS_UV_Cubic_feet       "Cubic feet"
+    IDS_UV_ft               "ft³ "
+    IDS_UV_Cubic_Inches     "Cubic inches"
+    IDS_UV_in               "in³ "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UV_Liters           "Liters"
+    IDS_UV_l                "l"
+    IDS_UV_Centiliters      "Centiliters"
+    IDS_UV_cl               "cl"
+    IDS_UV_milliliters      "Milliliters"
+    IDS_UV_ml               "ml"
+    IDS_UV_Cubic_meters     "Cubic meters"
+    IDS_UV_m                "m³ "
+    IDS_UV_Cubic_centimeters "Cubic centimeters"
+    IDS_UV_cm               "cm³ "
+    IDS_UV_Cubic_millimeters "Cubic millimeters"
+    IDS_UV_mm               "mm³ "
+    1116                    "Pints (US)"
+    1117                    "pints (US)"
+    1118                    "Pints (UK)"
+    IDS_UC_pints_UK         "pints (UK)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UC_Gallons_liquid_US "Gallons (US)"
+    IDS_UC_gal_US           "gal (US)"
+    IDS_UC_Gallons_UK       "Gallons (UK)"
+    IDS_UC_gal_UK           "gal (UK)"
+    IDS_UC_Quarts_liquid_US "Quarts (US)"
+    IDS_UC_qt_US            "qt (US)"
+    IDS_UC_Quarts_UK        "Quarts (UK)"
+    IDS_UC_qt_UK            "qt (UK)"
+    IDS_UC_Cups_US          "Cups (US)"
+    IDS_UC_c_US             "c (US)"
+    IDS_UC_Cups_metric      "Cups (metric)"
+    IDS_UC_c                "c"
+    IDS_UC_milliliters      "Milliliters"
+    IDS_UC_ml               "ml"
+    IDS_UC_Fluid_Ounces_US  "Fluid ounces (US)"
+    IDS_UC_fl_oz_US         "fl oz (US)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UC_centiliters      "Centiliters"
+    IDS_UC_cl               "cl"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UAN_Radians         "Radians"
+    IDS_UAN_rad             "rad"
+    IDS_UAN_Gradians        "Gradians"
+    IDS_UAN_grad            "grad"
+    IDS_UAN_Degrees         "Degrees"
+    IDS_UAN_deg             "deg (°)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UAN_Circle          "Circles"
+    IDS_UAN_cir             "rev"
+    IDS_UAN_Point           "Points"
+    IDS_UAN_pt              "pt"
+    IDS_UAN_Quadrants       "Quadrants"
+    IDS_UAN_quad            "quad"
+    IDS_UAN_Mil             "Mil"
+    IDS_UAN_mill            "mil"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UC_Fluid_Ounces_UK  "Fluid ounces (UK)"
+    IDS_UC_fl_oz_UK         "fl oz (UK)"
+    IDS_UC_Tablespoon       "Tablespoon"
+    IDS_UC_tbsp             "tbsp"
+    IDS_UC_Teaspoon         "Teaspoon"
+    IDS_UC_tsp              "tsp"
+    IDS_UC_Liters           "Liters"
+    IDS_UC_l                "l"
+    IDS_UC_bit              "bit"
+    IDS_UC_byte             "byte"
+    IDS_UC_kilobyte         "kilobyte"
+    IDS_UC_Kb               "Kb"
+    IDS_UC_megabyte         "megabyte"
+    IDS_UC_MB               "MB"
+    IDS_UC_gigabyte         "gigabyte"
+    IDS_UC_GB               "GB"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UC_terabyte         "terabyte"
+    IDS_UC_TB               "TB"
+    IDS_UC_petabyte         "petabyte"
+    IDS_UC_PB               "PB"
+    IDS_UC_exabyte          "exabyte"
+    IDS_UC_EB               "EB"
+    1158                    "Word"
+    IDS_UC_DWord            "Dword"
+    IDS_UC_QWord            "Qword"
+    IDS_UC_disc             "disc"
+    IDS_UC_35Floppy         "3.5 Floppy (HD)"
+    IDS_UC_CD74             "CD (74min)"
+    IDS_UC_CD80             "CD (80min)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UC_DVD              "DVD-R"
+    IDS_UA_Acres            "Acres"
+    IDS_UA_A                "A"
+    IDS_UA_Square_Miles     "Square miles"
+    IDS_UA_mi               "mi² "
+    IDS_UA_Square_Yards     "Square yards"
+    IDS_UA_yd               "yd² "
+    IDS_UA_Square_Feet      "Square feet"
+    IDS_UA_ft               "ft² "
+    IDS_UA_Square_Inches    "Square inches"
+    IDS_UA_in               "in² "
+    IDS_UA_Hectares         "Hectares"
+    IDS_UA_ha               "ha"
+    IDS_UA_Square_Kilometers "Square kilometers"
+    IDS_UA_km               "km² "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UA_Square_Meters    "Square meters"
+    IDS_UA_m                "m² "
+    IDS_UA_Square_Centimeters "Square centimeters"
+    IDS_UA_cm               "cm² "
+    IDS_UA_Square_Millimeters "Square millimeters"
+    IDS_UA_mm               "mm² "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UE_Joules           "Joules"
+    IDS_UE_J                "J"
+    IDS_UE_Calories         "Calories"
+    IDS_UE_cal              "cal"
+    IDS_UE_Kilocalories     "Kilocalories"
+    IDS_UE_kcal             "kcal"
+    IDS_UE_Kilowatt_hours   "Kilowatt hours"
+    IDS_UE_kW_h             "kW·h"
+    IDS_UE_Watt_hours       "Watt hours"
+    IDS_UE_W_h              "W·h"
+    IDS_UE_Watt_seconds     "Watt seconds"
+    IDS_UE_W_s              "W·s"
+    IDS_UE_British_thermal_units "British thermal units"
+    IDS_UE_Btu              "Btu"
+    IDS_UE_Therms           "Therms"
+    IDS_UE_thm              "thm"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UE_Foot_Pounds      "Foot pounds"
+    IDS_UE_Ft_lbf           "Ft·lbf"
+    IDS_UE_HorsePower_per_Hour "HorsePower per hour"
+    IDS_UE_Hp_hr            "Hp·hr"
+    IDS_UE_Kilogram_Meters  "Kilogram meters"
+    IDS_UE_Kg_m             "Kg·m"
+    IDS_UE_KJoules          "KiloJoules"
+    IDS_UE_kJ               "kJ"
+    IDS_UP_Watts            "Watts"
+    IDS_UP_W                "W"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UP_Kilowatts        "Kilowatts"
+    IDS_UP_kW               "kW"
+    IDS_UP_MegaWatts        "MegaWatts"
+    IDS_UP_MW               "MW"
+    IDS_UP_Gigawatts        "Gigawatts"
+    IDS_UP_GW               "GW"
+    IDS_UP_Calories_per_hour "Calories per hour"
+    IDS_UP_cal_h            "cal/h"
+    IDS_UP_Calories_per_min "Calories per min"
+    IDS_UP_cal_min          "cal/min"
+    IDS_UP_Calories_per_second "Calories per sec"
+    IDS_UP_cal_s            "cal/s"
+    IDS_UP_Btu_per_hour     "Btu per hour"
+    IDS_UP_Btu_h            "Btu/h"
+    IDS_UP_Btu_per_minute   "Btu per minute"
+    IDS_UP_Btu_min          "Btu/min"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UP_Btu_per_second   "Btu per second"
+    IDS_UP_Btu_s            "Btu/s"
+    IDS_UP_Horse_Power_IT   "Horse Power (IT)"
+    IDS_UP_hp_IT            "hp (IT)"
+    IDS_UP_Horse_Power_metric "Horse Power (metric)"
+    IDS_UP_hp_metric        "hp (metric)"
+    IDS_UP_Foot_Pounds_per_sec "Foot pounds per sec"
+    IDS_UP_ft_lb_s          "ft·lbf/s"
+    IDS_UP_Inches_Merc      "Inches of Mercury"
+    IDS_UP_Hg               "in hg"
+    IDS_UP_Foot_Pounds_per_min "Foot pounds per min"
+    IDS_UP_ft_lb_min        "ft·lbf/min"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UM_PoundsTroy       "Troy pounds"
+    IDS_UM_lbTroy           "lbt"
+    IDS_UM_OuncesTroy       "Ounces (troy)"
+    IDS_UM_ozTroy           "oz (troy)"
+    IDS_UM_Grams            "Grams"
+    IDS_UM_g                "g"
+    IDS_UM_Kilograms        "Kilograms"
+    IDS_UM_kg               "kg"
+    IDS_UM_Ounces           "Ounces"
+    IDS_UM_oz               "oz"
+    IDS_UM_Pounds           "Pounds"
+    IDS_UM_lb               "lb"
+    IDS_UM_Tonnes_metric    "Tonnes"
+    1279                    "t"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UM_Tons_US_short    "Tons (US short)"
+    IDS_UM_tn               "tn"
+    IDS_UM_Tons_UK_long     "Tons (UK long)"
+    IDS_UM_T                "T"
+    IDS_UM_Stones           "Stones"
+    IDS_UM_st               "st"
+    IDS_UM_Hunweights_US_short "Hundredweights (US short)"
+    IDS_UM_Cwt_US           "Cwt (US)"
+    IDS_UM_Hunweights_UK_long "Hundredweights (UK long)"
+    IDS_UM_Cwt_UK           "Cwt (UK)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UF_gram_Force       "Gram force"
+    IDS_UF_gf               "gf"
+    IDS_UF_Ounce_Force      "Ounce force"
+    IDS_UF_of               "ozf"
+    IDS_UF_Newtons          "Newtons"
+    IDS_UF_N                "N"
+    IDS_UF_KiloNewtons      "KiloNewtons"
+    IDS_UF_kN               "kN"
+    IDS_UF_MegaNewtons      "MegaNewtons"
+    IDS_UF_MN               "MN"
+    IDS_UF_Pound_force      "Pound force"
+    IDS_UF_lbf              "lbf"
+    IDS_UF_Tonnes_force_metric "Tonnes force"
+    IDS_UF_tnf_metric       "tnf (metric)"
+    IDS_UF_Tons_force_US    "Tons force (US)"
+    IDS_UF_tnf_US           "tnf (US)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UF_Tons_force_UK    "Tons force (UK)"
+    IDS_UF_tnf_UK           "tnf (UK)"
+    IDS_UF_Kilgram_Force    "Kilogram force"
+    IDS_UF_kgf              "kgf"
+    1316                    "Dynes"
+    IDS_UF_dynes            "dynes"
+    IDS_UP_Kilogram_force_per_meter "Kilogram force per m² "
+    IDS_UP_kg_m             "kgf/m² "
+    IDS_UP_Kilogram_force_per_cm "Kilogram force per cm² "
+    IDS_UP_kg_cm            "kgf/cm² "
+    IDS_UP_Kilogram_force_per_mm "Kilogram force per mm² "
+    IDS_UP_kg_mm            "kgf/mm² "
+    IDS_UP_Tons_US_per_foot "Tons (US) per ft² "
+    IDS_UP_tn_ft            "tn/ft² "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UP_Tons_US_per_inch "Tons (US) per in² "
+    IDS_UP_tn_in            "tn/in² "
+    IDS_UP_Tons_UK_per_foot "Tons (UK) per ft² "
+    IDS_UP_T_ft             "T/ft² "
+    IDS_UP_Tons_UK_per_inch "Tons (UK) per in² "
+    IDS_UP_T_in             "T/in² "
+    IDS_UP_Tonnes_per_meter "Tonnes per m² "
+    IDS_UP_t_m              "t/m² "
+    IDS_UP_Tonnes_per_cm    "Tonnes per cm² "
+    IDS_UP_t_cm             "t/cm² "
+    IDS_UP_Newtons_per_meter "Newtons per m² "
+    IDS_UP_N_m              "N/m² "
+    IDS_UP_Newtons_per_cm   "Newtons per cm² "
+    IDS_UP_N_cm             "N/cm² "
+    IDS_UP_Newtons_per_mm   "Newtons per mm² "
+    IDS_UP_N_mm             "N/mm² "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UP_Bars             "Bars"
+    IDS_UP_b                "b"
+    IDS_UP_Millibars        "Millibars"
+    IDS_UP_mb               "mb"
+    IDS_UP_Pascals          "Pascals"
+    IDS_UP_Pa               "Pa"
+    IDS_UP_Atmospheres      "Atmospheres"
+    IDS_UP_atm              "atm"
+    IDS_UP_Torrs            "Torrs"
+    IDS_UP_mm_Hg_0          "mm·Hg (0°C)"
+    IDS_UP_Pounds_force_per_foot "Pounds force per ft² "
+    IDS_UP_lb_ft            "lbf/ft² "
+    IDS_UP_Pounds_force_per_inch "Pounds force per in² "
+    IDS_UP_PSI              "PSI"
+    IDS_UP_Hectopascals     "Hectopascals"
+    IDS_UP_hPa              "hPa"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UF_Liters100km      "Liters per 100 km"
+    IDS_UF_l100km           "l/100km"
+    IDS_UF_Miles_Gallon     "Miles per gallon"
+    IDS_UF_milesg           "mi/gal"
+    IDS_UF_Kilmeters_Gallon "Kilometers per gallon"
+    IDS_UF_kmg              "km/gal"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UF_Miles_Gallon_UK  "Miles per gallon (UK)"
+    IDS_UF_milesg_UK        "mi/gal (UK)"
+    IDS_UF_Kilimeters_Gallon_UK "Kilometers per gallon (UK)"
+    IDS_UF_kmg_UK           "km/gal (UK)"
+    IDS_UF_Miles_Liter      "Miles per liter"
+    IDS_UF_milesl           "mi/l"
+    IDS_UF_Kilmeters_Liter  "Kilometers per liter"
+    IDS_UF_kml              "km/l"
+    IDS_UF_Gallons_100miles "Gallons per 100 miles"
+    IDS_UF_g100miles        "gal/100mi"
+    IDS_UF_Gallons_100km    "Gallons per 100 km"
+    IDS_UF_g100km           "gal/100km"
+    IDS_UF_Gallons_100miles_UK "Gallons per 100 miles (UK)"
+    IDS_UF_g100miles_UK     "gal/100mi (UK)"
+    IDS_UF_Gallons_100kilmeters_UK "Gallons per 100 km (UK)"
+    IDS_UF_g100km_UK        "gal/100km (UK)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UF_l100miles        "l/100mi"
+    IDS_UF_Liters_100miles  "Liters per 100 miles"
+    1398                    "Work Weeks (40 hours)"
+    IDS_UT_workweeks        "w weeks"
+    IDS_UT_NanoSec          "Nanoseconds"
+    IDS_UT_ns               "ns"
+    IDS_UT_MilliSec         "Milliseconds"
+    IDS_UT_ms               "ms"
+    IDS_UT_Sec              "Seconds"
+    IDS_UT_s                "s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UT_Minute           "Minutes"
+    IDS_UT_min              "min"
+    IDS_UT_Hour             "Hours"
+    IDS_UT_h                "h"
+    1412                    "Days"
+    IDS_UT_days             "days"
+    1414                    "Weeks"
+    IDS_UT_weeks            "weeks"
+    1416                    "Months"
+    IDS_UT_months           "months"
+    DS_UT_Years             "Years"
+    IDS_UT_years            "yr"
+    1420                    "Decades"
+    IDS_UT_decades          "decades"
+    1422                    "Centuries"
+    IDS_UT_centuries        "centuries"
+END
+
+STRINGTABLE 
+BEGIN
+    1424                    "Millenniums"
+    IDS_UT_milleniums       "millenniums"
+END
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+

@@ -1,0 +1,65 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="CalcPro.CurrencyConverter"
+	d:DesignWidth="480" d:DesignHeight="720">
+
+	<Grid x:Name="LayoutRoot" Background="Transparent" Loaded="LayoutRoot_Loaded">
+        <Grid x:Name ="BackgroundGrid" Width="480" Height="720">
+            <Grid Height="333" HorizontalAlignment="Left" Margin="0,0,0,0" Name="gridTop" VerticalAlignment="Top" Width="480">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid Name="gridDisplayUpdate" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2" Margin="0" MouseLeftButtonUp="gridDisplayUpdate_MouseLeftButtonUp" />
+                <Grid Name="gridDisplayFrom" Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="0" Margin="0" MouseLeftButtonDown="gridDisplayFrom_MouseLeftButtonDown" MouseLeftButtonUp="gridDisplayFrom_MouseLeftButtonUp" />
+                <Grid Name="gridDisplayTo" Grid.Column="0" Grid.ColumnSpan="4" Grid.Row="1" Margin="0" MouseLeftButtonUp="gridDisplayTo_MouseLeftButtonUp" />
+                <Grid Name="gridBtnFrom" Grid.Column="4" Grid.ColumnSpan="1" Grid.Row="0" Margin="0" />
+                <Grid Name="gridBtnTo" Grid.Column="4" Grid.ColumnSpan="1" Grid.Row="1" Margin="0" />
+                <Grid Name="gridBtnUpdate" Grid.Column="3" Grid.ColumnSpan="2" Grid.Row="2" Margin="0" />
+                <TextBlock DataContext="{Binding}" HorizontalAlignment="Center" Margin="10" Name="txtUpdateStatus" Text="{Binding szLastUpdateTime, Mode=OneWay}" VerticalAlignment="Top" TextAlignment="Center" FontSize="24" Foreground="#FF434343" Grid.ColumnSpan="3" Grid.Row="2" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" HorizontalAlignment="Center" Margin="10" Name="txtUpdate" Text="{Binding szLastUpdateDate, Mode=OneWay}" VerticalAlignment="Bottom" TextAlignment="Center" FontSize="40" Foreground="#FF434343" Grid.ColumnSpan="3" Grid.Row="2" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" FontSize="38" Foreground="#FF434343" HorizontalAlignment="Right" Margin="10" Name="txtTo" Text="{Binding szTo, Mode=OneWay}" TextAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="4" Grid.Row="1" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" FontSize="38" Foreground="#FF434343" HorizontalAlignment="Right" Margin="10" Name="txtFrom" Text="{Binding szFrom, Mode=OneWay}" TextAlignment="Right" VerticalAlignment="Bottom" Grid.ColumnSpan="4" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" FontSize="28" Foreground="#FF434343" HorizontalAlignment="Left" Margin="10" Name="txtToSym" Text="{Binding szToSym, Mode=OneWay}" TextAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="4" Grid.Row="1" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" FontSize="28" Foreground="#FF434343" HorizontalAlignment="Left" Margin="10" Name="txtFromSym" Text="{Binding szFromSym, Mode=OneWay}" TextAlignment="Left" VerticalAlignment="Top" Grid.ColumnSpan="4" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" FontSize="20" Foreground="#FF434343" HorizontalAlignment="Right" Margin="10" Name="txtToBid" Text="{Binding szToBid, Mode=OneWay}" TextAlignment="Right" VerticalAlignment="Top" Grid.ColumnSpan="4" Grid.Row="1" Visibility="Collapsed" />
+                <TextBlock DataContext="{Binding}" FontSize="20" Foreground="#FF434343" HorizontalAlignment="Right" Margin="10" Name="txtFromBid" Text="{Binding szFromBid, Mode=OneWay}" TextAlignment="Right" VerticalAlignment="Top" Grid.ColumnSpan="4" Visibility="Collapsed" />
+            </Grid>
+
+            <Grid Height="355" HorizontalAlignment="Left" Margin="0,333,0,0" Name="gridMain" VerticalAlignment="Top" Width="480">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Grid Height="21" HorizontalAlignment="Left" Margin="77,19,0,0" Name="gridFlag1" VerticalAlignment="Top" Width="42" ></Grid>
+
+            <Grid Height="21" HorizontalAlignment="Left" Margin="77,130,0,0" Name="gridFlag2" VerticalAlignment="Top" Width="42"></Grid>
+
+        </Grid>
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,63 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Calc Pro Lite"
+InstallDir=%CE1%\Panoramic\CalcproLite
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE11%
+Shortcuts02.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"Calcpro.exe" = 1
+"PanoCalcproLite.htm" = 1
+"currency.ini" = 1
+;"eula.exe" = 1
+;"eula.txt" = 1
+"setupdll.dll" = 1
+"Calcprolite90x90_192.png" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720, Shortcuts02.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoCalcprolite,StartUp,0x00000001,00,00,00,00
+HKLM,Security\Shell\StartInfo\Start\Panoramic Calc Pro Lite.lnk,Icon,0x00000000,%InstallDir%\Calcprolite90x90_192.png
+
+[Files00.ARM720]
+"Calcpro.exe",,,0x40000003
+"Currency.ini",,,0x40000003
+;"eula.exe",,,0x40000003
+;"eula.txt",,,0x40000003
+"Calcprolite90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"PanoCalcproLite.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Calc Pro Lite", 0, "Calcpro.exe"
+
+[Shortcuts02.ARM720]
+"Panoramic Calc Pro Lite.lnk", 0, "PanoCalcproLite.htm"
+
+
+
+

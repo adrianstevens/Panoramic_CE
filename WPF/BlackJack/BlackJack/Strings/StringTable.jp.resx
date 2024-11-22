@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_APP_TITLE" xml:space="preserve">
+    <value>パノラミック　ブラックジャック</value>
+  </data>
+  <data name="IDS_MENU_MoreApps" xml:space="preserve">
+    <value>他のアプリを見る</value>
+  </data>
+  <data name="IDS_MSG_TrialOverShort" xml:space="preserve">
+    <value>お試し期間が終了しました。</value>
+  </data>
+  <data name="IDS_BGCOLOR_BLUE" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="IDS_BGCOLOR_GREEN" xml:space="preserve">
+    <value>緑</value>
+  </data>
+  <data name="IDS_BGCOLOR_PURPLE" xml:space="preserve">
+    <value>紫</value>
+  </data>
+  <data name="IDS_BGCOLOR_RED" xml:space="preserve">
+    <value>赤</value>
+  </data>
+  <data name="IDS_BTNS_Insurance" xml:space="preserve">
+    <value>保険</value>
+  </data>
+  <data name="IDS_BTNS_Bet" xml:space="preserve">
+    <value>ベット</value>
+  </data>
+  <data name="IDS_BTNS_Stand" xml:space="preserve">
+    <value>スタンド</value>
+  </data>
+  <data name="IDS_BTNS_Split" xml:space="preserve">
+    <value>スプリット</value>
+  </data>
+  <data name="IDS_BTNS_Late" xml:space="preserve">
+    <value>レイト</value>
+  </data>
+  <data name="IDS_BTNS_Double" xml:space="preserve">
+    <value>ダブル</value>
+  </data>
+  <data name="IDS_BTNS_Hit" xml:space="preserve">
+    <value>ヒット</value>
+  </data>
+  <data name="IDS_BTNS_Deal" xml:space="preserve">
+    <value>ディール</value>
+  </data>
+  <data name="IDS_BTNS_Reset" xml:space="preserve">
+    <value>リセット</value>
+  </data>
+  <data name="IDS_CMB_GD_Easy" xml:space="preserve">
+    <value>やさしい</value>
+  </data>
+  <data name="IDS_CMB_GD_Normal" xml:space="preserve">
+    <value>ふつう</value>
+  </data>
+  <data name="IDS_CMB_GD_Difficult" xml:space="preserve">
+    <value>むずかしい</value>
+  </data>
+  <data name="IDS_CMB_GD_Custom" xml:space="preserve">
+    <value>カスタム</value>
+  </data>
+  <data name="IDS_CMB_GD_Learn" xml:space="preserve">
+    <value>遊び方を知る</value>
+  </data>
+  <data name="IDS_MENU_ResumeGame" xml:space="preserve">
+    <value>ゲームを再開する</value>
+  </data>
+  <data name="IDS_MENU_Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="IDS_MENU_Help" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="IDS_MENU_Quit" xml:space="preserve">
+    <value>やめる</value>
+  </data>
+  <data name="IDS_MENU_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="IDS_MENU_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="IDS_MENU_Menu" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="IDS_MENU_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="IDS_MENU_HiScores" xml:space="preserve">
+    <value>ハイスコア</value>
+  </data>
+  <data name="IDS_MENU_About" xml:space="preserve">
+    <value>本ソフトに関して</value>
+  </data>
+  <data name="IDS_MENU_Exit" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="IDS_MENU_NewGame" xml:space="preserve">
+    <value>新規開始</value>
+  </data>
+  <data name="IDS_MENU_Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="IDS_MENU_No" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="IDS_MENU_Back" xml:space="preserve">
+    <value>もどる</value>
+  </data>
+  <data name="IDS_MENU_Resume" xml:space="preserve">
+    <value>再開</value>
+  </data>
+  <data name="IDS_CMB_CCV_On" xml:space="preserve">
+    <value>開始</value>
+  </data>
+  <data name="IDS_CMB_CCV_Semi" xml:space="preserve">
+    <value>オンデマンド</value>
+  </data>
+  <data name="IDS_CMB_CCV_Off" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="IDS_CMB_CC_Wizard" xml:space="preserve">
+    <value>ウィザード</value>
+  </data>
+  <data name="IDS_CMB_CC_KO" xml:space="preserve">
+    <value>KO</value>
+  </data>
+  <data name="IDS_CMB_CC_HiLow" xml:space="preserve">
+    <value>ハイ　ロー</value>
+  </data>
+  <data name="IDS_CMB_CC_HiOpt1" xml:space="preserve">
+    <value>ハイオプト１</value>
+  </data>
+  <data name="IDS_CMB_CC_HiOpt2" xml:space="preserve">
+    <value>ハイオプト２</value>
+  </data>
+  <data name="IDS_CMB_CC_Zen" xml:space="preserve">
+    <value>ゼン</value>
+  </data>
+  <data name="IDS_CMB_CC_OmegaII" xml:space="preserve">
+    <value>オメガII</value>
+  </data>
+  <data name="IDS_MSG_Broke" xml:space="preserve">
+    <value>あなたの負けです。新しくゲームを始めますか？</value>
+  </data>
+  <data name="IDS_MSG_DemoOver" xml:space="preserve">
+    <value>パノラミック ブラックジャックをお楽しみ頂きましてありがとうございます。お試し期間が終了しました。もし購入される場合は試行版をダウンロードされたWebサイトにお戻りください</value>
+  </data>
+  <data name="IDS_MSG_Exit" xml:space="preserve">
+    <value>パノラミック ブラックジャックを終わりますか？</value>
+  </data>
+  <data name="IDS_ABOUT_1" xml:space="preserve">
+    <value>パノラミック　ブラックジャック\r\nversion 1.4.0.1\r\nCopyright 2008-2013\r\n\r\nPanoramic Software Inc.\r\nwww.panoramicsoft.com</value>
+  </data>
+  <data name="IDS_MSG_HiEndGame" xml:space="preserve">
+    <value>ゲームは終わり、ハイスコアです。新しくゲームを始めますか？</value>
+  </data>
+  <data name="IDS_MSG_NewGame" xml:space="preserve">
+    <value>新しくゲームを始めますか？</value>
+  </data>
+  <data name="IDS_LBL_Bank" xml:space="preserve">
+    <value>銀行</value>
+  </data>
+  <data name="IDS_LBL_Date" xml:space="preserve">
+    <value>日付</value>
+  </data>
+  <data name="IDS_LBL_PlaySounds" xml:space="preserve">
+    <value>ゲーム中の音</value>
+  </data>
+  <data name="IDS_LBL_CardCountView" xml:space="preserve">
+    <value>カードの計算</value>
+  </data>
+  <data name="IDS_LBL_CardCounting" xml:space="preserve">
+    <value>カードの計算スタイル</value>
+  </data>
+  <data name="IDS_LBL_GameDifficulty" xml:space="preserve">
+    <value>ゲームの難易度</value>
+  </data>
+  <data name="IDS_LBL_Language" xml:space="preserve">
+    <value>言語:</value>
+  </data>
+  <data name="IDS_RESULT_Win" xml:space="preserve">
+    <value>勝ち</value>
+  </data>
+  <data name="IDS_RESULT_Win2" xml:space="preserve">
+    <value>勝ち！</value>
+  </data>
+  <data name="IDS_RESULT_Draw" xml:space="preserve">
+    <value>引き分け</value>
+  </data>
+  <data name="IDS_RESULT_Lose" xml:space="preserve">
+    <value>負け</value>
+  </data>
+  <data name="IDS_RESULT_Surrender" xml:space="preserve">
+    <value>降参</value>
+  </data>
+  <data name="IDS_RESULT_DealerBusts" xml:space="preserve">
+    <value>ディーラーのバースト - 勝ち!</value>
+  </data>
+  <data name="IDS_RESULT_Blackjack" xml:space="preserve">
+    <value>ブラックジャック!</value>
+  </data>
+  <data name="IDS_INFO_BankDemo" xml:space="preserve">
+    <value>銀行: デモ</value>
+  </data>
+  <data name="IDS_INFO_BankAmt" xml:space="preserve">
+    <value>銀行: $%i</value>
+  </data>
+  <data name="IDS_INFO_BetDemo" xml:space="preserve">
+    <value>ベット: デモ</value>
+  </data>
+  <data name="IDS_INFO_BetAmt" xml:space="preserve">
+    <value>ベット: $%i</value>
+  </data>
+  <data name="IDS_INFO_Count" xml:space="preserve">
+    <value>カウント</value>
+  </data>
+  <data name="IDS_INFO_CardCount" xml:space="preserve">
+    <value>カード\r\nカウント</value>
+  </data>
+  <data name="IDS_ACH10_DESC" xml:space="preserve">
+    <value>ディーラーの胸像連続で5回</value>
+  </data>
+  <data name="IDS_ACH10_TITLE" xml:space="preserve">
+    <value>旅行アップ</value>
+  </data>
+  <data name="IDS_ACH11_DESC" xml:space="preserve">
+    <value>カード上の行に10勝手がカウント</value>
+  </data>
+  <data name="IDS_ACH11_TITLE" xml:space="preserve">
+    <value>Runing数</value>
+  </data>
+  <data name="IDS_ACH12_DESC" xml:space="preserve">
+    <value>高カウントの最大の賭け</value>
+  </data>
+  <data name="IDS_ACH12_TITLE" xml:space="preserve">
+    <value>ハイローラー</value>
+  </data>
+  <data name="IDS_ACH13_DESC" xml:space="preserve">
+    <value>18ヒット</value>
+  </data>
+  <data name="IDS_ACH13_TITLE" xml:space="preserve">
+    <value>ギャンブラー</value>
+  </data>
+  <data name="IDS_ACH14_DESC" xml:space="preserve">
+    <value>試合で12以上の5回に倍増させ、それぞれの手を獲得</value>
+  </data>
+  <data name="IDS_ACH14_TITLE" xml:space="preserve">
+    <value>ダブルトラブル</value>
+  </data>
+  <data name="IDS_ACH1_DESC" xml:space="preserve">
+    <value>ゲームで二度8のペア</value>
+  </data>
+  <data name="IDS_ACH1_TITLE" xml:space="preserve">
+    <value>私はやっぱ嫌い</value>
+  </data>
+  <data name="IDS_ACH2_DESC" xml:space="preserve">
+    <value>単一のデッキの試合で5カード21、全5さんが登場する</value>
+  </data>
+  <data name="IDS_ACH2_TITLE" xml:space="preserve">
+    <value>Woooh</value>
+  </data>
+  <data name="IDS_ACH3_DESC" xml:space="preserve">
+    <value>行のヒットブラックジャック3回</value>
+  </data>
+  <data name="IDS_ACH3_TITLE" xml:space="preserve">
+    <value>火災で</value>
+  </data>
+  <data name="IDS_ACH4_DESC" xml:space="preserve">
+    <value>両分割手にスコア21</value>
+  </data>
+  <data name="IDS_ACH4_TITLE" xml:space="preserve">
+    <value>スプリット</value>
+  </data>
+  <data name="IDS_ACH5_DESC" xml:space="preserve">
+    <value>スコア25000</value>
+  </data>
+  <data name="IDS_ACH5_TITLE" xml:space="preserve">
+    <value>25,000！</value>
+  </data>
+  <data name="IDS_ACH6_DESC" xml:space="preserve">
+    <value>スコア50000</value>
+  </data>
+  <data name="IDS_ACH6_TITLE" xml:space="preserve">
+    <value>5万！</value>
+  </data>
+  <data name="IDS_ACH7_DESC" xml:space="preserve">
+    <value>スコア75000</value>
+  </data>
+  <data name="IDS_ACH7_TITLE" xml:space="preserve">
+    <value>75Gs</value>
+  </data>
+  <data name="IDS_ACH8_DESC" xml:space="preserve">
+    <value>スコア100000</value>
+  </data>
+  <data name="IDS_ACH8_TITLE" xml:space="preserve">
+    <value>10万！</value>
+  </data>
+  <data name="IDS_ACH9_DESC" xml:space="preserve">
+    <value>8以上のカードで勝利の手</value>
+  </data>
+  <data name="IDS_ACH9_TITLE" xml:space="preserve">
+    <value>ラッキーブレイク</value>
+  </data>
+  <data name="IDS_LBL_AchievementUnlock" xml:space="preserve">
+    <value>実績のロックが解除！</value>
+  </data>
+  <data name="IDS_MENU_Achievements" xml:space="preserve">
+    <value>実績</value>
+  </data>
+  <data name="IDS_OPT_BJPayout" xml:space="preserve">
+    <value>お支払いの種類</value>
+  </data>
+  <data name="IDS_OPT_BurnFirst" xml:space="preserve">
+    <value>最初のカードをバーン</value>
+  </data>
+  <data name="IDS_OPT_DealerHitSoft17" xml:space="preserve">
+    <value>ディーラーはソフト17でヒット</value>
+  </data>
+  <data name="IDS_OPT_NumDecks" xml:space="preserve">
+    <value>デッキ数</value>
+  </data>
+  <data name="IDS_OPT_ShowDealerCard" xml:space="preserve">
+    <value>地図ディーラーカード</value>
+  </data>
+  <data name="IDS_OPT_ShowScores" xml:space="preserve">
+    <value>表示スコア</value>
+  </data>
+  <data name="IDS_OPT_InitialBank" xml:space="preserve">
+    <value>銀行を開始</value>
+  </data>
+</root>

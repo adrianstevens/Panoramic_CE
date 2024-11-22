@@ -1,0 +1,8 @@
+﻿<Application x:Class="BlackJack.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="Window.xaml" SessionEnding="Application_SessionEnding" Exit="Application_Exit">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

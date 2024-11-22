@@ -1,0 +1,75 @@
+﻿<Page x:Class="Sudoku.GameScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mylocal="clr-namespace:Sudoku.Controls"
+    Background="Black"
+    MinWidth="720"
+    MinHeight="540"
+    Title="Panoramic Ultimate Sudoku">
+    <Grid x:Name="LayoutRoot" Loaded="LayoutRoot_Loaded"  KeyDown="LayoutRoot_KeyDown"  Width="720" Height="540" >
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/OptionsBGsm.png" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="480"/>
+            <ColumnDefinition Width="240"/>
+        </Grid.ColumnDefinitions>
+                
+        <Grid Width="468" Height="468" Grid.RowSpan="2" HorizontalAlignment="Left" Name="gridBoard" VerticalAlignment="Top" Margin="6" />
+        <Grid Width="468" Height="468" Grid.RowSpan="2" HorizontalAlignment="Left" Name="gridBoardOverlay" VerticalAlignment="Top" Margin="6" IsHitTestVisible="False"/>
+
+        <Rectangle Grid.Row="1" Grid.Column="0" Height="40" HorizontalAlignment="Stretch" Name="rectangle1" VerticalAlignment="Bottom" Fill="Black" />
+        <Grid x:Name="gridNumbers" Grid.Row="1" Grid.Column="0" Width="480" HorizontalAlignment="Right" Background="#01000000" MouseEnter="gridNumbers_MouseEnter"  MouseLeave="gridNumbers_MouseLeave"  MouseLeftButtonUp="gridNumbers_MouseLeftButtonUp"  MouseMove="gridNumbers_MouseMove" />
+             
+        <Image x:Name="imgLogo" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="1" Margin="20, 210, 20, 0"/>
+        
+        <Grid x:Name="gridRightPane" Grid.Column="1" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="120"/>
+            </Grid.RowDefinitions>
+
+            
+            <TextBlock Grid.Row="1" FontSize="24" Height="52" HorizontalAlignment="Left" Margin="10,0,10,0" Name="textTime" Text="" VerticalAlignment="Top" Width="auto" Foreground="White" TextAlignment="Left"/>
+            <TextBlock Grid.Row ="0" FontSize="24" Height="52" HorizontalAlignment="Left" Margin="10,0,10,0" Name="textFree" Text="" VerticalAlignment="Top" Width="auto" Foreground="White" TextAlignment="Left" />
+            <TextBlock Grid.Row ="2" FontSize="24" Height="52" HorizontalAlignment="Left" Margin="10,0,10,0" Name="textTotals" Text="" VerticalAlignment="Top" Width="auto" Foreground="White" TextAlignment="Left" />
+            <Grid x:Name="gridMenu" Grid.Row="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                
+                <mylocal:ImageButtonControl Grid.Column="0" Margin="0,0,0,10" VerticalAlignment="Bottom" x:Name="btnUndo" OnClick="btnUndo_OnClick"/>
+                <mylocal:ImageButtonControl Grid.Column="1" Margin="0,0,0,10" VerticalAlignment="Bottom" x:Name="btnHint" OnClick="btnHint_OnClick"/>
+                <mylocal:ImageButtonControl Grid.Column="2" Margin="0,0,0,10" VerticalAlignment="Bottom" x:Name="btnPenPencil" OnClick="btnPenPencil_OnClick"/>
+                <mylocal:ImageButtonControl Grid.Column="3" Margin="0,0,0,10" VerticalAlignment="Bottom" x:Name="btnMenu" OnClick="btnMenu_OnClick"/>
+                <Menu Margin="6,0,10,21" Name="menuPopup" FontSize="18" Height="37" VerticalAlignment="Bottom" Grid.Column="3" VerticalContentAlignment="Top" Opacity="0">
+                    <Menu.BitmapEffect>
+                        <DropShadowBitmapEffect />
+                    </Menu.BitmapEffect>
+                    <MenuItem Header="       " FontSize="20" >
+                        <MenuItem Header="_New Game" Click="MenuItem_ClickNewGame"/>
+                        <MenuItem Header="_Restart Game" Click="MenuItem_ClickRestart" />
+                        <MenuItem Header="_Solve" Click="MenuItem_ClickSolve"/>
+                        <MenuItem Header="_Clear Pencil Marks" Click="MenuItem_ClickClearPencil"/>
+                        <MenuItem Header="_Options " Click="MenuItem_ClickOptions"/>
+                        <MenuItem Header="_About " Click="MenuItem_ClickOptions"/>
+                    </MenuItem>
+                </Menu>
+                <TextBlock FontSize="16" Height="auto" Margin="0,36,0,0" Name="textLevel" Text="ddddd" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" TextAlignment="Left" Grid.Column="0" Grid.ColumnSpan="4" />
+            </Grid>
+        </Grid>
+
+        <!--<Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Name="imgTopBar" Source="/Assets/topbar.png" Stretch="Fill" IsHitTestVisible="False" HorizontalAlignment="Center" />-->
+    </Grid>
+</Page>

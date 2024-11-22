@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="BlackJack.Controls.FlipImage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="183" d:DesignWidth="98">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent" Width="98" Height="183" IsHitTestVisible="False" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Canvas HorizontalAlignment="Stretch" Name="canvasBackground" VerticalAlignment="Stretch" IsHitTestVisible="False" Loaded="canvasBackground_Loaded">
+            <Canvas.Clip>
+                <RectangleGeometry Rect="0,0,98,183"/>
+            </Canvas.Clip>
+            <Image Name="imgBackground" Stretch="Uniform" IsHitTestVisible="False" Width="1176" Height="183"/>
+        </Canvas>
+    </Grid>
+</UserControl>

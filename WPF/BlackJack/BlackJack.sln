@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack", "BlackJack\BlackJack.csproj", "{5311F019-9124-4CAD-B5AF-EE53DB0A360E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SilentInstaller", "SilentInstaller\SilentInstaller.vdproj", "{40A9D476-F5D1-4939-96AE-DEE581D9FE3A}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BlackJack\\BlackJack.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = BlackJack\\
+		SccProjectUniqueName2 = SilentInstaller\\SilentInstaller.vdproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = SilentInstaller\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5311F019-9124-4CAD-B5AF-EE53DB0A360E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5311F019-9124-4CAD-B5AF-EE53DB0A360E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5311F019-9124-4CAD-B5AF-EE53DB0A360E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5311F019-9124-4CAD-B5AF-EE53DB0A360E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A9D476-F5D1-4939-96AE-DEE581D9FE3A}.Debug|Any CPU.ActiveCfg = Debug
+		{40A9D476-F5D1-4939-96AE-DEE581D9FE3A}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

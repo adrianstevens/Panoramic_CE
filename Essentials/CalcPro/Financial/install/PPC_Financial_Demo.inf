@@ -1,0 +1,69 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Financial Calc"
+InstallDir=%CE1%\Panoramic\Financial
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE11%
+Shortcuts02.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"financial.exe" = 1
+"panofinancial.htm" = 1
+"panofinancial_de.htm" = 1
+"panofinancial_es.htm" = 1
+"panofinancial_fr.htm" = 1
+"panofinancial_jp.htm" = 1
+"panofinancial_pt.htm" = 1
+"setupdll.dll" = 1
+"FinancialCalc90x90_192.png" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720, Shortcuts02.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoFinCalc,StartUp,0x00000001,00,00,00,00
+HKLM,Security\Shell\StartInfo\Start\Panoramic Financial Calc.lnk,Icon,0x00000000,%InstallDir%\FinancialCalc90x90_192.png
+
+[Files00.ARM720]
+"financial.exe",,,0x40000003
+;"eula.exe",,,0x40000003
+;"eula.txt",,,0x40000003
+"FinancialCalc90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"PanoFinancial.htm",,,0x40000003
+"PanoFinancial_de.htm",,,0x40000003
+"PanoFinancial_es.htm",,,0x40000003
+"PanoFinancial_fr.htm",,,0x40000003
+"panofinancial_jp.htm",,,0x40000003
+"PanoFinancial_pt.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Financial Calc", 0, "financial.exe"
+
+[Shortcuts02.ARM720]
+"Panoramic Financial Calc.lnk", 0, "PanoFinancial.htm"
+
+
+
+

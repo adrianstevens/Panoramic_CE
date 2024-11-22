@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="GuitarSuite.Controls.Settings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:GuitarSuite.Controls"
+             mc:Ignorable="d" 
+             >
+    <Grid x:Name="LayoutRoot" Loaded="LayoutRoot_Loaded">
+            <StackPanel HorizontalAlignment="Left" x:Name="stackPanel1" VerticalAlignment="Top" Margin="8" Width="464">
+                <my:OptionControl x:Name="optSkin" />
+                <my:OptionControl x:Name="optFretIndicators" />
+                <my:OptionControl x:Name="optInstrument" />
+                <my:OptionControl x:Name="optSound" />
+                <my:OptionControl x:Name="optNotation" />
+              <!--  <my:OptionControl x:Name="optCustomTuning" /> -->
+                <my:OptionControl x:Name="optTuningSensitivity" />
+                <my:OptionControl x:Name="optTuningRange" />
+                <my:OptionControl x:Name="optLeftHanded" />
+            </StackPanel>
+    </Grid>
+</UserControl>

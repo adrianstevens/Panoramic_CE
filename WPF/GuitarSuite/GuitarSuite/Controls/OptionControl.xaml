@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="GuitarSuite.Controls.OptionControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="34" Background="Transparent">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ComboBox Name="comboBox" Grid.Column="1" Width="Auto" HorizontalAlignment="Right" VerticalAlignment="Stretch" Height="26" FontSize="16" Foreground="White" Background="Transparent" BorderBrush="Transparent" SelectionChanged="comboBox_SelectionChanged" MinWidth="180" />
+        <TextBlock Name="textBox" Width="Auto" VerticalAlignment="Center" HorizontalAlignment="Left" Text="The Option" FontSize="17" Foreground="White"/>
+    </Grid>
+</UserControl>

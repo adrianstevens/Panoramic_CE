@@ -1,0 +1,58 @@
+//
+// TestCheekGuardPPC.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+HI_RES_AWARE CEUX {1}	// turn off the emulation layer
+			// Remove this resource to enable pixel-
+			// doubling on platforms that support it
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHMENUBAR
+//
+
+IDR_MENU_MenuUpdate SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU_MenuUpdate, 
+    2,
+
+    I_IMAGENONE, IDMENU_Menu, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Menu, 0, NOMENU,
+
+	  I_IMAGENONE, IDMENU_Update, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Update, 0, NOMENU,
+    
+END
+
+IDR_MENU_OkCancel SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU_OkCancel, 
+    2,
+
+    I_IMAGENONE, IDMENU_Ok, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Ok, 0, NOMENU,
+
+	  I_IMAGENONE, IDMENU_Cancel, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Cancel, 0, NOMENU,
+    
+END
+
+IDR_MENU_Back SHMENUBAR DISCARDABLE
+BEGIN
+    IDR_MENU_Back, 
+    1,
+
+    I_IMAGENONE, IDMENU_Back, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Back, 0, NOMENU,
+ 
+END

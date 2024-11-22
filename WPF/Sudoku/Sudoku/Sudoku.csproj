@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D1C5A9D-CA43-40AF-92C7-0F4F918A1AF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sudoku</RootNamespace>
+    <AssemblyName>Sudoku</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>Sudoku.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Controls\BoardPiece.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\ImageButtonControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\NumberSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\OptionControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\OptionItem.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\OptionItemCategory.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\OptionItemToggle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\PopupMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Controls\TextButtonControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Fireworks\Fireworks.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GameScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Options.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Window1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="Common\BrushFactory.cs" />
+    <Compile Include="Common\CollectionExtensions.cs" />
+    <Compile Include="Common\CollectionHelper.cs" />
+    <Compile Include="Common\ItemsControlHelper.cs" />
+    <Compile Include="Controls\BoardPiece.xaml.cs">
+      <DependentUpon>BoardPiece.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ImageButtonControl.xaml.cs">
+      <DependentUpon>ImageButtonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\IScreenGame.cs" />
+    <Compile Include="Controls\NumberSelector.xaml.cs">
+      <DependentUpon>NumberSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OptionControl.xaml.cs">
+      <DependentUpon>OptionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OptionItem.xaml.cs">
+      <DependentUpon>OptionItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OptionItemCategory.xaml.cs">
+      <DependentUpon>OptionItemCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\OptionItemToggle.xaml.cs">
+      <DependentUpon>OptionItemToggle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PopupMenu.xaml.cs">
+      <DependentUpon>PopupMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TextButtonControl.xaml.cs">
+      <DependentUpon>TextButtonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Globals.cs" />
+    <Compile Include="Engine\GreaterGame.cs" />
+    <Compile Include="Engine\GreaterPuzzle.cs" />
+    <Compile Include="Engine\KakuroGame.cs" />
+    <Compile Include="Engine\KenKenGame.cs" />
+    <Compile Include="Engine\KenKenPuzzle.cs" />
+    <Compile Include="Engine\KillerGame.cs" />
+    <Compile Include="Engine\KillerPuzzle.cs" />
+    <Compile Include="Engine\SEngine.cs" />
+    <Compile Include="Engine\solver.cs" />
+    <Compile Include="Engine\SudokuGame.cs" />
+    <Compile Include="Engine\SudokuPuzzle.cs" />
+    <Compile Include="Fireworks\Fireworks.xaml.cs">
+      <DependentUpon>Fireworks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Fireworks\HslColor.cs" />
+    <Compile Include="Fireworks\MagicDot.cs" />
+    <Compile Include="GameScreen.xaml.cs">
+      <DependentUpon>GameScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ObjGui.cs" />
+    <Compile Include="Options.xaml.cs">
+      <DependentUpon>Options.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Screens\ScreenGreaterThan.cs" />
+    <Compile Include="Screens\ScreenKakuro.cs" />
+    <Compile Include="Screens\ScreenKenKen.cs" />
+    <Compile Include="Screens\ScreenKillerSudoku.cs" />
+    <Compile Include="Screens\ScreenSudoku.cs" />
+    <Compile Include="Strings\StringTable.de.Designer.cs" />
+    <Compile Include="Strings\StringTable.Designer.cs" />
+    <Compile Include="Strings\StringTable.es.Designer.cs" />
+    <Compile Include="Strings\StringTable.fr.Designer.cs" />
+    <Compile Include="Strings\StringTable.it.Designer.cs" />
+    <Compile Include="WriteableBitmapEx\WriteableBitmapBaseExtensions.cs" />
+    <Compile Include="WriteableBitmapEx\WriteableBitmapShapeExtensions.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\appbar.hint.png" />
+    <Resource Include="Assets\appbar.pen.png" />
+    <Resource Include="Assets\appbar.pencil.png" />
+    <Resource Include="Assets\appbar.undo.png" />
+    <Resource Include="Assets\appbar_back.png" />
+    <Resource Include="Assets\appbar_cancel.png" />
+    <Resource Include="Assets\appbar_sudoku.png" />
+    <Resource Include="Assets\button.png" />
+    <Resource Include="Assets\ButtonFont_Grey.png" />
+    <Resource Include="Assets\ButtonFont_White.png" />
+    <Resource Include="Assets\facebook.jpg" />
+    <Resource Include="Assets\Font_custom2_black.png" />
+    <Resource Include="Assets\Font_custom2_white.png" />
+    <Resource Include="Assets\Font_glass_grey.png" />
+    <Resource Include="Assets\Font_glass_white.png" />
+    <Resource Include="Assets\Font_Grey_black.png" />
+    <Resource Include="Assets\Font_Grey_white.png" />
+    <Resource Include="Assets\Font_Notepad_blue.png" />
+    <Resource Include="Assets\Font_Notepad_grey.png" />
+    <Resource Include="Assets\Font_Notepad_red.png" />
+    <Resource Include="Assets\gamescreen.jpg" />
+    <Resource Include="Assets\Kakuro\K5E.TXT" />
+    <Resource Include="Assets\Kakuro\K5H.TXT" />
+    <Resource Include="Assets\Kakuro\K5N.TXT" />
+    <Resource Include="Assets\Kakuro\K7E.TXT" />
+    <Resource Include="Assets\Kakuro\K7H.TXT" />
+    <Resource Include="Assets\Kakuro\K7N.TXT" />
+    <Resource Include="Assets\Kakuro\K9E.TXT" />
+    <Resource Include="Assets\Kakuro\K9H.TXT" />
+    <Resource Include="Assets\Kakuro\K9N.TXT" />
+    <Resource Include="Assets\killer.png" />
+    <Resource Include="Assets\logo.png" />
+    <Resource Include="Assets\notepad.jpg" />
+    <Resource Include="Assets\OptionsBG.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Options\GetNow.png" />
+    <Resource Include="Assets\Options\skin_custom.jpg" />
+    <Resource Include="Assets\Options\skin_custom1.jpg" />
+    <Resource Include="Assets\Options\skin_custom2.jpg" />
+    <Resource Include="Assets\Options\skin_custom3.jpg" />
+    <Resource Include="Assets\Options\skin_custom4.jpg" />
+    <Resource Include="Assets\Options\skin_custom5.jpg" />
+    <Resource Include="Assets\Options\skin_glass.jpg" />
+    <Resource Include="Assets\Options\skin_grey.jpg" />
+    <Resource Include="Assets\Options\skin_notepad.jpg" />
+    <Resource Include="Assets\Options\skin_wood.jpg" />
+    <Resource Include="Assets\Options\youtube.png" />
+    <Resource Include="Assets\options_array.png" />
+    <Resource Include="Assets\options_icons.png" />
+    <Resource Include="Assets\Sqs_custom.png" />
+    <Resource Include="Assets\Sqs_custom1.png" />
+    <Resource Include="Assets\Sqs_custom2.png" />
+    <Resource Include="Assets\Sqs_custom3.png" />
+    <Resource Include="Assets\Sqs_custom4.png" />
+    <Resource Include="Assets\Sqs_custom5.png" />
+    <Resource Include="Assets\Sqs_glass.png" />
+    <Resource Include="Assets\Sqs_grey.png" />
+    <Resource Include="Assets\Sqs_notepad.png" />
+    <Resource Include="Assets\Sqs_wood.png" />
+    <Resource Include="Assets\Sudoku\hanswer.txt" />
+    <Resource Include="Assets\Sudoku\hpuzzle.txt" />
+    <Resource Include="Assets\Sudoku_logo.png" />
+    <Resource Include="Assets\topbar.png" />
+    <Resource Include="Assets\twitter.png" />
+    <Resource Include="Assets\appbar_listmenu.png" />
+    <Resource Include="Assets\appbar.basecircle.rest.png" />
+    <Resource Include="Assets\OptionsBGsm.png" />
+    <Resource Include="Assets\Waves\beep1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\beep2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\ding.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\fireworks-pop.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\hint.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\pop.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\silence.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Assets\Waves\sudoku16-bar.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Assets\Waves\sudoku_start.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\tick.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Waves\undo.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <EmbeddedResource Include="Sudoku.ico" />
+    <Resource Include="Assets\wood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>"C:\Program Files (x86)\LogicNP Software\Crypto Obfuscator For .Net 2010 R2\co.exe" "projectfile=c:\dev\panoramic\wpf\sudoku\Obfuscator\sudoku.obproj" hidden=true beforebuild=true</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Program Files (x86)\LogicNP Software\Crypto Obfuscator For .Net 2010 R2\co.exe" "projectfile=c:\dev\panoramic\wpf\sudoku\Obfuscator\sudoku.obproj"  hidden=true overwriteinputfiles=true</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

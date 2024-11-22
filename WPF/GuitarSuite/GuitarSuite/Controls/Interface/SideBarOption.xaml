@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="GuitarSuite.Controls.SideBarOption"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d">
+    <Grid>
+        <StackPanel Margin="4,4,0,0">
+            <TextBlock Name="Title" Text="Tuning" Foreground="#FFAAAAAA" FontSize="14"></TextBlock>
+            <ComboBox Name="comboBox" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Stretch" Height="26" FontSize="14" Foreground="White" Background="Transparent" BorderBrush="Transparent" SelectionChanged="comboBox_SelectionChanged" MinWidth="180" />
+           </StackPanel>
+    </Grid>
+</UserControl>

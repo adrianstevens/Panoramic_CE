@@ -1,0 +1,83 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Converter Pro"
+InstallDir=%CE1%\Panoramic\Converter
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE11%
+;Shortcuts02.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"Converter.exe" = 1
+"PanoConverter.htm" = 1
+"PanoConverter_de.htm" = 1
+"PanoConverter_es.htm" = 1
+"PanoConverter_fr.htm" = 1
+"PanoConverter_jp.htm" = 1
+"PanoConverter_pt.htm" = 1
+"currency.ini" = 1
+"currency_de.ini" = 1
+"currency_es.ini" = 1
+"currency_fr.ini" = 1
+"currency_ja.ini" = 1
+"currency_pt.ini" = 1
+"setupdll.dll" = 1
+"UnitDll.dll" = 1
+;"Converter90x90_192.png" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoConverter,StartUp,0x00000001,00,00,00,00
+;HKLM,Security\Shell\StartInfo\Start\Panoramic Converter Pro.lnk,Icon,0x00000000,%InstallDir%\Converter90x90_192.png
+
+[Files00.ARM720]
+"Converter.exe",,,0x40000003
+"UnitDll.dll",,,0x40000003
+"Currency.ini",,,0x40000003
+"Currency_de.ini",,,0x40000003
+"Currency_fr.ini",,,0x40000003
+"Currency_es.ini",,,0x40000003
+"Currency_pt.ini",,,0x40000003
+"Currency_ja.ini",,,0x40000003
+;"eula.exe",,,0x40000003
+;"eula.txt",,,0x40000003
+;"Converter90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"PanoConverter.htm",,,0x40000003
+"PanoConverter_de.htm",,,0x40000003
+"PanoConverter_es.htm",,,0x40000003
+"PanoConverter_fr.htm",,,0x40000003
+"PanoConverter_jp.htm",,,0x40000003
+"PanoConverter_pt.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Converter Pro", 0, "Converter.exe"
+
+;[Shortcuts02.ARM720]
+;"Panoramic Converter Pro.lnk", 0, "PanoConverter.htm"
+
+
+
+

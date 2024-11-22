@@ -1,0 +1,3464 @@
+*GROUP*
+Mathematics
+pi (Archimedes)
+3.141592653589793238462
+e (Napier)
+2.718281828459045235360
+log2
+0.693147180559945309417
+Euler-Mascheroni
+0.577215664901532860606
+Apery
+1.202056903159594285399
+Catalan
+0.915965594177219015054
+Conway
+1.303577269034296
+Delian
+1.25992104989
+Khinchin
+2.685452001
+Soldner
+1.45136923488
+Golden ratio
+1.618033988749894848
+*GROUP*
+Physics
+**GROUP**
+Universal
+Speed of light (m/s)
+299792458
+Gravitation (m³/kg·s²)
+6.6742867e-011
+Planck (J·s)
+6.6260689633e-034
+Dirac (J·s)
+1.05457162853e-034
+**GROUP**
+Electromagnetic
+Vacuum permeability (N/A²)
+1.2566370614359e-006 
+Vacuum permittivity (F/m)
+8.8541878176204e-012
+Vacuum impedance (ohm)
+376.730313461
+Coulomb (N·m²/C²)
+8.9875517873682e+009
+Elementary charge (C)
+1.60217648740e-019
+Bohr magneton (J/T)
+927.40091523e-026
+Conductance quantum (S)
+7.748091700453
+Inv conductance quantum (ohm)
+12906.403778788
+Magnetic flux quantum (W·b)
+2.06783366752e-015
+**GROUP**
+Atomic and Nuclear
+Electron mass (kg)
+9.1093821545e-031
+Proton mass (kg)
+1.67262163783e-027
+Neutron mass (kg)
+1.6749286e-027
+Electron charge (C)
+1.60217648740e-019
+Proton charge (C)
+1.60210e-019
+Electron radius (m)
+2.817940289458e-015
+Fermi coupling (Ge/V²)
+1.166391e-005
+Fine-structure
+7.29735256824e-003
+Hartree engery (J)
+4.3597441775e-018
+Rydberg constant (1/m)
+1.0973731568525e+007
+Thomson x-section (m²)
+0.66524587313e-028
+Weak mixing angle
+0.2221575
+Radiation density (J/(cm³·K^4))
+7.5645e-022
+**GROUP**
+Physico-chemical
+Atomic mass unit (g/mol)
+1.6605388628e-027
+Avagadro's number
+6.0221367e+023
+Boltzmann k (J/K)
+1.3806505e-023
+Faraday F (C/mol)
+96485.338383
+Gas constant R (J/°K mol)
+8.31447215
+Molar Planck (J·s/mol)
+3.99031271627e-010
+Stefan-Boltzman (W/(m²·K^4))
+5.67040040e-008
+**GROUP**
+Common Values
+Standard gravity (m/s²)
+9.80665
+Standard gravity (ft/s²)
+32.174
+Standard atmosphere (Pa)
+101325
+Speed of sound (m/s)
+343
+Speed of sound (ft/s)
+1125
+Speed of sound (mph)
+767
+Molar mass (kg/mol)
+0.001
+Absolute Zero (°C)
+-273.15
+*GROUP*
+Solar System
+**GROUP**
+Sol (the Sun)
+***GROUP***
+Physicial
+Mean diameter (m)
+1.392e+009
+Equitorial radius (m)
+6.955e+008
+Equitoral circumfrence (m)
+4.379e+009
+Flattening
+9e-006
+Surface area (m²)
+6.0877e+018
+Volume (m³) 
+1.4122e+027
+Mass (kg)
+1.9891e+030
+Average density (kg/m³)
+1.408e+003
+Core density (kg/m³)
+1.5e+005
+Equatorial (m/s²)
+274
+Escape velocity (km/s)
+617.7
+Corona Temperature (°K)
+5e+005
+Surface Temperature (°K)
+5778
+Core Temperature (°K)
+15.7e+006
+Luminosity (W)
+3.845e+026
+***GROUP***
+Rotation
+Right ascension (deg)
+286.13
+Declination (deg)
+63.87
+Sidereal rotation (days)
+25.38
+Period: Equator (days)
+25.05
+Period: Poles (days)
+34.3
+**GROUP**
+Mercury
+***GROUP***
+Basic Attributes
+Mass (kg)
+3.302e+023
+Volume (km³)
+6.083e+010
+Equatorial radius (km)
+2440
+Polar radius (km)
+2440
+Volumetric mean radius (km)
+2440
+Ellipticity
+0
+Mean density (kg/m³)
+5427
+Surface gravity (m/s²)
+3.70
+Escape velocity (km/s)
+4.3
+GM (km³/s²)
+.02203e+006
+Bond albedo
+0.056
+Visual geometric albedo
+0.11
+Visual magnitude
+-0.42
+Solar irradiance (W/m²)
+9214
+Black-body temp (°K)
+442.5
+Moment of inertia (I/MR²)
+0.33
+***GROUP***
+Orbital 
+Semimajor axis (km)
+57.6e+006
+Sidereal orbit period (days)
+87.969
+Tropical orbit period (days)
+87.968
+Perihelion (km)
+4.60e+007
+Aphelion (km)
+6.98e+007
+Sydonic period (days)
+115.88
+Mean orbital velocity (km/s)
+47.89
+Orbital inclination (deg)
+7
+Orbital eccentricity
+0.2056
+Sidereal rotation period (hr)
+1407.6
+Obliquity to orbit
+0.1
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+13
+Min diam-earth (arc s)
+4.5
+Max distance-earth (km)
+2.219e+008
+Minimum distance-earth (km)
+7.73e+007
+Apparent magnitude
+-1.9
+***GROUP***
+Atmospheric 
+Surface pressure (bars)
+10e-015
+Average temp (°K)
+440
+% of atm: Oxygen
+42
+% of atm: Sodium
+29
+% of atm: Hydrogen
+22
+% of atm: Helium
+6
+% of atm: Potassium
+.5
+**GROUP**
+Venus
+***GROUP***
+Basic Attributes
+Mass (kg)
+4.869e+024
+Volume (km³)
+9.2843e+011
+Equatorial radius (km)
+6052
+Polar radius (km)
+6052
+Volumetric mean radius (km)
+6052
+Ellipticity
+0
+Mean density (kg/m³)
+5204
+Surface gravity (m/s²)
+8.87
+Escape velocity (km/s)
+10.36
+GM (km³/s²)
+0.3249e+006
+Bond albedo
+0.72
+Visual geometric albedo
+0.65
+Visual magnitude
+-4.40
+Solar irradiance (W/m²)
+2660
+Black-body temp (°K)
+238.9
+Moment of inertia (I/MR²)
+0.33
+Topographic range (km)
+15
+***GROUP***
+Orbital 
+Semimajor axis (km)
+1.082e+008
+Sidereal orbit period (days)
+224.701
+Tropical orbit period (days)
+224.695
+Perihelion (km)
+1.075e+008
+Aphelion (km)
+1.089e+008
+Sydonic period (days)
+583.92
+Mean orbital velocity (km/s)
+35.02
+Orbital inclination (deg)
+3.39
+Orbital eccentricity
+0.0068
+Sidereal rotation period (hr)
+5832.5
+Obliquity to orbit
+177.3
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+66
+Min diam-earth (arc s)
+9.7
+Max distance-earth (km)
+2.610e+008
+Minimum distance-earth (km)
+3.82e+007
+Apparent magnitude
+-4.4
+***GROUP***
+Atmospheric 
+Surface pressure (bars)
+92
+surface density (kg/m³)
+65
+Scale height (km)
+15.9
+Average temp (°K)
+737
+Diurnal temp range
+0
+Avg surface wind speed (m/s)
+0.65
+Mean molecular weight (g/mol)
+43.45
+% of atm: Carbon dioxide
+96.5
+% of atm: Nitrogen
+3.5
+Atm-con sulphur dioxide (ppm)
+150
+Atm-con argon (ppm)
+70
+Atm-con water (ppm)
+20
+Atm-con carbon monoxide (ppm)
+17
+Atm-con helium (ppm)
+12
+Atm-con neon (ppm)
+7
+**GROUP**
+Earth
+***GROUP***
+Basic Attributes
+Mass (kg)
+5.9736e+024
+Volume (km³)
+1.08321e+012
+Equatorial radius (km)
+6378
+Polar radius (km)
+6356
+Volumetric mean radius (km)
+6371
+Core radius (km)
+3485
+Ellipticity
+0.0034
+Mean density (kg/m³)
+5520
+Surface gravity (m/s²)
+9.780327 
+Escape velocity (km/s)
+11.186
+GM (km³/s²)
+0.3986e+006
+Bond albedo
+0.385
+Visual geometric albedo
+0.367
+Visual magnitude
+-3.86
+Solar irradiance (W/m²)
+1360
+Black-body temp (°K)
+247.3
+Moment of inertia (I/MR²)
+0.3308
+Topographic range (km)
+20
+***GROUP***
+Orbital 
+Semimajor axis (km)
+1.496e+008
+Sidereal orbit period (days)
+365.256
+Tropical orbit period (days)
+365.242
+Perihelion (km)
+1.471e+008
+Aphelion (km)
+1.521e+008
+Mean orbital velocity (km/s)
+29.79
+Orbital inclination (deg)
+0.0
+Orbital eccentricity
+0.0167
+Sidereal rotation period (hr)
+23.9345
+Obliquity to orbit
+23.45
+***GROUP***
+Atmospheric 
+Surface pressure (bars)
+1014
+surface density (kg/m³)
+1.217
+Scale height (km)
+8.5
+Average temp (°K)
+288
+Mean molecular weight (g/mol)
+28.97
+% of atm: Nitrogen
+78.084
+% of atm: Oxygen
+20.946
+% of atm: Water
+1
+% of atm: Argin
+0.934
+% of atm: Carbon dioxide
+0.035
+Atm-con neon (ppm)
+18.18
+Atm-con helium (ppm)
+5.24
+Atm-con CH4 (ppm)
+1.7
+Atm-con krypton (ppm)
+1.14
+Atm-con hydrogen (ppm)
+0.55
+**GROUP**
+Mars
+***GROUP***
+Basic Attributes
+Mass (kg)
+0.6419e+024
+Volume (km³)
+16.318e+010
+Equatorial radius (km)
+3397
+Polar radius (km)
+3375
+Volumetric mean radius (km)
+3390
+Core radius (km)
+1700
+Ellipticity
+0.0065
+Mean density (kg/m³)
+3933
+Surface gravity (m/s²)
+3.69
+Escape velocity (km/s)
+5.03
+GM (km³/s²)
+0.04283e+006
+Bond albedo
+0.16
+Visual geometric albedo
+0.150
+Visual magnitude
+-1.52
+Solar irradiance (W/m²)
+595
+Black-body temp (°K)
+216.6
+Moment of inertia (I/MR²)
+0.366
+Topographic range (km)
+36
+***GROUP***
+Orbital 
+Semimajor axis (km)
+2.279e+008
+Sidereal orbit period (days)
+686.980
+Tropical orbit period (days)
+686.930
+Perihelion (km)
+2.066e+008
+Aphelion (km)
+2.493e+008
+Mean orbital velocity (km/s)
+24.13
+Orbital inclination (deg)
+1.85
+Orbital eccentricity
+.0934
+Sidereal rotation period (hr)
+24.6229
+Obliquity to orbit
+25.19
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+25.7
+Min diam-earth (arc s)
+3.5
+Max distance-earth (km)
+4.013e+008
+Minimum distance-earth (km)
+5.45e+007
+Apparent magnitude near opp.
+-2.0
+***GROUP***
+Atmospheric 
+Surface pressure (bars)
+7.9
+surface density (kg/m³)
+0.020
+Scale height (km)
+11.1
+Average temp (°K)
+210
+Mean molecular weight (g/mol)
+43.34
+% of atm:carbon dioxide
+95.32
+% of atm: Nitrogen
+2.7
+% of atm: Argon
+1.6
+% of atm: Oxygen
+0.13
+% of atm: Carbon monoxide
+0.08
+Atm-con water (ppm)
+210
+Atm-con nitrogen oxide (ppm)
+100
+Atm-con neon (ppm)
+2.5
+Atm-con HDO (ppm)
+0.85
+Atm-con krypton (ppm)
+0.3
+Atm-con xenon (ppm)
+0.08
+**GROUP**
+Jupiter
+***GROUP***
+Basic Attributes
+Mass (kg)
+1.8966e+027
+Volume (km³)
+1.43128e+015
+Equatorial radius (km)
+71492
+Polar radius (km)
+66854
+Volumetric mean radius (km)
+69911
+Ellipticity
+0.0649
+Mean density (kg/m³)
+1326
+Surface gravity (m/s²)
+23.12
+Esacpe velocity (km/s)
+59.5
+GM (km³/s²)
+1.26686e+008
+Bond albedo
+0.70
+Visual geometric albedo
+0.52
+Visual magnitude
+-9.40
+Solar irradiance (W/m²)
+51.0
+Black-body temp (°K)
+90.6
+Moment of inertia (I/MR²)
+0.254
+***GROUP***
+Orbital 
+Semimajor axis (km)
+7.784e+008
+Sidereal orbit period (days)
+4332.589
+Tropical orbit period (days)
+4330.595
+Perihelion (km)
+7.406e+008
+Aphelion (km)
+8.160e+008
+Synodic period (days)
+398.88
+Mean orbital velocity (km/s)
+13.07
+Orbital inclination (deg)
+1.305
+Orbital eccentricity
+0.04839
+Sidereal rotation period (hr)
+9.9250
+Obliquity to orbit (deg)
+3.12
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+59.0
+Min diam-earth (arc s)
+29.8
+Max distance-earth (km)
+9.681e+008
+Minimum distance-earth (km)
+5.885e+008
+Apparent magnitude near opp.
+-2.7
+***GROUP***
+Atmospheric 
+Average temp (°K)
+129
+Mean molecular weight (g/mol)
+2.22
+% of atm: Hydrogen
+88
+% of atm: Helium
+11
+% of atm: Methane
+0.2
+% of atm: Ammonia
+0.02
+Atm-con hydrogen deuteride (ppm)
+20
+Atm-con ethane (ppm)
+5
+Atm-con water (ppm)
+1
+**GROUP**
+Saturn
+***GROUP***
+Basic Attributes
+Mass (kg)
+4.6846e+026
+Volume (km³)
+8.2713e+014
+Equatorial radius (km)
+60268
+Polar radius (km)
+54364
+Volumetric mean radius (km)
+58232
+Ellipticity
+0.0980
+Mean density (kg/m³)
+687
+Surface gravity (m/s²)
+8.96
+Escape velocity (km/s)
+35.5
+GM (km³/s²)
+3.7931e+007
+Bond albedo
+0.75
+Visual geometric albedo
+0.47
+Visual magnitude
+-8.88
+Solar irradiance (W/m²)
+15.0
+Black-body temp (°K)
+83.9
+Moment of inertia (I/MR²)
+0.210
+***GROUP***
+Orbital 
+Semimajor axis (km)
+1.4268e+009
+Sidereal orbit period (days)
+10759.22
+Tropical orbit period (days)
+10746.94
+Perihelion (km)
+1.3476e+009
+Aphelion (km)
+1.5064e+009
+Synodic period (days)
+378.09
+Mean orbital velocity (km/s)
+9.66
+Orbital inclination (deg)
+2.484
+Orbital eccentricity
+0.05415
+Sidereal rotation period (hr)
+10.5
+Obliquity to orbit (deg)
+26.73
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+20.1
+Min diam-earth (arc s)
+14.5
+Max distance-earth (km)
+1.6585e+009
+Minimum distance-earth (km)
+1.1955e+009
+Apparent magnitude near opp.
+0.7
+***GROUP***
+Atmospheric 
+Average temp (°K)
+97
+Temp at 1 bar (°K)
+134
+Scale height (km)
+59.6
+Mean molecular weight (g/mol)
+2.07
+% of atm: Hydrogen
+89
+% of atm: Helium
+11
+% of atm: Methane
+0.3
+% of atm: Ammonia
+0.02
+Atm-con ethane (ppm)
+2
+**GROUP**
+Uranus
+***GROUP***
+Basic Attributes
+Mass (kg)
+8.683e+025
+Volume (km³)
+6.833e+013
+Equatorial radius (km)
+25559
+Polar radius (km)
+24973
+Volumetric mean radius (km)
+25362
+Ellipticity
+0.023
+Mean density (kg/m³)
+1318
+Surface gravity (m/s²)
+8.6
+Escape velocity (km/s)
+21.3
+GM (km³/s²)
+5.794e+006
+Bond albedo
+0.90
+Visual geometric albedo
+0.51
+Visual magnitude
+-7.19
+Solar irradiance (W/m²)
+3.71
+Black-body temp (°K)
+35.9
+Moment of inertia (I/MR²)
+0.225
+***GROUP***
+Orbital 
+Semimajor axis (km)
+2.871e+009
+Sidereal orbit period (days)
+30685.4
+Tropical orbit period (days)
+30588.740
+Perihelion (km)
+2.7340e+009
+Aphelion (km)
+3.0052e+009
+Synodic period (days)
+369.66
+Mean orbital velocity (km/s)
+6.82
+Orbital inclination (deg)
+.770
+Orbital eccentricity
+0.04718
+Sidereal rotation period (hr)
+17.24
+Obliquity to orbit (deg)
+97.86
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+4.1
+Min diam-earth (arc s)
+3.3
+Max distance-earth (km)
+3.1573e+009
+Minimum distance-earth (km)
+2.5819e+009
+Apparent magnitude near opp.
+5.5
+***GROUP***
+Atmospheric 
+Average temp (°K)
+58
+Temp at 1 bar (°K)
+76
+density at 1 bar (kg/m³)
+0.42
+Scale height (km)
+59.6
+Mean molecular weight (g/mol)
+2.64
+% of atm: Hydrogen
+89
+% of atm: Helium
+11
+**GROUP**
+Neptune
+***GROUP***
+Basic Attributes
+Mass (kg)
+1.0243e26
+Volume (km³)
+6.254e13
+Equatorial radius (km)
+24766
+Polar radius (km)
+24342
+Volumetric mean radius (km)
+24624
+Ellipticity
+0.0171
+Mean density (kg/m³)
+1638
+Surface gravity (m/s²)
+11.00
+Escape velocity (km/s)
+23.5
+GM (km³/s²)
+6.8351e+006
+Bond albedo
+.82
+Visual geometric albedo
+.41
+Visual magnitude
+-6.87
+Solar irradiance (W/m²)
+1.47
+Black-body temp (°K)
+33.2
+***GROUP***
+Orbital 
+Semimajor axis (km)
+4.4983e+009
+Sidereal orbit period (days)
+60189.0
+Tropical orbit period (days)
+59799.9
+Perihelion (km)
+4.4580e+009
+Aphelion (km)
+4.5352e+009
+Synodic period (days)
+367.49
+Mean orbital velocity (km/s)
+5.48
+Orbital inclination (deg)
+1.769
+Orbital eccentricity
+0.00859
+Sidereal rotation period (hr)
+16.11
+Obliquity to orbit (deg)
+29.56
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+2.4
+Min diam-earth (arc s)
+2.2
+Max distance-earth (km)
+4.6873e+009
+Minimum distance-earth (km)
+4.3059e+009
+Apparent magnitude near opp.
+7.8
+***GROUP***
+Atmospheric 
+Average temp (°K)
+58
+Temp at 1 bar (°K)
+72
+density at 1 bar (kg/m³)
+0.45
+% of atm: Molecular hydrogen
+80
+% of atm: Helium
+19
+% of atm: Methane
+1.5
+Atm-con hydrogen deuteride (ppm)
+105
+Atm-con ethane (ppm)
+1.5
+**GROUP**
+Pluto
+***GROUP***
+Basic Attributes
+Mass (kg)
+1.25e+022
+Volume (km³)
+6.16e9
+Volumetric mean radius (km)
+1137
+Mean density (kg/m³)
+2050
+Surface gravity (m/s²)
+0.66
+Escape velocity (km/s)
+1.1
+GM (km³/s²)
+8.3e+002
+Bond albedo
+0.145
+Visual geometric albedo
+0.3
+Solar irradiance (W/m²)
+0.9
+Black-body temp (°K)
+42.7
+***GROUP***
+Orbital 
+Semimajor axis (km)
+5.9064e+009
+Sidereal orbit period (days)
+90465
+Tropical orbit period (days)
+90588
+Perihelion (km)
+4.4458e+009
+Aphelion (km)
+7.3812e+009
+Synodic period (days)
+366.73
+Mean orbital velocity (km/s)
+4.75
+Orbital inclination (deg)
+17.14
+Orbital eccentricity
+.2488
+Sidereal rotation period (hr)
+153.2928
+Obliquity to orbit (deg)
+122.46
+***GROUP***
+Observational 
+Max diam-earth (arc s)
+.11
+Min diam-earth (arc s)
+.06
+Max distance-earth (km)
+7.5333e+009
+Minimum distance-earth (km)
+4.2937e+009
+Apparent magnitude near opp.
+15.1
+***GROUP***
+Atmospheric 
+Average temp (°K)
+50
+Scale height (km)
+60
+**GROUP**
+Earth Satellites
+***GROUP***
+Moon
+Mass (kg)
+7.349e+022
+Volume (km³)
+2.1973e+010
+Equatorial radius (km)
+1738
+Polar radius (km)
+1735
+Volumetric mean radius (km)
+1737.5
+Ellipticity
+0.002
+Mean density (kg/m³)
+3340
+Surface gravity (m/s²)
+1.62
+Escape velocity (km/s)
+2.38
+GM (km³/s²)
+0.0049e+006
+Bond albedo
+0.067
+Visual geometric albedo
+0.12
+Solar irradiance (W/m²)
+1380
+Black-body temp (°K)
+274.5
+Moment of inertia (I/MR²)
+0.394
+Topographic range (km)
+16
+Semimajor axis (km)
+0.3844e+006
+Perigee (km)
+0.3633e+006
+Apogee (km)
+0.4055e+006
+Revolution period (days)
+27.322
+Sydonic period (days)
+29.53
+Mean orbital velocity (km/s)
+1.023
+Orbital inclination (deg)
+5.145
+Orbital eccentricity
+0.0549
+Sidereal rotation period (hr)
+655.728
+equatorial inclination (deg)
+6.68
+recession rate-earth (cm/yr)
+3.8
+**GROUP**
+Mars Satellites
+***GROUP***
+Phobos
+Mass (kg)
+1.08e+016
+Major axis Radius (km)
+13
+Minor axis Radius (km)
+9
+Mean density (kg/m³)
+1900
+Geometric albedo
+0.06
+Visual magnitude
+11.8
+Mean distance-Mars (km)
+9377
+Sidereal orbit period (days)
+0.31891
+Orbital inclination (deg)
+1.08
+Orbital eccentricity
+0.0151
+***GROUP***
+Deimos
+Mass (kg)
+1.8e+015
+Major axis Radius (km)
+8
+Minor axis Radius (km)
+5
+Mean density (kg/m³)
+1750
+Geometric albedo
+0.07
+Visual magnitude
+12.89
+Mean distance-Mars (km)
+23436
+Sidereal orbit period (days)
+1.26244
+Orbital inclination (deg)
+1.79
+Orbital eccentricity
+0.00033
+**GROUP**
+Jupiter Satellites
+***GROUP***
+Io
+Mass (kg)
+8.933e+022
+Radius (km)
+1821.3
+Mean density (kg/m³)
+3530
+Visual geometric albedo
+0.61
+Semimajor axis (km)
+4.216e+005
+Period (days)
+1.769138
+Orbital inclination (deg)
+0.040
+Orbital eccentricity
+0.041
+***GROUP***
+Europa
+Mass (kg)
+4.797e+022
+Radius (km)
+1565
+Mean density (kg/m³)
+2990
+Visual geometric albedo
+0.64
+Semimajor axis (km)
+6.709e+005
+Period (days)
+3.551810
+Orbital inclination (deg)
+0.470
+Orbital eccentricity
+0.0101
+***GROUP***
+Ganymede
+Mass (kg)
+1.482e+022
+Radius (km)
+2634
+Mean density (kg/m³)
+1940
+Visual geometric albedo
+0.42
+Semimajor axis (km)
+1.070e+006
+Period (days)
+7.154553
+Orbital inclination (deg)
+0.195
+Orbital eccentricity
+.0015
+***GROUP***
+Callisto
+Mass (kg)
+1.076e+022
+Radius (km)
+2403
+Mean density (kg/m³)
+1851
+Visual geometric albedo
+0.20
+Semimajor axis (km)
+1.883e+006
+Period (days)
+16.689018
+Orbital inclination (deg)
+0.281
+Orbital eccentricity
+0.007
+**GROUP**
+Saturn Satellites
+***GROUP***
+Mimas
+Mass (kg)
+3.75e+019
+Radius (km)
+198.8
+Mean density (kg/m³)
+1140
+Visual geometric albedo
+0.5
+Semimajor axis (km)
+1.8552e+005
+Period (days)
+0.942422
+Orbital inclination (deg)
+1.53
+Orbital eccentricity
+0.0202
+***GROUP***
+Tethys
+Mass (kg)
+6.22e+020
+Radius (km)
+529.9
+Mean density (kg/m³)
+1000
+Visual geometric albedo
+0.9
+Semimajor axis (km)
+2.9466e+005
+Period (days)
+1.887802
+Orbital inclination (deg)
+1.09
+Orbital eccentricity
+0.0
+***GROUP***
+Rhea
+Mass (kg)
+23.1e+021
+Radius (km)
+764
+Mean density (kg/m³)
+1240
+Visual geometric albedo
+0.7
+Semimajor axis (km)
+5.2704e+005
+Period (days)
+4.517500
+Orbital inclination (deg)
+0.35
+Orbital eccentricity
+0.001
+***GROUP***
+Hyperion
+Semimajor axis (km)
+1.4811e+006
+Period (days)
+21.276609
+Orbital inclination (deg)
+0.43
+Orbital eccentricity
+0.1042
+***GROUP***
+Enceladus
+Mass (kg)
+7.3e+019
+Radius (km)
+249.1
+Mean density (kg/m³)
+1120
+Visual geometric albedo
+1.0
+Semimajor axis (km)
+2.3802e+005
+Period (days)
+1.370218
+Orbital inclination (deg)
+0.02
+Orbital eccentricity
+0.0045
+***GROUP***
+Dione
+Mass (kg)
+1.052e21
+Radius (km)
+560
+Mean density (kg/m³)
+1440
+Visual geometric albedo
+0.7
+Semimajor axis (km)
+3.7740e+005
+Period (days)
+2.736915
+Orbital inclination (deg)
+0.02
+Orbital eccentricity
+0.0022
+***GROUP***
+Titan
+Mass (kg)
+1.3455e23
+Radius (km)
+2575
+Mean density (kg/m³)
+1881
+Visual geometric albedo
+0.21
+Semimajor axis (km)
+1.22185e+006
+Period (days)
+15.945421
+Orbital inclination (deg)
+0.33
+Orbital eccentricity
+0.0292
+***GROUP***
+Iapetus
+Mass (kg)
+1.59e+021
+Radius (km)
+718
+Mean density (kg/m³)
+1020
+Semimajor axis (km)
+3.5613e+006
+Period (days)
+59.030
+Orbital inclination (deg)
+7.52
+Orbital eccentricity
+0.0283
+**GROUP**
+Uranus Satellites
+***GROUP***
+Miranda
+Mass (kg)
+6.59e+019
+Mean density (kg/m³)
+1200
+Visual geometric albedo
+0.27
+Semimajor axis (km)
+1.298e+005
+Period (days)
+1.413
+Orbital inclination (deg)
+4.22
+Orbital eccentricity
+0.0027
+***GROUP***
+Ariel
+Mass (kg)
+1.353e21
+Mean density (kg/m³)
+1670
+Visual geometric albedo
+0.34
+Semimajor axis (km)
+1.912e+005
+Period (days)
+2.520
+Orbital inclination (deg)
+0.31
+Orbital eccentricity
+0.0034
+***GROUP***
+Umbriel
+Mass (kg)
+1.172e+021
+Radius (km)
+584.7
+Mean density (kg/m³)
+1400
+Visual geometric albedo
+0.18
+Semimajor axis (km)
+2.660e+005
+Period (days)
+4.144
+Orbital inclination (deg)
+0.36
+Orbital eccentricity
+0.0050
+***GROUP***
+Titania
+Mass (kg)
+3.527e21
+Radius (km)
+788.9
+Mean density (kg/m³)
+1710
+Visual geometric albedo
+0.27
+Semimajor axis (km)
+4.358e5
+Period (days)
+8.706
+Orbital inclination (deg)
+0.10
+Orbital eccentricity
+0.0022
+***GROUP***
+Oberon
+Mass (kg)
+3.014e21
+Radius (km)
+761.4
+Mean density (kg/m³)
+1630
+Visual geometric albedo
+0.24
+Semimajor axis (km)
+5.826e+005
+Period (days)
+13.463
+Orbital inclination (deg)
+0.10
+Orbital eccentricity
+0.0008
+**GROUP**
+Neptune Satellites
+***GROUP***
+Naiad
+Radius (km)
+29
+Visual geometric albedo
+0.06
+Semimajor axis (km)
+4.8227e+004
+Period (days)
+0.294396
+Orbital inclination (deg)
+4.74
+Orbital eccentricity
+0.0
+***GROUP***
+Thalassa
+Radius (km)
+40
+Visual geometric albedo
+0.06
+Semimajor axis (km)
+5.0075e+004
+Period (days)
+0.311485
+Orbital inclination (deg)
+0.21
+Orbital eccentricity
+0.0
+***GROUP***
+Despina
+Radius (km)
+74
+Visual geometric albedo
+0.06
+Semimajor axis (km)
+5.2526e+004
+Period (days)
+0.335655
+Orbital inclination (deg)
+0.07
+Orbital eccentricity
+0.0
+***GROUP***
+Galatea
+Radius (km)
+79
+Visual geometric albedo
+0.06
+Semimajor axis (km)
+6.1953e+004
+Period (days)
+4.28745
+Orbital inclination (deg)
+0.05
+Orbital eccentricity
+0.0
+***GROUP***
+Larissa
+Visual geometric albedo
+0.06
+Semimajor axis (km)
+7.3548e+004
+Period (days)
+0.554654
+Orbital inclination (deg)
+0.20
+Orbital eccentricity
+0.0
+***GROUP***
+Proteus
+Visual geometric albedo
+0.06
+Semimajor axis (km)
+1.17647e+005
+Period (days)
+1.122315
+Orbital inclination (deg)
+0.55
+Orbital eccentricity
+0.0
+***GROUP***
+Triton
+Mass (kg)
+2.147e22
+Radius (km)
+1352.6
+Mean density (kg/m³)
+2054
+Visual geometric albedo
+0.7
+Semimajor axis (km)
+3.5476e+005
+Period (days)
+5.876854
+Orbital inclination (deg)
+156.834
+***GROUP***
+Nereid
+Radius (km)
+170
+Visual geometric albedo
+0.2
+Semimajor axis (km)
+5.5134e+006
+Period (days)
+360.13619
+Orbital inclination (deg)
+7.23
+Orbital eccentricity
+0.7512
+**GROUP**
+Pluto Satellites
+***GROUP***
+Charon
+Mass (kg)
+1.7e+021
+Equatorial radius (km)
+586
+Mean density (km/m³)
+1800
+Surface gravity (m/s²)
+0.21
+Escape velocity (km/s)
+0.58
+albedo
+0.375
+Mean distance-pluto (km)
+19405
+Orbital inclination (deg)
+96.56
+Orbital eccentricity
+0.0
+Sidereal orbit period (days)
+6.387
+*GROUP*
+Elements
+**GROUP**
+A to B
+***GROUP***
+Actinium (Ac)
+Atomic number
+89
+Atomic mass (g/mol)
+227.0278
+***GROUP***
+Silver (Ag)
+Atomic number
+47
+Atomic mass (g/mol)
+107.87
+Boiling point (°C)
+2210
+Melting point (°C)
+960.8
+Density (g/cm³)
+10.5
+Heat vapororization (kJ/mol)
+60.7
+Heat fusion (kJ/mol)
+2.7
+Electrical conductivity (s/m)
+0.616
+Thermal conductivity (W/m°K)
+0.98
+Heat capacity (J/mol°K)
+0.056
+***GROUP***
+Aluminum (Al)
+Atomic number
+13
+Atomic mass (g/mol)
+26.9815
+Boiling point (°C)
+2450
+Melting point (°C)
+660
+Density (g/cm³)
+2.7
+Heat vapororization (kJ/mol)
+67.9
+Heat fusion (kJ/mol)
+2.55
+Electrical conductivity (s/m)
+0.382
+Thermal conductivity (W/m°K)
+0.5
+Heat capacity (J/mol°K)
+0.215
+***GROUP***
+Americium (Am)
+Atomic number
+95
+Atomic mass (g/mol)
+243.0614
+***GROUP***
+argon (Ar)
+Atomic number
+18
+Atomic mass (g/mol)
+39.948
+Boiling point (°C)
+-185.8
+Melting point (°C)
+-189.4
+Density (g/cm³)
+1.4
+Heat vapororization (kJ/mol)
+1.56
+Heat fusion (kJ/mol)
+0.281
+Thermal conductivity (W/m°K)
+4e-005
+Heat capacity (J/mol°K)
+0.125
+***GROUP***
+Arsenic (As)
+Atomic number
+33
+Atomic mass (g/mol)
+74.992
+Boiling point (°C)
+613
+Melting point (°C)
+817
+Density (g/cm³)
+5.72
+Heat vapororization (kJ/mol)
+7.75
+Heat fusion (kJ/mol)
+6.62
+Electrical conductivity (s/m)
+0.029
+Heat capacity (J/mol°K)
+0.082
+***GROUP***
+Astatine (At)
+Atomic number
+85
+Atomic mass (g/mol)
+209.987
+***GROUP***
+Gold (Au)
+Atomic number
+79
+Atomic mass (g/mol)
+196.967
+Boiling point (°C)
+2970
+Melting point (°C)
+1063
+Density (g/cm³)
+19.3
+Heat vapororization (kJ/mol)
+81.8
+Heat fusion (kJ/mol)
+3.03
+Electrical conductivity (s/m)
+0.42
+Thermal conductivity (W/m°K)
+0.71
+Heat capacity (J/mol°K)
+0.031
+***GROUP***
+Boron (B)
+Atomic number
+5
+Atomic mass (g/mol)
+10.811
+Melting point (°C)
+2030
+Density (g/cm³)
+2.34
+Heat vapororization (kJ/mol)
+128
+Heat fusion (kJ/mol)
+5.3
+Electrical conductivity (s/m)
+10e-012
+Heat capacity (J/mol°K)
+0.309
+***GROUP***
+Barium (Ba)
+Atomic number
+56
+Atomic mass (g/mol)
+137.34
+Boiling point (°C)
+1640
+Melting point (°C)
+714
+Density (g/cm³)
+3.5
+Heat vapororization (kJ/mol)
+35.7
+Heat fusion (kJ/mol)
+1.83
+Electrical conductivity (s/m)
+0.016
+Heat capacity (J/mol°K)
+0.068
+***GROUP***
+Beryllium (Be)
+Atomic number
+4
+Atomic mass (g/mol)
+9.0122
+Boiling point (°C)
+2770
+Melting point (°C)
+1277
+Density (g/cm³)
+1.85
+Heat vapororization (kJ/mol)
+73.9
+Heat fusion (kJ/mol)
+2.8
+Electrical conductivity (s/m)
+0.25
+Thermal conductivity (W/m°K)
+0.38
+Heat capacity (J/mol°K)
+0.45
+***GROUP***
+Bohrium (Bh)
+Atomic number
+107
+Atomic mass (g/mol)
+270
+Oxidation states
+7
+***GROUP***
+Bismut (Bi)
+Atomic number
+83
+Atomic mass (g/mol)
+208.98
+Boiling point (°C)
+1560
+Melting point (°C)
+271.3
+Density (g/cm³)
+9.8
+Heat vapororization (kJ/mol)
+42.7
+Heat fusion (kJ/mol)
+2.6
+Electrical conductivity (s/m)
+0.009
+Thermal conductivity (W/m°K)
+0.02
+Heat capacity (J/mol°K)
+0.034
+***GROUP***
+Berkelium (Bk)
+Atomic number
+97
+Atomic mass (g/mol)
+247.0703
+***GROUP***
+Bromine (Br)
+Atomic number
+35
+Atomic mass (g/mol)
+79.909
+Boiling point (°C)
+58
+Melting point (°C)
+-7.2
+Density (g/cm³)
+3.12
+Heat vapororization (kJ/mol)
+3.58
+Heat fusion (kJ/mol)
+1.26
+Electrical conductivity (s/m)
+10e-018
+Heat capacity (J/mol°K)
+0.07
+**GROUP**
+C to D
+***GROUP***
+Carbon (C)
+Atomic number
+6
+Atomic mass (g/mol)
+12.0112
+Boiling point (°C)
+4830
+Melting point (°C)
+3727
+Density (g/cm³)
+2.26
+Heat vapororization (kJ/mol)
+171.7
+Electrical conductivity (s/m)
+0.0007
+Thermal conductivity (W/m°K)
+0.057
+Heat capacity (J/mol°K)
+0.165
+***GROUP***
+Calcium (Ca)
+Atomic number
+20
+Atomic mass (g/mol)
+40.08
+Boiling point (°C)
+1440
+Melting point (°C)
+838
+Density (g/cm³)
+1.55
+Heat vapororization (kJ/mol)
+36.74
+Heat fusion (kJ/mol)
+2.1
+Electrical conductivity (s/m)
+0.218
+Thermal conductivity (W/m°K)
+0.3
+Heat capacity (J/mol°K)
+0.149
+***GROUP***
+Cadmium (Cd)
+Atomic number
+48
+Atomic mass (g/mol)
+112.4
+Boiling point (°C)
+765
+Melting point (°C)
+320.9
+Density (g/cm³)
+8.65
+Heat vapororization (kJ/mol)
+23.9
+Heat fusion (kJ/mol)
+1.46
+Electrical conductivity (s/m)
+0.146
+Thermal conductivity (W/m°K)
+0.22
+Heat capacity (J/mol°K)
+0.055
+***GROUP***
+Cerium (Ce)
+Atomic number
+58
+Atomic mass (g/mol)
+140.12
+Boiling point (°C)
+3468
+Melting point (°C)
+795
+Density (g/cm³)
+6.67
+Heat vapororization (kJ/mol)
+95
+Heat fusion (kJ/mol)
+1.2
+Electrical conductivity (s/m)
+0.013
+Thermal conductivity (W/m°K)
+0.026
+Heat capacity (J/mol°K)
+0.042
+***GROUP***
+Californium (Cf)
+Atomic number
+98
+Atomic mass (g/mol)
+251.0796
+***GROUP***
+Chlorine (Cl)
+Atomic number
+17
+Atomic mass (g/mol)
+35.453
+Boiling point (°C)
+-34.7
+Melting point (°C)
+-101
+Density (g/cm³)
+1.56
+Heat vapororization (kJ/mol)
+2.44
+Heat fusion (kJ/mol)
+0.77
+Thermal conductivity (W/m°K)
+2e-005
+Heat capacity (J/mol°K)
+0.116
+***GROUP***
+Curium (Cm)
+Atomic number
+96
+Atomic mass (g/mol)
+247.0704
+***GROUP***
+Cobalt (Co)
+Atomic number
+27
+Atomic mass (g/mol)
+58.933
+Boiling point (°C)
+2900
+Melting point (°C)
+1495
+Density (g/cm³)
+8.9
+Heat vapororization (kJ/mol)
+93
+Heat fusion (kJ/mol)
+3.64
+Electrical conductivity (s/m)
+0.16
+Thermal conductivity (W/m°K)
+0.16
+Heat capacity (J/mol°K)
+0.099
+***GROUP***
+Chromium (Cr)
+Atomic number
+24
+Atomic mass (g/mol)
+51.996
+Boiling point (°C)
+2665
+Melting point (°C)
+1875
+Density (g/cm³)
+7.19
+Heat vapororization (kJ/mol)
+72.97
+Heat fusion (kJ/mol)
+3.3
+Electrical conductivity (s/m)
+0.078
+Thermal conductivity (W/m°K)
+0.16
+Heat capacity (J/mol°K)
+0.11
+***GROUP***
+Cesium (Cs)
+Atomic number
+55
+Atomic mass (g/mol)
+132.905
+Boiling point (°C)
+690
+Melting point (°C)
+28.7
+Density (g/cm³)
+1.9
+Heat vapororization (kJ/mol)
+16.3
+Heat fusion (kJ/mol)
+0.5
+Electrical conductivity (s/m)
+0.053
+Heat capacity (J/mol°K)
+0.052
+***GROUP***
+Copper (Cu)
+Atomic number
+29
+Atomic mass (g/mol)
+63.54
+Boiling point (°C)
+2595
+Melting point (°C)
+1083
+Density (g/cm³)
+8.96
+Heat vapororization (kJ/mol)
+72.8
+Heat fusion (kJ/mol)
+3.11
+Electrical conductivity (s/m)
+0.593
+Thermal conductivity (W/m°K)
+0.94
+Heat capacity (J/mol°K)
+0.092
+***GROUP***
+Dubnium (Db)
+Atomic number
+105
+Atomic mass (g/mol) 
+268
+***GROUP***
+Darmstadtium (Ds)
+Atomic number
+110
+Atomic mass (g/mol)
+281
+***GROUP***
+Dysprosium (Dy)
+Atomic number
+66
+Atomic mass (g/mol)
+162.5
+Boiling point (°C)
+2600
+Melting point (°C)
+1407
+Density (g/cm³)
+8.54
+Heat vapororization (kJ/mol)
+67
+Heat fusion (kJ/mol)
+4.1
+Electrical conductivity (s/m)
+0.011
+Thermal conductivity (W/m°K)
+0.024
+Heat capacity (J/mol°K)
+0.041
+**GROUP**
+E to G
+***GROUP***
+Erbium (Er)
+Atomic number
+68
+Atomic mass (g/mol)
+167.26
+Boiling point (°C)
+2900
+Melting point (°C)
+1497
+Density (g/cm³)
+9.05
+Heat vapororization (kJ/mol)
+67
+Heat fusion (kJ/mol)
+4.1
+Electrical conductivity (s/m)
+0.012
+Thermal conductivity (W/m°K)
+0.023
+Heat capacity (J/mol°K)
+0.04
+***GROUP***
+Einsteinium (Es)
+Atomic number
+99
+Atomic mass (g/mol)
+254.0881
+***GROUP***
+Europium (Eu)
+Atomic number
+63
+Atomic mass (g/mol)
+151.96
+Boiling point (°C)
+1493
+Melting point (°C)
+826
+Density (g/cm³)
+5.26
+Heat vapororization (kJ/mol)
+42
+Heat fusion (kJ/mol)
+2.2
+Electrical conductivity (s/m)
+0.012
+Heat capacity (J/mol°K)
+0.039
+***GROUP***
+Flourine (F)
+Atomic number
+9
+Atomic mass (g/mol)
+18.9984
+Boiling point (°C)
+-188.2
+Melting point (°C)
+-219.6
+Density (g/cm³)
+1.505
+Heat vapororization (kJ/mol)
+0.755
+Heat fusion (kJ/mol)
+0.061
+Heat capacity (J/mol°K)
+0.18
+***GROUP***
+Iron (Fe)
+Atomic number
+26
+Atomic mass (g/mol)
+55.847
+Boiling point (°C)
+3000
+Melting point (°C)
+1536
+Density (g/cm³)
+7.86
+Heat vapororization (kJ/mol)
+84.6
+Heat fusion (kJ/mol)
+3.67
+Electrical conductivity (s/m)
+0.1
+Thermal conductivity (W/m°K)
+0.18
+Heat capacity (J/mol°K)
+0.11
+***GROUP***
+Fermium (Fm)
+Atomic number
+100
+Atomic mass (g/mol)
+257.0951
+***GROUP***
+Francium (Fr)
+Atomic number
+87
+Atomic mass (g/mol)
+223.0189
+***GROUP***
+Gallium (Ga)
+Atomic number
+31
+Atomic mass (g/mol)
+69.72
+Boiling point (°C)
+2237
+Melting point (°C)
+29.8
+Density (g/cm³)
+5.91
+Heat fusion (kJ/mol)
+1.34
+Electrical conductivity (s/m)
+0.058
+Heat capacity (J/mol°K)
+0.079
+***GROUP***
+Gadolinium (Gd)
+Atomic number
+64
+Atomic mass (g/mol)
+157.25
+Boiling point (°C)
+3000
+Melting point (°C)
+1312
+Density (g/cm³)
+7.89
+Heat vapororization (kJ/mol)
+72
+Heat fusion (kJ/mol)
+3.7
+Electrical conductivity (s/m)
+0.007
+Thermal conductivity (W/m°K)
+0.021
+Heat capacity (J/mol°K)
+0.071
+***GROUP***
+Geranium (Ge)
+Atomic number
+32
+Atomic mass (g/mol)
+72.59
+Boiling point (°C)
+2830
+Melting point (°C)
+937.4
+Density (g/cm³)
+5.32
+Heat vapororization (kJ/mol)
+68
+Heat fusion (kJ/mol)
+7.6
+Electrical conductivity (s/m)
+0.022
+Thermal conductivity (W/m°K)
+0.14
+Heat capacity (J/mol°K)
+0.073
+**GROUP**
+H to L
+***GROUP***
+Hydrogen (H)
+Atomic number
+1
+Atomic mass (g/mol)
+1.008
+Boiling point (°C)
+-252.7
+Melting point (°C)
+-259.2
+Density (g/cm³)
+0.071
+Heat vapororization (kJ/mol)
+0.108
+Heat fusion (kJ/mol)
+0.014
+Thermal conductivity (W/m°K)
+0.0004
+Heat capacity (J/mol°K)
+3.45
+***GROUP***
+Helium (He)
+Atomic number
+2
+Atomic mass (g/mol)
+4.0026
+Boiling point (°C)
+-268.9
+Melting point (°C)
+-269.7
+Density (g/cm³)
+0.126
+Heat vapororization (kJ/mol)
+0.02
+Heat fusion (kJ/mol)
+0.0005
+Thermal conductivity (W/m°K)
+0.0003
+Heat capacity (J/mol°K)
+1.25
+***GROUP***
+Hafnium (Hf)
+Atomic number
+72
+Atomic mass (g/mol)
+178.49
+Boiling point (°C)
+5400
+Melting point (°C)
+2222
+Density (g/cm³)
+13.1
+Heat vapororization (kJ/mol)
+155
+Heat fusion (kJ/mol)
+5.2
+Electrical conductivity (s/m)
+0.031
+Thermal conductivity (W/m°K)
+0.22
+Heat capacity (J/mol°K)
+0.035
+***GROUP***
+Mercury (Hg)
+Atomic number
+80
+Atomic mass (g/mol)
+200.59
+Boiling point (°C)
+357
+Melting point (°C)
+-38.4
+Density (g/cm³)
+13.6
+Heat vapororization (kJ/mol)
+13.9
+Heat fusion (kJ/mol)
+0.56
+Electrical conductivity (s/m)
+0.011
+Thermal conductivity (W/m°K)
+0.02
+Heat capacity (J/mol°K)
+0.033
+***GROUP***
+Holmium (Ho)
+Atomic number
+67
+Atomic mass (g/mol)
+164.93
+Boiling point (°C)
+2600
+Melting point (°C)
+1461
+Density (g/cm³)
+8.8
+Heat vapororization (kJ/mol)
+67
+Heat fusion (kJ/mol)
+4.1
+Electrical conductivity (s/m)
+0.011
+Heat capacity (J/mol°K)
+0.039
+***GROUP***
+Hassium (Hs)
+Atomic number
+108
+Atomic weight
+277
+Oxidation states
+8
+***GROUP***
+Iodine (I)
+Atomic number
+53
+Atomic mass (g/mol)
+126.904
+Boiling point (°C)
+183
+Melting point (°C)
+113.7
+Density (g/cm³)
+4.94
+Heat vapororization (kJ/mol)
+5.2
+Heat fusion (kJ/mol)
+1.87
+Electrical conductivity (s/m)
+10e-015
+Thermal conductivity (W/m°K)
+0.001
+Heat capacity (J/mol°K)
+0.052
+***GROUP***
+Indium (In)
+Atomic number
+49
+Atomic mass (g/mol)
+114.82
+Boiling point (°C)
+2000
+Melting point (°C)
+156.2
+Density (g/cm³)
+7.31
+Heat vapororization (kJ/mol)
+53.7
+Heat fusion (kJ/mol)
+0.78
+Electrical conductivity (s/m)
+0.111
+Thermal conductivity (W/m°K)
+0.057
+Heat capacity (J/mol°K)
+0.057
+***GROUP***
+Iridium (Ir)
+Atomic number
+77
+Atomic mass (g/mol)
+192.22
+***GROUP***
+Potasium (°K)
+Atomic number
+19
+Atomic mass (g/mol)
+39.102
+Boiling point (°C)
+760
+Melting point (°C)
+63.7
+Density (g/cm³)
+0.86
+Heat vapororization (kJ/mol)
+18.9
+Heat fusion (kJ/mol)
+0.55
+Electrical conductivity (s/m)
+0.143
+Thermal conductivity (W/m°K)
+0.23
+Heat capacity (J/mol°K)
+0.177
+***GROUP***
+Krypton (Kr)
+Atomic number
+36
+Atomic mass (g/mol)
+83.8
+Boiling point (°C)
+-152
+Melting point (°C)
+-157.3
+Density (g/cm³)
+2.6
+Heat vapororization (kJ/mol)
+2.16
+Heat fusion (kJ/mol)
+0.39
+Thermal conductivity (W/m°K)
+2e-5
+***GROUP***
+Lanthium (La)
+Atomic number
+57
+Atomic mass (g/mol)
+138.91
+Boiling point (°C)
+3470
+Melting point (°C)
+920
+Density (g/cm³)
+6.17
+Heat vapororization (kJ/mol)
+96
+Heat fusion (kJ/mol)
+1.5
+Electrical conductivity (s/m)
+0.017
+Thermal conductivity (W/m°K)
+0.033
+Heat capacity (J/mol°K)
+0.045
+***GROUP***
+Lithium (Li)
+Atomic number
+3
+Atomic mass (g/mol)
+6.939
+Boiling point (°C)
+1330
+Melting point (°C)
+180.5
+Density (g/cm³)
+0.53
+Heat vapororization (kJ/mol)
+32.48
+Heat fusion (kJ/mol)
+0.72
+Electrical conductivity (s/m)
+0.108
+Thermal conductivity (W/m°K)
+0.17
+Heat capacity (J/mol°K)
+0.79
+***GROUP***
+Lawrencium (Lr)
+Atomic number
+103
+Atomic mass (g/mol)
+262
+***GROUP***
+Lutetium (Lu)
+Atomic number
+71
+Atomic mass (g/mol)
+174.97
+Boiling point (°C)
+3327
+Melting point (°C)
+1652
+Density (g/cm³)
+9.84
+Heat vapororization (kJ/mol)
+90
+Heat fusion (kJ/mol)
+4.6
+Electrical conductivity (s/m)
+0.015
+Heat capacity (J/mol°K)
+0.037
+**GROUP**
+M to N
+***GROUP***
+Mendelevium (Md)
+Atomic number
+101
+Atomic mass (g/mol)
+257.0956
+***GROUP***
+Magnesium (Mg)
+Atomic number
+12
+Atomic mass (g/mol)
+24.312
+Boiling point (°C)
+1107
+Melting point (°C)
+650
+Density (g/cm³)
+1.74
+Heat vapororization (kJ/mol)
+32.517
+Heat fusion (kJ/mol)
+2.14
+Electrical conductivity (s/m)
+0.224
+Thermal conductivity (W/m°K)
+0.38
+Heat capacity (J/mol°K)
+0.25
+***GROUP***
+Manganese (Mn)
+Atomic number
+25
+Atomic mass (g/mol)
+54.938
+Boiling point (°C)
+2150
+Melting point (°C)
+1245
+Density (g/cm³)
+7.43
+Heat vapororization (kJ/mol)
+53.7
+Heat fusion (kJ/mol)
+3.5
+Electrical conductivity (s/m)
+0.054
+Heat capacity (J/mol°K)
+0.115
+***GROUP***
+Molybdenum (Mo)
+Atomic number
+42
+Atomic mass (g/mol)
+95.94
+Boiling point (°C)
+5560
+Melting point (°C)
+2610
+Density (g/cm³)
+10.2
+Heat vapororization (kJ/mol)
+128
+Heat fusion (kJ/mol)
+6.6
+Electrical conductivity (s/m)
+0.19
+Thermal conductivity (W/m°K)
+0.35
+Heat capacity (J/mol°K)
+0.061
+***GROUP***
+Meitnerium (Mt)
+Atomic number
+109
+Atomic mass (g/mol)
+276
+***GROUP***
+Nitrogen (N)
+Atomic number
+7
+Atomic mass (g/mol)
+14.0067
+Boiling point (°C)
+-195.8
+Melting point (°C)
+-210
+Density (g/cm³)
+0.81
+Heat vapororization (kJ/mol)
+0.666
+Heat fusion (kJ/mol)
+0.086
+Thermal conductivity (W/m°K)
+6e(-5)
+Heat capacity (J/mol°K)
+0.247
+***GROUP***
+Sodium (Na)
+Atomic number
+11
+Atomic mass (g/mol)
+22.9898
+Boiling point (°C)
+892
+Melting point (°C)
+97.8
+Density (g/cm³)
+0.97
+Heat vapororization (kJ/mol)
+24.12
+Heat fusion (kJ/mol)
+0.62
+Electrical conductivity (s/m)
+0.218
+Thermal conductivity (W/m°K)
+0.32
+Heat capacity (J/mol°K)
+0.295
+***GROUP***
+Niobium (Nb)
+Atomic number
+41
+Atomic mass (g/mol)
+92.906
+Boiling point (°C)
+3300
+Melting point (°C)
+2468
+Density (g/cm³)
+8.4
+Heat fusion (kJ/mol)
+6.4
+Electrical conductivity (s/m)
+0.08
+Thermal conductivity (W/m°K)
+0.125
+Heat capacity (J/mol°K)
+0.065
+***GROUP***
+Neodymium (Nd)
+Atomic number
+60
+Atomic mass (g/mol)
+144.24
+Boiling point (°C)
+3027
+Melting point (°C)
+1024
+Density (g/cm³)
+7
+Heat vapororization (kJ/mol)
+69
+Heat fusion (kJ/mol)
+1.7
+Electrical conductivity (s/m)
+0.013
+Thermal conductivity (W/m°K)
+0.031
+Heat capacity (J/mol°K)
+0.045
+***GROUP***
+Neon (Ne)
+Atomic number
+10
+Atomic mass (g/mol)
+20.183
+Boiling point (°C)
+-246
+Melting point (°C)
+-248.6
+Density (g/cm³)
+1.2
+Heat vapororization (kJ/mol)
+0.422
+Heat fusion (kJ/mol)
+0.08
+Thermal conductivity (W/m°K)
+0.0001
+***GROUP***
+Nickel (Ni)
+Atomic number
+28
+Atomic mass (g/mol)
+57.71
+Boiling point (°C)
+2730
+Melting point (°C)
+1453
+Density (g/cm³)
+8.9
+Heat vapororization (kJ/mol)
+91
+Heat fusion (kJ/mol)
+4.21
+Electrical conductivity (s/m)
+0.145
+Thermal conductivity (W/m°K)
+0.22
+Heat capacity (J/mol°K)
+0.105
+***GROUP***
+Nobelium (No)
+Atomic number
+102
+Atomic mass (g/mol)
+255.0933
+***GROUP***
+Neptunium (Np)
+Atomic number
+93
+Atomic mass (g/mol)
+237
+Melting point (°C)
+637
+Density (g/cm³)
+19.5
+Heat vapororization (kJ/mol)
+94.3
+**GROUP**
+O to P
+***GROUP***
+Oxygen (O)
+Atomic number
+8
+Atomic mass (g/mol)
+15.9994
+Boiling point (°C)
+-183
+Melting point (°C)
+-218.8
+Density (g/cm³)
+1.14
+Heat vapororization (kJ/mol)
+0.815
+Heat fusion (kJ/mol)
+0.053
+Thermal conductivity (W/m°K)
+6e-005
+Heat capacity (J/mol°K)
+0.218
+***GROUP***
+Osmium (Os)
+Atomic number
+76
+Atomic mass (g/mol)
+190.2
+Boiling point (°C)
+5500
+Melting point (°C)
+3000
+Density (g/cm³)
+22.6
+Heat vapororization (kJ/mol)
+162
+Heat fusion (kJ/mol)
+6.4
+Electrical conductivity (s/m)
+0.11
+Heat capacity (J/mol°K)
+0.031
+***GROUP***
+Phosphorus (P)
+Atomic number
+15
+Atomic mass (g/mol)
+30.984
+***GROUP***
+Protactium (Pa)
+Atomic number
+91
+Atomic mass (g/mol)
+231.0359
+***GROUP***
+Lead (Pb)
+Atomic number
+82
+Atomic mass (g/mol)
+207.19
+Boiling point (°C)
+1725
+Melting point (°C)
+327.4
+Density (g/cm³)
+11.4
+Heat vapororization (kJ/mol)
+42.2
+Heat fusion (kJ/mol)
+1.22
+Electrical conductivity (s/m)
+0.046
+Thermal conductivity (W/m°K)
+0.083
+Heat capacity (J/mol°K)
+0.031
+***GROUP***
+Palladium (Pd)
+Atomic number
+46
+Atomic mass (g/mol)
+106.4
+Boiling point (°C)
+3980
+Melting point (°C)
+1552
+Density (g/cm³)
+12
+Heat vapororization (kJ/mol)
+90
+Heat fusion (kJ/mol)
+4
+Electrical conductivity (s/m)
+0.093
+Thermal conductivity (W/m°K)
+0.17
+Heat capacity (J/mol°K)
+0.058
+***GROUP***
+Promethium (Pm)
+Atomic number
+61
+Atomic mass (g/mol)
+144.9128
+***GROUP***
+Polonium (Po)
+Atomic number
+84
+Atomic mass (g/mol)
+208.98
+***GROUP***
+Praseodymium (Pr)
+Atomic number
+59
+Atomic mass (g/mol)
+140.907
+Boiling point (°C)
+3127
+Melting point (°C)
+935
+Density (g/cm³)
+6.77
+Heat vapororization (kJ/mol)
+79
+Heat fusion (kJ/mol)
+1.6
+Electrical conductivity (s/m)
+0.015
+Thermal conductivity (W/m°K)
+0.028
+Heat capacity (J/mol°K)
+0.048
+***GROUP***
+Plutonium (Pu)
+Atomic number
+94
+Atomic mass (g/mol)
+242
+Boiling point (°C)
+3235
+Melting point (°C)
+640
+Heat vapororization (kJ/mol)
+87.2
+***GROUP***
+Platinum (Pt)
+Atomic number
+78
+Atomic mass (g/mol)
+195.09
+Boiling point (°C)
+4530
+Melting point (°C)
+1769
+Density (g/cm³)
+21.4
+Heat vapororization (kJ/mol)
+122
+Heat fusion (kJ/mol)
+4.7
+Electrical conductivity (s/m)
+0.095
+Thermal conductivity (W/m°K)
+0.17
+Heat capacity (J/mol°K)
+0.032
+**GROUP**
+R to S
+***GROUP***
+Radium (Ra)
+Atomic number
+88
+Atomic mass (g/mol)
+226
+Melting point (°C)
+700
+Density (g/cm³)
+5
+Heat vapororization (kJ/mol)
+27.4
+Heat fusion (kJ/mol)
+2.4
+***GROUP***
+Rubidium (Rb)
+Atomic number
+37
+Atomic mass (g/mol)
+85.47
+Boiling point (°C)
+688
+Melting point (°C)
+38.9
+Density (g/cm³)
+1.53
+Heat vapororization (kJ/mol)
+18.1
+Heat fusion (kJ/mol)
+0.55
+Electrical conductivity (s/m)
+0.08
+Heat capacity (J/mol°K)
+0.08
+***GROUP***
+Rhenium (Re)
+Atomic number
+75
+Atomic mass (g/mol)
+186.2
+Boiling point (°C)
+5900
+Melting point (°C)
+3180
+Density (g/cm³)
+21
+Heat vapororization (kJ/mol)
+152
+Heat fusion (kJ/mol)
+7.9
+Electrical conductivity (s/m)
+0.051
+Thermal conductivity (W/m°K)
+0.17
+Heat capacity (J/mol°K)
+0.033
+***GROUP***
+Rutherfordium (Rf)
+Atomic number
+104
+Atomic mass (g/mol)
+267
+Oxidation states
+4
+***GROUP***
+Roentgenium (Rg)
+Atomic number
+111
+Atomic mass (g/mol)
+180
+***GROUP***
+Rhodium (Rh)
+Atomic number
+45
+Atomic mass (g/mol)
+102.905
+Boiling point (°C)
+4500
+Melting point (°C)
+1966
+Density (g/cm³)
+12.4
+Heat vapororization (kJ/mol)
+127
+Heat fusion (kJ/mol)
+5.2
+Electrical conductivity (s/m)
+0.22
+Thermal conductivity (W/m°K)
+0.21
+Heat capacity (J/mol°K)
+0.059
+***GROUP***
+Radon (Rn)
+Atomic number
+86
+Atomic mass (g/mol)
+222.0176
+***GROUP***
+Ruthenium (Ru)
+Atomic number
+44
+Atomic mass (g/mol)
+101.07
+Boiling point (°C)
+4900
+Melting point (°C)
+2500
+Density (g/cm³)
+12.2
+Heat vapororization (kJ/mol)
+148
+Heat fusion (kJ/mol)
+6.1
+Electrical conductivity (s/m)
+0.1
+Heat capacity (J/mol°K)
+0.057
+***GROUP***
+Sulfur (S)
+Atomic number
+16
+Atomic mass (g/mol)
+32.064
+Boiling point (°C)
+444.6
+Melting point (°C)
+119
+Density (g/cm³)
+2.07
+Heat vapororization (kJ/mol)
+3.01
+Heat fusion (kJ/mol)
+0.34
+Electrical conductivity (s/m)
+10e-023
+Thermal conductivity (W/m°K)
+0.0007
+Heat capacity (J/mol°K)
+0.175
+***GROUP***
+Antimony (Sb)
+Atomic number
+51
+Atomic mass (g/mol)
+121.75
+Boiling point (°C)
+1380
+Melting point (°C)
+630.5
+Density (g/cm³)
+6.62
+Heat vapororization (kJ/mol)
+46.6
+Heat fusion (kJ/mol)
+4.74
+Electrical conductivity (s/m)
+0.026
+Thermal conductivity (W/m°K)
+0.05
+Heat capacity (J/mol°K)
+0.049
+***GROUP***
+Scandium (Sc)
+Atomic number
+21
+Atomic mass (g/mol)
+44.956
+Boiling point (°C)
+2730
+Melting point (°C)
+1539
+Density (g/cm³)
+3
+Heat vapororization (kJ/mol)
+81
+Heat fusion (kJ/mol)
+3.8
+Electrical conductivity (s/m)
+0.015
+Thermal conductivity (W/m°K)
+0.015
+Heat capacity (J/mol°K)
+0.13
+***GROUP***
+Selenium (Se)
+Atomic number
+34
+Atomic mass (g/mol)
+78.96
+Boiling point (°C)
+685
+Melting point (°C)
+217
+Density (g/cm³)
+4.79
+Heat vapororization (kJ/mol)
+3.34
+Heat fusion (kJ/mol)
+1.25
+Electrical conductivity (s/m)
+0.08
+Thermal conductivity (W/m°K)
+10e-5
+Heat capacity (J/mol°K)
+0.084
+***GROUP***
+Seaborgium (Sg)
+Atomic number
+106
+Atomic mass (g/mol)
+271
+***GROUP***
+Silicon (Si)
+Atomic number
+14
+Atomic mass (g/mol)
+28.086
+Boiling point (°C)
+2680
+Melting point (°C)
+1410
+Density (g/cm³)
+2.33
+Heat vapororization (kJ/mol)
+40.6
+Heat fusion (kJ/mol)
+11.1
+Electrical conductivity (s/m)
+0.1
+Thermal conductivity (W/m°K)
+0.2
+Heat capacity (J/mol°K)
+0.162
+***GROUP***
+Samarium (Sm)
+Atomic number
+62
+Atomic mass (g/mol)
+150.35
+Boiling point (°C)
+1900
+Melting point (°C)
+1072
+Density (g/cm³)
+7.54
+Heat vapororization (kJ/mol)
+46
+Heat fusion (kJ/mol)
+2.1
+Electrical conductivity (s/m)
+0.011
+Heat capacity (J/mol°K)
+0.042
+***GROUP***
+Tin (Sn)
+Atomic number
+50
+Atomic mass (g/mol)
+118.69
+Boiling point (°C)
+2270
+Melting point (°C)
+231.9
+Density (g/cm³)
+7.3
+Heat vapororization (kJ/mol)
+70
+Heat fusion (kJ/mol)
+1.72
+Electrical conductivity (s/m)
+0.088
+Thermal conductivity (W/m°K)
+0.16
+Heat capacity (J/mol°K)
+0.054
+***GROUP***
+Strontium (Sr)
+Atomic number
+38
+Atomic mass (g/mol)
+87.62
+Boiling point (°C)
+1380
+Melting point (°C)
+768
+Density (g/cm³)
+2.6
+Heat vapororization (kJ/mol)
+33.8
+Heat fusion (kJ/mol)
+2.1
+Electrical conductivity (s/m)
+0.043
+Heat capacity (J/mol°K)
+0.176
+**GROUP**
+T to U
+***GROUP***
+Tantalum (Ta)
+Atomic number
+73
+Atomic mass (g/mol)
+180.948
+Boiling point (°C)
+5425
+Melting point (°C)
+2996
+Density (g/cm³)
+16.6
+Heat vapororization (kJ/mol)
+180
+Heat fusion (kJ/mol)
+6.8
+Electrical conductivity (s/m)
+0.081
+Thermal conductivity (W/m°K)
+0.13
+Heat capacity (J/mol°K)
+0.036
+***GROUP***
+Terbium (Tb)
+Atomic number
+65
+Atomic mass (g/mol)
+158.924
+Boiling point (°C)
+2800
+Melting point (°C)
+1356
+Density (g/cm³)
+8.27
+Heat vapororization (kJ/mol)
+70
+Heat fusion (kJ/mol)
+3.9
+Electrical conductivity (s/m)
+0.009
+Heat capacity (J/mol°K)
+0.044
+***GROUP***
+Technetium (Tc)
+Atomic number
+43
+Atomic mass (g/mol)
+96.9062
+***GROUP***
+Tellurium (Te)
+Atomic number
+52
+Atomic mass (g/mol)
+127.6
+***GROUP***
+Thorium (Th)
+Atomic number
+90
+Atomic mass (g/mol)
+232.038
+Boiling point (°C)
+3850
+Melting point (°C)
+1750
+Density (g/cm³)
+11.7
+Heat fusion (kJ/mol)
+4.6
+Electrical conductivity (s/m)
+0.055
+Heat capacity (J/mol°K)
+0.034
+***GROUP***
+Titanium (Ti)
+Atomic number
+22
+Atomic mass (g/mol)
+47.9
+Boiling point (°C)
+3260
+Melting point (°C)
+1668
+Density (g/cm³)
+4.51
+Heat vapororization (kJ/mol)
+106.5
+Heat fusion (kJ/mol)
+3.7
+Electrical conductivity (s/m)
+0.024
+Heat capacity (J/mol°K)
+0.126
+***GROUP***
+Thallium (Tl)
+Atomic number
+81
+Atomic mass (g/mol)
+204.37
+Boiling point (°C)
+1457
+Melting point (°C)
+303
+Density (g/cm³)
+11.85
+Heat vapororization (kJ/mol)
+38.8
+Heat fusion (kJ/mol)
+1.02
+Electrical conductivity (s/m)
+0.055
+Thermal conductivity (W/m°K)
+0.093
+Heat capacity (J/mol°K)
+0.031
+***GROUP***
+Thulium (Tm)
+Atomic number
+69
+Atomic mass (g/mol)
+168.934
+Boiling point (°C)
+1727
+Melting point (°C)
+1545
+Density (g/cm³)
+9.33
+Heat vapororization (kJ/mol)
+59
+Heat fusion (kJ/mol)
+4.4
+Electrical conductivity (s/m)
+0.011
+Heat capacity (J/mol°K)
+0.038
+***GROUP***
+Uranium (U)
+Atomic number
+92
+Atomic mass (g/mol)
+238.03
+Boiling point (°C)
+3818
+Melting point (°C)
+1132
+Density (g/cm³)
+19.07
+Heat vapororization (kJ/mol)
+110
+Heat fusion (kJ/mol)
+2.7
+Electrical conductivity (s/m)
+0.034
+Thermal conductivity (W/m°K)
+0.064
+Heat capacity (J/mol°K)
+0.028
+***GROUP***
+Ununbium (Uub)
+Atomic number
+112
+Atomic mass (g/mol)
+185
+***GROUP***
+Ununhexium (Uuh)
+Atomic number
+116
+Atomic mass (g/mol)
+293
+***GROUP***
+Ununoctium (Uuo)
+Atomic number
+118
+Atomic mass (g/mol)
+294
+Boiling point (°C)
+50-110
+***GROUP***
+Ununpentium (Uup)
+Atomic number
+115
+Atomic mass (g/mol)
+288
+***GROUP***
+Ununquadium (Uuq)
+Atomic number
+114
+Atomic mass (g/mol)
+289
+***GROUP***
+Ununseptium (Uus)
+Atomic number
+117
+***GROUP***
+Ununtrium (Uut)
+Atomic number
+113
+Atomic mass (g/mol)
+284
+**GROUP**
+V to Z
+***GROUP***
+Vandium (V)
+Atomic number
+23
+Atomic mass (g/mol)
+50.942
+Boiling point (°C)
+3450
+Melting point (°C)
+1900
+Density (g/cm³)
+6.1
+Heat vapororization (kJ/mol)
+106
+Heat fusion (kJ/mol)
+4.2
+Electrical conductivity (s/m)
+0.04
+Heat capacity (J/mol°K)
+0.12
+***GROUP***
+Wolfram (W)
+Atomic number
+74
+Atomic mass (g/mol)
+183.85
+Boiling point (°C)
+5930
+Melting point (°C)
+3410
+Density (g/cm³)
+19.3
+Heat vapororization (kJ/mol)
+185
+Heat fusion (kJ/mol)
+8.05
+Electrical conductivity (s/m)
+0.181
+Thermal conductivity (W/m°K)
+0.4
+Heat capacity (J/mol°K)
+0.032
+***GROUP***
+Xenon (Xe)
+Atomic number
+54
+Atomic mass (g/mol)
+131.3
+Boiling point (°C)
+-108
+Melting point (°C)
+-111.9
+Density (g/cm³)
+3.06
+Heat vapororization (kJ/mol)
+3.02
+Heat fusion (kJ/mol)
+0.55
+Thermal conductivity (W/m°K)
+0.0001
+***GROUP***
+Yttrium (Y)
+Atomic number
+39
+Atomic mass (g/mol)
+88.9059
+***GROUP***
+Ytterbium (Yb)
+Atomic number
+70
+Atomic mass (g/mol)
+173.04
+Boiling point (°C)
+1427
+Melting point (°C)
+824
+Density (g/cm³)
+6.98
+Heat vapororization (kJ/mol)
+38
+Heat fusion (kJ/mol)
+1.8
+Electrical conductivity (s/m)
+0.035
+Heat capacity (J/mol°K)
+0.035
+***GROUP***
+Zinc (Zn)
+Atomic number
+30
+Atomic mass (g/mol)
+65.37
+Boiling point (°C)
+906
+Melting point (°C)
+419.5
+Density (g/cm³)
+7.14
+Heat vapororization (kJ/mol)
+27.4
+Heat fusion (kJ/mol)
+1.76
+Electrical conductivity (s/m)
+0.167
+Thermal conductivity (W/m°K)
+0.27
+Heat capacity (J/mol°K)
+0.0915
+***GROUP***
+Zirconium (Zr)
+Atomic number
+40
+Atomic mass (g/mol)
+91.22
+Boiling point (°C)
+3580
+Melting point (°C)
+1852
+Density (g/cm³)
+6.49
+Heat vapororization (kJ/mol)
+120
+Heat fusion (kJ/mol)
+4
+Electrical conductivity (s/m)
+0.024
+Heat capacity (J/mol°K)
+0.066

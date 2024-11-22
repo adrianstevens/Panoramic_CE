@@ -1,0 +1,46 @@
+﻿<Window x:Class="CalcPro.screens.OptionsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="clr-namespace:CalcPro.Controls"
+    SizeToContent="WidthAndHeight"
+    ResizeMode="NoResize"  
+    Title="Panoramic Scientific">
+    <Grid Height="480" Width="960">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Options/OptionsBG.jpg" Stretch="None" />
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+            <ScrollViewer HorizontalAlignment="Left" x:Name="scrollViewer1" VerticalAlignment="Top" Width="400">
+                <StackPanel HorizontalAlignment="Left" x:Name="stackPanel1" VerticalAlignment="Top">
+                    <my:OptionControl x:Name="optSkinStyle" />
+                    <my:OptionControl x:Name="optSkinColor" />
+                    <my:OptionControl x:Name="optPlaySounds" />
+                    <!--"<my:OptionControl x:Name="optLanguage" />-->
+                    <!--<local:OptionControlToggle x:Name="optUseRegionalSettings" />-->
+                    <my:OptionControl x:Name="optCalculatorMode" />
+                    <my:OptionControl x:Name="optNotation" />
+                    <my:OptionControl x:Name="optFixedDigits" />
+                    <my:OptionControl x:Name="optRecordTape" />
+
+                    <my:OptionControl x:Name="optAdvancedMemory" />
+                    <my:OptionControl x:Name="optConversionBuffer" />
+                    <my:OptionControl x:Name="optRPNStackSize" />
+                    
+                    <my:OptionControl x:Name="optTVM" />
+                    <my:OptionControl x:Name="optPaymentSched" />
+                    <my:OptionControl x:Name="optGraphStyle" />
+                </StackPanel>
+            </ScrollViewer>
+
+        <StackPanel Grid.Column="1">
+            <Image Height="146" Source="/Assets/CalcPro_logo.png" Stretch="None" VerticalAlignment="Top" Margin="0,2" />
+            <TextBlock FontSize="24" Text="Copyright" TextWrapping="Wrap" TextAlignment="Center" Height="101" Width="Auto" Name="txtAboutCopyright" Margin="0,2" Foreground="#FFFFFFFF" />
+                    <TextBlock FontSize="26" Text="http://www.panoramicsoft.com" Margin="0,2" Foreground="#FFFFFFFF" />
+                    <Image Source="/Assets/logo.png" Stretch="None" Margin="0,2" Height="194" />
+        </StackPanel>
+    </Grid>
+</Window>

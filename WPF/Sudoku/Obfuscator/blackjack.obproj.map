@@ -1,0 +1,821 @@
+﻿<Mappings><Entry OldName="BlackJack.Strings.StringTable.resourceMan" NewName="BlackJack.Strings.StringTable.c12d8af5beb18a0afd3978a998eb350a7" />
+<Entry OldName="BlackJack.Strings.StringTable.resourceCulture" NewName="BlackJack.Strings.StringTable.cc30e9eb58e653aae921816ca633755da" />
+<Entry OldName="BlackJack.ObjGui.&lt;Skin&gt;k__BackingField" NewName="BlackJack.ObjGui.c4c7c50b1442bd16d27859f960acdf31c" />
+<Entry OldName="BlackJack.Controls.NewControl._contentLoaded" NewName="BlackJack.Controls.NewControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Card.&lt;Rank&gt;k__BackingField" NewName="BlackJack.Card.cb88f9fed099acfb50b82b2491873d2dd" />
+<Entry OldName="BlackJack.Card.&lt;Suit&gt;k__BackingField" NewName="BlackJack.Card.c6a2fbadc80584f9676c800d939853e65" />
+<Entry OldName="BlackJack.Card.&lt;IndexInDeck&gt;k__BackingField" NewName="BlackJack.Card.c9613848825a0ba99d83d611dc5886412" />
+<Entry OldName="BlackJack.Properties.Resources.resourceMan" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3.c12d8af5beb18a0afd3978a998eb350a7" />
+<Entry OldName="BlackJack.Properties.Resources.resourceCulture" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3.cc30e9eb58e653aae921816ca633755da" />
+<Entry OldName="Visual.MagicDot.ELLIPSE_COUNT" NewName="Visual.MagicDot.c76e5abc837faa7d5162de2628796a1e9" />
+<Entry OldName="Visual.MagicDot.OPACITY" NewName="Visual.MagicDot.c250357f379f0f9c3a1211027cd1a9c93" />
+<Entry OldName="Visual.MagicDot.OPACITY_INC" NewName="Visual.MagicDot.c2fab831bce9303e0bbe1836a310ad93c" />
+<Entry OldName="Visual.Fireworks.FIREWORK_NUM" NewName="Visual.Fireworks.c9a7d27ca6d37b99c99c7b6dd52f9b59c" />
+<Entry OldName="Visual.Fireworks.X_VELOCITY" NewName="Visual.Fireworks.cb8bb2aa51082886a0f3f68c9a37f9cff" />
+<Entry OldName="Visual.Fireworks.Y_VELOCITY" NewName="Visual.Fireworks.c56afec8344d7ca366766b052966c4078" />
+<Entry OldName="Visual.Fireworks.SIZE_MIN" NewName="Visual.Fireworks.c07d0436aa863bebf74fcd434717725f7" />
+<Entry OldName="Visual.Fireworks.SIZE_MAX" NewName="Visual.Fireworks.cf406c80ebbd7699be81a576357c983c7" />
+<Entry OldName="Visual.Fireworks._fireworks" NewName="Visual.Fireworks.c58acae24cf67faa6e3a57ba77d28af21" />
+<Entry OldName="Visual.Fireworks._timer" NewName="Visual.Fireworks.cc4263fea7034aee93683feba052082f6" />
+<Entry OldName="Visual.Fireworks.FPS" NewName="Visual.Fireworks.cc34d1d71b436ed1da86a8d560050a196" />
+<Entry OldName="Visual.Fireworks.particleColor" NewName="Visual.Fireworks.cab03124c9375b6a3bdccecc920f478c7" />
+<Entry OldName="Visual.Fireworks.LayoutRoot" NewName="Visual.Fireworks.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Visual.Fireworks._contentLoaded" NewName="Visual.Fireworks.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.PlayerHand._playedCount" NewName="BlackJack.Controls.PlayerHand.c5bdfafdc54b3d1baeb73a7539f0677bc" />
+<Entry OldName="BlackJack.Controls.PlayerHand.LayoutRoot" NewName="BlackJack.Controls.PlayerHand.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.PlayerHand.canvasPlayer" NewName="BlackJack.Controls.PlayerHand.ca190ec14d54831a4ab4c61898d125301" />
+<Entry OldName="BlackJack.Controls.PlayerHand.betStack" NewName="BlackJack.Controls.PlayerHand.cd530f0394ef26d9a0e7ff4c2c827bbcb" />
+<Entry OldName="BlackJack.Controls.PlayerHand.doubleStack" NewName="BlackJack.Controls.PlayerHand.c146fb30c6dc96707b1d409013c4f7213" />
+<Entry OldName="BlackJack.Controls.PlayerHand.borScore" NewName="BlackJack.Controls.PlayerHand.cc2c653201073f5865a5f2258fec0a8db" />
+<Entry OldName="BlackJack.Controls.PlayerHand.lblScore" NewName="BlackJack.Controls.PlayerHand.cf8d38c0f3f267812126691cfc104f11d" />
+<Entry OldName="BlackJack.Controls.PlayerHand._contentLoaded" NewName="BlackJack.Controls.PlayerHand.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.AppSettings.REG_PlaySounds" NewName="BlackJack.AppSettings.c176bda38c5d1e090b1185d2324ed1e93" />
+<Entry OldName="BlackJack.AppSettings.REG_GameDifficulty" NewName="BlackJack.AppSettings.c226f0138e39c5032726680f033312de4" />
+<Entry OldName="BlackJack.AppSettings.REG_CountSystem" NewName="BlackJack.AppSettings.c5114c098c42a6c226fc6413af6e0e33d" />
+<Entry OldName="BlackJack.AppSettings.REG_CardCountView" NewName="BlackJack.AppSettings.c6046357f5f9189fa958fb3c3b5092049" />
+<Entry OldName="BlackJack.AppSettings.REG_NumDecks" NewName="BlackJack.AppSettings.c4192dce6fbaf4031dcbcbe805cc022f8" />
+<Entry OldName="BlackJack.AppSettings.REG_BurnFirst" NewName="BlackJack.AppSettings.c21d3848b0e126116ae3c1361df46a030" />
+<Entry OldName="BlackJack.AppSettings.REG_PayoutMode" NewName="BlackJack.AppSettings.cb0ed04032b78c568630ad2cd3c8d6490" />
+<Entry OldName="BlackJack.AppSettings.REG_DealerHitOnSoft17" NewName="BlackJack.AppSettings.c1249db1865963712790477b4632f9259" />
+<Entry OldName="BlackJack.AppSettings.REG_ShowScores" NewName="BlackJack.AppSettings.ccdb3ec8247073886a97d18bab5940863" />
+<Entry OldName="BlackJack.AppSettings.REG_ShowDealerCard" NewName="BlackJack.AppSettings.c131867373e64d0f43ad67d444549fe70" />
+<Entry OldName="BlackJack.AppSettings.&lt;CountSystem&gt;k__BackingField" NewName="BlackJack.AppSettings.c9ff4ea818630aaa2929765a5bf614fef" />
+<Entry OldName="BlackJack.AppSettings.&lt;CardCountView&gt;k__BackingField" NewName="BlackJack.AppSettings.c32021a4727e10b4d241825b9f172d916" />
+<Entry OldName="BlackJack.Options.CURRENCY_FORMAT" NewName="BlackJack.Options.cc110a7d30c42ee30ee5b27ee91c9e75d" />
+<Entry OldName="BlackJack.Options.LayoutRoot" NewName="BlackJack.Options.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Options.gridSettings" NewName="BlackJack.Options.c67f1c7c13bb41615b93029996761fecf" />
+<Entry OldName="BlackJack.Options.stackPanel1" NewName="BlackJack.Options.c5a482bd3dde4b693785f8a596f644ba9" />
+<Entry OldName="BlackJack.Options.optGameDifficulty" NewName="BlackJack.Options.c6e7484e2c200f3f355969aab148c2068" />
+<Entry OldName="BlackJack.Options.optPlaySounds" NewName="BlackJack.Options.cb1026472d3912378e3e909375d8f8f9f" />
+<Entry OldName="BlackJack.Options.optCardCount" NewName="BlackJack.Options.cb90c56ea80395b26e524ba840527d45f" />
+<Entry OldName="BlackJack.Options.optCardCountStyle" NewName="BlackJack.Options.ce10912f80a02396bec6fd7be4aa1948b" />
+<Entry OldName="BlackJack.Options.optShowDealerCard" NewName="BlackJack.Options.c43d4ad56a4d00111264d2c12e3561c58" />
+<Entry OldName="BlackJack.Options.optBurnFirst" NewName="BlackJack.Options.c626948e30a57610d4c58cbdc608bfecf" />
+<Entry OldName="BlackJack.Options.optShowScores" NewName="BlackJack.Options.cdcb73d03ccfc1396462335f4dd75e55a" />
+<Entry OldName="BlackJack.Options.optDealerSoft17" NewName="BlackJack.Options.cdee5d658ed68bf479ae8163687d4e719" />
+<Entry OldName="BlackJack.Options.optNumDecks" NewName="BlackJack.Options.c2d195a4613e679f8aa9f64f95cc21a13" />
+<Entry OldName="BlackJack.Options.optPayout" NewName="BlackJack.Options.c683d02607dbbe3f176df16bffb19c3a1" />
+<Entry OldName="BlackJack.Options.optBankRoll" NewName="BlackJack.Options.c21376be80a9a91954bcdf9dee35a475d" />
+<Entry OldName="BlackJack.Options.gridHiScores" NewName="BlackJack.Options.c0d57f187e59cfd2d45ea7ac0060e274d" />
+<Entry OldName="BlackJack.Options.lblHiScores" NewName="BlackJack.Options.cdefa332e26a45c81f1edf771d66c63b3" />
+<Entry OldName="BlackJack.Options.lstHiScores" NewName="BlackJack.Options.cb5d6a126ff3dae9bafac9d574f025c48" />
+<Entry OldName="BlackJack.Options.lblAchievements" NewName="BlackJack.Options.cd2e89179d5c1b6ab0f1573159682079f" />
+<Entry OldName="BlackJack.Options.lblAchievePoints" NewName="BlackJack.Options.ce6a9bff0258ec8c9b7b765141d5bb43a" />
+<Entry OldName="BlackJack.Options.lbAchievements" NewName="BlackJack.Options.c64cc9b4d73900ac160e88b64c97b28be" />
+<Entry OldName="BlackJack.Options.gridAbout" NewName="BlackJack.Options.c9f6d2ac924e093203c42d659a1af5936" />
+<Entry OldName="BlackJack.Options.txtAboutCopyright" NewName="BlackJack.Options.cd3fb35484dfa109130380f998942cf82" />
+<Entry OldName="BlackJack.Options.appBar" NewName="BlackJack.Options.cf2f65f25fb854c1f7685a952cf1fbea6" />
+<Entry OldName="BlackJack.Options.btnBack" NewName="BlackJack.Options.ce2bc8d16f6e6705cd374a9f55c07b47b" />
+<Entry OldName="BlackJack.Options.btnSettings" NewName="BlackJack.Options.c91df5c0b5912b88f6873fe6b7150b390" />
+<Entry OldName="BlackJack.Options.btnHiScores" NewName="BlackJack.Options.cce5fede96cef25cf89797700b1d77f27" />
+<Entry OldName="BlackJack.Options.btnAbout" NewName="BlackJack.Options.c0fbf8d4cff39063c18b024f3796ab792" />
+<Entry OldName="BlackJack.Options._contentLoaded" NewName="BlackJack.Options.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegateb" NewName="BlackJack.Options.c7a21266a5bdd3301f9b8afe08c66fb51" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatec" NewName="BlackJack.Options.c6c47721559e7dc30725ef3d855612f0a" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegated" NewName="BlackJack.Options.c990db5d35b80a4ffeb1aae5dd82cb260" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatee" NewName="BlackJack.Options.c78d2f234ac72186e05780b1285572184" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatef" NewName="BlackJack.Options.c2e423668d5a812bf49a65402d1e6f43b" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate10" NewName="BlackJack.Options.c20d72ed4c6dca77ab840a842df2c5bd7" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate11" NewName="BlackJack.Options.ccbc957e91ed76ea729cc5d7a8a0e83c0" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate12" NewName="BlackJack.Options.c2231a37b7e49475a42a0756d8a1c5481" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate13" NewName="BlackJack.Options.c99682ed99c0de84c0912fae510c7d167" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate14" NewName="BlackJack.Options.c077d576db90d6234617cd607fac43aeb" />
+<Entry OldName="BlackJack.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate15" NewName="BlackJack.Options.c8e98ce8a533835b670f6359836728ecb" />
+<Entry OldName="BlackJack.Controls.DollarImage._startY" NewName="BlackJack.Controls.DollarImage.c1737ce693f17451f87b2161fe5e1a169" />
+<Entry OldName="BlackJack.Controls.DollarImage._contentLoaded" NewName="BlackJack.Controls.DollarImage.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.BetStack.LayoutRoot" NewName="BlackJack.Controls.BetStack.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.BetStack.chipsBlack" NewName="BlackJack.Controls.BetStack.c08e10700b1c7add6ed4004fe6314b701" />
+<Entry OldName="BlackJack.Controls.BetStack.chipsGreen" NewName="BlackJack.Controls.BetStack.cbb5b15844800950f1ea1e0543622eeb9" />
+<Entry OldName="BlackJack.Controls.BetStack.chipsRed" NewName="BlackJack.Controls.BetStack.c70e137edff8cedd12e27310d5040644f" />
+<Entry OldName="BlackJack.Controls.BetStack.chipsBlue" NewName="BlackJack.Controls.BetStack.c9ea1e9c8069f0cf93ad035ee5a95600b" />
+<Entry OldName="BlackJack.Controls.BetStack._contentLoaded" NewName="BlackJack.Controls.BetStack.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Strings.StringTable_du.resourceMan" NewName="A.c218e2da8070e156e0cac78863b7c41a8.c12d8af5beb18a0afd3978a998eb350a7" />
+<Entry OldName="BlackJack.Strings.StringTable_du.resourceCulture" NewName="A.c218e2da8070e156e0cac78863b7c41a8.cc30e9eb58e653aae921816ca633755da" />
+<Entry OldName="BlackJack.TypeGameState.&lt;Num25Chips&gt;k__BackingField" NewName="BlackJack.TypeGameState.cb7b2f3a65b13b4967e42190d63f4320c" />
+<Entry OldName="BlackJack.TypeGameState.&lt;Num50Chips&gt;k__BackingField" NewName="BlackJack.TypeGameState.cf8d774ba946fc9c8e5c462109a1fc465" />
+<Entry OldName="BlackJack.TypeGameState.&lt;Num100Chips&gt;k__BackingField" NewName="BlackJack.TypeGameState.cf5ffa155bc828feb4b1076fee1c3b376" />
+<Entry OldName="BlackJack.TypeGameState.&lt;Num500Chips&gt;k__BackingField" NewName="BlackJack.TypeGameState.c358d5a4daf1103aa757321a45bf1b0e6" />
+<Entry OldName="BlackJack.TypeGameState.&lt;m_iCardCount&gt;k__BackingField" NewName="BlackJack.TypeGameState.ca5bbcc2421c262347633e52c87d2afd0" />
+<Entry OldName="BlackJack.TypeGameState.&lt;GameDifficulty&gt;k__BackingField" NewName="BlackJack.TypeGameState.c8c36cd0ca59178f50f7a084ed04f2ca7" />
+<Entry OldName="BlackJack.TypeGameState.&lt;BetAmount&gt;k__BackingField" NewName="BlackJack.TypeGameState.c64dc0f67c9382a33f8461bba48f04cfb" />
+<Entry OldName="BlackJack.TypeGameState.&lt;Bank&gt;k__BackingField" NewName="BlackJack.TypeGameState.c5a6df5a9652d89c91ec071361d414923" />
+<Entry OldName="BlackJack.TypeGameState.&lt;GameState&gt;k__BackingField" NewName="BlackJack.TypeGameState.cc2eccd29378f05803bf949ab701acec8" />
+<Entry OldName="BlackJack.TypeGameState.&lt;BankHi&gt;k__BackingField" NewName="BlackJack.TypeGameState.c7419dc3cab3837d72c3d51bb62ad61b8" />
+<Entry OldName="BlackJack.TypeGameState.&lt;IsSplit&gt;k__BackingField" NewName="BlackJack.TypeGameState.c0135de87605937c8d5e919e9a24748c8" />
+<Entry OldName="BlackJack.TypeGameState.&lt;LastResult&gt;k__BackingField" NewName="BlackJack.TypeGameState.c962625061af5259f3fd46005d37bb3eb" />
+<Entry OldName="BlackJack.TypeGameState.&lt;NumDecks&gt;k__BackingField" NewName="BlackJack.TypeGameState.c1f7c42f9d4d3b2d1d66275e75ab84455" />
+<Entry OldName="BlackJack.TypeGameState.&lt;BurnFirstCard&gt;k__BackingField" NewName="BlackJack.TypeGameState.cb28be5e108dc7b52a2dbc139fb85ec01" />
+<Entry OldName="BlackJack.TypeGameState.&lt;DealerHitsOnSoft17&gt;k__BackingField" NewName="BlackJack.TypeGameState.c2af65229ab081e8ca27025836f70685b" />
+<Entry OldName="BlackJack.TypeGameState.&lt;BlackJack2to1&gt;k__BackingField" NewName="BlackJack.TypeGameState.cd9535cecf464371d82779f6146db5074" />
+<Entry OldName="BlackJack.TypeGameState.&lt;ShowScores&gt;k__BackingField" NewName="BlackJack.TypeGameState.c1850bb699014f4ccc5510e22b2dd267a" />
+<Entry OldName="BlackJack.TypeGameState.&lt;ShowDealerCard&gt;k__BackingField" NewName="BlackJack.TypeGameState.ca104589c6694e2c9b219cd73166d7372" />
+<Entry OldName="BlackJack.TypeGameState.&lt;BankRoll&gt;k__BackingField" NewName="BlackJack.TypeGameState.c8ab2533a2e5381264a8458b3bf11d7a9" />
+<Entry OldName="BlackJack.BJEngine.GAME_FILE" NewName="BlackJack.BJEngine.c8dfce79f63e5e535e0c3c7accd8dbd6d" />
+<Entry OldName="BlackJack.BJEngine.PLAYER_FILE" NewName="BlackJack.BJEngine.c8568d565080f70f39f6694c0185c7faa" />
+<Entry OldName="BlackJack.BJEngine.DEALER_FILE" NewName="BlackJack.BJEngine.c735932780356c929866f3865474d738b" />
+<Entry OldName="BlackJack.BJEngine.SPLIT_FILE" NewName="BlackJack.BJEngine.cd33984887afac302293dff5aecbc2ac4" />
+<Entry OldName="BlackJack.BJEngine.DECK_FILE" NewName="BlackJack.BJEngine.c7f6684f80747faa6005548062f80b8d8" />
+<Entry OldName="BlackJack.BJEngine.ePairs" NewName="BlackJack.BJEngine.c35c2b1a3ad1c9453a24cee4712926bda" />
+<Entry OldName="BlackJack.BJEngine.eSoft" NewName="BlackJack.BJEngine.ce489f88f453204460e2141245ed52450" />
+<Entry OldName="BlackJack.BJEngine.eHard" NewName="BlackJack.BJEngine.cdd4391d3a4873b5896a3643b57d3e111" />
+<Entry OldName="BlackJack.BJEngine._iCountValues" NewName="BlackJack.BJEngine.cc950b222c2c7c35cfd3506a18d936e0f" />
+<Entry OldName="BlackJack.BJEngine.m_iLow" NewName="BlackJack.BJEngine.c1c27ff579586c9eca4c56ffbf5b560bb" />
+<Entry OldName="BlackJack.BJEngine.m_iHi" NewName="BlackJack.BJEngine.c1584a21c7559d2f0ace36084aa283b2b" />
+<Entry OldName="BlackJack.BJEngine.m_bSurrender" NewName="BlackJack.BJEngine.c2ff1ed35d8047c8b3f3bcc73411c0cea" />
+<Entry OldName="BlackJack.BJEngine._insurance" NewName="BlackJack.BJEngine.ceff2110027c5150192c6000347d9eb58" />
+<Entry OldName="BlackJack.BJEngine.&lt;DealerHand&gt;k__BackingField" NewName="BlackJack.BJEngine.ca946a92c936d0128a4772aba3f8f99fe" />
+<Entry OldName="BlackJack.BJEngine.&lt;PlayerHand&gt;k__BackingField" NewName="BlackJack.BJEngine.c4ab874b0e3bbc4ef5b425041509b3119" />
+<Entry OldName="BlackJack.BJEngine.&lt;SplitHand&gt;k__BackingField" NewName="BlackJack.BJEngine.cb60214b23eb4624d5cf66f028b224480" />
+<Entry OldName="BlackJack.BJEngine.&lt;CardSet&gt;k__BackingField" NewName="BlackJack.BJEngine.c358372a200f565e97aa6cad7670d681e" />
+<Entry OldName="BlackJack.BJEngine.&lt;NumDealerCardsDealt&gt;k__BackingField" NewName="BlackJack.BJEngine.c2a838a0310f49f151bf6a0831e33fbfc" />
+<Entry OldName="BlackJack.BJEngine.&lt;NumPlayerCardsDealt&gt;k__BackingField" NewName="BlackJack.BJEngine.c1e2873884bc453c8fbc20277ffb0f160" />
+<Entry OldName="BlackJack.BJEngine.&lt;NumSplitCardsDealt&gt;k__BackingField" NewName="BlackJack.BJEngine.ce1b02aaec80c3bb6b6704f7ded9ad72b" />
+<Entry OldName="BlackJack.BJEngine.&lt;CardsScores21&gt;k__BackingField" NewName="BlackJack.BJEngine.c04b7fb3caf3f35b62f8cd480798ba8cd" />
+<Entry OldName="BlackJack.BJEngine.&lt;AllowSurrender&gt;k__BackingField" NewName="BlackJack.BJEngine.c397f738fcc9edba727380636b7be5ea3" />
+<Entry OldName="BlackJack.BJEngine.&lt;PlayEndSound&gt;k__BackingField" NewName="BlackJack.BJEngine.cd5e7962e07f10bcc8f70db84a78f1d93" />
+<Entry OldName="BlackJack.BJEngine.&lt;CalcDoubleDown&gt;k__BackingField" NewName="BlackJack.BJEngine.c7eb33d39fab51117e51104a4a317a11c" />
+<Entry OldName="BlackJack.BJEngine.&lt;ResultPlayer&gt;k__BackingField" NewName="BlackJack.BJEngine.c8d4f929b0b691183c8d100843228cd9e" />
+<Entry OldName="BlackJack.BJEngine.&lt;ResultSplit&gt;k__BackingField" NewName="BlackJack.BJEngine.c54cb8cc5f66e35615c739532e40dac03" />
+<Entry OldName="BlackJack.BJEngine.&lt;PreviousBank&gt;k__BackingField" NewName="BlackJack.BJEngine.c481a2a75c620b3db0415a672c507dd77" />
+<Entry OldName="BlackJack.ResultEventArgs.&lt;Player&gt;k__BackingField" NewName="BlackJack.ResultEventArgs.c1c5e1d1f8a9f0d73382693bfa8394495" />
+<Entry OldName="BlackJack.ResultEventArgs.&lt;Split&gt;k__BackingField" NewName="BlackJack.ResultEventArgs.c10c70a5556a82f26d1a85c1910005db1" />
+<Entry OldName="BlackJack.Controls.CardImage._x" NewName="BlackJack.Controls.CardImage.c03b1de038eb5873763edf90f7fb493c3" />
+<Entry OldName="BlackJack.Controls.CardImage._y" NewName="BlackJack.Controls.CardImage.cf896b759077b78c7cf9c30852a45765d" />
+<Entry OldName="BlackJack.Controls.CardImage.LayoutRoot" NewName="BlackJack.Controls.CardImage.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.CardImage.canvasBackground" NewName="BlackJack.Controls.CardImage.cd08ec83f2d6685845d503baf4415a99a" />
+<Entry OldName="BlackJack.Controls.CardImage.imgBackground" NewName="BlackJack.Controls.CardImage.cbc032f2f6f5493e4d316b66e803d034b" />
+<Entry OldName="BlackJack.Controls.CardImage._contentLoaded" NewName="BlackJack.Controls.CardImage.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Objects.Achievement.&lt;Completed&gt;k__BackingField" NewName="BlackJack.Objects.Achievement.c3501b0184d3d5b254fab346da733896b" />
+<Entry OldName="BlackJack.Objects.IHate8sAchievement._8sCount" NewName="BlackJack.Objects.IHate8sAchievement.c5aede0e7f87b94045c4a01bff6e9f759" />
+<Entry OldName="BlackJack.Objects.OnFireAchievement._onFireCount" NewName="BlackJack.Objects.OnFireAchievement.c9cf6b235d37f7046730a86da271e508f" />
+<Entry OldName="BlackJack.Objects.RunningCountAchievement._winCount" NewName="BlackJack.Objects.RunningCountAchievement.c404f492c85c0331530b2b226cd73ee61" />
+<Entry OldName="BlackJack.Objects.DoubleTroubleAchievement._doubleCount" NewName="BlackJack.Objects.DoubleTroubleAchievement.c14c464bf45166a25ff86372411accdb7" />
+<Entry OldName="BlackJack.Objects.DoubleTroubleAchievement.fDoublePlr" NewName="BlackJack.Objects.DoubleTroubleAchievement.ca6da09b2cdac99da2494537f8d107ce6" />
+<Entry OldName="BlackJack.Objects.DoubleTroubleAchievement.fDoubleSplit" NewName="BlackJack.Objects.DoubleTroubleAchievement.c9a9738eb2f604112b667382d606644aa" />
+<Entry OldName="BlackJack.Objects.Achievements.ACHIEVEMENT_FILE" NewName="BlackJack.Objects.Achievements.c18e6e915031b7bf098d745a32e63c8b5" />
+<Entry OldName="BlackJack.Objects.Achievements._list" NewName="BlackJack.Objects.Achievements.cb2b51fd96bae6bc3a5005a79c5740a64" />
+<Entry OldName="BlackJack.Controls.SelectorImage.story" NewName="BlackJack.Controls.SelectorImage.c187e099c3901f82346bec7d73d9a2306" />
+<Entry OldName="BlackJack.Controls.SelectorImage.playerSelector" NewName="BlackJack.Controls.SelectorImage.ce263cbb0e835f9fe65000f5d1d405d35" />
+<Entry OldName="BlackJack.Controls.SelectorImage._contentLoaded" NewName="BlackJack.Controls.SelectorImage.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Window1._contentLoaded" NewName="BlackJack.Window1.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Objects.HighScores.NOT_IN_HISCORE_TABLE" NewName="BlackJack.Objects.HighScores.c3988a031ac44fe4452f9049ae522dc49" />
+<Entry OldName="BlackJack.Objects.HighScores.HIGHSCORE_FILE" NewName="BlackJack.Objects.HighScores.c0d4f020c7e947a4a6261001148ad7001" />
+<Entry OldName="BlackJack.Objects.HighScores.m_arrScores" NewName="BlackJack.Objects.HighScores.cb8fad1ca4af2d09b7e8a6dd119da059a" />
+<Entry OldName="BlackJack.Objects.HighScores.m_iMaxScoreSaves" NewName="BlackJack.Objects.HighScores.c7fecc92036ad9218225742203fece55a" />
+<Entry OldName="BlackJack.Objects.HighScores.m_iIndexOfLastAdded" NewName="BlackJack.Objects.HighScores.cdb695746a48baf9b6e0839663f247cad" />
+<Entry OldName="BlackJack.Controls.ImageButtonControl.OnClick" NewName="BlackJack.Controls.ImageButtonControl.cc260af21ebad89e32f44524cb8c17dc7" />
+<Entry OldName="BlackJack.Controls.ImageButtonControl.LayoutMain" NewName="BlackJack.Controls.ImageButtonControl.c012f9931d20cab0c58dda30c9c08fd9b" />
+<Entry OldName="BlackJack.Controls.ImageButtonControl.baseCircle" NewName="BlackJack.Controls.ImageButtonControl.cc1d08074cba1529c0b9fba1ae6c1a99b" />
+<Entry OldName="BlackJack.Controls.ImageButtonControl.imgMain" NewName="BlackJack.Controls.ImageButtonControl.c2d3e13d1dadd54cb7aa39ec4ef8b73cb" />
+<Entry OldName="BlackJack.Controls.ImageButtonControl._contentLoaded" NewName="BlackJack.Controls.ImageButtonControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.GameScreen.HAND_INDENT" NewName="BlackJack.GameScreen.cf24c9fe23e409048c94ca37fc2e833f1" />
+<Entry OldName="BlackJack.GameScreen.CURRENCY_FORMAT" NewName="BlackJack.GameScreen.cc110a7d30c42ee30ee5b27ee91c9e75d" />
+<Entry OldName="BlackJack.GameScreen._dealerCount" NewName="BlackJack.GameScreen.c6c0488fd6bf467c3b094d228df84a799" />
+<Entry OldName="BlackJack.GameScreen._options" NewName="BlackJack.GameScreen.c1f903f17f864128a47b2f94e73261d09" />
+<Entry OldName="BlackJack.GameScreen._gameover" NewName="BlackJack.GameScreen.c404c37e54e9e9d2b2ce7ca82ee982d2d" />
+<Entry OldName="BlackJack.GameScreen._blackJack" NewName="BlackJack.GameScreen.c7db13f87eb47a3fd555c49400ab90ea4" />
+<Entry OldName="BlackJack.GameScreen._plrResultAni" NewName="BlackJack.GameScreen.c489b45e59990cc2e3092dbb8b47148d4" />
+<Entry OldName="BlackJack.GameScreen._splitResultAni" NewName="BlackJack.GameScreen.c2c4b96c13a887916ac1c566124d203f0" />
+<Entry OldName="BlackJack.GameScreen._cardCountAni" NewName="BlackJack.GameScreen.cf929e550a917525472fec0b49a23e782" />
+<Entry OldName="BlackJack.GameScreen.iCurrentBet" NewName="BlackJack.GameScreen.c35d03c6835ca2c0f9f50e3e68c9303cb" />
+<Entry OldName="BlackJack.GameScreen.fire" NewName="BlackJack.GameScreen.c313e66a98952eba6e706645874e8e98a" />
+<Entry OldName="BlackJack.GameScreen.LayoutRoot" NewName="BlackJack.GameScreen.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.GameScreen.gameBoard" NewName="BlackJack.GameScreen.c1222d6b86ef26228d5b2bcad62fe4674" />
+<Entry OldName="BlackJack.GameScreen.lblBank" NewName="BlackJack.GameScreen.cca0256a5c7c1052adf83ddb3edf3fe83" />
+<Entry OldName="BlackJack.GameScreen.lblBet" NewName="BlackJack.GameScreen.c21773410a10a3cca09fdd0331a931ec0" />
+<Entry OldName="BlackJack.GameScreen.gridHints" NewName="BlackJack.GameScreen.ca947fdec40a2930465708c65b2e427a1" />
+<Entry OldName="BlackJack.GameScreen.lblHints" NewName="BlackJack.GameScreen.c221f7ae552dd56624aed66320ddf2aff" />
+<Entry OldName="BlackJack.GameScreen.gridCount" NewName="BlackJack.GameScreen.c1a44c0f5d053ab793805ea29b66a45fc" />
+<Entry OldName="BlackJack.GameScreen.lblCountValue" NewName="BlackJack.GameScreen.c51dd49bbeee215a1af76d2ae38495ead" />
+<Entry OldName="BlackJack.GameScreen.lblCount" NewName="BlackJack.GameScreen.cf659e19078c0dce66ce60655e69945e7" />
+<Entry OldName="BlackJack.GameScreen.canvasDealer" NewName="BlackJack.GameScreen.c0640509fd9f37bd892ea7463e7681076" />
+<Entry OldName="BlackJack.GameScreen.borDealerCount" NewName="BlackJack.GameScreen.cad6fad7244779a5015c70506cbae5738" />
+<Entry OldName="BlackJack.GameScreen.lblDealerCount" NewName="BlackJack.GameScreen.cae496c70ea175525e64097661b891f47" />
+<Entry OldName="BlackJack.GameScreen.playerSelector" NewName="BlackJack.GameScreen.ce263cbb0e835f9fe65000f5d1d405d35" />
+<Entry OldName="BlackJack.GameScreen.splitSelector" NewName="BlackJack.GameScreen.cd0da72dce0684ba3e2af37af3073b0e4" />
+<Entry OldName="BlackJack.GameScreen.splitHand" NewName="BlackJack.GameScreen.c36f042624a05523c3bd8b768cc4ff16d" />
+<Entry OldName="BlackJack.GameScreen.playerHand" NewName="BlackJack.GameScreen.c8fd4bec47d02f8f42827d39ae0678b10" />
+<Entry OldName="BlackJack.GameScreen.gridPlrResult" NewName="BlackJack.GameScreen.c4641cd1a951dc203f2eb7d36dcd44d58" />
+<Entry OldName="BlackJack.GameScreen.imgPlrResult" NewName="BlackJack.GameScreen.c55b5d83664614cba6842e7bce024459e" />
+<Entry OldName="BlackJack.GameScreen.lblPlrResult" NewName="BlackJack.GameScreen.c760bc0d00bebdbc716674d44f98e1768" />
+<Entry OldName="BlackJack.GameScreen.gridSplitResult" NewName="BlackJack.GameScreen.cba8b4bb2fa11cc060426f728820dc6ec" />
+<Entry OldName="BlackJack.GameScreen.imgSplitResult" NewName="BlackJack.GameScreen.cc78660bb7a9c24244b4b20f84fcd4cdd" />
+<Entry OldName="BlackJack.GameScreen.lblSplitResult" NewName="BlackJack.GameScreen.c8ac1ab8a54eb1bef899a911043a37e2c" />
+<Entry OldName="BlackJack.GameScreen.gridAchievementComplete" NewName="BlackJack.GameScreen.c3bc90ce268d426afcd6e2915f3a86b5f" />
+<Entry OldName="BlackJack.GameScreen.lblAchivementComplete" NewName="BlackJack.GameScreen.c5fc74bc718807beb60b13e70be563b85" />
+<Entry OldName="BlackJack.GameScreen.imgAchievementComplete" NewName="BlackJack.GameScreen.cb4c95e87dcd859f5ed75170c9c80257e" />
+<Entry OldName="BlackJack.GameScreen.lblAchivementTitle" NewName="BlackJack.GameScreen.c0692eb61b431088654aa92a7d51737dd" />
+<Entry OldName="BlackJack.GameScreen.imgAchievementPoints" NewName="BlackJack.GameScreen.cd2d648f402acd25d398940eeb2c3ab80" />
+<Entry OldName="BlackJack.GameScreen.lblAchivementPoints" NewName="BlackJack.GameScreen.c0e91a231beea72218411a8121cd88fc3" />
+<Entry OldName="BlackJack.GameScreen.dollarRed" NewName="BlackJack.GameScreen.c9a6979a6ef0004bf7c1d16488dbcc953" />
+<Entry OldName="BlackJack.GameScreen.dollarBlack" NewName="BlackJack.GameScreen.c2193222150da72a26332f958fb312bce" />
+<Entry OldName="BlackJack.GameScreen.dollarBlue" NewName="BlackJack.GameScreen.cdbcb583a17ca1fbe8233f752df3ab988" />
+<Entry OldName="BlackJack.GameScreen.dollarGreen" NewName="BlackJack.GameScreen.cf47c5240c1942703fcfba2c5cdf4bb32" />
+<Entry OldName="BlackJack.GameScreen.betBar" NewName="BlackJack.GameScreen.c21d3c3453d4c193a499625cff2f83a5e" />
+<Entry OldName="BlackJack.GameScreen.btn25" NewName="BlackJack.GameScreen.ce7d93c85fa16d84c4022b934bb2b3bd8" />
+<Entry OldName="BlackJack.GameScreen.btn50" NewName="BlackJack.GameScreen.ca689ea9a05b3cad49c40e2d645fb1fc9" />
+<Entry OldName="BlackJack.GameScreen.btn100" NewName="BlackJack.GameScreen.c525dbcf370595be6c73b256033a728f8" />
+<Entry OldName="BlackJack.GameScreen.btn500" NewName="BlackJack.GameScreen.c679212b41ae21e7582054349d9e9cc27" />
+<Entry OldName="BlackJack.GameScreen.btnReset" NewName="BlackJack.GameScreen.cc8afc5835e2deb730b435b12b3319248" />
+<Entry OldName="BlackJack.GameScreen.mainMenu" NewName="BlackJack.GameScreen.c7da28e0fbd83052efee79439b5372552" />
+<Entry OldName="BlackJack.GameScreen.btnBet" NewName="BlackJack.GameScreen.caaf69663de17c2676719831d37b1bc7b" />
+<Entry OldName="BlackJack.GameScreen.btnDeal" NewName="BlackJack.GameScreen.c6844d08f6341dfef44bf8d8ea0923ed7" />
+<Entry OldName="BlackJack.GameScreen.playBar" NewName="BlackJack.GameScreen.c88ddc8ee3a73dfb056ff73378bd6c116" />
+<Entry OldName="BlackJack.GameScreen.btnHit" NewName="BlackJack.GameScreen.c9faffb933d5f72607e62b49feb6ab3f8" />
+<Entry OldName="BlackJack.GameScreen.btnStand" NewName="BlackJack.GameScreen.c7e44e3d1e9633e2244a65536ddbc63a2" />
+<Entry OldName="BlackJack.GameScreen.btnSplit" NewName="BlackJack.GameScreen.cf84c88516bc012d446871436297f6ab7" />
+<Entry OldName="BlackJack.GameScreen.btnDouble" NewName="BlackJack.GameScreen.c2ce92ec41046e9facbec626348662a1d" />
+<Entry OldName="BlackJack.GameScreen.btnSurrender" NewName="BlackJack.GameScreen.ceffc2497e497faa19ac999210bc1e8b7" />
+<Entry OldName="BlackJack.GameScreen.settingsButton1" NewName="BlackJack.GameScreen.cc1288a5f0fb9997b93f36bf0f53ae3c4" />
+<Entry OldName="BlackJack.GameScreen._contentLoaded" NewName="BlackJack.GameScreen.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.OnClick" NewName="BlackJack.Controls.TextButtonControl.cc260af21ebad89e32f44524cb8c17dc7" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.LayoutMain" NewName="BlackJack.Controls.TextButtonControl.c012f9931d20cab0c58dda30c9c08fd9b" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.txtMain" NewName="BlackJack.Controls.TextButtonControl.cd6aa74daa9336815ed0aaaeaf7117934" />
+<Entry OldName="BlackJack.Controls.TextButtonControl._contentLoaded" NewName="BlackJack.Controls.TextButtonControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.GameOverControl._ctrlItem" NewName="BlackJack.Controls.GameOverControl.c2dd4d31de74dafe17249caf5dd083f12" />
+<Entry OldName="BlackJack.Controls.GameOverControl._gridParentLayout" NewName="BlackJack.Controls.GameOverControl.c792634af101fe3f008ccc3141825a826" />
+<Entry OldName="BlackJack.Controls.GameOverControl._bRet" NewName="BlackJack.Controls.GameOverControl.c2e2dcda0c6a369f9089ef70ab6d775a1" />
+<Entry OldName="BlackJack.Controls.GameOverControl.LayoutRoot" NewName="BlackJack.Controls.GameOverControl.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.GameOverControl.textBroke" NewName="BlackJack.Controls.GameOverControl.c3bba5ba83bfe53593567f97dfc19afc5" />
+<Entry OldName="BlackJack.Controls.GameOverControl._contentLoaded" NewName="BlackJack.Controls.GameOverControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.CardSet.MAX_DECKS" NewName="BlackJack.CardSet.c589f0d1e8088d1b18871d4741ca2b0ef" />
+<Entry OldName="BlackJack.CardSet.NUM_SHUFFLES" NewName="BlackJack.CardSet.c8164fd339191a8f01c707654abef7acd" />
+<Entry OldName="BlackJack.CardSet.CARDS_IN_DECK" NewName="BlackJack.CardSet.c273a86c21d806ba3802bbf66852aefc1" />
+<Entry OldName="BlackJack.Controls.OptionControl._IndexUpdate" NewName="BlackJack.Controls.OptionControl.cac52b1c6725051e4934ae2f263ac94f1" />
+<Entry OldName="BlackJack.Controls.OptionControl._iRefID" NewName="BlackJack.Controls.OptionControl.c55be00a10754fd5b0b2208913c576f80" />
+<Entry OldName="BlackJack.Controls.OptionControl.comboBox" NewName="BlackJack.Controls.OptionControl.c1f793e662ed8d9953cb4fa790a7e93b6" />
+<Entry OldName="BlackJack.Controls.OptionControl.textBox" NewName="BlackJack.Controls.OptionControl.cc398b9f01c65c44f821a313b0dd84d30" />
+<Entry OldName="BlackJack.Controls.OptionControl._contentLoaded" NewName="BlackJack.Controls.OptionControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.resourceMan" NewName="A.c62882367f00ac9584aa567b86085942d.c12d8af5beb18a0afd3978a998eb350a7" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.resourceCulture" NewName="A.c62882367f00ac9584aa567b86085942d.cc30e9eb58e653aae921816ca633755da" />
+<Entry OldName="BlackJack.BJHand.m_oCards" NewName="BlackJack.BJHand.c2d0197669a520c2a9aa523e5be902c63" />
+<Entry OldName="BlackJack.Main.LayoutRoot" NewName="BlackJack.Main.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Main.AppBar" NewName="BlackJack.Main.c2291929015e028f869072f8d6c726ce7" />
+<Entry OldName="BlackJack.Main.newGameControl1" NewName="BlackJack.Main.c710a801aecbd51ef2af16123f5e013ea" />
+<Entry OldName="BlackJack.Main.settingsButtonControl1" NewName="BlackJack.Main.ccccbbf3aec4c30a73cb0695771843e66" />
+<Entry OldName="BlackJack.Main.resumeButtonControl1" NewName="BlackJack.Main.c52ca9523d05021908bba3d6dcdfdc5d3" />
+<Entry OldName="BlackJack.Main._contentLoaded" NewName="BlackJack.Main.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.ChipStack._count" NewName="BlackJack.Controls.ChipStack.cb52824383174167eafeecc4cd60c679c" />
+<Entry OldName="BlackJack.Controls.ChipStack.LayoutRoot" NewName="BlackJack.Controls.ChipStack.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.ChipStack.canvasBackground" NewName="BlackJack.Controls.ChipStack.cd08ec83f2d6685845d503baf4415a99a" />
+<Entry OldName="BlackJack.Controls.ChipStack.imgBackground" NewName="BlackJack.Controls.ChipStack.cbc032f2f6f5493e4d316b66e803d034b" />
+<Entry OldName="BlackJack.Controls.ChipStack._contentLoaded" NewName="BlackJack.Controls.ChipStack.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.PopupMenu._dbOriginX" NewName="BlackJack.PopupMenu.cd93a92ee2e4f35953073c850a3d69a4e" />
+<Entry OldName="BlackJack.PopupMenu._dbOriginY" NewName="BlackJack.PopupMenu.c3b91305527bc99f676120172ac01ca7b" />
+<Entry OldName="BlackJack.PopupMenu._dbDestinationX" NewName="BlackJack.PopupMenu.c956cf3397a34cfb954f9abc63d439cb0" />
+<Entry OldName="BlackJack.PopupMenu._dbDestinationY" NewName="BlackJack.PopupMenu.c0d60707e95f332dca4855d8936c35801" />
+<Entry OldName="BlackJack.PopupMenu._gridParentLayout" NewName="BlackJack.PopupMenu.c792634af101fe3f008ccc3141825a826" />
+<Entry OldName="BlackJack.PopupMenu._dtPopupTime" NewName="BlackJack.PopupMenu.c402942e001da8e0e276f8e4db58a2efe" />
+<Entry OldName="BlackJack.PopupMenu._ctrlItem" NewName="BlackJack.PopupMenu.c2dd4d31de74dafe17249caf5dd083f12" />
+<Entry OldName="BlackJack.PopupMenu._iLastSelectedItem" NewName="BlackJack.PopupMenu.cc6bab0344edec6e93cc72de2ac19bb5e" />
+<Entry OldName="BlackJack.PopupMenu.szTitle" NewName="BlackJack.PopupMenu.cc976dc5b7c379a94ca9d3fac447c4c48" />
+<Entry OldName="BlackJack.PopupMenu.LayoutRoot" NewName="BlackJack.PopupMenu.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.PopupMenu.MyBackground" NewName="BlackJack.PopupMenu.c8793d9e0de8906f47cbfd40e6bf41521" />
+<Entry OldName="BlackJack.PopupMenu.gridMain" NewName="BlackJack.PopupMenu.c7628228f371b706bd55a33e2ad9c6e5b" />
+<Entry OldName="BlackJack.PopupMenu.mainBorder" NewName="BlackJack.PopupMenu.cfec934c566b86b3d4f4670b1ac889122" />
+<Entry OldName="BlackJack.PopupMenu.myListBox" NewName="BlackJack.PopupMenu.ca642132b63e1dbfba78be30786db485e" />
+<Entry OldName="BlackJack.PopupMenu._contentLoaded" NewName="BlackJack.PopupMenu.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.PopupMenuEventArgs.&lt;iSelected&gt;k__BackingField" NewName="BlackJack.PopupMenuEventArgs.c927b307f9dd7ba50208a3a6770407c8c" />
+<Entry OldName="BlackJack.PopupMenuItems.PropertyChanged" NewName="BlackJack.PopupMenuItems.c38eec4c25aebd4d3581714a506e34181" />
+<Entry OldName="BlackJack.PopupMenuItems.&lt;szItem&gt;k__BackingField" NewName="BlackJack.PopupMenuItems.cf374056629d4e5e44b6fedd1de612dd2" />
+<Entry OldName="BlackJack.PopupMenuItems.&lt;szSubItem&gt;k__BackingField" NewName="BlackJack.PopupMenuItems.c03214224fcdea26ae0374b69947a0947" />
+<Entry OldName="BlackJack.PopupMenuItems.&lt;eItem&gt;k__BackingField" NewName="BlackJack.PopupMenuItems.c492054eae68b92f6aa4583af223c329a" />
+<Entry OldName="BlackJack.Controls.OptionItem._iCurrentIndex" NewName="BlackJack.Controls.OptionItem.cbef92b511ca44b225954e67ba0ef295a" />
+<Entry OldName="BlackJack.Controls.OptionItem._iYPosition" NewName="BlackJack.Controls.OptionItem.c26dc59035c0b07823b0a56f4e07504e3" />
+<Entry OldName="BlackJack.Controls.OptionItem._iXPosition" NewName="BlackJack.Controls.OptionItem.c7cc66bbd4cf8c625325065ac9ec3356a" />
+<Entry OldName="BlackJack.Controls.OptionItem._dtNow" NewName="BlackJack.Controls.OptionItem.c888671bfd8ca754571a68c4ab722d1f9" />
+<Entry OldName="BlackJack.Controls.OptionItem._bBtnDown" NewName="BlackJack.Controls.OptionItem.cf957df6f145fb8fa1e3a4adbcbff2024" />
+<Entry OldName="BlackJack.Controls.OptionItem._arrItems" NewName="BlackJack.Controls.OptionItem.c5c069ad0bf20a79e3a15446c2691ea45" />
+<Entry OldName="BlackJack.Controls.OptionItem._iRefID" NewName="BlackJack.Controls.OptionItem.c55be00a10754fd5b0b2208913c576f80" />
+<Entry OldName="BlackJack.Controls.OptionItem._IndexUpdate" NewName="BlackJack.Controls.OptionItem.cac52b1c6725051e4934ae2f263ac94f1" />
+<Entry OldName="BlackJack.Controls.OptionItem._MouseUpUpdate" NewName="BlackJack.Controls.OptionItem.c87e136e7f8d3a09f689c15b3dfaa6909" />
+<Entry OldName="BlackJack.Controls.OptionItem.LayoutRoot" NewName="BlackJack.Controls.OptionItem.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.OptionItem.LayoutMain" NewName="BlackJack.Controls.OptionItem.c012f9931d20cab0c58dda30c9c08fd9b" />
+<Entry OldName="BlackJack.Controls.OptionItem.txtTitle" NewName="BlackJack.Controls.OptionItem.c6f669d156ce85b9d8f4d5151376d1346" />
+<Entry OldName="BlackJack.Controls.OptionItem.txtSubItem" NewName="BlackJack.Controls.OptionItem.c2a2d92bd533d9530ed934acb7aefe380" />
+<Entry OldName="BlackJack.Controls.OptionItem._contentLoaded" NewName="BlackJack.Controls.OptionItem.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem.&lt;szItem&gt;k__BackingField" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e.cf374056629d4e5e44b6fedd1de612dd2" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem.&lt;szImage&gt;k__BackingField" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e.ca91199e5c980b947e64cc4b7fc988269" />
+<Entry OldName="BlackJack.Controls.FlipImage._flipX" NewName="BlackJack.Controls.FlipImage.cb424c83a138851ff777f27489a9d5cba" />
+<Entry OldName="BlackJack.Controls.FlipImage.LayoutRoot" NewName="BlackJack.Controls.FlipImage.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="BlackJack.Controls.FlipImage.canvasBackground" NewName="BlackJack.Controls.FlipImage.cd08ec83f2d6685845d503baf4415a99a" />
+<Entry OldName="BlackJack.Controls.FlipImage.imgBackground" NewName="BlackJack.Controls.FlipImage.cbc032f2f6f5493e4d316b66e803d034b" />
+<Entry OldName="BlackJack.Controls.FlipImage._contentLoaded" NewName="BlackJack.Controls.FlipImage.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.FlipImage.&lt;Card&gt;k__BackingField" NewName="BlackJack.Controls.FlipImage.cdb92028623c6eefad01e556a2922b78c" />
+<Entry OldName="BlackJack.Controls.FlipImage.&lt;Image&gt;k__BackingField" NewName="BlackJack.Controls.FlipImage.c385f891a98b738e76ae48bb8678d5536" />
+<Entry OldName="BlackJack.Controls.FlipImage.&lt;Canvas&gt;k__BackingField" NewName="BlackJack.Controls.FlipImage.c7be5a59c3fd7e321e75c1e3f42a39c9d" />
+<Entry OldName="BlackJack.Options.&lt;&gt;c__DisplayClass19.grid" NewName="BlackJack.Options.cb26a3534b0d13c26b4224ccdec1362fc.grid" />
+<Entry OldName="BlackJack.Options.&lt;&gt;c__DisplayClass19.&lt;&gt;4__this" NewName="BlackJack.Options.cb26a3534b0d13c26b4224ccdec1362fc.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.Options.&lt;&gt;c__DisplayClass19.tab" NewName="BlackJack.Options.cb26a3534b0d13c26b4224ccdec1362fc.tab" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{32A78B2E-0DE7-4C41-B340-83DC2A47D609}.$$method0x60003d4-1" NewName="A.cedba865c6db58a4365bfcd75319c7506.c0bcd665c048ce1dbaa59a8135e060705" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;&gt;2__current" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;&gt;1__state" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.c426218035e672470cf816125fae2a164" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;&gt;4__this" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;c&gt;5__1" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.&lt;c&gt;5__1" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;&gt;7__wrap3" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.&lt;&gt;7__wrap3" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;&gt;7__wrap4" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.&lt;&gt;7__wrap4" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;&gt;2__current" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;&gt;1__state" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.c426218035e672470cf816125fae2a164" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;&gt;4__this" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;c&gt;5__7" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.&lt;c&gt;5__7" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;&gt;7__wrap9" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.&lt;&gt;7__wrap9" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;&gt;7__wrapa" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.&lt;&gt;7__wrapa" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass7.dt" NewName="BlackJack.GameScreen.c6faab11e5e0860a2cd98a5dee3e9dafb.dt" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass7.&lt;&gt;4__this" NewName="BlackJack.GameScreen.c6faab11e5e0860a2cd98a5dee3e9dafb.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClassd.dt" NewName="BlackJack.GameScreen.ccc272980779a0559f71d4a66a963b6e0.dt" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClassd.&lt;&gt;4__this" NewName="BlackJack.GameScreen.ccc272980779a0559f71d4a66a963b6e0.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass13.dt" NewName="BlackJack.GameScreen.c54573e0f3663f8d88443f9efe0c8481b.dt" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass13.&lt;&gt;4__this" NewName="BlackJack.GameScreen.c54573e0f3663f8d88443f9efe0c8481b.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass17.dt2" NewName="BlackJack.GameScreen.c3770a59e13e905234add6df18ffcfc45.dt2" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass17.&lt;&gt;4__this" NewName="BlackJack.GameScreen.c3770a59e13e905234add6df18ffcfc45.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass19.CS$&lt;&gt;8__locals18" NewName="BlackJack.GameScreen.c29379a08a416562f4f931e2453d294cd.CS$&lt;&gt;8__locals18" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass19.dt" NewName="BlackJack.GameScreen.c29379a08a416562f4f931e2453d294cd.dt" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass1.dt" NewName="BlackJack.Controls.GameOverControl.c1b67762b2dd61de2c8a8e5150ff419da.dt" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass1.&lt;&gt;4__this" NewName="BlackJack.Controls.GameOverControl.c1b67762b2dd61de2c8a8e5150ff419da.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass4.dt" NewName="BlackJack.Controls.GameOverControl.cbd949b8b9d29fe025f437d3e9c2bd379.dt" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass4.&lt;&gt;4__this" NewName="BlackJack.Controls.GameOverControl.cbd949b8b9d29fe025f437d3e9c2bd379.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.&lt;&gt;2__current" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.&lt;&gt;1__state" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.c426218035e672470cf816125fae2a164" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.&lt;&gt;4__this" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.&lt;c&gt;5__1" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.&lt;c&gt;5__1" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.&lt;&gt;7__wrap2" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.&lt;&gt;7__wrap2" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.&lt;&gt;2__current" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.&lt;&gt;1__state" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.c426218035e672470cf816125fae2a164" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.&lt;&gt;4__this" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.&lt;&gt;4__this" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.&lt;c&gt;5__6" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.&lt;c&gt;5__6" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.&lt;&gt;7__wrap7" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.&lt;&gt;7__wrap7" />
+<Entry OldName="HslColorSample.HslColor.ByteToPct(Byte v)" NewName="HslColorSample.HslColor.cd1f5ebf9eefabc3ace1598b34f3d6a49(Byte c6a5cc6f32a99c418a1ab2c18966c18e4)" />
+<Entry OldName="HslColorSample.HslColor.PctToByte(Double pct)" NewName="HslColorSample.HslColor.cf32672f87d6d814d6781959e90f12e99(Double c5f61a3fef6a46d17562b8f3686b4c439)" />
+<Entry OldName="HslColorSample.HslColor.norm(Double d)" NewName="HslColorSample.HslColor.c629f33ace4e6202188da06101db3563a(Double ce7ca198948665848e38ce9772b4f3257)" />
+<Entry OldName="HslColorSample.HslColor.getComponent(Double tc, Double p, Double q)" NewName="HslColorSample.HslColor.c11a433a50529cb0af0dd00b106cb33a4(Double c93701f2058f0235d2d9de9721b5de3b9, Double c834ce90f44f759353adb0f3045854d24, Double c7e652f812f1ccfb2111b33afa607f08d)" />
+<Entry OldName="BlackJack.Controls.NewControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.NewControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Properties.Resources..ctor()" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3..ctor()" />
+<Entry OldName="BlackJack.Properties.Resources.get_ResourceManager()" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3.get_ResourceManager()" />
+<Entry OldName="BlackJack.Properties.Resources.get_Culture()" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3.get_Culture()" />
+<Entry OldName="BlackJack.Properties.Resources.set_Culture(CultureInfo value)" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3.set_Culture(CultureInfo value)" />
+<Entry OldName="Visual.Fireworks.moveFirework()" NewName="Visual.Fireworks.c06a594d6cd3c0d61fb8a5ed4f9b37a51()" />
+<Entry OldName="Visual.Fireworks.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Visual.Fireworks.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.PlayerHand._CreateDelegate(Type delegateType, String handler)" NewName="BlackJack.Controls.PlayerHand.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="BlackJack.Controls.PlayerHand.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.PlayerHand.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Options.AddComboItem(ComboBox&amp; cBox, String szItem)" NewName="BlackJack.Options.c08a581b49a46b309ad4f9de423574ea8(ComboBox&amp; c20407dc3df7b6be9f44c6f634f7918c0, String c874f22efc1d263d1fa47852e6f58bc88)" />
+<Entry OldName="BlackJack.Options.SetHiScores()" NewName="BlackJack.Options.c9e403d5481f61949b2bbcf56ee2ff596()" />
+<Entry OldName="BlackJack.Options.ShowTab(Grid tab, ImageBrush background)" NewName="BlackJack.Options.cdee8910edaf23e20364113723d3a9b51(Grid cd0e8c9e4bb3d11436f7f1553ad667dfc, ImageBrush c20f11164ee909e3aa0e45f7e0f8e9052)" />
+<Entry OldName="BlackJack.Options.SetTabColor(EnumTab tab)" NewName="BlackJack.Options.c06e182b2b30cd1a848492f3647be7350(EnumTab cd0e8c9e4bb3d11436f7f1553ad667dfc)" />
+<Entry OldName="BlackJack.Options._CreateDelegate(Type delegateType, String handler)" NewName="BlackJack.Options.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="BlackJack.Options.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Options.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__0(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.c7b4d172ab9c82db4b4fa2b2368c7aa38(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__1(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.cd3c5a738435847092c1e651266fa22d3(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__2(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.ced863907bed40b16be4972e9eca766e7(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__3(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.c8bbb3f237ae679f541a3439e6528c8e1(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__4(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.ce1f5b71ed8dfeaf1c5cdcfba87e4bab7(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__5(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.c3cf557d173fdc69407c6fd1db67bd157(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__6(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.c30a57fc074d66c5b0290992a50d2fe2e(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__7(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.cf599218c069dacaa58b090187e355a6d(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__8(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.ce6667c1ebaa379fee4c42ed7a11e49af(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__9(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.cfc4e3cef5fd83488605b0e93f7915ce8(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Options.&lt;.ctor&gt;b__a(Int32 iID, Int32 iSelIndex)" NewName="BlackJack.Options.cb110549596c5598fa5f2320d53f957f8(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="BlackJack.Controls.DollarImage.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.DollarImage.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.BetStack._CreateDelegate(Type delegateType, String handler)" NewName="BlackJack.Controls.BetStack.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="BlackJack.Controls.BetStack.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.BetStack.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Strings.StringTable_du..ctor()" NewName="A.c218e2da8070e156e0cac78863b7c41a8..ctor()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_ResourceManager()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_ResourceManager()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_Culture()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_Culture()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.set_Culture(CultureInfo value)" NewName="A.c218e2da8070e156e0cac78863b7c41a8.set_Culture(CultureInfo value)" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ABOUT_1()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ABOUT_1()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH1_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH1_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH1_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH1_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH10_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH10_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH10_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH10_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH11_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH11_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH11_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH11_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH12_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH12_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH12_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH12_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH13_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH13_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH13_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH13_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH14_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH14_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH14_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH14_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH2_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH2_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH2_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH2_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH3_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH3_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH3_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH3_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH4_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH4_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH4_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH4_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH5_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH5_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH5_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH5_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH6_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH6_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH6_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH6_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH7_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH7_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH7_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH7_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH8_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH8_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH8_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH8_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH9_DESC()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH9_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_ACH9_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_ACH9_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_APP_TITLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_APP_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BGCOLOR_BLUE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BGCOLOR_BLUE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BGCOLOR_GREEN()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BGCOLOR_GREEN()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BGCOLOR_PURPLE()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BGCOLOR_PURPLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BGCOLOR_RED()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BGCOLOR_RED()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Bet()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Bet()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Deal()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Deal()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Double()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Double()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Hit()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Hit()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Insurance()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Insurance()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Late()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Late()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Reset()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Reset()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Split()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Split()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_BTNS_Stand()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_BTNS_Stand()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_HiLow()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_HiLow()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_HiOpt1()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_HiOpt1()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_HiOpt2()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_HiOpt2()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_KO()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_KO()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_OmegaII()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_OmegaII()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_Wizard()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_Wizard()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CC_Zen()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CC_Zen()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CCV_Off()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CCV_Off()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CCV_On()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CCV_On()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_CCV_Semi()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_CCV_Semi()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_GD_Custom()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_GD_Custom()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_GD_Difficult()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_GD_Difficult()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_GD_Easy()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_GD_Easy()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_GD_Learn()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_GD_Learn()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_CMB_GD_Normal()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_CMB_GD_Normal()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_INFO_BankAmt()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_INFO_BankAmt()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_INFO_BankDemo()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_INFO_BankDemo()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_INFO_BetAmt()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_INFO_BetAmt()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_INFO_BetDemo()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_INFO_BetDemo()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_INFO_CardCount()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_INFO_CardCount()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_INFO_Count()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_INFO_Count()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_AchievementUnlock()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_AchievementUnlock()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_Bank()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_Bank()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_CardCounting()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_CardCounting()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_CardCountView()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_CardCountView()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_Date()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_Date()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_GameDifficulty()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_GameDifficulty()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_Language()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_Language()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_LBL_PlaySounds()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_LBL_PlaySounds()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_About()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_About()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Achievements()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Achievements()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Back()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Back()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Cancel()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Cancel()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Exit()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Exit()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Help()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Help()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_HiScores()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_HiScores()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Menu()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Menu()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_MoreApps()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_MoreApps()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_NewGame()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_NewGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_No()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_No()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Ok()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Ok()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Options()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Options()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Quit()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Quit()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Resume()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Resume()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_ResumeGame()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_ResumeGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Save()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Save()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MENU_Yes()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MENU_Yes()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MSG_Broke()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MSG_Broke()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MSG_DemoOver()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MSG_DemoOver()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MSG_Exit()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MSG_Exit()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MSG_HiEndGame()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MSG_HiEndGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MSG_NewGame()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MSG_NewGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_MSG_TrialOverShort()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_MSG_TrialOverShort()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_BJPayout()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_BJPayout()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_BurnFirst()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_BurnFirst()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_DealerHitSoft17()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_DealerHitSoft17()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_InitialBank()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_InitialBank()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_NumDecks()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_NumDecks()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_ShowDealerCard()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_ShowDealerCard()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_OPT_ShowScores()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_OPT_ShowScores()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_Blackjack()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_Blackjack()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_DealerBusts()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_DealerBusts()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_Draw()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_Draw()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_Lose()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_Lose()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_Surrender()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_Surrender()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_Win()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_Win()" />
+<Entry OldName="BlackJack.Strings.StringTable_du.get_IDS_RESULT_Win2()" NewName="A.c218e2da8070e156e0cac78863b7c41a8.get_IDS_RESULT_Win2()" />
+<Entry OldName="BlackJack.BJEngine.GetBankDefault()" NewName="BlackJack.BJEngine.c31d6944e0b9b6bfa2f20175497031fd2()" />
+<Entry OldName="BlackJack.BJEngine.GetScore(String&amp; szScore, BJHand oHand)" NewName="BlackJack.BJEngine.cefd8106aff108d82e74c2806304b1a1f(String&amp; c8a4d2f00754598f7a7da8030e46f8059, BJHand c6718dc13fa8f383c4b73a52f30b69d42)" />
+<Entry OldName="BlackJack.BJEngine.NewHandReset()" NewName="BlackJack.BJEngine.c0b44f8090a4f4c84c67cd6bcd83b6905()" />
+<Entry OldName="BlackJack.BJEngine.AddCardToCount(Card oCard)" NewName="BlackJack.BJEngine.c7b22a21b2de3c59a27e3b4b901dc9844(Card cb009706aa61ecd9800b7789abd1c1d91)" />
+<Entry OldName="BlackJack.BJEngine.GetCardCountValue(Card oCard)" NewName="BlackJack.BJEngine.cc08a4b347ee05e8821d9d4391fdee356(Card cb009706aa61ecd9800b7789abd1c1d91)" />
+<Entry OldName="BlackJack.BJEngine.MatchChipsToBet()" NewName="BlackJack.BJEngine.c42ebd1883ff9a06eb93e97a1123fddca()" />
+<Entry OldName="BlackJack.BJEngine.get_CalcDoubleDown()" NewName="BlackJack.BJEngine.get_c7f86d5b0c514ef9aa3715b547f7a0f15()" />
+<Entry OldName="BlackJack.BJEngine.set_CalcDoubleDown(Boolean value)" NewName="BlackJack.BJEngine.set_c7f86d5b0c514ef9aa3715b547f7a0f15(Boolean cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.BJEngine.get_ResultPlayer()" NewName="BlackJack.BJEngine.get_c4adf95bc51204477078b1f127fbabb7d()" />
+<Entry OldName="BlackJack.BJEngine.set_ResultPlayer(EnumGameResult value)" NewName="BlackJack.BJEngine.set_c4adf95bc51204477078b1f127fbabb7d(EnumGameResult cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.BJEngine.get_ResultSplit()" NewName="BlackJack.BJEngine.get_c6a1df10531fc8220209c547382762573()" />
+<Entry OldName="BlackJack.BJEngine.set_ResultSplit(EnumGameResult value)" NewName="BlackJack.BJEngine.set_c6a1df10531fc8220209c547382762573(EnumGameResult cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.Controls.CardImage.SetVisibleStart(Int32 millis)" NewName="BlackJack.Controls.CardImage.c5d900c5dbbe13f25f44609f7ec6c50f4(Int32 ca8f1d6ab8f15ff46b12c013ed180b505)" />
+<Entry OldName="BlackJack.Controls.CardImage.GetIndexXY(Card card)" NewName="BlackJack.Controls.CardImage.cd97dbfae6d94541cb412666629042339(Card c5a1068c1b65cd8a10be80bd8c247e3a4)" />
+<Entry OldName="BlackJack.Controls.CardImage.FadeIn(Int32 millis)" NewName="BlackJack.Controls.CardImage.cd45b4344164fa0f1ca542f453eb22ea9(Int32 ca8f1d6ab8f15ff46b12c013ed180b505)" />
+<Entry OldName="BlackJack.Controls.CardImage.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.CardImage.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Objects.Achievements.System.Collections.IEnumerable.GetEnumerator()" NewName="BlackJack.Objects.Achievements.c8edd2b6d1d88dd8387a0e19eb3ff6729()" />
+<Entry OldName="BlackJack.Controls.SelectorImage.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.SelectorImage.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Window1.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Window1.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Objects.HighScores.Init(Int32 iMaxScoreSaves)" NewName="BlackJack.Objects.HighScores.cecf2b8485c26a6cf660a33f5864fa8ae(Int32 ca2759ccb17586aae727c1b81efe19b2b)" />
+<Entry OldName="BlackJack.Objects.HighScores.SortTypScore(TypeScore a, TypeScore b)" NewName="BlackJack.Objects.HighScores.c77daa8ec05b4c9e51f697b2c6766d5db(TypeScore c7fda2e8cbdf39ebe32d9dc978f070ba0, TypeScore cf6602b13624a3b992d3ea3c18dc12a25)" />
+<Entry OldName="BlackJack.Objects.HighScores.GetHiScore()" NewName="BlackJack.Objects.HighScores.ceb73ef38bbc5ebc24a9902fda218965b()" />
+<Entry OldName="BlackJack.Objects.HighScores.GetIndexOfLastScore()" NewName="BlackJack.Objects.HighScores.c77f63c344378b8604f62b66fc4e5ebd4()" />
+<Entry OldName="BlackJack.Controls.ImageButtonControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.ImageButtonControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.GameScreen.SetBankLabel(Decimal value)" NewName="BlackJack.GameScreen.ce7c428395fe3371fdf02602f0727c443(Decimal cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.GameScreen.SetCountLabel()" NewName="BlackJack.GameScreen.c44f6cf045600b151ab87a1ac0c3c4c2c()" />
+<Entry OldName="BlackJack.GameScreen.SetBetLabel(Decimal value)" NewName="BlackJack.GameScreen.c44e9b647c92373a2b3fa3a310d111537(Decimal cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.GameScreen.ShowAchievement(Achievement a)" NewName="BlackJack.GameScreen.cfe2e70b70076c15555de2c3f6aac7433(Achievement c7fda2e8cbdf39ebe32d9dc978f070ba0)" />
+<Entry OldName="BlackJack.GameScreen.HideAchievement(Int32 delay)" NewName="BlackJack.GameScreen.cc3c657110570d33c4958af803dde1010(Int32 cce1061ed028bca0349267c873f255d85)" />
+<Entry OldName="BlackJack.GameScreen.ResetTable()" NewName="BlackJack.GameScreen.c46ebcecf4103d4d0b32a7f96ef190f30()" />
+<Entry OldName="BlackJack.GameScreen.ShowMainMenu(Storyboard story)" NewName="BlackJack.GameScreen.cebc112e9473354622913a6e93622df30(Storyboard c187e099c3901f82346bec7d73d9a2306)" />
+<Entry OldName="BlackJack.GameScreen.ShowHint()" NewName="BlackJack.GameScreen.c9665364eac34aef5091f7b55a348ad14()" />
+<Entry OldName="BlackJack.GameScreen.HideHints()" NewName="BlackJack.GameScreen.ca8479ada7d910cc5bf38d84196572cdb()" />
+<Entry OldName="BlackJack.GameScreen.SetResults(ResultEventArgs args)" NewName="BlackJack.GameScreen.c987b5533f5858a9c07e84600fc3a4959(ResultEventArgs cc829dcdcd8d7542587fd2ce96d248045)" />
+<Entry OldName="BlackJack.GameScreen.SetChips()" NewName="BlackJack.GameScreen.c7d15f55587abb9d82f1f4bd3c133d038()" />
+<Entry OldName="BlackJack.GameScreen.DrawDealerHand(Int32 startDelay, Int32 delay)" NewName="BlackJack.GameScreen.ce9b7d62c2f7021ed5725baaba763e259(Int32 c2ed79c6e871b18206ac58a7bebd6d5b7, Int32 cce1061ed028bca0349267c873f255d85)" />
+<Entry OldName="BlackJack.GameScreen.HideMainMenu(Storyboard story)" NewName="BlackJack.GameScreen.c1c4c3d8b770f033852376d268d3fd322(Storyboard c187e099c3901f82346bec7d73d9a2306)" />
+<Entry OldName="BlackJack.GameScreen.HideBetBar(Storyboard story)" NewName="BlackJack.GameScreen.cd06e54ce0c604a30f8c24de9ae0a0cbc(Storyboard c187e099c3901f82346bec7d73d9a2306)" />
+<Entry OldName="BlackJack.GameScreen.HidePlayBar(Storyboard story)" NewName="BlackJack.GameScreen.c71902ff531ad222f1d7ebd5aad614fd8(Storyboard c187e099c3901f82346bec7d73d9a2306)" />
+<Entry OldName="BlackJack.GameScreen.ShowPlayBar(Storyboard story)" NewName="BlackJack.GameScreen.ccefbcbf29750ad26e60918c7fbe3fc07(Storyboard c187e099c3901f82346bec7d73d9a2306)" />
+<Entry OldName="BlackJack.GameScreen.SetDealerScore(Int32 score)" NewName="BlackJack.GameScreen.c0855c4629802c1dcce869a679f2b2b9d(Int32 c58560eeb8e53614e97979aec75b08983)" />
+<Entry OldName="BlackJack.GameScreen.HideDealerScore()" NewName="BlackJack.GameScreen.c9b66553fbcf5a1bd1348ce77ab5b2937()" />
+<Entry OldName="BlackJack.GameScreen.UpdateButtons()" NewName="BlackJack.GameScreen.c81035350ab0a1ac339133f233a570cff()" />
+<Entry OldName="BlackJack.GameScreen.ToggleSelector()" NewName="BlackJack.GameScreen.c3dc5b348018b8283301a63d366e2b7eb()" />
+<Entry OldName="BlackJack.GameScreen.FlipDealerCards()" NewName="BlackJack.GameScreen.cff78a4abd8ad84e586fd6e58a4ae732e()" />
+<Entry OldName="BlackJack.GameScreen.GetResultMsg(EnumGameResult res)" NewName="BlackJack.GameScreen.c11dcc8b9298983e3c9c97562ba9f6468(EnumGameResult c53d3c638c9581b10fe82a23329305ff7)" />
+<Entry OldName="BlackJack.GameScreen.ShowBetBar(Storyboard story)" NewName="BlackJack.GameScreen.c8a28bf9598af1e767298f655c60e0e73(Storyboard c187e099c3901f82346bec7d73d9a2306)" />
+<Entry OldName="BlackJack.GameScreen._CreateDelegate(Type delegateType, String handler)" NewName="BlackJack.GameScreen.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="BlackJack.GameScreen.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.GameScreen.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.TextButtonControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.GameOverControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.GameOverControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.CardSet.Reset()" NewName="BlackJack.CardSet.c7e147669e4b783f1cf0484189815ec49()" />
+<Entry OldName="BlackJack.CardSet.InitializeDeck()" NewName="BlackJack.CardSet.c2f32d02fb3f2faf3cba85e44b0ca2788()" />
+<Entry OldName="BlackJack.CardSet.GetCardFromIndex(Int32 iIndex)" NewName="BlackJack.CardSet.c72100ecc02877cc208f4ff25e0fa85af(Int32 c7713ceba6896f3898593555b455c8ea3)" />
+<Entry OldName="BlackJack.CardSet.UndoNextCard()" NewName="BlackJack.CardSet.cdb6177baf74d2c8a9db126776728f8ab()" />
+<Entry OldName="BlackJack.Controls.OptionControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.OptionControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Strings.StringTable_jp..ctor()" NewName="A.c62882367f00ac9584aa567b86085942d..ctor()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_ResourceManager()" NewName="A.c62882367f00ac9584aa567b86085942d.get_ResourceManager()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_Culture()" NewName="A.c62882367f00ac9584aa567b86085942d.get_Culture()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.set_Culture(CultureInfo value)" NewName="A.c62882367f00ac9584aa567b86085942d.set_Culture(CultureInfo value)" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ABOUT_1()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ABOUT_1()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH1_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH1_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH1_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH1_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH10_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH10_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH10_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH10_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH11_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH11_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH11_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH11_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH12_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH12_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH12_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH12_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH13_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH13_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH13_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH13_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH14_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH14_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH14_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH14_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH2_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH2_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH2_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH2_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH3_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH3_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH3_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH3_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH4_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH4_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH4_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH4_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH5_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH5_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH5_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH5_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH6_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH6_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH6_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH6_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH7_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH7_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH7_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH7_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH8_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH8_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH8_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH8_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH9_DESC()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH9_DESC()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_ACH9_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_ACH9_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_APP_TITLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_APP_TITLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BGCOLOR_BLUE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BGCOLOR_BLUE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BGCOLOR_GREEN()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BGCOLOR_GREEN()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BGCOLOR_PURPLE()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BGCOLOR_PURPLE()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BGCOLOR_RED()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BGCOLOR_RED()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Bet()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Bet()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Deal()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Deal()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Double()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Double()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Hit()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Hit()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Insurance()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Insurance()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Late()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Late()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Reset()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Reset()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Split()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Split()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_BTNS_Stand()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_BTNS_Stand()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_HiLow()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_HiLow()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_HiOpt1()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_HiOpt1()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_HiOpt2()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_HiOpt2()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_KO()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_KO()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_OmegaII()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_OmegaII()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_Wizard()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_Wizard()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CC_Zen()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CC_Zen()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CCV_Off()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CCV_Off()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CCV_On()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CCV_On()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_CCV_Semi()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_CCV_Semi()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_GD_Custom()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_GD_Custom()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_GD_Difficult()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_GD_Difficult()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_GD_Easy()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_GD_Easy()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_GD_Learn()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_GD_Learn()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_CMB_GD_Normal()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_CMB_GD_Normal()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_INFO_BankAmt()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_INFO_BankAmt()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_INFO_BankDemo()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_INFO_BankDemo()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_INFO_BetAmt()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_INFO_BetAmt()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_INFO_BetDemo()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_INFO_BetDemo()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_INFO_CardCount()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_INFO_CardCount()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_INFO_Count()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_INFO_Count()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_AchievementUnlock()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_AchievementUnlock()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_Bank()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_Bank()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_CardCounting()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_CardCounting()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_CardCountView()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_CardCountView()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_Date()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_Date()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_GameDifficulty()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_GameDifficulty()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_Language()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_Language()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_LBL_PlaySounds()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_LBL_PlaySounds()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_About()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_About()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Achievements()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Achievements()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Back()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Back()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Cancel()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Cancel()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Exit()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Exit()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Help()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Help()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_HiScores()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_HiScores()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Menu()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Menu()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_MoreApps()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_MoreApps()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_NewGame()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_NewGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_No()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_No()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Ok()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Ok()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Options()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Options()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Quit()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Quit()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Resume()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Resume()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_ResumeGame()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_ResumeGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Save()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Save()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MENU_Yes()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MENU_Yes()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MSG_Broke()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MSG_Broke()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MSG_DemoOver()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MSG_DemoOver()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MSG_Exit()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MSG_Exit()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MSG_HiEndGame()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MSG_HiEndGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MSG_NewGame()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MSG_NewGame()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_MSG_TrialOverShort()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_MSG_TrialOverShort()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_BJPayout()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_BJPayout()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_BurnFirst()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_BurnFirst()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_DealerHitSoft17()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_DealerHitSoft17()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_InitialBank()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_InitialBank()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_NumDecks()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_NumDecks()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_ShowDealerCard()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_ShowDealerCard()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_OPT_ShowScores()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_OPT_ShowScores()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_Blackjack()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_Blackjack()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_DealerBusts()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_DealerBusts()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_Draw()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_Draw()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_Lose()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_Lose()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_Surrender()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_Surrender()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_Win()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_Win()" />
+<Entry OldName="BlackJack.Strings.StringTable_jp.get_IDS_RESULT_Win2()" NewName="A.c62882367f00ac9584aa567b86085942d.get_IDS_RESULT_Win2()" />
+<Entry OldName="BlackJack.BJHand.System.Collections.IEnumerable.GetEnumerator()" NewName="BlackJack.BJHand.c8edd2b6d1d88dd8387a0e19eb3ff6729()" />
+<Entry OldName="BlackJack.Main.CheckIntel()" NewName="BlackJack.Main.c6a2c6cb983d995f8478375b2fd54db46()" />
+<Entry OldName="BlackJack.Main._CreateDelegate(Type delegateType, String handler)" NewName="BlackJack.Main.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="BlackJack.Main.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Main.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.ChipStack.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.ChipStack.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.PopupMenu.getSplineDoubleKeyFrame(Double seconds, Double value)" NewName="BlackJack.PopupMenu.c089c378a8e46bb496fa06720b0aeb83a(Double ca10bf7d4f279f3d118656db63c891aad, Double cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.PopupMenu.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.PopupMenu.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.PopupMenu.&lt;Launch&gt;b__0()" NewName="BlackJack.PopupMenu.c745723196a9eb712db848425b129e7a4()" />
+<Entry OldName="BlackJack.Controls.OptionItem.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.OptionItem.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem..ctor()" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e..ctor()" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem.get_szItem()" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e.get_szItem()" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem.set_szItem(String value)" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e.set_szItem(String value)" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem.get_szImage()" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e.get_szImage()" />
+<Entry OldName="BlackJack.Controls.OptionItem.TypeOptionItem.set_szImage(String value)" NewName="BlackJack.Controls.OptionItem.cfbc4ed8ecf560d1b3bd5376c5dfeb96e.set_szImage(String value)" />
+<Entry OldName="BlackJack.Controls.FlipImage.get_Canvas()" NewName="BlackJack.Controls.FlipImage.get_c1966fcfc931fbe87ee4a62285a4ee190()" />
+<Entry OldName="BlackJack.Controls.FlipImage.set_Canvas(Canvas value)" NewName="BlackJack.Controls.FlipImage.set_c1966fcfc931fbe87ee4a62285a4ee190(Canvas cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="BlackJack.Controls.FlipImage.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.FlipImage.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Options.&lt;&gt;c__DisplayClass19..ctor()" NewName="BlackJack.Options.cb26a3534b0d13c26b4224ccdec1362fc..ctor()" />
+<Entry OldName="BlackJack.Options.&lt;&gt;c__DisplayClass19.&lt;ShowTab&gt;b__18(Object o, EventArgs args)" NewName="BlackJack.Options.cb26a3534b0d13c26b4224ccdec1362fc.&lt;ShowTab&gt;b__18(Object o, EventArgs args)" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0..ctor(Int32 &lt;&gt;1__state)" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.MoveNext()" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.MoveNext()" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.System.Collections.Generic.IEnumerator&lt;BlackJack.Objects.Achievement&gt;.get_Current()" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.System.Collections.Generic.IEnumerator&lt;BlackJack.Objects.Achievement&gt;.get_Current()" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.System.Collections.IEnumerator.Reset()" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.System.IDisposable.Dispose()" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.System.Collections.IEnumerator.get_Current()" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="BlackJack.Objects.Achievements.&lt;GetEnumerator&gt;d__0.&lt;&gt;m__Finally2()" NewName="BlackJack.Objects.Achievements.c426e59bab4936a54c62ac9bcd1270a19.c62bb4cc32dfdf492ac90bf13f0fd7a4f()" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6..ctor(Int32 &lt;&gt;1__state)" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.MoveNext()" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.MoveNext()" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.System.Collections.Generic.IEnumerator&lt;System.Object&gt;.get_Current()" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.System.Collections.Generic.IEnumerator&lt;System.Object&gt;.get_Current()" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.System.Collections.IEnumerator.Reset()" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.System.IDisposable.Dispose()" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.System.Collections.IEnumerator.get_Current()" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="BlackJack.Objects.Achievements.GetEnumerator&gt;d__6.&lt;&gt;m__Finally8()" NewName="BlackJack.Objects.Achievements.c0e5ba7297c0a3e38d357a70c40cb1b58.cd7045200d1cc732fed4877bfe87d28ee()" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass7..ctor()" NewName="BlackJack.GameScreen.c6faab11e5e0860a2cd98a5dee3e9dafb..ctor()" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass7.&lt;DrawDealerHand&gt;b__6(Object obj, EventArgs e)" NewName="BlackJack.GameScreen.c6faab11e5e0860a2cd98a5dee3e9dafb.&lt;DrawDealerHand&gt;b__6(Object obj, EventArgs e)" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClassd..ctor()" NewName="BlackJack.GameScreen.ccc272980779a0559f71d4a66a963b6e0..ctor()" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClassd.&lt;Deal_Completed&gt;b__c(Object obj, EventArgs e)" NewName="BlackJack.GameScreen.ccc272980779a0559f71d4a66a963b6e0.&lt;Deal_Completed&gt;b__c(Object obj, EventArgs e)" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass13..ctor()" NewName="BlackJack.GameScreen.c54573e0f3663f8d88443f9efe0c8481b..ctor()" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass13.&lt;FlipDealerCards&gt;b__12(Object o, EventArgs args)" NewName="BlackJack.GameScreen.c54573e0f3663f8d88443f9efe0c8481b.&lt;FlipDealerCards&gt;b__12(Object o, EventArgs args)" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass17..ctor()" NewName="BlackJack.GameScreen.c3770a59e13e905234add6df18ffcfc45..ctor()" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass17.&lt;btnSplit_OnClick&gt;b__16(Object o, EventArgs args)" NewName="BlackJack.GameScreen.c3770a59e13e905234add6df18ffcfc45.&lt;btnSplit_OnClick&gt;b__16(Object o, EventArgs args)" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass19..ctor()" NewName="BlackJack.GameScreen.c29379a08a416562f4f931e2453d294cd..ctor()" />
+<Entry OldName="BlackJack.GameScreen.&lt;&gt;c__DisplayClass19.&lt;btnSplit_OnClick&gt;b__15(Object o, EventArgs args)" NewName="BlackJack.GameScreen.c29379a08a416562f4f931e2453d294cd.&lt;btnSplit_OnClick&gt;b__15(Object o, EventArgs args)" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass1..ctor()" NewName="BlackJack.Controls.GameOverControl.c1b67762b2dd61de2c8a8e5150ff419da..ctor()" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass1.&lt;LayoutRoot_Loaded&gt;b__0(Object o, EventArgs args)" NewName="BlackJack.Controls.GameOverControl.c1b67762b2dd61de2c8a8e5150ff419da.&lt;LayoutRoot_Loaded&gt;b__0(Object o, EventArgs args)" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass4..ctor()" NewName="BlackJack.Controls.GameOverControl.cbd949b8b9d29fe025f437d3e9c2bd379..ctor()" />
+<Entry OldName="BlackJack.Controls.GameOverControl.&lt;&gt;c__DisplayClass4.&lt;Launch&gt;b__3(Object o, EventArgs args)" NewName="BlackJack.Controls.GameOverControl.cbd949b8b9d29fe025f437d3e9c2bd379.&lt;Launch&gt;b__3(Object o, EventArgs args)" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0..ctor(Int32 &lt;&gt;1__state)" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.MoveNext()" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.MoveNext()" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.System.Collections.Generic.IEnumerator&lt;BlackJack.Card&gt;.get_Current()" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.System.Collections.Generic.IEnumerator&lt;BlackJack.Card&gt;.get_Current()" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.System.Collections.IEnumerator.Reset()" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.System.IDisposable.Dispose()" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.System.Collections.IEnumerator.get_Current()" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="BlackJack.BJHand.&lt;GetEnumerator&gt;d__0.&lt;&gt;m__Finally3()" NewName="BlackJack.BJHand.ca5b2eb3da6fa8fe93a975b0133246c47.cddfe8199933ebdbf3eabf6ca065178a1()" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5..ctor(Int32 &lt;&gt;1__state)" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.MoveNext()" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.MoveNext()" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.System.Collections.Generic.IEnumerator&lt;System.Object&gt;.get_Current()" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.System.Collections.Generic.IEnumerator&lt;System.Object&gt;.get_Current()" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.System.Collections.IEnumerator.Reset()" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.System.IDisposable.Dispose()" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.System.Collections.IEnumerator.get_Current()" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="BlackJack.BJHand.GetEnumerator&gt;d__5.&lt;&gt;m__Finally8()" NewName="BlackJack.BJHand.c7b6573349bee9bcd70654831e7fb94f9.cd7045200d1cc732fed4877bfe87d28ee()" />
+<Entry OldName="BlackJack.Properties.Resources" NewName="A.c41322b8dede1a3c1c0dc5f1aafb535e3" />
+<Entry OldName="BlackJack.Options+&lt;&gt;c__DisplayClass19" NewName="BlackJack.Options+cb26a3534b0d13c26b4224ccdec1362fc" />
+<Entry OldName="BlackJack.Strings.StringTable_du" NewName="A.c218e2da8070e156e0cac78863b7c41a8" />
+<Entry OldName="BlackJack.Objects.Achievements+&lt;GetEnumerator&gt;d__0" NewName="BlackJack.Objects.Achievements+c426e59bab4936a54c62ac9bcd1270a19" />
+<Entry OldName="BlackJack.Objects.Achievements+GetEnumerator&gt;d__6" NewName="BlackJack.Objects.Achievements+c0e5ba7297c0a3e38d357a70c40cb1b58" />
+<Entry OldName="BlackJack.GameScreen+&lt;&gt;c__DisplayClass7" NewName="BlackJack.GameScreen+c6faab11e5e0860a2cd98a5dee3e9dafb" />
+<Entry OldName="BlackJack.GameScreen+&lt;&gt;c__DisplayClassd" NewName="BlackJack.GameScreen+ccc272980779a0559f71d4a66a963b6e0" />
+<Entry OldName="BlackJack.GameScreen+&lt;&gt;c__DisplayClass13" NewName="BlackJack.GameScreen+c54573e0f3663f8d88443f9efe0c8481b" />
+<Entry OldName="BlackJack.GameScreen+&lt;&gt;c__DisplayClass17" NewName="BlackJack.GameScreen+c3770a59e13e905234add6df18ffcfc45" />
+<Entry OldName="BlackJack.GameScreen+&lt;&gt;c__DisplayClass19" NewName="BlackJack.GameScreen+c29379a08a416562f4f931e2453d294cd" />
+<Entry OldName="BlackJack.Controls.GameOverControl+&lt;&gt;c__DisplayClass1" NewName="BlackJack.Controls.GameOverControl+c1b67762b2dd61de2c8a8e5150ff419da" />
+<Entry OldName="BlackJack.Controls.GameOverControl+&lt;&gt;c__DisplayClass4" NewName="BlackJack.Controls.GameOverControl+cbd949b8b9d29fe025f437d3e9c2bd379" />
+<Entry OldName="BlackJack.Strings.StringTable_jp" NewName="A.c62882367f00ac9584aa567b86085942d" />
+<Entry OldName="BlackJack.BJHand+&lt;GetEnumerator&gt;d__0" NewName="BlackJack.BJHand+ca5b2eb3da6fa8fe93a975b0133246c47" />
+<Entry OldName="BlackJack.BJHand+GetEnumerator&gt;d__5" NewName="BlackJack.BJHand+c7b6573349bee9bcd70654831e7fb94f9" />
+<Entry OldName="BlackJack.Controls.OptionItem+TypeOptionItem" NewName="BlackJack.Controls.OptionItem+cfbc4ed8ecf560d1b3bd5376c5dfeb96e" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{32A78B2E-0DE7-4C41-B340-83DC2A47D609}+__StaticArrayInitTypeSize=364" NewName="A.cedba865c6db58a4365bfcd75319c7506+c7a282b08daabbc9f929aadb2c82b9227" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{32A78B2E-0DE7-4C41-B340-83DC2A47D609}" NewName="A.cedba865c6db58a4365bfcd75319c7506" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Strings\StringTable.Designer.cs" NewName="File0" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\ObjGui.cs" NewName="File1" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Fireworks\HslColor.cs" NewName="File2" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\NewControl.g.cs" NewName="File3" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\NewControl.xaml" NewName="File4" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\NewControl.xaml.cs" NewName="File5" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Objects\Card.cs" NewName="File6" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Properties\Resources.Designer.cs" NewName="File7" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Fireworks\MagicDot.cs" NewName="File8" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Fireworks\Fireworks.xaml.cs" NewName="File9" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Fireworks\Fireworks.g.cs" NewName="File10" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Fireworks\Fireworks.xaml" NewName="File11" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\PlayerHand.xaml.cs" NewName="File12" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\PlayerHand.g.cs" NewName="File13" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\PlayerHand.xaml" NewName="File14" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\AppSettings.cs" NewName="File15" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Properties\Settings.Designer.cs" NewName="File16" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Settings.cs" NewName="File17" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Options.xaml.cs" NewName="File18" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Options.g.cs" NewName="File19" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Options.xaml" NewName="File20" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\DollarImage.xaml.cs" NewName="File21" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\DollarImage.g.cs" NewName="File22" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\DollarImage.xaml" NewName="File23" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\BetStack.xaml.cs" NewName="File24" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\BetStack.g.cs" NewName="File25" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\BetStack.xaml" NewName="File26" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Strings\StringTable.du.Designer.cs" NewName="File27" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Engine\BJEngine.cs" NewName="File28" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\CardImage.xaml.cs" NewName="File29" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\CardImage.g.cs" NewName="File30" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\CardImage.xaml" NewName="File31" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\app.xaml.cs" NewName="File32" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\App.xaml" NewName="File33" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\App.g.cs" NewName="File34" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Objects\Achievements.cs" NewName="File35" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\SelectorImage.xaml.cs" NewName="File36" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\SelectorImage.g.cs" NewName="File37" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\SelectorImage.xaml" NewName="File38" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Window.g.cs" NewName="File39" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Window.xaml" NewName="File40" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Window.xaml.cs" NewName="File41" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Objects\HighScores.cs" NewName="File42" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\ImageButtonControl.xaml.cs" NewName="File43" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\ImageButtonControl.g.cs" NewName="File44" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\ImageButtonControl.xaml" NewName="File45" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\GameScreen.xaml.cs" NewName="File46" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\GameScreen.g.cs" NewName="File47" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\GameScreen.xaml" NewName="File48" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\TextButtonControl.xaml.cs" NewName="File49" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\TextButtonControl.g.cs" NewName="File50" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\TextButtonControl.xaml" NewName="File51" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\GameOverControl.xaml.cs" NewName="File52" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\GameOverControl.g.cs" NewName="File53" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\GameOverControl.xaml" NewName="File54" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Objects\CardSet.cs" NewName="File55" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\OptionControl.xaml.cs" NewName="File56" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\OptionControl.g.cs" NewName="File57" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\OptionControl.xaml" NewName="File58" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Strings\StringTable.jp.Designer.cs" NewName="File59" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Objects\BJHand.cs" NewName="File60" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Main.xaml.cs" NewName="File61" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Main.g.cs" NewName="File62" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Main.xaml" NewName="File63" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\ChipStack.xaml.cs" NewName="File64" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\ChipStack.g.cs" NewName="File65" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\ChipStack.xaml" NewName="File66" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\PopupMenu.xaml.cs" NewName="File67" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\PopupMenu.g.cs" NewName="File68" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\PopupMenu.xaml" NewName="File69" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Globals.cs" NewName="File70" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\OptionItem.xaml.cs" NewName="File71" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\OptionItem.g.cs" NewName="File72" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\OptionItem.xaml" NewName="File73" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\FlipImage.xaml.cs" NewName="File74" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\Controls\FlipImage.g.cs" NewName="File75" />
+<Entry OldName="c:\dev\Panoramic\WPF\BlackJack\BlackJack\Controls\FlipImage.xaml" NewName="File76" />
+<Entry OldName="C:\dev\Panoramic\WPF\BlackJack\BlackJack\obj\Release\GeneratedInternalTypeHelper.g.cs" NewName="File77" />
+</Mappings>

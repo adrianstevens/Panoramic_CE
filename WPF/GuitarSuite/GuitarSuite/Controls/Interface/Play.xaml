@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="GuitarSuite.Controls.Play"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+            d:DesignHeight="550" d:DesignWidth="480">
+    <Grid x:Name="Layout_Root" Loaded="Layout_Root_Loaded">
+        <Image HorizontalAlignment="Left" Margin="0,0,0,0" Name="nut" Opacity="255" Source="/Assets/whitebar.png" Stretch="Uniform" VerticalAlignment="Top" Grid.Column="0" Width="480" Height="34"/>
+        <Image HorizontalAlignment="Left" Margin="0,470,0,0" Name="imgStrum" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/strum.png" Width="480" Height="194"/>
+
+
+        <Grid x:Name="LayoutStrings" Height="550" HorizontalAlignment="Left" Margin="42,0,0,0" VerticalAlignment="Top" Width="391">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="LayoutNut" Height="32" HorizontalAlignment="Left" Margin="42,0,0,0" VerticalAlignment="Top" Width="391">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" HorizontalAlignment="Center" Margin="0,0,0,0" Name="imageNo1" Stretch="None" VerticalAlignment="Top" Source="/Assets/Note_No.png" MouseLeftButtonDown="imageNo1_MouseLeftButtonDown" Opacity="0"/>
+            <Image Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,0" Name="imageNo2" Stretch="None" VerticalAlignment="Top" Source="/Assets/Note_No.png" MouseLeftButtonDown="imageNo1_MouseLeftButtonDown" Opacity="0"/>
+            <Image Grid.Column="2" HorizontalAlignment="Center" Margin="0,0,0,0" Name="imageNo3" Stretch="None" VerticalAlignment="Top" Source="/Assets/Note_No.png" MouseLeftButtonDown="imageNo1_MouseLeftButtonDown" Opacity="0"/>
+            <Image Grid.Column="3" HorizontalAlignment="Center" Margin="0,0,0,0" Name="imageNo4" Stretch="None" VerticalAlignment="Top" Source="/Assets/Note_No.png" MouseLeftButtonDown="imageNo1_MouseLeftButtonDown" Opacity="0"/>
+            <Image Grid.Column="4" HorizontalAlignment="Center" Margin="0,0,0,0" Name="imageNo5" Stretch="None" VerticalAlignment="Top" Source="/Assets/Note_No.png" MouseLeftButtonDown="imageNo1_MouseLeftButtonDown" Opacity="0"/>
+            <Image Grid.Column="5" HorizontalAlignment="Center" Margin="0,0,0,0" Name="imageNo6" Stretch="None" VerticalAlignment="Top" Source="/Assets/Note_No.png" MouseLeftButtonDown="imageNo1_MouseLeftButtonDown" Opacity="0"/>
+
+        </Grid>
+
+        <Grid x:Name="layoutNeck" Height="480" HorizontalAlignment="Left" Margin="42,28,0,0" VerticalAlignment="Top" Width="391">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+        <Grid x:Name="layoutMarkers" Height="480" HorizontalAlignment="Center" Margin="430,28,0,0" VerticalAlignment="Top" Width="60">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+
+
+        <Grid x:Name="layoutControls" Height="480" HorizontalAlignment="Center" Margin="0,79,430,0" VerticalAlignment="Top" Width="60">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="150,500,0,0" Name="textChord" Text="" VerticalAlignment="Top" Width="180" Foreground="#FF4777AE" FontSize="40" FontWeight="Bold" TextAlignment="Center" Opacity="0.7" IsHitTestVisible="False" />
+      <!--  <TextBlock HorizontalAlignment="Left" Margin="150,0,0,0" Name="textChord" Text="" VerticalAlignment="Top" Width="180" Foreground="#FF4777AE" FontSize="24" FontWeight="Bold" TextAlignment="Center" Opacity="1.0"/> -->
+    </Grid>
+</UserControl>
+

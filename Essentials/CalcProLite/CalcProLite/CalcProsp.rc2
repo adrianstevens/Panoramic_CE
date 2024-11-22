@@ -1,0 +1,95 @@
+//
+// CalcProSP.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+#include "resourcesp.h"
+
+/////////////////////////////////////////////////////////////////////////////
+HI_RES_AWARE CEUX {1}	// turn off the emulation layer
+			// Remove this resource to enable pixel-
+			// doubling on platforms that support it
+/////////////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// SHMENUBAR
+//
+
+IDR_MENU_Calculator RCDATA
+BEGIN
+    IDR_MENU_Calculator, 
+    2,
+
+    I_IMAGENONE, IDMENU_File, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_File, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_View, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_View, 0, NOMENU,
+END
+
+IDR_MENU_Options RCDATA
+BEGIN
+    IDR_MENU_Options, 
+    2,
+
+    I_IMAGENONE, IDMENU_Save, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Save, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_Cancel, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Cancel, 0, NOMENU,
+END
+
+IDR_MENU_Graph RCDATA
+BEGIN
+    IDR_MENU_Graph,
+    2,
+  
+    I_IMAGENONE, IDMENU_Graph, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Graph, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_Mode, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Mode, 0, NOMENU,
+END
+    
+IDR_MENU_WSheet RCDATA
+BEGIN
+    IDR_MENU_WSheet,
+    1,
+  
+    I_IMAGENONE, IDMENU_Back, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Back, 0, NOMENU,
+END
+    
+IDR_MENU_OpenMenu RCDATA
+BEGIN
+    IDR_MENU_Graph,
+    2,
+  
+    I_IMAGENONE, IDMENU_Open, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Open, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_Cancel, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Cancel, 0, NOMENU,
+END
+
+IDR_MENU_SaveMenu RCDATA
+BEGIN
+    IDR_MENU_Graph,
+    2,
+  
+    I_IMAGENONE, IDMENU_Save, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Save, 0, NOMENU,
+    
+    I_IMAGENONE, IDMENU_Cancel, TBSTATE_ENABLED, TBSTYLE_BUTTON | TBSTYLE_AUTOSIZE,
+    IDS_MENU_Cancel, 0, NOMENU,
+END
+    
+
+

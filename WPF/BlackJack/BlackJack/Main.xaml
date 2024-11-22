@@ -1,0 +1,26 @@
+﻿<Page x:Class="BlackJack.Main"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:BlackJack.Controls"
+    Background="#FF000000"
+    Title="Panoramic BlackJack" >
+    <Grid x:Name="LayoutRoot" Loaded="LayoutRoot_Loaded" Height="480" Width="800">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/splash.jpg" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="408"/>
+            <RowDefinition Height="72"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" x:Name="AppBar" Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <local:TextButtonControl VerticalAlignment="Stretch" Grid.Column="0" Width="250" Text="" HorizontalAlignment="Left" x:Name="newGameControl1" Margin="0,0,0,0" FontSize="16" OnClick="newGameControl1_OnClick" />
+            <local:ImageButtonControl Grid.Column="1" HorizontalAlignment="Center" x:Name="settingsButtonControl1" VerticalAlignment="Stretch" OnClick="settingsButtonControl1_OnClick" Width="100"/>
+            <local:ImageButtonControl Grid.Column="2" OnClick="resumeButtonControl1_OnClick" HorizontalAlignment="Center" x:Name="resumeButtonControl1" VerticalAlignment="Stretch" Width="100" />
+        </Grid>
+    </Grid>
+</Page>

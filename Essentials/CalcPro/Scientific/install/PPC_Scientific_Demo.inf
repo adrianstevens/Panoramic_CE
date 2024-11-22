@@ -1,0 +1,67 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Scientific Calc"
+InstallDir=%CE1%\Panoramic\Scientific
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE11%
+Shortcuts02.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"Scientific.exe" = 1
+"PanoScientific.htm" = 1
+"PanoScientific_de.htm" = 1
+"PanoScientific_es.htm" = 1
+"PanoScientific_fr.htm" = 1
+"PanoScientific_pt.htm" = 1
+"setupdll.dll" = 1
+"ScientificCalc90x90_192.png" = 1
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720, Shortcuts02.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoScientific,StartUp,0x00000001,00,00,00,00
+HKLM,Security\Shell\StartInfo\Start\Panoramic Scientific Calc.lnk,Icon,0x00000000,%InstallDir%\ScientificCalc90x90_192.png
+
+[Files00.ARM720]
+"Scientific.exe",,,0x40000003
+;"eula.exe",,,0x40000003
+;"eula.txt",,,0x40000003
+"ScientificCalc90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"PanoScientific.htm",,,0x40000003
+"PanoScientific_de.htm",,,0x40000003
+"PanoScientific_es.htm",,,0x40000003
+"PanoScientific_fr.htm",,,0x40000003
+"PanoScientific_pt.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Scientific Calc", 0, "Scientific.exe"
+
+[Shortcuts02.ARM720]
+"Panoramic Scientific Calc.lnk", 0, "PanoScientific.htm"
+
+
+
+

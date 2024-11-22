@@ -1,0 +1,1038 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_BLACKJACK           ICON                    "res\\Blackjack.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Blackjackppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_WIN             WAVE                    "Res\\chaching.wav"
+IDR_WAV_COIN            WAVE                    "Res\\coin.wav"
+IDR_WAV_DEAL            WAVE                    "Res\\crdflp.wav"
+IDR_WAVE_LOSE           WAVE                    "Res\\loose.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_PNG_Clubs           GIF                     "Res\\13clubs.png"
+IDB_PNG_Diamonds        GIF                     "Res\\13Diamonds.png"
+IDB_PNG_Hearts          GIF                     "Res\\13Hearts.png"
+IDB_PNG_Spades          GIF                     "Res\\13Spades.png"
+IDB_PNG_BUTTON          GIF                     "Res\\bg_btn.png"
+IDB_PNG_CardBack        GIF                     "Res\\cardback.png"
+IDB_PNG_Flip            GIF                     "Res\\cardflip.png"
+IDB_PNG_Chips           GIF                     "Res\\chips.png"
+IDB_PNG_Count           GIF                     "Res\\count_btn.png"
+IDB_PNG_Felt            GIF                     "Res\\felt.png"
+IDB_PNG_Logo            GIF                     "Res\\logo.png"
+IDB_PNG_Pano            GIF                     "Res\\Pano.png"
+IDB_PNG_Table           GIF                     "Res\\Table.png"
+IDB_PNG_TableVGA        GIF                     "Res\\TableVGA.png"
+IDR_PNG_MenuBtn         GIF                     "Res\\menu_btn.png"
+IDR_PNG_Title           GIF                     "Res\\title.png"
+IDR_PNG_TitleVGA        GIF                     "Res\\titleVGA.png"
+IDR_PNG_Dollar          GIF                     "Res\\holla.png"
+IDR_PNG_DollarVGA       GIF                     "Res\\HollaVGA.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_Basic DIALOG  0, 0, 186, 172
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Blackjack"
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+IDD_DLG_Options DIALOG  0, 0, 190, 202
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    COMBOBOX        IDC_LST_DIFFICULTY,19,55,133,51,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LST_PLAYSOUNDS,19,82,133,51,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LST_BACKGROUND,16,30,133,51,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_Basic, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_DLG_Options, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Options MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_Blackjack MENU 
+BEGIN
+    MENUITEM "Menu",                        IDMENU_Menu
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic Blackjack"
+    IDC_BJACK               "BJACK"
+    IDB_Blackjack           "Blackjack"
+    IDS_BGCOLOR_BLUE        "Table Color: Blue"
+    IDS_BGCOLOR_GREEN       "Table Color: Green"
+    IDS_BGCOLOR_PURPLE      "Table Color: Purple"
+    IDS_BGCOLOR_RED         "Table Color: Red"
+    IDS_BTNS_Split          "Split"
+    IDS_BTNS_Late           "Late"
+    IDS_BTNS_Double         "Double"
+    IDS_BTNS_Hit            "Hit"
+    IDS_BTNS_Deal           "Deal"
+    IDS_BTNS_Reset          "Reset"
+    IDS_CMB_GD_Easy         "Easy"
+    IDS_CMB_GD_Normal       "Normal"
+    IDS_CMB_GD_Difficult    "Difficult"
+    IDS_CMB_GD_Custom       "Custom"
+    IDS_CMB_GD_Learn        "Learn to Play"
+    IDS_MENU_ResumeGame     "Resume Game"
+    IDS_MENU_Options        "Options"
+    IDS_MENU_Help           "Help"
+    IDS_MENU_Quit           "Quit"
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Save           "Save"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Ok             "Ok"
+    IDS_MENU_HiScores       "HiScores"
+    IDS_MENU_About          "About"
+    IDS_MENU_Exit           "Exit"
+    IDS_MENU_NewGame        "New Game"
+    IDS_MENU_Yes            "Yes"
+    IDS_MENU_No             "No"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Resume         "Resume"
+    IDS_CMB_CCV_On          "On"
+    IDS_CMB_CCV_Semi        "On demand"
+    IDS_CMB_CCV_Off         "Off"
+    IDS_CMB_CC_Wizard       "Wizard"
+    IDS_CMB_CC_KO           "KO"
+    IDS_CMB_CC_HiLow        "Hi Low"
+    IDS_CMB_CC_HiOpt1       "HiOpt1"
+    IDS_CMB_CC_HiOpt2       "HiOpt2"
+    IDS_CMB_CC_Zen          "Zen"
+    IDS_CMB_CC_OmegaII      "Omega II"
+    IDS_MSG_Broke           "You're Broke! Would you like to start a new game?"
+    IDS_MSG_DemoOver        "We hope you enjoyed trying out Panoramic Blackjack.  Your trial has expired.  To purchase - please return to the website that provided your trial download."
+    IDS_MSG_Exit            "Are you sure you want to exit Panoramic Blackjack?"
+    IDS_ABOUT_1             "Panoramic BlackJack\r\nversion 1.2.0\r\nCopyright 2008-2009\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com"
+    IDS_MSG_HiEndGame       "Your game is over but you achieved a high score!  Would you like to start a new game? "
+    IDS_MSG_NewGame         "Are you sure you want to start a new game?"
+    IDS_LBL_Bank            "Bank"
+    IDS_LBL_Date            "Date"
+    IDS_LBL_PlaySounds      "Play sounds"
+    IDS_LBL_CardCountView   "Card Count:"
+    IDS_LBL_CardCounting    "Card Count Style:"
+    IDS_LBL_GameDifficulty  "Game Difficulty:"
+    IDS_RESULT_Win          "Win"
+    IDS_RESULT_Win2         "Win!"
+    IDS_RESULT_Draw         "Draw"
+    IDS_RESULT_Lose         "Lose"
+    IDS_RESULT_Surrender    "Surrender"
+    IDS_RESULT_DealerBusts  "Dealer Busts - Win!"
+    IDS_RESULT_Blackjack    "Blackjack!"
+    IDS_INFO_BankDemo       "Bank: demo"
+    IDS_INFO_BankAmt        "Bank: $%i"
+    IDS_INFO_BetDemo        "Bet: demo"
+    IDS_INFO_BetAmt         "Bet: $%i"
+    IDS_INFO_Count          "Count:\r\n%i"
+    IDS_INFO_CardCount      "Card\r\nCount"
+    IDS_BTNS_Insurance      "Insurance"
+    IDS_BTNS_Bet            "Bet"
+    IDS_BTNS_Stand          "Stand"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_PT        "Panoramic Blackjack"
+    IDS_BGCOLOR_BLUE_PT     "Azul"
+    IDS_BGCOLOR_GREEN_PT    "Verde"
+    IDS_BGCOLOR_PURPLE_PT   "Rouxo"
+    IDS_BGCOLOR_RED_PT      "Vermelho"
+    IDS_BTNS_Split_PT       "Dividir"
+    IDS_BTNS_Late_PT        "Atrazar"
+    IDS_BTNS_Double_PT      "Dobrar"
+    IDS_BTNS_Hit_PT         "Seleccionar"
+    IDS_BTNS_Deal_PT        "Dar"
+    IDS_BTNS_Reset_PT       "Reiniciar"
+    IDS_CMB_GD_Easy_PT      "Fácil"
+    IDS_CMB_GD_Normal_PT    "Normal"
+    IDS_CMB_GD_Difficult_PT "Dificuldade"
+    IDS_CMB_GD_Custom_PT    "Customizado"
+    IDS_CMB_GD_Learn_PT     "Aprender a Jogar"
+    IDS_MENU_ResumeGame_PT  "Resumir Jogo"
+    IDS_MENU_Options_PT     "Opções"
+    IDS_MENU_Help_PT        "Ajuda"
+    IDS_MENU_Quit_PT        "Abandonar"
+    IDS_MENU_Cancel_PT      "Cancelar"
+    IDS_MENU_Save_PT        "Gravar"
+    IDS_MENU_Menu_PT        "Menu"
+    IDS_MENU_Ok_PT          "Ok"
+    IDS_MENU_HiScores_PT    "Pontuações Altas"
+    IDS_MENU_About_PT       "Acerca"
+    IDS_MENU_Exit_PT        "Sair"
+    IDS_MENU_NewGame_PT     "Novo Jogo"
+    IDS_MENU_Yes_PT         "Sim"
+    IDS_MENU_No_PT          "Não"
+    IDS_MENU_Back_PT        "Voltar"
+    IDS_MENU_Resume_PT      "Resumir"
+    IDS_CMB_CCV_On_PT       "Ligado"
+    IDS_CMB_CCV_Semi_PT     "A Pedido"
+    IDS_CMB_CCV_Off_PT      "Desligado"
+    IDS_CMB_CC_Wizard_PT    "Assistente"
+    IDS_CMB_CC_KO_PT        "KO"
+    IDS_CMB_CC_HiLow_PT     "Alta Baixa"
+    IDS_CMB_CC_HiOpt1_PT    "Alta Opç1"
+    IDS_CMB_CC_HiOpt2_PT    "Alta Opc2"
+    IDS_CMB_CC_Zen_PT       "Zen"
+    IDS_CMB_CC_OmegaII_PT   "Omega II"
+    IDS_MSG_Broke_PT        "Está Falido! Deseja começar um novo jogo?"
+    IDS_MSG_DemoOver_PT     "Esperamos que tenha gostado de experimentar Panoramic Blackjack, o seu período experimental expirou. Para comprar: Por favor, visite o site onde efectuou a descarga."
+    IDS_MSG_Exit_PT         "Tem a certeza que quer abandonar o Panoramic Blackjack?"
+    IDS_ABOUT_1_PT          "Panoramic BlackJack\r\nVersão 1.2.0\r\nCopyright 2008-2010\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com"
+    IDS_MSG_HiEndGame_PT    "O seu jogo terminou, mas conseguiu uma pontuação alta! Deseja começar um novo jogo?"
+    IDS_MSG_NewGame_PT      "Tem a certeza que quer começar um novo Jogo?"
+    IDS_LBL_Bank_PT         "Banco"
+    IDS_LBL_Date_PT         "Data"
+	IDS_LBL_PlaySounds_PT   "Tocar Sons:"
+    IDS_LBL_CardCountView_PT "Contagem de Carta:"
+	IDS_LBL_CardCounting_PT "Estilo de contagem de carta:"
+    IDS_LBL_GameDifficulty_PT "Dificuldade de Jogo:"
+    IDS_RESULT_Win_PT       "Ganhar"
+    IDS_RESULT_Win2_PT      "Ganhar!"
+    IDS_RESULT_Draw_PT      "Dar"
+    IDS_RESULT_Lose_PT      "Perder"
+    IDS_RESULT_Surrender_PT "Render"
+    IDS_RESULT_DealerBusts_PT "Dealer Ganha - Ganha!"
+    IDS_RESULT_Blackjack_PT "Blackjack!"
+    IDS_INFO_BankDemo_PT    "Banco: Demo"
+    IDS_INFO_BankAmt_PT     "Banco: $"
+    IDS_INFO_BetDemo_PT     "Apostar: Demo"
+    IDS_INFO_BetAmt_PT      "Apostar: $"
+    IDS_INFO_Count_PT       "Contar:"
+    IDS_INFO_CardCount_PT   "Contar Cartas"
+    IDS_BTNS_Insurance_PT   "Seguro"
+    IDS_BTNS_Bet_PT         "Apostar"
+    IDS_BTNS_Stand_PT       "Ficar"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_CH        "4"
+    IDS_BGCOLOR_BLUE_CH     "4"
+    IDS_BGCOLOR_GREEN_CH    "4"
+    IDS_BGCOLOR_PURPLE_CH   "4"
+    IDS_BGCOLOR_RED_CH      "4"
+    IDS_BTNS_Split_CH       "4"
+    IDS_BTNS_Late_CH        "4"
+    IDS_BTNS_Double_CH      "4"
+    IDS_BTNS_Hit_CH         "4"
+    IDS_BTNS_Deal_CH        "4"
+    IDS_BTNS_Reset_CH       "4"
+    IDS_CMB_GD_Easy_CH      "4"
+    IDS_CMB_GD_Normal_CH    "4"
+    IDS_CMB_GD_Difficult_CH "4"
+    IDS_CMB_GD_Custom_CH    "4"
+    IDS_CMB_GD_Learn_CH     "4"
+    IDS_MENU_ResumeGame_CH  "4"
+    IDS_MENU_Options_CH     "4"
+    IDS_MENU_Help_CH        "4"
+    IDS_MENU_Quit_CH        "4"
+    IDS_MENU_Cancel_CH      "4"
+    IDS_MENU_Save_CH        "4"
+    IDS_MENU_Menu_CH        "4"
+    IDS_MENU_Ok_CH          "4"
+    IDS_MENU_HiScores_CH    "4"
+    IDS_MENU_About_CH       "4"
+    IDS_MENU_Exit_CH        "4"
+    IDS_MENU_NewGame_CH     "4"
+    IDS_MENU_Yes_CH         "4"
+    IDS_MENU_No_CH          "4"
+    IDS_MENU_Back_CH        "4"
+    IDS_MENU_Resume_CH      "4"
+    IDS_CMB_CCV_On_CH       "4"
+    IDS_CMB_CCV_Semi_CH     "4"
+    IDS_CMB_CCV_Off_CH      "4"
+    IDS_CMB_CC_Wizard_CH    "4"
+    IDS_CMB_CC_KO_CH        "4"
+    IDS_CMB_CC_HiLow_CH     "4"
+    IDS_CMB_CC_HiOpt1_CH    "4"
+    IDS_CMB_CC_HiOpt2_CH    "4"
+    IDS_CMB_CC_Zen_CH       "4"
+    IDS_CMB_CC_OmegaII_CH   "4"
+    IDS_MSG_Broke_CH        "4"
+    IDS_MSG_DemoOver_CH     "4"
+    IDS_MSG_Exit_CH         "4"
+    IDS_ABOUT_1_CH          "4"
+    IDS_MSG_HiEndGame_CH    "4"
+    IDS_MSG_NewGame_CH      "4"
+    IDS_LBL_Bank_CH         "4"
+    IDS_LBL_Date_CH         "4"
+    IDS_LBL_PlaySounds_CH   "4"
+    IDS_LBL_CardCountView_CH "4"
+    IDS_LBL_CardCounting_CH "4"
+    IDS_LBL_GameDifficulty_CH "4"
+    IDS_RESULT_Win_CH       "4"
+    IDS_RESULT_Win2_CH      "4"
+    IDS_RESULT_Draw_CH      "4"
+    IDS_RESULT_Lose_CH      "4"
+    IDS_RESULT_Surrender_CH "4"
+    IDS_RESULT_DealerBusts_CH "4"
+    IDS_RESULT_Blackjack_CH "4"
+    IDS_INFO_BankDemo_CH    "4"
+    IDS_INFO_BankAmt_CH     "4"
+    IDS_INFO_BetDemo_CH     "4"
+    IDS_INFO_BetAmt_CH      "4"
+    IDS_INFO_Count_CH       "4"
+    IDS_INFO_CardCount_CH   "4"
+    IDS_BTNS_Insurance_CH   "4"
+    IDS_BTNS_Bet_CH         "4"
+    IDS_BTNS_Stand_CH       "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_DE        "7"
+    IDS_BGCOLOR_BLUE_DE     "7"
+    IDS_BGCOLOR_GREEN_DE    "7"
+    IDS_BGCOLOR_PURPLE_DE   "7"
+    IDS_BGCOLOR_RED_DE      "7"
+    IDS_BTNS_Split_DE       "7"
+    IDS_BTNS_Late_DE        "7"
+    IDS_BTNS_Double_DE      "7"
+    IDS_BTNS_Hit_DE         "7"
+    IDS_BTNS_Deal_DE        "7"
+    IDS_BTNS_Reset_DE       "7"
+    IDS_CMB_GD_Easy_DE      "7"
+    IDS_CMB_GD_Normal_DE    "7"
+    IDS_CMB_GD_Difficult_DE "7"
+    IDS_CMB_GD_Custom_DE    "7"
+    IDS_CMB_GD_Learn_DE     "7"
+    IDS_MENU_ResumeGame_DE  "7"
+    IDS_MENU_Options_DE     "7"
+    IDS_MENU_Help_DE        "7"
+    IDS_MENU_Quit_DE        "7"
+    IDS_MENU_Cancel_DE      "7"
+    IDS_MENU_Save_DE        "7"
+    IDS_MENU_Menu_DE        "7"
+    IDS_MENU_Ok_DE          "7"
+    IDS_MENU_HiScores_DE    "7"
+    IDS_MENU_About_DE       "7"
+    IDS_MENU_Exit_DE        "7"
+    IDS_MENU_NewGame_DE     "7"
+    IDS_MENU_Yes_DE         "7"
+    IDS_MENU_No_DE          "7"
+    IDS_MENU_Back_DE        "7"
+    IDS_MENU_Resume_DE      "7"
+    IDS_CMB_CCV_On_DE       "7"
+    IDS_CMB_CCV_Semi_DE     "7"
+    IDS_CMB_CCV_Off_DE      "7"
+    IDS_CMB_CC_Wizard_DE    "7"
+    IDS_CMB_CC_KO_DE        "7"
+    IDS_CMB_CC_HiLow_DE     "7"
+    IDS_CMB_CC_HiOpt1_DE    "7"
+    IDS_CMB_CC_HiOpt2_DE    "7"
+    IDS_CMB_CC_Zen_DE       "7"
+    IDS_CMB_CC_OmegaII_DE   "7"
+    IDS_MSG_Broke_DE        "7"
+    IDS_MSG_DemoOver_DE     "7"
+    IDS_MSG_Exit_DE         "7"
+    IDS_ABOUT_1_DE          "7"
+    IDS_MSG_HiEndGame_DE    "7"
+    IDS_MSG_NewGame_DE      "7"
+    IDS_LBL_Bank_DE         "7"
+    IDS_LBL_Date_DE         "7"
+    IDS_LBL_PlaySounds_DE   "7"
+    IDS_LBL_CardCountView_DE "7"
+    IDS_LBL_CardCounting_DE "7"
+    IDS_LBL_GameDifficulty_DE "7"
+    IDS_RESULT_Win_DE       "7"
+    IDS_RESULT_Win2_DE      "7"
+    IDS_RESULT_Draw_DE      "7"
+    IDS_RESULT_Lose_DE      "7"
+    IDS_RESULT_Surrender_DE "7"
+    IDS_RESULT_DealerBusts_DE "7"
+    IDS_RESULT_Blackjack_DE "7"
+    IDS_INFO_BankDemo_DE    "7"
+    IDS_INFO_BankAmt_DE     "7"
+    IDS_INFO_BetDemo_DE     "7"
+    IDS_INFO_BetAmt_DE      "7"
+    IDS_INFO_Count_DE       "7"
+    IDS_INFO_CardCount_DE   "7"
+    IDS_BTNS_Insurance_DE   "7"
+    IDS_BTNS_Bet_DE         "7"
+    IDS_BTNS_Stand_DE       "7"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_ES        "10"
+    IDS_BGCOLOR_BLUE_ES     "10"
+    IDS_BGCOLOR_GREEN_ES    "10"
+    IDS_BGCOLOR_PURPLE_ES   "10"
+    IDS_BGCOLOR_RED_ES      "10"
+    IDS_BTNS_Split_ES       "10"
+    IDS_BTNS_Late_ES        "10"
+    IDS_BTNS_Double_ES      "10"
+    IDS_BTNS_Hit_ES         "10"
+    IDS_BTNS_Deal_ES        "10"
+    IDS_BTNS_Reset_ES       "10"
+    IDS_CMB_GD_Easy_ES      "10"
+    IDS_CMB_GD_Normal_ES    "10"
+    IDS_CMB_GD_Difficult_ES "10"
+    IDS_CMB_GD_Custom_ES    "10"
+    IDS_CMB_GD_Learn_ES     "10"
+    IDS_MENU_ResumeGame_ES  "10"
+    IDS_MENU_Options_ES     "10"
+    IDS_MENU_Help_ES        "10"
+    IDS_MENU_Quit_ES        "10"
+    IDS_MENU_Cancel_ES      "10"
+    IDS_MENU_Save_ES        "10"
+    IDS_MENU_Menu_ES        "10"
+    IDS_MENU_Ok_ES          "10"
+    IDS_MENU_HiScores_ES    "10"
+    IDS_MENU_About_ES       "10"
+    IDS_MENU_Exit_ES        "10"
+    IDS_MENU_NewGame_ES     "10"
+    IDS_MENU_Yes_ES         "10"
+    IDS_MENU_No_ES          "10"
+    IDS_MENU_Back_ES        "10"
+    IDS_MENU_Resume_ES      "10"
+    IDS_CMB_CCV_On_ES       "10"
+    IDS_CMB_CCV_Semi_ES     "10"
+    IDS_CMB_CCV_Off_ES      "10"
+    IDS_CMB_CC_Wizard_ES    "10"
+    IDS_CMB_CC_KO_ES        "10"
+    IDS_CMB_CC_HiLow_ES     "10"
+    IDS_CMB_CC_HiOpt1_ES    "10"
+    IDS_CMB_CC_HiOpt2_ES    "10"
+    IDS_CMB_CC_Zen_ES       "10"
+    IDS_CMB_CC_OmegaII_ES   "10"
+    IDS_MSG_Broke_ES        "10"
+    IDS_MSG_DemoOver_ES     "10"
+    IDS_MSG_Exit_ES         "10"
+    IDS_ABOUT_1_ES          "10"
+    IDS_MSG_HiEndGame_ES    "10"
+    IDS_MSG_NewGame_ES      "10"
+    IDS_LBL_Bank_ES         "10"
+    IDS_LBL_Date_ES         "10"
+    IDS_LBL_PlaySounds_ES   "10"
+    IDS_LBL_CardCountView_ES "10"
+    IDS_LBL_CardCounting_ES "10"
+    IDS_LBL_GameDifficulty_ES "10"
+    IDS_RESULT_Win_ES       "10"
+    IDS_RESULT_Win2_ES      "10"
+    IDS_RESULT_Draw_ES      "10"
+    IDS_RESULT_Lose_ES      "10"
+    IDS_RESULT_Surrender_ES "10"
+    IDS_RESULT_DealerBusts_ES "10"
+    IDS_RESULT_Blackjack_ES "10"
+    IDS_INFO_BankDemo_ES    "10"
+    IDS_INFO_BankAmt_ES     "10"
+    IDS_INFO_BetDemo_ES     "10"
+    IDS_INFO_BetAmt_ES      "10"
+    IDS_INFO_Count_ES       "10"
+    IDS_INFO_CardCount_ES   "10"
+    IDS_BTNS_Insurance_ES   "10"
+    IDS_BTNS_Bet_ES         "10"
+    IDS_BTNS_Stand_ES       "10"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_FR        "12"
+    IDS_BGCOLOR_BLUE_FR     "12"
+    IDS_BGCOLOR_GREEN_FR    "12"
+    IDS_BGCOLOR_PURPLE_FR   "12"
+    IDS_BGCOLOR_RED_FR      "12"
+    IDS_BTNS_Split_FR       "12"
+    IDS_BTNS_Late_FR        "12"
+    IDS_BTNS_Double_FR      "12"
+    IDS_BTNS_Hit_FR         "12"
+    IDS_BTNS_Deal_FR        "12"
+    IDS_BTNS_Reset_FR       "12"
+    IDS_CMB_GD_Easy_FR      "12"
+    IDS_CMB_GD_Normal_FR    "12"
+    IDS_CMB_GD_Difficult_FR "12"
+    IDS_CMB_GD_Custom_FR    "12"
+    IDS_CMB_GD_Learn_FR     "12"
+    IDS_MENU_ResumeGame_FR  "12"
+    IDS_MENU_Options_FR     "12"
+    IDS_MENU_Help_FR        "12"
+    IDS_MENU_Quit_FR        "12"
+    IDS_MENU_Cancel_FR      "12"
+    IDS_MENU_Save_FR        "12"
+    IDS_MENU_Menu_FR        "12"
+    IDS_MENU_Ok_FR          "12"
+    IDS_MENU_HiScores_FR    "12"
+    IDS_MENU_About_FR       "12"
+    IDS_MENU_Exit_FR        "12"
+    IDS_MENU_NewGame_FR     "12"
+    IDS_MENU_Yes_FR         "12"
+    IDS_MENU_No_FR          "12"
+    IDS_MENU_Back_FR        "12"
+    IDS_MENU_Resume_FR      "12"
+    IDS_CMB_CCV_On_FR       "12"
+    IDS_CMB_CCV_Semi_FR     "12"
+    IDS_CMB_CCV_Off_FR      "12"
+    IDS_CMB_CC_Wizard_FR    "12"
+    IDS_CMB_CC_KO_FR        "12"
+    IDS_CMB_CC_HiLow_FR     "12"
+    IDS_CMB_CC_HiOpt1_FR    "12"
+    IDS_CMB_CC_HiOpt2_FR    "12"
+    IDS_CMB_CC_Zen_FR       "12"
+    IDS_CMB_CC_OmegaII_FR   "12"
+    IDS_MSG_Broke_FR        "12"
+    IDS_MSG_DemoOver_FR     "12"
+    IDS_MSG_Exit_FR         "12"
+    IDS_ABOUT_1_FR          "12"
+    IDS_MSG_HiEndGame_FR    "12"
+    IDS_MSG_NewGame_FR      "12"
+    IDS_LBL_Bank_FR         "12"
+    IDS_LBL_Date_FR         "12"
+    IDS_LBL_PlaySounds_FR   "12"
+    IDS_LBL_CardCountView_FR "12"
+    IDS_LBL_CardCounting_FR "12"
+    IDS_LBL_GameDifficulty_FR "12"
+    IDS_RESULT_Win_FR       "12"
+    IDS_RESULT_Win2_FR      "12"
+    IDS_RESULT_Draw_FR      "12"
+    IDS_RESULT_Lose_FR      "12"
+    IDS_RESULT_Surrender_FR "12"
+    IDS_RESULT_DealerBusts_FR "12"
+    IDS_RESULT_Blackjack_FR "12"
+    IDS_INFO_BankDemo_FR    "12"
+    IDS_INFO_BankAmt_FR     "12"
+    IDS_INFO_BetDemo_FR     "12"
+    IDS_INFO_BetAmt_FR      "12"
+    IDS_INFO_Count_FR       "12"
+    IDS_INFO_CardCount_FR   "12"
+    IDS_BTNS_Insurance_FR   "12"
+    IDS_BTNS_Bet_FR         "12"
+    IDS_BTNS_Stand_FR       "12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_IT        "16"
+    IDS_BGCOLOR_BLUE_IT     "16"
+    IDS_BGCOLOR_GREEN_IT    "16"
+    IDS_BGCOLOR_PURPLE_IT   "16"
+    IDS_BGCOLOR_RED_IT      "16"
+    IDS_BTNS_Split_IT       "16"
+    IDS_BTNS_Late_IT        "16"
+    IDS_BTNS_Double_IT      "16"
+    IDS_BTNS_Hit_IT         "16"
+    IDS_BTNS_Deal_IT        "16"
+    IDS_BTNS_Reset_IT       "16"
+    IDS_CMB_GD_Easy_IT      "16"
+    IDS_CMB_GD_Normal_IT    "16"
+    IDS_CMB_GD_Difficult_IT "16"
+    IDS_CMB_GD_Custom_IT    "16"
+    IDS_CMB_GD_Learn_IT     "16"
+    IDS_MENU_ResumeGame_IT  "16"
+    IDS_MENU_Options_IT     "16"
+    IDS_MENU_Help_IT        "16"
+    IDS_MENU_Quit_IT        "16"
+    IDS_MENU_Cancel_IT      "16"
+    IDS_MENU_Save_IT        "16"
+    IDS_MENU_Menu_IT        "16"
+    IDS_MENU_Ok_IT          "16"
+    IDS_MENU_HiScores_IT    "16"
+    IDS_MENU_About_IT       "16"
+    IDS_MENU_Exit_IT        "16"
+    IDS_MENU_NewGame_IT     "16"
+    IDS_MENU_Yes_IT         "16"
+    IDS_MENU_No_IT          "16"
+    IDS_MENU_Back_IT        "16"
+    IDS_MENU_Resume_IT      "16"
+    IDS_CMB_CCV_On_IT       "16"
+    IDS_CMB_CCV_Semi_IT     "16"
+    IDS_CMB_CCV_Off_IT      "16"
+    IDS_CMB_CC_Wizard_IT    "16"
+    IDS_CMB_CC_KO_IT        "16"
+    IDS_CMB_CC_HiLow_IT     "16"
+    IDS_CMB_CC_HiOpt1_IT    "16"
+    IDS_CMB_CC_HiOpt2_IT    "16"
+    IDS_CMB_CC_Zen_IT       "16"
+    IDS_CMB_CC_OmegaII_IT   "16"
+    IDS_MSG_Broke_IT        "16"
+    IDS_MSG_DemoOver_IT     "16"
+    IDS_MSG_Exit_IT         "16"
+    IDS_ABOUT_1_IT          "16"
+    IDS_MSG_HiEndGame_IT    "16"
+    IDS_MSG_NewGame_IT      "16"
+    IDS_LBL_Bank_IT         "16"
+    IDS_LBL_Date_IT         "16"
+    IDS_LBL_PlaySounds_IT   "16"
+    IDS_LBL_CardCountView_IT "16"
+    IDS_LBL_CardCounting_IT "16"
+    IDS_LBL_GameDifficulty_IT "16"
+    IDS_RESULT_Win_IT       "16"
+    IDS_RESULT_Win2_IT      "16"
+    IDS_RESULT_Draw_IT      "16"
+    IDS_RESULT_Lose_IT      "16"
+    IDS_RESULT_Surrender_IT "16"
+    IDS_RESULT_DealerBusts_IT "16"
+    IDS_RESULT_Blackjack_IT "16"
+    IDS_INFO_BankDemo_IT    "16"
+    IDS_INFO_BankAmt_IT     "16"
+    IDS_INFO_BetDemo_IT     "16"
+    IDS_INFO_BetAmt_IT      "16"
+    IDS_INFO_Count_IT       "16"
+    IDS_INFO_CardCount_IT   "16"
+    IDS_BTNS_Insurance_IT   "16"
+    IDS_BTNS_Bet_IT         "16"
+    IDS_BTNS_Stand_IT       "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_JP        "17"
+    IDS_BGCOLOR_BLUE_JP     "17"
+    IDS_BGCOLOR_GREEN_JP    "17"
+    IDS_BGCOLOR_PURPLE_JP   "17"
+    IDS_BGCOLOR_RED_JP      "17"
+    IDS_BTNS_Split_JP       "17"
+    IDS_BTNS_Late_JP        "17"
+    IDS_BTNS_Double_JP      "17"
+    IDS_BTNS_Hit_JP         "17"
+    IDS_BTNS_Deal_JP        "17"
+    IDS_BTNS_Reset_JP       "17"
+    IDS_CMB_GD_Easy_JP      "17"
+    IDS_CMB_GD_Normal_JP    "17"
+    IDS_CMB_GD_Difficult_JP "17"
+    IDS_CMB_GD_Custom_JP    "17"
+    IDS_CMB_GD_Learn_JP     "17"
+    IDS_MENU_ResumeGame_JP  "17"
+    IDS_MENU_Options_JP     "17"
+    IDS_MENU_Help_JP        "17"
+    IDS_MENU_Quit_JP        "17"
+    IDS_MENU_Cancel_JP      "17"
+    IDS_MENU_Save_JP        "17"
+    IDS_MENU_Menu_JP        "17"
+    IDS_MENU_Ok_JP          "17"
+    IDS_MENU_HiScores_JP    "17"
+    IDS_MENU_About_JP       "17"
+    IDS_MENU_Exit_JP        "17"
+    IDS_MENU_NewGame_JP     "17"
+    IDS_MENU_Yes_JP         "17"
+    IDS_MENU_No_JP          "17"
+    IDS_MENU_Back_JP        "17"
+    IDS_MENU_Resume_JP      "17"
+    IDS_CMB_CCV_On_JP       "17"
+    IDS_CMB_CCV_Semi_JP     "17"
+    IDS_CMB_CCV_Off_JP      "17"
+    IDS_CMB_CC_Wizard_JP    "17"
+    IDS_CMB_CC_KO_JP        "17"
+    IDS_CMB_CC_HiLow_JP     "17"
+    IDS_CMB_CC_HiOpt1_JP    "17"
+    IDS_CMB_CC_HiOpt2_JP    "17"
+    IDS_CMB_CC_Zen_JP       "17"
+    IDS_CMB_CC_OmegaII_JP   "17"
+    IDS_MSG_Broke_JP        "17"
+    IDS_MSG_DemoOver_JP     "17"
+    IDS_MSG_Exit_JP         "17"
+    IDS_ABOUT_1_JP          "17"
+    IDS_MSG_HiEndGame_JP    "17"
+    IDS_MSG_NewGame_JP      "17"
+    IDS_LBL_Bank_JP         "17"
+    IDS_LBL_Date_JP         "17"
+    IDS_LBL_PlaySounds_JP   "17"
+    IDS_LBL_CardCountView_JP "17"
+    IDS_LBL_CardCounting_JP "17"
+    IDS_LBL_GameDifficulty_JP "17"
+    IDS_RESULT_Win_JP       "17"
+    IDS_RESULT_Win2_JP      "17"
+    IDS_RESULT_Draw_JP      "17"
+    IDS_RESULT_Lose_JP      "17"
+    IDS_RESULT_Surrender_JP "17"
+    IDS_RESULT_DealerBusts_JP "17"
+    IDS_RESULT_Blackjack_JP "17"
+    IDS_INFO_BankDemo_JP    "17"
+    IDS_INFO_BankAmt_JP     "17"
+    IDS_INFO_BetDemo_JP     "17"
+    IDS_INFO_BetAmt_JP      "17"
+    IDS_INFO_Count_JP       "17"
+    IDS_INFO_CardCount_JP   "17"
+    IDS_BTNS_Insurance_JP   "17"
+    IDS_BTNS_Bet_JP         "17"
+    IDS_BTNS_Stand_JP       "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_KO        "18"
+    IDS_BGCOLOR_BLUE_KO     "18"
+    IDS_BGCOLOR_GREEN_KO    "18"
+    IDS_BGCOLOR_PURPLE_KO   "18"
+    IDS_BGCOLOR_RED_KO      "18"
+    IDS_BTNS_Split_KO       "18"
+    IDS_BTNS_Late_KO        "18"
+    IDS_BTNS_Double_KO      "18"
+    IDS_BTNS_Hit_KO         "18"
+    IDS_BTNS_Deal_KO        "18"
+    IDS_BTNS_Reset_KO       "18"
+    IDS_CMB_GD_Easy_KO      "18"
+    IDS_CMB_GD_Normal_KO    "18"
+    IDS_CMB_GD_Difficult_KO "18"
+    IDS_CMB_GD_Custom_KO    "18"
+    IDS_CMB_GD_Learn_KO     "18"
+    IDS_MENU_ResumeGame_KO  "18"
+    IDS_MENU_Options_KO     "18"
+    IDS_MENU_Help_KO        "18"
+    IDS_MENU_Quit_KO        "18"
+    IDS_MENU_Cancel_KO      "18"
+    IDS_MENU_Save_KO        "18"
+    IDS_MENU_Menu_KO        "18"
+    IDS_MENU_Ok_KO          "18"
+    IDS_MENU_HiScores_KO    "18"
+    IDS_MENU_About_KO       "18"
+    IDS_MENU_Exit_KO        "18"
+    IDS_MENU_NewGame_KO     "18"
+    IDS_MENU_Yes_KO         "18"
+    IDS_MENU_No_KO          "18"
+    IDS_MENU_Back_KO        "18"
+    IDS_MENU_Resume_KO      "18"
+    IDS_CMB_CCV_On_KO       "18"
+    IDS_CMB_CCV_Semi_KO     "18"
+    IDS_CMB_CCV_Off_KO      "18"
+    IDS_CMB_CC_Wizard_KO    "18"
+    IDS_CMB_CC_KO_KO        "18"
+    IDS_CMB_CC_HiLow_KO     "18"
+    IDS_CMB_CC_HiOpt1_KO    "18"
+    IDS_CMB_CC_HiOpt2_KO    "18"
+    IDS_CMB_CC_Zen_KO       "18"
+    IDS_CMB_CC_OmegaII_KO   "18"
+    IDS_MSG_Broke_KO        "18"
+    IDS_MSG_DemoOver_KO     "18"
+    IDS_MSG_Exit_KO         "18"
+    IDS_ABOUT_1_KO          "18"
+    IDS_MSG_HiEndGame_KO    "18"
+    IDS_MSG_NewGame_KO      "18"
+    IDS_LBL_Bank_KO         "18"
+    IDS_LBL_Date_KO         "18"
+    IDS_LBL_PlaySounds_KO   "18"
+    IDS_LBL_CardCountView_KO "18"
+    IDS_LBL_CardCounting_KO "18"
+    IDS_LBL_GameDifficulty_KO "18"
+    IDS_RESULT_Win_KO       "18"
+    IDS_RESULT_Win2_KO      "18"
+    IDS_RESULT_Draw_KO      "18"
+    IDS_RESULT_Lose_KO      "18"
+    IDS_RESULT_Surrender_KO "18"
+    IDS_RESULT_DealerBusts_KO "18"
+    IDS_RESULT_Blackjack_KO "18"
+    IDS_INFO_BankDemo_KO    "18"
+    IDS_INFO_BankAmt_KO     "18"
+    IDS_INFO_BetDemo_KO     "18"
+    IDS_INFO_BetAmt_KO      "18"
+    IDS_INFO_Count_KO       "18"
+    IDS_INFO_CardCount_KO   "18"
+    IDS_BTNS_Insurance_KO   "18"
+    IDS_BTNS_Bet_KO         "18"
+    IDS_BTNS_Stand_KO       "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_DU        "19"
+    IDS_BGCOLOR_BLUE_DU     "19"
+    IDS_BGCOLOR_GREEN_DU    "19"
+    IDS_BGCOLOR_PURPLE_DU   "19"
+    IDS_BGCOLOR_RED_DU      "19"
+    IDS_BTNS_Split_DU       "19"
+    IDS_BTNS_Late_DU        "19"
+    IDS_BTNS_Double_DU      "19"
+    IDS_BTNS_Hit_DU         "19"
+    IDS_BTNS_Deal_DU        "19"
+    IDS_BTNS_Reset_DU       "19"
+    IDS_CMB_GD_Easy_DU      "19"
+    IDS_CMB_GD_Normal_DU    "19"
+    IDS_CMB_GD_Difficult_DU "19"
+    IDS_CMB_GD_Custom_DU    "19"
+    IDS_CMB_GD_Learn_DU     "19"
+    IDS_MENU_ResumeGame_DU  "19"
+    IDS_MENU_Options_DU     "19"
+    IDS_MENU_Help_DU        "19"
+    IDS_MENU_Quit_DU        "19"
+    IDS_MENU_Cancel_DU      "19"
+    IDS_MENU_Save_DU        "19"
+    IDS_MENU_Menu_DU        "19"
+    IDS_MENU_Ok_DU          "19"
+    IDS_MENU_HiScores_DU    "19"
+    IDS_MENU_About_DU       "19"
+    IDS_MENU_Exit_DU        "19"
+    IDS_MENU_NewGame_DU     "19"
+    IDS_MENU_Yes_DU         "19"
+    IDS_MENU_No_DU          "19"
+    IDS_MENU_Back_DU        "19"
+    IDS_MENU_Resume_DU      "19"
+    IDS_CMB_CCV_On_DU       "19"
+    IDS_CMB_CCV_Semi_DU     "19"
+    IDS_CMB_CCV_Off_DU      "19"
+    IDS_CMB_CC_Wizard_DU    "19"
+    IDS_CMB_CC_KO_DU        "19"
+    IDS_CMB_CC_HiLow_DU     "19"
+    IDS_CMB_CC_HiOpt1_DU    "19"
+    IDS_CMB_CC_HiOpt2_DU    "19"
+    IDS_CMB_CC_Zen_DU       "19"
+    IDS_CMB_CC_OmegaII_DU   "19"
+    IDS_MSG_Broke_DU        "19"
+    IDS_MSG_DemoOver_DU     "19"
+    IDS_MSG_Exit_DU         "19"
+    IDS_ABOUT_1_DU          "19"
+    IDS_MSG_HiEndGame_DU    "19"
+    IDS_MSG_NewGame_DU      "19"
+    IDS_LBL_Bank_DU         "19"
+    IDS_LBL_Date_DU         "19"
+    IDS_LBL_PlaySounds_DU   "19"
+    IDS_LBL_CardCountView_DU "19"
+    IDS_LBL_CardCounting_DU "19"
+    IDS_LBL_GameDifficulty_DU "19"
+    IDS_RESULT_Win_DU       "19"
+    IDS_RESULT_Win2_DU      "19"
+    IDS_RESULT_Draw_DU      "19"
+    IDS_RESULT_Lose_DU      "19"
+    IDS_RESULT_Surrender_DU "19"
+    IDS_RESULT_DealerBusts_DU "19"
+    IDS_RESULT_Blackjack_DU "19"
+    IDS_INFO_BankDemo_DU    "19"
+    IDS_INFO_BankAmt_DU     "19"
+    IDS_INFO_BetDemo_DU     "19"
+    IDS_INFO_BetAmt_DU      "19"
+    IDS_INFO_Count_DU       "19"
+    IDS_INFO_CardCount_DU   "19"
+    IDS_BTNS_Insurance_DU   "19"
+    IDS_BTNS_Bet_DU         "19"
+    IDS_BTNS_Stand_DU       "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_RU        "25"
+    IDS_BGCOLOR_BLUE_RU     "25"
+    IDS_BGCOLOR_GREEN_RU    "25"
+    IDS_BGCOLOR_PURPLE_RU   "25"
+    IDS_BGCOLOR_RED_RU      "25"
+    IDS_BTNS_Split_RU       "25"
+    IDS_BTNS_Late_RU        "25"
+    IDS_BTNS_Double_RU      "25"
+    IDS_BTNS_Hit_RU         "25"
+    IDS_BTNS_Deal_RU        "25"
+    IDS_BTNS_Reset_RU       "25"
+    IDS_CMB_GD_Easy_RU      "25"
+    IDS_CMB_GD_Normal_RU    "25"
+    IDS_CMB_GD_Difficult_RU "25"
+    IDS_CMB_GD_Custom_RU    "25"
+    IDS_CMB_GD_Learn_RU     "25"
+    IDS_MENU_ResumeGame_RU  "25"
+    IDS_MENU_Options_RU     "25"
+    IDS_MENU_Help_RU        "25"
+    IDS_MENU_Quit_RU        "25"
+    IDS_MENU_Cancel_RU      "25"
+    IDS_MENU_Save_RU        "25"
+    IDS_MENU_Menu_RU        "25"
+    IDS_MENU_Ok_RU          "25"
+    IDS_MENU_HiScores_RU    "25"
+    IDS_MENU_About_RU       "25"
+    IDS_MENU_Exit_RU        "25"
+    IDS_MENU_NewGame_RU     "25"
+    IDS_MENU_Yes_RU         "25"
+    IDS_MENU_No_RU          "25"
+    IDS_MENU_Back_RU        "25"
+    IDS_MENU_Resume_RU      "25"
+    IDS_CMB_CCV_On_RU       "25"
+    IDS_CMB_CCV_Semi_RU     "25"
+    IDS_CMB_CCV_Off_RU      "25"
+    IDS_CMB_CC_Wizard_RU    "25"
+    IDS_CMB_CC_KO_RU        "25"
+    IDS_CMB_CC_HiLow_RU     "25"
+    IDS_CMB_CC_HiOpt1_RU    "25"
+    IDS_CMB_CC_HiOpt2_RU    "25"
+    IDS_CMB_CC_Zen_RU       "25"
+    IDS_CMB_CC_OmegaII_RU   "25"
+    IDS_MSG_Broke_RU        "25"
+    IDS_MSG_DemoOver_RU     "25"
+    IDS_MSG_Exit_RU         "25"
+    IDS_ABOUT_1_RU          "25"
+    IDS_MSG_HiEndGame_RU    "25"
+    IDS_MSG_NewGame_RU      "25"
+    IDS_LBL_Bank_RU         "25"
+    IDS_LBL_Date_RU         "25"
+    IDS_LBL_PlaySounds_RU   "25"
+    IDS_LBL_CardCountView_RU "25"
+    IDS_LBL_CardCounting_RU "25"
+    IDS_LBL_GameDifficulty_RU "25"
+    IDS_RESULT_Win_RU       "25"
+    IDS_RESULT_Win2_RU      "25"
+    IDS_RESULT_Draw_RU      "25"
+    IDS_RESULT_Lose_RU      "25"
+    IDS_RESULT_Surrender_RU "25"
+    IDS_RESULT_DealerBusts_RU "25"
+    IDS_RESULT_Blackjack_RU "25"
+    IDS_INFO_BankDemo_RU    "25"
+    IDS_INFO_BankAmt_RU     "25"
+    IDS_INFO_BetDemo_RU     "25"
+    IDS_INFO_BetAmt_RU      "25"
+    IDS_INFO_Count_RU       "25"
+    IDS_INFO_CardCount_RU   "25"
+    IDS_BTNS_Insurance_RU   "25"
+    IDS_BTNS_Bet_RU         "25"
+    IDS_BTNS_Stand_RU       "25"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAV_SHUFFLE         WAVE                    "Res\\shuffle.wav"
+IDR_WAV_BET             WAVE                    "Res\\bet.wav"
+IDR_WAV_BJ              WAVE                    "Res\\bj.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuBtnVGA      GIF                     "Res\\menu_btn_vga.png"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "Blackjackppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

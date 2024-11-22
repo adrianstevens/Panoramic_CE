@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="GuitarSuite.Controls.Tuner"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="480">
+    <Grid Name="Layout_Root" Loaded="Layout_Root_Loaded">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/GuitarTuner/Tuner.png" Stretch="None" />
+        </Grid.Background>
+        <TextBlock Height="133" Foreground="White" HorizontalAlignment="Left" Margin="309,188,0,0" Name="txtNote" Text="" VerticalAlignment="Top" Width="141" FontSize="84" TextAlignment="Center" MouseLeftButtonUp="txtNote_MouseLeftButtonUp" />
+        <TextBlock Height="43" Foreground="White" HorizontalAlignment="Left" Margin="12,341,0,0" Name="textBlock2" Text="{Binding Path=Localizedresources.IDS_INFO_Frequency, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" Width="244" />
+        <TextBlock Height="43" Foreground="White" HorizontalAlignment="Left" Margin="12,0,0,0" Name="textBlock3" Text="{Binding Path=Localizedresources.IDS_INFO_Pitch, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" Width="244" />
+        <TextBlock Height="45" HorizontalAlignment="Left" Margin="49,415,0,0" Name="txtHz" Text="No Microphone Detected" VerticalAlignment="Top" Width="385" FontSize="32" Foreground="#FF00FF00" TextAlignment="Right" />
+        <TextBlock Height="49" Foreground="White" HorizontalAlignment="Left" Margin="406,269,0,0" Name="txtOctave" Text="" VerticalAlignment="Top" Width="43" FontSize="40" TextAlignment="Right" />
+        
+        <Canvas Name="graphCanvas" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Bottom" Height="140" Width="402" />
+        <Grid Height="71" HorizontalAlignment="Left" Margin="25,62,0,0" Name="gridBars" VerticalAlignment="Top" Width="424">
+            <Canvas Height="71" HorizontalAlignment="Left" Name="canvasBars" VerticalAlignment="Top" Width="56" Opacity="0">
+                <Canvas.Clip>
+                    <RectangleGeometry Rect="0,0,56,71"/>
+                </Canvas.Clip>
+                <Image HorizontalAlignment="Left" Name="imgBars" Stretch="Uniform" Width="224" Height="71" VerticalAlignment="Top" Source="/Assets/GuitarTuner/bars.png"/>
+            </Canvas>
+        </Grid>
+        <Image HorizontalAlignment="Left" Margin="19,36,0,0" Name="imgArrowLeft" Stretch="Uniform" Width="37" Height="30" VerticalAlignment="Top"  Source="/Assets/GuitarTuner/arrw_lt.png" Opacity="0" />
+        <Image HorizontalAlignment="Left" Margin="418,36,0,0" Name="imgArrowRight" Stretch="Uniform" Width="37" Height="30" VerticalAlignment="Top"  Source="/Assets/GuitarTuner/arrw_rt.png" Opacity="0" />
+        <Image HorizontalAlignment="Left" Margin="229,44,0,0" Name="imgArrowGreen" Stretch="Uniform" Width="18" Height="10" VerticalAlignment="Top" Source="/Assets/GuitarTuner/Pitch_Arw.png" Opacity="0"/>
+
+        <Canvas Height="117" HorizontalAlignment="Left" Margin="25,199,0,0" Name="canvasSwitch" VerticalAlignment="Top" Width="96" >
+            <Canvas.Clip>
+                <RectangleGeometry Rect="0,0,96,117"/>
+            </Canvas.Clip>
+            <Image HorizontalAlignment="Left" Name="imgSwitch" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/GuitarTuner/switch.png" MouseLeftButtonDown="imgSwitch_MouseLeftButtonDown" Height="117" Width="192" />
+        </Canvas>
+
+        <Canvas Height="48" HorizontalAlignment="Left" Margin="135,232,0,0" Name="canvasGraphPrev" VerticalAlignment="Top" Width="99" >
+            <Canvas.Clip>
+                <RectangleGeometry Rect="0,0,99,48"/>
+            </Canvas.Clip>
+            <Image HorizontalAlignment="Left" Name="imgGraphPrev" Stretch="Uniform" Width="198" Height="48" VerticalAlignment="Top"  Source="/Assets/GuitarTuner/Freq.png" Canvas.Left="0" />
+        </Canvas>
+        <Grid Height="30" HorizontalAlignment="Left" Margin="298,186,0,0" Name="gridNotes" VerticalAlignment="Top" Width="157" Visibility="Visible" MouseLeftButtonUp="gridNotes_MouseLeftButtonUp">
+        </Grid>
+    </Grid>
+</UserControl>

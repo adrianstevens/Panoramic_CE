@@ -1,0 +1,130 @@
+﻿<Page x:Class="BlackJack.GameScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:BlackJack.Controls"
+    Background="#FF001100"
+    Title="Blackjack Table" Loaded="Page_Loaded">
+    <Grid x:Name="LayoutRoot" Width="800" Height="480">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Table.jpg" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="gameBoard">
+        <StackPanel Grid.Column="0" Orientation="Horizontal">
+            <Image Margin="10,10,0,0" Source="/Assets/bank.png" Stretch="Uniform" Width="57" Height="58"/>
+            <TextBlock Margin="10,20,0,0" x:Name="lblBank" Text="$10000" FontSize="32" Foreground="#FFFFFF39" />
+        </StackPanel>
+            <StackPanel Canvas.Left="620" Grid.Column="2" Orientation="Horizontal">
+                <Image Margin="0,25,0,0" Source="/Assets/bet.png" Stretch="Uniform" Width="63" Height="37"/>
+                <TextBlock Margin="10,20,0,0" x:Name="lblBet" Text="$0" Foreground="#FFFFFF39" FontSize="32" />
+            </StackPanel>
+            <Grid x:Name="gridHints" Opacity="0" Canvas.Left="560" Canvas.Top="270" MouseLeftButtonDown="gridHints_MouseLeftButtonDown" MouseLeftButtonUp="gridHints_MouseLeftButtonUp">
+                <Image Source="/Assets/hints.png" Stretch="Uniform" Width="213" Height="70" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="lblHints" Margin="20" Text="Stand" FontSize="26" Foreground="White"/>
+            </Grid>
+            <Grid x:Name="gridCount" Canvas.Left="655" Canvas.Top="91" MouseLeftButtonDown="OnCountClick">
+                <TextBlock x:Name="lblCountValue" Text="Card" FontSize="32" TextAlignment="Center" Foreground="#FFFFFF39" />
+                <TextBlock x:Name="lblCount" Text="Count" Margin="0,27,0,0" FontSize="32" TextAlignment="Center" Foreground="#FFFFFF39" />
+                <Image Source="/Assets/Count.png" Margin="0,63,0,0" />
+            </Grid>
+            <Canvas x:Name="canvasDealer" Height="180" Width="135" Margin="355,20,0,0">
+                <local:CardImage Canvas.Left="0" Canvas.Top="0" />
+                <local:CardImage Canvas.Left="25" Canvas.Top="0" />
+                <local:CardImage Canvas.Left="50" Canvas.Top="0" />
+                <local:CardImage Canvas.Left="75" Canvas.Top="0" />
+                <local:CardImage Canvas.Left="100" Canvas.Top="0" />
+                <local:CardImage Canvas.Left="125" Canvas.Top="0" />
+                <local:CardImage Canvas.Left="25" Canvas.Top="30" />
+                <local:CardImage Canvas.Left="50" Canvas.Top="30" />
+                <local:CardImage Canvas.Left="75" Canvas.Top="30" />
+                <local:CardImage Canvas.Left="100" Canvas.Top="30" />
+                <local:CardImage Canvas.Left="125" Canvas.Top="30" />
+            </Canvas>
+
+            <Border x:Name="borDealerCount" Canvas.Left="265" Canvas.Top="20" CornerRadius="5" Padding="5" Opacity="0.0">
+                <Border.Background>
+                    <SolidColorBrush Opacity="0.5" Color="Black"/>
+                </Border.Background>
+                <TextBlock TextAlignment="Center" Opacity="1.0" x:Name="lblDealerCount" FontSize="23" Width="75" Height="31" Foreground="White" />
+            </Border>
+
+            <local:SelectorImage Opacity="0" Canvas.Top="120" Canvas.Left="345" x:Name="playerSelector"  />
+            <local:SelectorImage Opacity="0" Canvas.Top="65" Canvas.Left="90" x:Name="splitSelector" />
+
+            <local:PlayerHand x:Name="splitHand" Canvas.Left="15" Canvas.Top="130" />
+            <local:PlayerHand x:Name="playerHand" Canvas.Left="270" Canvas.Top="180"/>
+
+            <Grid x:Name="gridPlrResult" Canvas.Left="425" Canvas.Top="160" Opacity="0">
+                <Image x:Name="imgPlrResult" Source="/Assets/tab_win.png" Stretch="Uniform" Width="200" Height="60"/>
+                <TextBlock Width="180" TextAlignment="Center" x:Name="lblPlrResult" Margin="15,5,0,0" Text="Win!" FontSize="32" Foreground="Black" />
+            </Grid>
+            <Grid x:Name="gridSplitResult" Canvas.Left="145" Canvas.Top="100" Opacity="0">
+                <Image x:Name="imgSplitResult" Source="/Assets/tab_win.png" Stretch="Uniform" Width="200" Height="60"/>
+                <TextBlock Width="180" TextAlignment="Center" x:Name="lblSplitResult" Margin="15,5,0,0" Text="Win!" FontSize="32" Foreground="Black" />
+            </Grid>
+
+
+            <Grid Opacity="0" Background="Black" x:Name="gridAchievementComplete" Canvas.Left="0" Canvas.Top="0" Height="72" Width="800">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="48" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="48" />
+                    <ColumnDefinition Width="68" />
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="lblAchivementComplete" Grid.Column="0" Text="Achievement unlocked!" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Yellow" FontSize="22"/>
+                <Image Grid.Column="1" x:Name="imgAchievementComplete" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/achieve_x2.png" />
+                <TextBlock Grid.Column="2" x:Name="lblAchivementTitle" Text="Double Trouble" FontSize="30" Margin="20,0,0,0" Foreground="Yellow" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Image Grid.Column="3" x:Name="imgAchievementPoints" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/Assets/pts_20.png" />
+                <TextBlock Grid.Column="4" x:Name="lblAchivementPoints" Margin="10,0,0,0" Text="pts" FontSize="36" Foreground="Yellow" VerticalAlignment="Center"/>
+            </Grid>
+            <local:DollarImage Opacity="0" Canvas.Left="40" Canvas.Top="250" x:Name="dollarRed" />
+            <local:DollarImage Opacity="0" Canvas.Left="460" Canvas.Top="250" x:Name="dollarBlack" />
+            <local:DollarImage Opacity="0" Canvas.Left="180" Canvas.Top="250" x:Name="dollarBlue" />
+            <local:DollarImage Opacity="0" Canvas.Left="320" Canvas.Top="250" x:Name="dollarGreen" />
+
+
+            <Grid Opacity="0.7" Canvas.Top="336" Width="800" Grid.Row="1" x:Name="betBar" Background="Black" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="72"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Height="72" Orientation="Horizontal" >
+                    <local:TextButtonControl VerticalAlignment="Stretch" x:Name="btn25" Width="130" Margin="10,0,0,0" Text="$25" OnClick="btn25_OnClick" />
+                    <local:TextButtonControl VerticalAlignment="Stretch" x:Name="btn50" Width="130" Margin="10,0,0,0" Text="$50" OnClick="btn50_OnClick" />
+                    <local:TextButtonControl VerticalAlignment="Stretch" x:Name="btn100" Width="130" Margin="10,0,0,0" Text="$100" OnClick="btn100_OnClick" />
+                    <local:TextButtonControl VerticalAlignment="Stretch" x:Name="btn500" Width="130" Margin="10,0,0,0" Text="$500" OnClick="btn500_OnClick" />
+                    <local:TextButtonControl VerticalAlignment="Stretch" x:Name="btnReset" Width="150" Margin="10,0,0,0" Text="reset" OnClick="btnReset_OnClick"/>
+                </StackPanel>
+            </Grid>
+            <Grid Opacity="0.7" Canvas.Top="408" Width="800" Grid.Row="1" x:Name="mainMenu" Background="Black">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="72"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <local:TextButtonControl Grid.Column="0" VerticalAlignment="Stretch" x:Name="btnBet" Width="140" Margin="10,0,0,0" Text="bet" OnClick="btnBet_OnClick"/>
+                    <local:TextButtonControl Grid.Column="1" VerticalAlignment="Stretch" x:Name="btnDeal" Width="150" Margin="420,0,0,0" Text="deal" OnClick="Deal_Click" />
+                </StackPanel>
+            </Grid>
+            <Grid Opacity="0" Canvas.Top="408" Width="800" Grid.Row="1" VerticalAlignment="Bottom" x:Name="playBar" Background="Black" IsHitTestVisible="False">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="72"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Height="72" Orientation="Horizontal" >
+                    <local:TextButtonControl Width="130" VerticalAlignment="Stretch" x:Name="btnHit" Margin="10,0,0,0" Text="hit" OnClick="btnHit_OnClick" />
+                    <local:TextButtonControl Width="130" VerticalAlignment="Stretch" x:Name="btnStand" Margin="10,0,0,0" Text="stand" OnClick="btStand_OnClick" />
+                    <local:TextButtonControl Width="130" VerticalAlignment="Stretch" x:Name="btnSplit" Margin="10,0,0,0" Text="split" OnClick="btnSplit_OnClick" />
+                    <local:TextButtonControl Width="130" VerticalAlignment="Stretch" x:Name="btnDouble" Margin="10,0,0,0" Text="double" OnClick="btDouble_OnClick" />
+                    <local:TextButtonControl Width="130" VerticalAlignment="Stretch" x:Name="btnSurrender" Margin="10,0,0,0" Text="surrender" OnClick="btnSurrender_OnClick" />
+                </StackPanel>
+            </Grid>
+            
+            
+            
+        </Canvas>
+
+        <local:ImageButtonControl Opacity="0.7" x:Name="settingsButton1" VerticalAlignment="Bottom" Grid.Row="1" HorizontalAlignment="Right" Margin="0,0,0,12" OnClick="settingsButton1_OnClick" Width="100"/>
+    </Grid>
+</Page>

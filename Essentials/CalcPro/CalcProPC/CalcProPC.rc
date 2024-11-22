@@ -1,0 +1,4099 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourcepc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_MODAL DIALOGEX 0, 0, 187, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_MODAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_BASIC DIALOGEX 0, 0, 215, 198
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_CAPTION | WS_SYSMENU | WS_GROUP
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Calc Pro"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+END
+
+IDD_DLG_Child DIALOG  0, 0, 186, 90
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CONTROL | WS_POPUP
+FONT 8, "MS Shell Dlg"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DLG_BASIC, DIALOG
+    BEGIN
+        RIGHTMARGIN, 213
+    END
+
+    IDD_DLG_Child, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\0"
+END
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourcepc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""CalcPropc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CALCPRO             ICON                    "..\\CalcPro\\calcpro.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_Calculator MENU 
+BEGIN
+    MENUITEM "File",                        IDMENU_File
+    MENUITEM "View",                        IDMENU_View
+END
+
+IDR_MENU_Graph MENU 
+BEGIN
+    MENUITEM "Graph",                       IDMENU_Graph
+    MENUITEM "Reset",                       IDMENU_Reset
+END
+
+IDR_MENU_WSheet MENU 
+BEGIN
+    MENUITEM "Back",                        IDMENU_Back
+END
+
+IDR_MENU_OpenMenu MENU 
+BEGIN
+    MENUITEM "Open",                        IDMENU_Open
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+IDR_MENU_SaveMenu MENU 
+BEGIN
+    MENUITEM "Save",                        IDMENU_Save
+    MENUITEM "Cancel",                      IDMENU_Cancel
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TXT
+//
+
+IDR_TXT_BUTTON_BLUE     TXT                     "..\\CalcPro\\files\\btn-blue.ini"
+IDR_TXT_BUTTON_BLACK    TXT                     "..\\CalcPro\\files\\btn-black.ini"
+IDR_TXT_BUTTON_GREEN    TXT                     "..\\CalcPro\\files\\btn-green.ini"
+IDR_TXT_BUTTON_PINK     TXT                     "..\\CalcPro\\files\\btn-pink.ini"
+IDR_TXT_BUTTON_SILVER   TXT                     "..\\CalcPro\\files\\btn-silver.ini"
+IDR_TXT_BUTTON_BROWN    TXT                     "..\\CalcPro\\files\\btn-brown.ini"
+IDR_TXT_LAYOUTBASE      TXT                     "..\\CalcPro\\files\\layout_base.ini"
+IDR_TXT_LAYOUTSCI       TXT                     "..\\CalcPro\\files\\layout_sci.ini"
+IDR_TXT_LAYOUTSTANDARD  TXT                     "..\\CalcPro\\files\\layout_standard.ini"
+IDR_TXT_LAYOUTGRAPH     TXT                     "..\\CalcPro\\files\\layout_graph.ini"
+IDR_TXT_LAYOUTUNIT      TXT                     "..\\CalcPro\\files\\layout_unit.ini"
+IDR_TXT_LAYOUTSTATS     TXT                     "..\\CalcPro\\files\\layout_stats.ini"
+IDR_TXT_LAYOUTFINANCIAL TXT                     "..\\CalcPro\\files\\layout_financial.ini"
+IDR_TXT_LAYOUTSCIRPN    TXT                     "..\\CalcPro\\files\\layout_sci_rpn.ini"
+IDR_TXT_LAYOUTWSHEET    TXT                     "..\\CalcPro\\files\\layout_worksheet.ini"
+IDR_TXT_LAYOUTWSSTATS   TXT                     "..\\CalcPro\\files\\layout_wsstats.ini"
+IDR_TXT_LAYOUTDATE      TXT                     "..\\CalcPro\\files\\layout_timedate.ini"
+IDR_TXT_LAYOUTCONST     TXT                     "..\\CalcPro\\files\\layout_const.ini"
+IDR_TXT_CONSTANTS       TXT                     "..\\CalcPro\\files\\constants.txt"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDR_PNG_MenuBack        GIF                     "..\\CalcPro\\res\\group.png"
+IDR_PNG_MenuSelect      GIF                     "..\\CalcPro\\res\\select.png"
+IDR_PNG_MenuArray       GIF                     "..\\CalcPro\\res\\menu_array.png"
+IDR_PNG_MenuArrayVGA    GIF                     "..\\CalcPro\\res\\menu_array_vga.png"
+IDR_PNG_About           GIF                     "..\\CalcPro\\res\\about.png"
+IDR_PNG_MenuBar         GIF                     "..\\CalcPro\\res\\bar_400.png"
+IDR_PNG_MenuBarBlue     GIF                     "..\\CalcPro\\res\\bar_400blue.png"
+IDR_PNG_MenuBarPink     GIF                     "..\\CalcPro\\res\\bar_400pink.png"
+IDR_PNG_MenuBarSteel    GIF                     "..\\CalcPro\\res\\bar_400steel.png"
+IDR_PNG_MenuIcons       GIF                     "..\\CalcPro\\res\\icons_sm.png"
+IDR_PNG_MenuIconsVGA    GIF                     "..\\CalcPro\\res\\icons_lg.png"
+IDR_PNG_Button          GIF                     "..\\CalcPro\\res\\incoming_btn.png"
+IDR_PNG_IconsVGA        GIF                     "..\\CalcPro\\res\\Icons_VGA.png"
+IDR_PNG_Icons           GIF                     "..\\CalcPro\\res\\Icons_qvga.png"
+IDR_PNG_BuyButtonVGA    GIF                     "..\\CalcPro\\res\\buy_vga.png"
+IDR_PNG_BuyButton       GIF                     "..\\CalcPro\\res\\buy_qvga.png"
+IDR_PNG_MenuGlowVGA     GIF                     "..\\CalcPro\\res\\glow_vga.png"
+IDR_PNG_MenuGlow        GIF                     "..\\CalcPro\\res\\glow.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Panoramic Calc Pro"
+    IDS_MSG_DemoOverShort   "We hope you enjoyed using Panoramic Calc Pro, your trial has now expired."
+    IDC_Calc                "Calc"
+    IDS_MENU_MoreApps       "More Apps..."
+    IDS_TITLE_DateCalculator "Date Calculator"
+    IDS_TITLE_Depreciation  "Depreciation"
+    IDS_TITLE_CompoundInterest "Compound Interest"
+    IDS_TITLE_BreakEvenSales "Break Even Sales"
+    IDS_TITLE_LoanCalculator "Loan Calculator"
+    IDS_TITLE_Worksheet     "Worksheet"
+    IDS_TITLE_Mortgage      "Mortgage - "
+    IDS_TITLE_PercentChange "Percent Change"
+    IDS_TITLE_ProfitMargin  "Profit Margin"
+    IDS_TITLE_TipCalculator "Tip Calculator"
+    IDS_TITLE_TVM           "Time Value Money"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator     "Calculator"
+    IDS_MENU_General        "General"
+    IDS_MENU_On             "On"
+    IDS_MENU_Off            "Off"
+    IDS_MENU_SaveGraph      "Save Bitmap"
+    IDS_MENU_Open           "Open"
+    IDS_MENU_CalcProGraph   "Calc Pro Graph"
+    IDS_MENU_ViewTape       "View Tape..."
+    IDS_MENU_Quiet          "Quiet"
+    IDS_MENU_Ok             "OK"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies "Update Currencies"
+    IDS_MENU_Graph          "Graph"
+    IDS_MENU_File           "File"
+    IDS_MENU_AboutCalcPro   "About Calc Pro"
+    IDS_MENU_About2         "About"
+    IDS_MENU_Options        "Options..."
+    IDS_MENU_Options2       "Options"
+    IDS_MENU_CalcProOptions "Calc Pro Options"
+    IDS_MENU_RPNStack       "RPN Stack"
+    IDS_MENU_ConstantFavorites "Favorite Constants"
+    IDS_MENU_Group          "Group"
+    IDS_MENU_Recent         "Recent"
+    IDS_MENU_FullList       "Full list"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel         "Cancel"
+    IDS_MENU_Graphing       "Graphing"
+    IDS_MENU_Unit           "Unit Converter"
+    IDS_MENU_Currency       "World Currencies"
+    IDS_MENU_DateTime       "Date and Time"
+    IDS_MENU_Translate      "Translate Graph"
+    IDS_MENU_ZoomOut        "Zoom Out"
+    IDS_MENU_ZoomIn         "Zoom In"
+    IDS_MENU_Reset          "Reset"
+    IDS_MENU_Mode           "Mode"
+    IDS_MENU_PointOnGraph   "Point on Graph"
+    IDS_MENU_CenterGraph    "Center on Graph"
+    IDS_MENU_Zoom           "Select and Zoom"
+    IDS_MENU_Constants      "Constants"
+    IDS_MENU_Back           "Back"
+    IDS_MENU_Stats          "Statistics"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit           "Exit"
+    IDS_MENU_About          "About..."
+    IDS_MENU_Help           "Help..."
+    IDS_MENU_Edit           "Edit"
+    IDS_MENU_Copy           "Copy"
+    IDS_MENU_Paste          "Paste"
+    IDS_MENU_View           "View"
+    IDS_MENU_Standard       "Standard"
+    IDS_MENU_BaseConv       "Base Conversions"
+    IDS_MENU_Financial      "Financial"
+    IDS_MENU_Menu           "Menu"
+    IDS_MENU_Save           "Save"
+    IDS_MENU_ZoomNormal     "Normal (XY)"
+    IDS_MENU_ZoomX          "X Only"
+    IDS_MENU_ZoomY          "Y Only"
+    IDS_MENU_ZoomMode       "Zoom Mode"
+    IDS_MENU_SelectGraph    "Select Graph"
+    IDS_MENU_FitToData      "Fit to data"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver        "We hope you enjoyed using Panoramic Calc Pro, your trial has now expired.\r\n\r\nTo purchase: please return to the website that provided the trial software."
+    IDS_MSG_About           "Panoramic Calc Pro\r\n%s 2.9.2\r\nCopyright 2007-2012\r\nAll rights reserved\r\n\r\n"
+    IDS_MSG_TrialExpired    "Trial Expired"
+    IDS_MSG_Memory          "Memory%i: %s\r\n"
+    IDS_MSG_Memory2         "Memory: %s"
+    IDS_MSG_CalcProMemory   "Calc Pro Memory"
+    IDS_MSG_Connecting      "Connecting ..."
+    IDS_MSG_Updated         "Updated: %s"
+    IDS_MSG_FileExists      "File already exists.  Would you like to overwrite?"
+    IDS_MSG_Warning         "Warning"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro       "Calc Pro - "
+    IDS_ERROR_IndexRange    "Index out of range"
+    IDS_ERROR_PleaseContact "Please Contact Panoramic Software Inc"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout          "Calc Pro layout"
+    IDS_OPT_QWERTY          "QWERTY"
+    IDS_OPT_QWERTZ          "QWERTZ"
+    IDS_OPT_AZERTY          "AZERTY"
+    IDS_OPT_A               "Numbers start at A"
+    IDS_OPT_Q               "Numbers start at Q"
+    IDS_OPT_Z               "Numbers start at Z"
+    IDS_OPT_W               "Numbers start at W"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E               "Numbers start at E"
+    IDS_OPT_R               "Numbers start at R"
+    IDS_OPT_T               "Numbers start at T"
+    IDS_OPT_Normal          "Normal"
+    IDS_OPT_NormalWide      "Normal (wide)"
+    IDS_OPT_Small           "Small"
+    IDS_OPT_SmallWide       "Small (wide)"
+    IDS_OPT_Large           "Large"
+    IDS_OPT_LargeWide       "Large (wide)"
+    IDS_OPT_Monthly         "Monthly"
+    IDS_OPT_MonthlyAccel    "Monthly Accel"
+    IDS_OPT_BiWeekly        "Bi-Weekly"
+    IDS_OPT_BiWeeklyAccel   "Bi-Weekly Accel"
+    IDS_OPT_Weekly          "Weekly"
+    IDS_OPT_WeeklyAccel     "Weekly Accel"
+    IDS_OPT_SemiMonthly     "Semi Monthly"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel "Semi Monthly Accel"
+    IDS_OPT_BiMonthly       "Bi-Monthly"
+    IDS_OPT_BiMonthlyAccel  "Bi-Monthly Accel"
+    IDS_OPT_Fixed           "Fixed"
+    IDS_OPT_Scientific      "Scientific"
+    IDS_OPT_Engineering     "Engineering"
+    IDS_OPT_Fractions       "Fractions"
+    IDS_OPT_BinaryDec       "Binary Dec"
+    IDS_OPT_Algebraic       "Algebraic"
+    IDS_OPT_DirectAlgebraic "Direct Algebraic"
+    IDS_OPT_RPN             "R.P.N."
+    IDS_OPT_Expression      "Expression"
+    IDS_OPT_RegionalSettings "Use regional settings:"
+    IDS_OPT_PlaySounds      "Play sounds:"
+    IDS_OPT_RecordTape      "Record tape:"
+    IDS_OPT_AdvancedMemory  "Advanced memory:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_CalculatorMode  "Calculator mode:"
+    IDS_OPT_Notation        "Notation:"
+    IDS_OPT_ConversionBuffer "Conversion buffer:"
+    IDS_OPT_RPNStackSize    "RPN stack size:"
+    IDS_OPT_Skin            "Skin:"
+    IDS_OPT_FixedDigits     "Fixed digits:"
+    IDS_OPT_FastGraphing    "Fast graphing:"
+    IDS_OPT_ShowPointsOnly  "Show points only:"
+    IDS_OPT_EndPeriodPayments "End period payments (TVM):"
+    IDS_OPT_PaymentSched    "Payment Sched. (Mort):"
+    IDS_OPT_CalculatorSize  "Calculator size:"
+    IDS_OPT_KeyboardType    "Keyboard type:"
+    IDS_OPT_1Key            "Location of 1 key:"
+    IDS_OPT_KeyboardLetters "Show keyboard letters:"
+    IDS_OPT_FRAC            "FRAC"
+    IDS_OPT_ENG             "ENG"
+    IDS_OPT_Fullscreen      "Use full screen:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price          "Price"
+    IDS_INFO_SalesTax       "Sales Tax"
+    IDS_INFO_OtherFees      "Other Fees"
+    IDS_INFO_DownPayment    "Down payment"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn        "Trade in"
+    IDS_INFO_NumberOfMonths "Number of months"
+    IDS_INFO_InterestRate   "Interest rate"
+    IDS_INFO_MonthlyPayment "Monthly payment"
+    IDS_INFO_TotalInterest  "Total interest"
+    IDS_INFO_TotalRepaid    "Total repaid"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life           "Life"
+    IDS_INFO_StartMonth     "Start Month"
+    IDS_INFO_StartYear      "Start Year"
+    IDS_INFO_StartDay       "Start Day"
+    IDS_INFO_Salary         "Salvage Value"
+    IDS_INFO_Year           "Year"
+    IDS_INFO_Depreciation   "Depreciation"
+    IDS_INFO_Cost           "Cost"
+    IDS_INFO_RBVal          "Remaing book value"
+    IDS_INFO_RDVal          "Remaing depreciable value"
+    IDS_INFO_EndYear        "End Year"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth       "End Month"
+    IDS_INFO_EndDay         "End Day"
+    IDS_INFO_Difference     "Difference"
+    IDS_INFO_Diff360        "Diff. 360"
+    IDS_INFO_Periods        "# of Periods"
+    IDS_INFO_StartValue     "Start Value"
+    IDS_INFO_FinalValue     "Final Value"
+    IDS_INFO_Profit         "Profit"
+    IDS_INFO_FixedCost      "Fixed Cost"
+    IDS_INFO_VarCost        "Var. Cost"
+    IDS_INFO_Quantity       "Quantity"
+    IDS_INFO_Terms          "Terms (years)"
+    IDS_INFO_MonthlyFees    "Monthly fees"
+    IDS_INFO_TotalPayments  "Total payments"
+    IDS_INFO_Principal      "Principal"
+    IDS_INFO_PeriodsYear    "Periods / Year"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue    "Metallic blue"
+    IDS_OPT_MidnightBlack   "Midnight black"
+    IDS_OPT_WirelessGreen   "Wireless green"
+    IDS_OPT_GlamPink        "Glam pink"
+    IDS_OPT_BlueSteel       "Blue Steel"
+    IDS_OPT_Brown           "Brown"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate    "Nominal Rate"
+    IDS_INFO_EffectiveRate  "Effective Rate"
+    IDS_INFO_PowerRegression "Power Regression"
+    IDS_INFO_LogRegression  "Log Regression"
+    IDS_INFO_ExpRegression  "Exp. Regression"
+    IDS_INFO_LinearRegression "Linear Regression"
+    IDS_INFO_BillAmount     "Bill Amount"
+    IDS_INFO_TipPercent     "Tip Percent"
+    IDS_INFO_NumPeople      "Num. People"
+    IDS_INFO_TipAmount      "Tip Amount"
+    IDS_INFO_TotalPer       "Total per Per."
+    IDS_INFO_BillTotal      "Bill Total"
+    IDS_INFO_NumTerms       "Num. Terms"
+    IDS_INFO_InterestYear   "Interest/Year"
+    IDS_INFO_PresentValue   "Present Value"
+    IDS_INFO_Payment        "Payment"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX        "Mean of X"
+    IDS_CALC_DevOfX         "Deviation of X"
+    IDS_CALC_MeanOfY        "Mean of Y"
+    IDS_CALC_DevOfY         "Deviation of Y"
+    IDS_CALC_Equation       "Equation:"
+    IDS_CALC_YIntercept     "Y Intercept (a)"
+    IDS_CALC_Slope          "Slope (b)"
+    IDS_CALC_Regression     "Regression (r)"
+    IDS_CALC_Determination  "Determination(r²)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile      "Error - Unable to open file."
+    IDS_ERROR_CalcPro       "Calc Pro"
+    IDS_ERROR_Error         "Error"
+    IDS_ERROR_UnableToConnect "Unable to connect"
+    IDS_ERROR_FileDoesNotExist "File does not exist"
+    IDS_INFO_RetailVersion  "Retail Version"
+    IDS_INFO_DemoDays       "Demo [%i Day(s)]"
+    IDS_INFO_Expired        "Expired"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue    "Future Value"
+    IDS_INFO_PaymentsYear   "Payments/Year"
+    IDS_INFO_CompYear       "Comp./Year"
+    IDS_INFO_BidAsk         "bid:%s ask:%s"
+    IDS_INFO_Bid            "bid:%s"
+    IDS_INFO_Ask            "ask:%s"
+    IDS_INFO_Name           "Name:"
+    IDS_INFO_Type           "Type:"
+    IDS_INFO_MyDevice       "My Device"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp             "Hyp"
+    IDS_BTN_Binary          "BIN"
+    IDS_BTN_Octal           "OCT"
+    IDS_BTN_Hex             "HEX"
+    IDS_BTN_Decimal         "DEC"
+    IDS_BTN_Degrees         "DEG"
+    IDS_BTN_Radians         "RAD"
+    IDS_BTN_Grad            "GRAD"
+    IDS_BTN_SecondFunction  "2ndF"
+    IDS_BTN_From            "From"
+    IDS_BTN_To              "To"
+    IDS_BTN_Update          "Update"
+    IDS_BTN_Calc            "Calc"
+    IDS_BTN_Conversion      "Conversion"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days           "Days"
+    IDS_DATE_Hours          "Hours"
+    IDS_DATE_Min            "Min"
+    IDS_DATE_Sec            "Sec"
+    IDS_DATE_Start          "Start Date/Time"
+    IDS_DATE_Interval       "Date/Time Interval"
+    IDS_DATE_End            "End Date/Time"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile       "Open File"
+    IDS_MENU_SaveFile       "Save File"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_CH        "4"
+	IDS_MSG_DemoOverShort_CH "4"
+    IDS_MENU_MoreApps_CH    "4"
+    IDS_TITLE_DateCalculator_CH "4"
+    IDS_TITLE_Depreciation_CH "4"
+    IDS_TITLE_CompoundInterest_CH "4"
+    IDS_TITLE_BreakEvenSales_CH "4"
+    IDS_TITLE_LoanCalculator_CH "4"
+    IDS_TITLE_Worksheet_CH  "4"
+    IDS_TITLE_Mortgage_CH   "4"
+    IDS_TITLE_PercentChange_CH "4"
+    IDS_TITLE_ProfitMargin_CH "4"
+    IDS_TITLE_TipCalculator_CH "4"
+    IDS_TITLE_TVM_CH        "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_CH  "4"
+    IDS_MENU_General_CH     "4"
+    IDS_MENU_On_CH          "4"
+    IDS_MENU_Off_CH         "4"
+    IDS_MENU_SaveGraph_CH   "4"
+    IDS_MENU_Open_CH        "4"
+    IDS_MENU_CalcProGraph_CH "4"
+    IDS_MENU_ViewTape_CH    "4"
+    IDS_MENU_Quiet_CH       "4"
+    IDS_MENU_Ok_CH          "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies_CH "4"
+    IDS_MENU_Graph_CH       "4"
+    IDS_MENU_File_CH        "4"
+    IDS_MENU_AboutCalcPro_CH "4"
+    IDS_MENU_About2_CH      "4"
+    IDS_MENU_Options_CH     "4"
+    IDS_MENU_Options2_CH    "4"
+    IDS_MENU_CalcProOptions_CH "4"
+    IDS_MENU_RPNStack_CH    "4"
+    IDS_MENU_ConstantFavorites_CH "4"
+    IDS_MENU_Group_CH       "4"
+    IDS_MENU_Recent_CH      "4"
+    IDS_MENU_FullList_CH    "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel_CH      "4"
+    IDS_MENU_Graphing_CH    "4"
+    IDS_MENU_Unit_CH        "4"
+    IDS_MENU_Currency_CH    "4"
+    IDS_MENU_DateTime_CH    "4"
+    IDS_MENU_Translate_CH   "4"
+    IDS_MENU_ZoomOut_CH     "4"
+    IDS_MENU_ZoomIn_CH      "4"
+    IDS_MENU_Reset_CH       "4"
+    IDS_MENU_Mode_CH        "4"
+    IDS_MENU_PointOnGraph_CH "4"
+    IDS_MENU_CenterGraph_CH "4"
+    IDS_MENU_Zoom_CH        "4"
+    IDS_MENU_Constants_CH   "4"
+    IDS_MENU_Back_CH        "4"
+    IDS_MENU_Stats_CH       "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit_CH        "4"
+    IDS_MENU_About_CH       "4"
+    IDS_MENU_Help_CH        "4"
+    IDS_MENU_Edit_CH        "4"
+    IDS_MENU_Copy_CH        "4"
+    IDS_MENU_Paste_CH       "4"
+    IDS_MENU_View_CH        "4"
+    IDS_MENU_Standard_CH    "4"
+    IDS_MENU_BaseConv_CH    "4"
+    IDS_MENU_Financial_CH   "4"
+    IDS_MENU_Menu_CH        "4"
+    IDS_MENU_Save_CH        "4"
+    IDS_MENU_ZoomNormal_CH  "4"
+    IDS_MENU_ZoomX_CH       "4"
+    IDS_MENU_ZoomY_CH       "4"
+    IDS_MENU_ZoomMode_CH    "4"
+    IDS_MENU_SelectGraph_CH "4"
+    IDS_MENU_FitToData_CH   "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver_CH     "4"
+    IDS_MSG_About_CH        "4"
+    IDS_MSG_TrialExpired_CH "4"
+    IDS_MSG_Memory_CH       "4"
+    IDS_MSG_Memory2_CH      "4"
+    IDS_MSG_CalcProMemory_CH "4"
+    IDS_MSG_Connecting_CH   "4"
+    IDS_MSG_Updated_CH      "4"
+    IDS_MSG_FileExists_CH   "4"
+    IDS_MSG_Warning_CH      "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro_CH    "4"
+    IDS_ERROR_IndexRange_CH "4"
+    IDS_ERROR_PleaseContact_CH "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_CH       "4"
+    IDS_OPT_QWERTY_CH       "4"
+    IDS_OPT_QWERTZ_CH       "4"
+    IDS_OPT_AZERTY_CH       "4"
+    IDS_OPT_A_CH            "4"
+    IDS_OPT_Q_CH            "4"
+    IDS_OPT_Z_CH            "4"
+    IDS_OPT_W_CH            "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E_CH            "4"
+    IDS_OPT_R_CH            "4"
+    IDS_OPT_T_CH            "4"
+    IDS_OPT_Normal_CH       "4"
+    IDS_OPT_NormalWide_CH   "4"
+    IDS_OPT_Small_CH        "4"
+    IDS_OPT_SmallWide_CH    "4"
+    IDS_OPT_Large_CH        "4"
+    IDS_OPT_LargeWide_CH    "4"
+    IDS_OPT_Monthly_CH      "4"
+    IDS_OPT_MonthlyAccel_CH "4"
+    IDS_OPT_BiWeekly_CH     "4"
+    IDS_OPT_BiWeeklyAccel_CH "4"
+    IDS_OPT_Weekly_CH       "4"
+    IDS_OPT_WeeklyAccel_CH  "4"
+    IDS_OPT_SemiMonthly_CH  "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel_CH "4"
+    IDS_OPT_BiMonthly_CH    "4"
+    IDS_OPT_BiMonthlyAccel_CH "4"
+    IDS_OPT_Fixed_CH        "4"
+    IDS_OPT_Scientific_CH   "4"
+    IDS_OPT_Engineering_CH  "4"
+    IDS_OPT_Fractions_CH    "4"
+    IDS_OPT_BinaryDec_CH    "4"
+    IDS_OPT_Algebraic_CH    "4"
+    IDS_OPT_DirectAlgebraic_CH "4"
+    IDS_OPT_RPN_CH          "4"
+    IDS_OPT_Expression_CH   "4"
+    IDS_OPT_RegionalSettings_CH "4"
+    IDS_OPT_PlaySounds_CH   "4"
+    IDS_OPT_RecordTape_CH   "4"
+    IDS_OPT_AdvancedMemory_CH "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_CalculatorMode_CH "4"
+    IDS_OPT_Notation_CH     "4"
+    IDS_OPT_ConversionBuffer_CH "4"
+    IDS_OPT_RPNStackSize_CH "4"
+    IDS_OPT_Skin_CH         "4"
+    IDS_OPT_FixedDigits_CH  "4"
+    IDS_OPT_FastGraphing_CH "4"
+    IDS_OPT_ShowPointsOnly_CH "4"
+    IDS_OPT_EndPeriodPayments_CH "4"
+    IDS_OPT_PaymentSched_CH "4"
+    IDS_OPT_CalculatorSize_CH "4"
+    IDS_OPT_KeyboardType_CH "4"
+    IDS_OPT_1Key_CH         "4"
+    IDS_OPT_KeyboardLetters_CH "4"
+    IDS_OPT_FRAC_CH         "4"
+    IDS_OPT_ENG_CH          "4"
+    IDS_OPT_Fullscreen_CH   "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_CH       "4"
+    IDS_INFO_SalesTax_CH    "4"
+    IDS_INFO_OtherFees_CH   "4"
+    IDS_INFO_DownPayment_CH "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn_CH     "4"
+    IDS_INFO_NumberOfMonths_CH "4"
+    IDS_INFO_InterestRate_CH "4"
+    IDS_INFO_MonthlyPayment_CH "4"
+    IDS_INFO_TotalInterest_CH "4"
+    IDS_INFO_TotalRepaid_CH "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_CH        "4"
+    IDS_INFO_StartMonth_CH  "4"
+    IDS_INFO_StartYear_CH   "4"
+    IDS_INFO_StartDay_CH    "4"
+    IDS_INFO_Salary_CH      "4"
+    IDS_INFO_Year_CH        "4"
+    IDS_INFO_Depreciation_CH "4"
+    IDS_INFO_Cost_CH        "4"
+    IDS_INFO_RBVal_CH       "4"
+    IDS_INFO_RDVal_CH       "4"
+    IDS_INFO_EndYear_CH     "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth_CH    "4"
+    IDS_INFO_EndDay_CH      "4"
+    IDS_INFO_Difference_CH  "4"
+    IDS_INFO_Diff360_CH     "4"
+    IDS_INFO_Periods_CH     "4"
+    IDS_INFO_StartValue_CH  "4"
+    IDS_INFO_FinalValue_CH  "4"
+    IDS_INFO_Profit_CH      "4"
+    IDS_INFO_FixedCost_CH   "4"
+    IDS_INFO_VarCost_CH     "4"
+    IDS_INFO_Quantity_CH    "4"
+    IDS_INFO_Terms_CH       "4"
+    IDS_INFO_MonthlyFees_CH "4"
+    IDS_INFO_TotalPayments_CH "4"
+    IDS_INFO_Principal_CH   "4"
+    IDS_INFO_PeriodsYear_CH "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_CH "4"
+    IDS_OPT_MidnightBlack_CH "4"
+    IDS_OPT_WirelessGreen_CH "4"
+    IDS_OPT_GlamPink_CH     "4"
+    IDS_OPT_BlueSteel_CH    "4"
+    IDS_OPT_Brown_CH        "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate_CH "4"
+    IDS_INFO_EffectiveRate_CH "4"
+    IDS_INFO_PowerRegression_CH "4"
+    IDS_INFO_LogRegression_CH "4"
+    IDS_INFO_ExpRegression_CH "4"
+    IDS_INFO_LinearRegression_CH "4"
+    IDS_INFO_BillAmount_CH  "4"
+    IDS_INFO_TipPercent_CH  "4"
+    IDS_INFO_NumPeople_CH   "4"
+    IDS_INFO_TipAmount_CH   "4"
+    IDS_INFO_TotalPer_CH    "4"
+    IDS_INFO_BillTotal_CH   "4"
+    IDS_INFO_NumTerms_CH    "4"
+    IDS_INFO_InterestYear_CH "4"
+    IDS_INFO_PresentValue_CH "4"
+    IDS_INFO_Payment_CH     "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_CH     "4"
+    IDS_CALC_DevOfX_CH      "4"
+    IDS_CALC_MeanOfY_CH     "4"
+    IDS_CALC_DevOfY_CH      "4"
+    IDS_CALC_Equation_CH    "4"
+    IDS_CALC_YIntercept_CH  "4"
+    IDS_CALC_Slope_CH       "4"
+    IDS_CALC_Regression_CH  "4"
+    IDS_CALC_Determination_CH "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile_CH   "4"
+    IDS_ERROR_CalcPro_CH    "4"
+    IDS_ERROR_Error_CH      "4"
+    IDS_ERROR_UnableToConnect_CH "4"
+    IDS_ERROR_FileDoesNotExist_CH "4"
+    IDS_INFO_RetailVersion_CH "4"
+    IDS_INFO_DemoDays_CH    "4"
+    IDS_INFO_Expired_CH     "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue_CH "4"
+    IDS_INFO_PaymentsYear_CH "4"
+    IDS_INFO_CompYear_CH    "4"
+    IDS_INFO_BidAsk_CH      "4"
+    IDS_INFO_Bid_CH         "4"
+    IDS_INFO_Ask_CH         "4"
+    IDS_INFO_Name_CH        "4"
+    IDS_INFO_Type_CH        "4"
+    IDS_INFO_MyDevice_CH    "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_CH          "4"
+    IDS_BTN_Binary_CH       "4"
+    IDS_BTN_Octal_CH        "4"
+    IDS_BTN_Hex_CH          "4"
+    IDS_BTN_Decimal_CH      "4"
+    IDS_BTN_Degrees_CH      "4"
+    IDS_BTN_Radians_CH      "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Grad_CH         "4"
+    IDS_BTN_SecondFunction_CH "4"
+    IDS_BTN_From_CH         "4"
+    IDS_BTN_To_CH           "4"
+    IDS_BTN_Update_CH       "4"
+    IDS_BTN_Calc_CH         "4"
+    IDS_BTN_Conversion_CH   "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_CH        "4"
+    IDS_DATE_Hours_CH       "4"
+    IDS_DATE_Min_CH         "4"
+    IDS_DATE_Sec_CH         "4"
+    IDS_DATE_Start_CH       "4"
+    IDS_DATE_Interval_CH    "4"
+    IDS_DATE_End_CH         "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile_CH    "4"
+    IDS_MENU_SaveFile_CH    "4"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_DE        "Panoramic CalcPro"
+	IDS_MSG_DemoOverShort_DE "Vielen Dank für den Test von Panoramic Calc Pro. Die Testperiode ist nun abgelaufen."
+    IDS_MENU_MoreApps_DE    "Mehr Apps..."
+    IDS_TITLE_DateCalculator_DE "Datum-Rechner"
+    IDS_TITLE_Depreciation_DE "Abschreibung"
+    IDS_TITLE_CompoundInterest_DE "Zinseszins"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_BreakEvenSales_DE "7"
+    IDS_TITLE_LoanCalculator_DE "Kredit-Rechner"
+    IDS_TITLE_Worksheet_DE  "Arbeitsblatt"
+    IDS_TITLE_Mortgage_DE   "Hypothek - "
+    IDS_TITLE_PercentChange_DE "Prozentuale Veränderung"
+    IDS_TITLE_ProfitMargin_DE "Gewinnspanne"
+    IDS_TITLE_TipCalculator_DE "Tipp-Rechner"
+    IDS_TITLE_TVM_DE        "7"
+    IDS_TITLE_CalcPro_DE    "Panoramic CalcPro - "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_DE  "Rechner"
+    IDS_MENU_General_DE     "Allgemeine"
+    IDS_MENU_On_DE          "An"
+    IDS_MENU_Off_DE         "Aus"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_SaveGraph_DE   "Speichern von Graphen"
+    IDS_MENU_Open_DE        "Offen"
+    IDS_MENU_CalcProGraph_DE "Graph"
+    IDS_MENU_ViewTape_DE    "Papier"
+    IDS_MENU_Quiet_DE       "Ruhige"
+    IDS_MENU_Ok_DE          "OK"
+    IDS_MENU_Exit_DE        "Ende"
+    IDS_MENU_About_DE       "Über..."
+    IDS_MENU_Help_DE        "Hilfe..."
+    IDS_MENU_Edit_DE        "Bearbeiten"
+    IDS_MENU_Copy_DE        "Kopieren"
+    IDS_MENU_Paste_DE       "Einfügen"
+    IDS_MENU_View_DE        "Anzeigen"
+    IDS_MENU_Standard_DE    "Standard"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Reset_DE       "Zurücksetzen"
+    IDS_MENU_Mode_DE        "Modus"
+    IDS_MENU_PointOnGraph_DE "Speicherort"
+    IDS_MENU_CenterGraph_DE "Center"
+    IDS_MENU_Zoom_DE        "Auswählen und Zoom"
+    IDS_MENU_Constants_DE   "Konstanten"
+    IDS_MENU_Back_DE        "Zurück"
+    IDS_MENU_Stats_DE       "Statistik"
+    IDS_MENU_UpdateCurrencies_DE "Aktualisierung Währungen"
+    IDS_MENU_Graph_DE       "Graph"
+    IDS_MENU_File_DE        "Datei"
+    IDS_MENU_AboutCalcPro_DE "Über Calc Pro"
+    IDS_MENU_About2_DE      "Über"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_DE     "Optionen..."
+    IDS_MENU_Options2_DE    "Optionen"
+    IDS_MENU_CalcProOptions_DE "Calc Pro-Optionen"
+    IDS_MENU_RPNStack_DE    "RPN männlich"
+    IDS_MENU_ConstantFavorites_DE "Favoriten"
+    IDS_MENU_Group_DE       "Gruppe"
+    IDS_MENU_Recent_DE      "Kürzlich"
+    IDS_MENU_FullList_DE    "Vollständige Liste"
+    IDS_MENU_OpenFile_DE    "Datei öffnen"
+    IDS_MENU_SaveFile_DE    "Datei speichern"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_BaseConv_DE    "Basis Conversion"
+    IDS_MENU_Financial_DE   "Finanziell"
+    IDS_MENU_Menu_DE        "Menü"
+    IDS_MENU_Save_DE        "Sparen"
+    IDS_MENU_ZoomNormal_DE     "Normal (XY)"
+    IDS_MENU_ZoomX_DE          "X nur"
+    IDS_MENU_ZoomY_DE          "Y nur"
+    IDS_MENU_ZoomMode_DE       "Zoomem Modus"
+    IDS_MENU_SelectGraph_DE    "Wählen Sie Graph"
+    IDS_MENU_FitToData_DE      "7"
+    IDS_MENU_Cancel_DE      "Stornieren"
+    IDS_MENU_Graphing_DE    "Graph"
+    IDS_MENU_Unit_DE        "Einheit"
+    IDS_MENU_Currency_DE    "Welt Währungen"
+    IDS_MENU_DateTime_DE    "Datum und Uhrzeit"
+    IDS_MENU_Translate_DE   "Verschieben"
+    IDS_MENU_ZoomOut_DE     "Verkleinern"
+    IDS_MENU_ZoomIn_DE      "Zoomen"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_RetailVersion_DE "Einzelhandel"
+    IDS_INFO_DemoDays_DE    "Studie [%i Tag(e)]"
+    IDS_INFO_Expired_DE     "Abgelaufen"
+    IDS_MSG_DemoOver_DE     "Ihre Testversion ist abgelaufen"
+    IDS_MSG_About_DE        "Panoramic Calc Pro\r\n%s 2.9.2\r\nCopyright 2007-2012\r\nAlle Rechte vorbehalten\r\n\r\n"
+    IDS_MSG_TrialExpired_DE "Ihre Testversion ist abgelaufen"
+    IDS_MSG_Memory_DE       "Speicher%i: %s\r\n"
+    IDS_MSG_Memory2_DE      "Speicher: %s"
+    IDS_MSG_CalcProMemory_DE "Calc Pro Speicher"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_Connecting_DE   "Anschließen ..."
+    IDS_MSG_Updated_DE      "Aktualisiert: %s"
+    IDS_MSG_FileExists_DE   "Datei existiert bereits. Möchten Sie überschreiben?"
+    IDS_MSG_Warning_DE      "Warnung"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_IndexRange_DE "Index außerhalb des gültigen Bereichs"
+    IDS_ERROR_PleaseContact_DE "Bitte kontaktieren Sie Panoramic Software Inc"
+    IDS_ERROR_OpenFile_DE   "Fehler - Kann Datei nicht öffnen."
+    IDS_ERROR_CalcPro_DE    "Calc Pro"
+    IDS_ERROR_Error_DE      "Fehler"
+    IDS_ERROR_UnableToConnect_DE "Verbindung fehlgeschlagen"
+    IDS_ERROR_FileDoesNotExist_DE "Die Datei existiert nicht"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_DE       "Layout"
+    IDS_OPT_QWERTY_DE       "QWERTY"
+    IDS_OPT_QWERTZ_DE       "QWERTZ"
+    IDS_OPT_AZERTY_DE       "AZERTY"
+    IDS_OPT_A_DE            "Nummern Beginnen Bei A"
+    IDS_OPT_Q_DE            "Nummern Beginnen Bei Q"
+    IDS_OPT_Z_DE            "Nummern Beginnen Bei Z"
+    IDS_OPT_W_DE            "Nummern Beginnen Bei W"
+    IDS_OPT_E_DE            "Nummern Beginnen Bei E"
+    IDS_OPT_R_DE            "Nummern Beginnen Bei R"
+    IDS_OPT_T_DE            "Nummern Beginnen Bei T"
+    IDS_OPT_Normal_DE       "Normal"
+    IDS_OPT_NormalWide_DE   "Normale Breite"
+    IDS_OPT_Small_DE        "Klein"
+    IDS_OPT_SmallWide_DE    "Klein (Breit)"
+    IDS_OPT_Large_DE        "Groß"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_LargeWide_DE    "Groß (Breit)"
+    IDS_OPT_Monthly_DE      "Monatlich"
+    IDS_OPT_MonthlyAccel_DE "Monatlich Accel"
+    IDS_OPT_BiWeekly_DE     "Zweiwöchentlich"
+    IDS_OPT_BiWeeklyAccel_DE "Zweiwöchentlich Accel"
+    IDS_OPT_Weekly_DE       "Wöchentlich"
+    IDS_OPT_WeeklyAccel_DE  "Wöchentlich Accel"
+    IDS_OPT_SemiMonthly_DE  "Halbmonatlich"
+    IDS_OPT_SemiMonthlyAccel_DE "Halbmonatlich Accel"
+    IDS_OPT_BiMonthly_DE    "Zweimonatlich"
+    IDS_OPT_BiMonthlyAccel_DE "Zweimonatlich Accel"
+    IDS_OPT_Fixed_DE        "Fest"
+    IDS_OPT_Scientific_DE   "Wissenschaftlich"
+    IDS_OPT_Engineering_DE  "Maschinenbau"
+    IDS_OPT_Fractions_DE    "Fraktionen"
+    IDS_OPT_BinaryDec_DE    "Binäre"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Algebraic_DE    "Algebraisch"
+    IDS_OPT_DirectAlgebraic_DE "Direkte Algebraische"
+    IDS_OPT_RPN_DE          "R.P.N"
+    IDS_OPT_Expression_DE   "Gleichung"
+    IDS_OPT_RegionalSettings_DE "Benutze Regionale:"
+    IDS_OPT_PlaySounds_DE   "Ton abspielen:"
+    IDS_OPT_RecordTape_DE   "7"
+    IDS_OPT_AdvancedMemory_DE "Speicher Erweiterte:"
+    IDS_OPT_CalculatorMode_DE "Taschenrechner-Modus:"
+    IDS_OPT_Notation_DE     "Notation:"
+    IDS_OPT_ConversionBuffer_DE "7"
+    IDS_OPT_RPNStackSize_DE "StapelgrößeL RPN:"
+    IDS_OPT_Skin_DE         "Oberfläche:"
+    IDS_OPT_FixedDigits_DE  "Fest:"
+    IDS_OPT_FastGraphing_DE "Schnelle Grafik"
+    IDS_OPT_ShowPointsOnly_DE "Alle Punkte Nur"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_EndPeriodPayments_DE "7"
+    IDS_OPT_PaymentSched_DE "7"
+    IDS_OPT_CalculatorSize_DE "Rechner Größe"
+    IDS_OPT_KeyboardType_DE "Tastaturtyp"
+    IDS_OPT_1Key_DE         "Lage der Taste 1:"
+    IDS_OPT_KeyboardLetters_DE "7"
+    IDS_OPT_FRAC_DE         "FRAC"
+    IDS_OPT_ENG_DE          "ENG"
+    IDS_OPT_Fullscreen_DE   "Nutze Vollbild:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_DE       "Preis"
+    IDS_INFO_SalesTax_DE    "Steuer"
+    IDS_INFO_OtherFees_DE   "Sonstige Gebühren"
+    IDS_INFO_DownPayment_DE "Anzahlung"
+    IDS_INFO_TradeIn_DE     "Der Handel mit Wert"
+    IDS_INFO_NumberOfMonths_DE "Die Anzahl der Monate"
+    IDS_INFO_InterestRate_DE "Zinssatz"
+    IDS_INFO_MonthlyPayment_DE "Monatliche Zahlung"
+    IDS_INFO_TotalInterest_DE "Total Zins-"
+    IDS_INFO_TotalRepaid_DE "Total zurückgezahlt"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_DE        "Leben"
+    IDS_INFO_StartMonth_DE  "Erster Monat"
+    IDS_INFO_StartYear_DE   "Erstes Jahr"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_StartDay_DE    "Erster Tag"
+    IDS_INFO_Salary_DE      "Restwert"
+    IDS_INFO_Year_DE        "Jahr"
+    IDS_INFO_Depreciation_DE "Abschreibung"
+    IDS_INFO_Cost_DE        "Kosten"
+    IDS_INFO_RBVal_DE       "RBV"
+    IDS_INFO_RDVal_DE       "RDV"
+    IDS_INFO_EndYear_DE     "Ende Jahr"
+    IDS_INFO_EndMonth_DE    "Ende Monat"
+    IDS_INFO_EndDay_DE      "Ende Tag"
+    IDS_INFO_Difference_DE  "Unterschied"
+    IDS_INFO_Diff360_DE     "Unterschied 360"
+    IDS_INFO_Periods_DE     "# Der Perioden"
+    IDS_INFO_StartValue_DE  "Beginn Wert"
+    IDS_INFO_FinalValue_DE  "Wert"
+    IDS_INFO_Profit_DE      "Gewinn"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FixedCost_DE   "Feste Kosten"
+    IDS_INFO_VarCost_DE     "Var Kosten"
+    IDS_INFO_Quantity_DE    "Menge"
+    IDS_INFO_Terms_DE       "Bedingungen (Jahr)"
+    IDS_INFO_MonthlyFees_DE "Monatliche Gebühren"
+    IDS_INFO_TotalPayments_DE "Summe der Bezüge"
+    IDS_INFO_Principal_DE   "Kapital"
+    IDS_INFO_PeriodsYear_DE "Perioden / Jahr"
+    IDS_INFO_NominalRate_DE "Nominalen rate"
+    IDS_INFO_EffectiveRate_DE "Effektiver Satz"
+    IDS_INFO_PowerRegression_DE "7"
+    IDS_INFO_LogRegression_DE "Log regression"
+    IDS_INFO_ExpRegression_DE "Exp regression"
+    IDS_INFO_LinearRegression_DE "Lineare regression"
+    IDS_INFO_BillAmount_DE  "Rechnungsbetrag"
+    IDS_INFO_TipPercent_DE  "Tipp Prozent"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_DE "Blau"
+    IDS_OPT_MidnightBlack_DE "Schwarz"
+    IDS_OPT_WirelessGreen_DE "Grün"
+    IDS_OPT_GlamPink_DE     "Rosa"
+    IDS_OPT_BlueSteel_DE    "Stahl"
+    IDS_OPT_Brown_DE        "Braun"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NumPeople_DE   "Zahl der Menschen"
+    IDS_INFO_TipAmount_DE   "Tipp Betrag"
+    IDS_INFO_TotalPer_DE    "Pro Person"
+    IDS_INFO_BillTotal_DE   "Insgesamt"
+    IDS_INFO_NumTerms_DE    "Anzahl der Terme"
+    IDS_INFO_InterestYear_DE "Zinsen / Jahr"
+    IDS_INFO_PresentValue_DE "Aktuellen Wert"
+    IDS_INFO_Payment_DE     "Zahlung"
+    IDS_INFO_FutureValue_DE "Zukünftige Wert"
+    IDS_INFO_PaymentsYear_DE "Zahlungen / Jahr"
+    IDS_INFO_CompYear_DE    "7"
+    IDS_INFO_BidAsk_DE      "geld:%s fragen:%s"
+    IDS_INFO_Bid_DE         "geld:%s"
+    IDS_INFO_Ask_DE         "fragen:%s"
+    IDS_INFO_Name_DE        "Name:"
+    IDS_INFO_Type_DE        "Typ:"
+    IDS_INFO_MyDevice_DE    "Mein Gerät"
+END
+
+STRINGTABLE 
+BEGIN
+
+    IDS_BTN_Hyp_DE          "7"
+    IDS_BTN_Binary_DE       "7"
+    IDS_BTN_Octal_DE        "7"
+    IDS_BTN_Hex_DE          "7"
+    IDS_BTN_Decimal_DE      "7"
+    IDS_BTN_Degrees_DE      "7"
+    IDS_BTN_Radians_DE      "7"
+    IDS_BTN_Grad_DE         "7"
+    IDS_BTN_SecondFunction_DE "7"
+    IDS_BTN_From_DE         "Von"
+    IDS_BTN_To_DE           "An"
+    IDS_BTN_Update_DE       "Update"
+    IDS_BTN_Calc_DE         "Calc"
+    IDS_BTN_Conversion_DE   "Einheiten"
+
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_DE        "Tage"
+    IDS_DATE_Hours_DE       "Stunden"
+    IDS_DATE_Min_DE         "Min"
+    IDS_DATE_Sec_DE         "Sek"
+    IDS_DATE_Start_DE       "Starten"
+    IDS_DATE_Interval_DE    "Datum / Zeit-Intervall"
+    IDS_DATE_End_DE         "Ende Datum / Uhrzeit"
+
+    IDS_CALC_MeanOfX_DE     "7"
+    IDS_CALC_DevOfX_DE      "7"
+    IDS_CALC_MeanOfY_DE     "7"
+    IDS_CALC_DevOfY_DE      "7"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_Equation_DE    "Gleichung:"
+    IDS_CALC_YIntercept_DE  "Y Abfangen"
+    IDS_CALC_Slope_DE       "Hang (b)"
+    IDS_CALC_Regression_DE  "7"
+    IDS_CALC_Determination_DE "Bestimmung"
+
+
+
+END
+
+STRINGTABLE //SPANISH
+BEGIN
+    IDS_APP_TITLE_ES        "Panoramic CalcPro"
+	IDS_MSG_DemoOverShort_ES "Gracias por probar Panoramic Calc Pro. Su periodo de prueba ha expirado."
+    IDS_MENU_MoreApps_ES    "Más aplicaciones..."
+    IDS_TITLE_DateCalculator_ES "Calculadora de la Fecha"
+    IDS_TITLE_Depreciation_ES "Depreciación"
+    IDS_TITLE_CompoundInterest_ES "Interés Compuesto"
+    IDS_TITLE_BreakEvenSales_ES "Ventas de Descanso Incluso"
+    IDS_TITLE_LoanCalculator_ES "Calculadora de Préstamo"
+    IDS_TITLE_Worksheet_ES  "Hoja de Cálculo"
+    IDS_TITLE_Mortgage_ES   "Hipoteca"
+    IDS_TITLE_PercentChange_ES "Porcentaje de Cambio"
+    IDS_TITLE_ProfitMargin_ES "Margen de Beneficio"
+    IDS_TITLE_TipCalculator_ES "Calculadora de Punta"
+    IDS_TITLE_TVM_ES        "Dinero de Valor de Tiempo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_ES  "Calculadora"
+    IDS_MENU_General_ES     "General"
+    IDS_MENU_On_ES          "Encendido"
+    IDS_MENU_Off_ES         "Apagado"
+    IDS_MENU_SaveGraph_ES   "Guardar gráfico"
+    IDS_MENU_Open_ES        "Abrir"
+    IDS_MENU_CalcProGraph_ES "Calc Pro Gráfico"
+    IDS_MENU_ViewTape_ES    "10"
+    IDS_MENU_Quiet_ES       "Tranquilo"
+    IDS_MENU_Ok_ES          "OK"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies_ES "Actualizar"
+    IDS_MENU_Graph_ES       "Gráfico"
+    IDS_MENU_File_ES        "Archivo"
+    IDS_MENU_AboutCalcPro_ES "Acerca de Calc Pro"
+    IDS_MENU_About2_ES      "Acerca..."
+    IDS_MENU_Options_ES     "Opciones..."
+    IDS_MENU_Options2_ES    "Opciones"
+    IDS_MENU_CalcProOptions_ES "Opciones de Calc Pro"
+    IDS_MENU_RPNStack_ES    "Tamaño Pila RPN"
+    IDS_MENU_ConstantFavorites_ES "Favoritos Constantes"
+    IDS_MENU_Group_ES       "Grupo"
+    IDS_MENU_Recent_ES      "Recientes"
+    IDS_MENU_FullList_ES    "Lista Completa"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel_ES      "Cancelar"
+    IDS_MENU_Graphing_ES    "Gráficos"
+    IDS_MENU_Unit_ES        "Conv de Unidades"
+    IDS_MENU_Currency_ES    "Monedas del Mundo"
+    IDS_MENU_DateTime_ES    "Fecha y Hora"
+    IDS_MENU_Translate_ES   "Traducir Gráficos"
+    IDS_MENU_ZoomOut_ES     "Alejar"
+    IDS_MENU_ZoomIn_ES      "Ampliar imagen"
+    IDS_MENU_Reset_ES       "Restablecer"
+    IDS_MENU_Mode_ES        "Modo"
+    IDS_MENU_PointOnGraph_ES "Ubicación"
+    IDS_MENU_CenterGraph_ES "Centro"
+    IDS_MENU_Zoom_ES        "Zoom"
+    IDS_MENU_Constants_ES   "Constantes"
+    IDS_MENU_Back_ES        "Volver"
+    IDS_MENU_Stats_ES       "Estadísticas"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit_ES        "Salir"
+    IDS_MENU_About_ES       "Sobre..."
+    IDS_MENU_Help_ES        "Ayuda..."
+    IDS_MENU_Edit_ES        "Editar"
+    IDS_MENU_Copy_ES        "Copia"
+    IDS_MENU_Paste_ES       "Pegar"
+    IDS_MENU_View_ES        "Vista"
+    IDS_MENU_Standard_ES    "Normal"
+    IDS_MENU_BaseConv_ES    "Conversiones Basicas"
+    IDS_MENU_Financial_ES   "Financiera"
+    IDS_MENU_Menu_ES        "Menú"
+    IDS_MENU_Save_ES        "Guardar"
+
+    IDS_MENU_ZoomNormal_ES  "Normal (XY)"
+    IDS_MENU_ZoomX_ES       "X sólo"
+    IDS_MENU_ZoomY_ES       "Y sólo"
+    IDS_MENU_ZoomMode_ES    "Zoom Modo"
+    IDS_MENU_SelectGraph_ES "Seleccione el gráfico"
+    IDS_MENU_FitToData_ES   "10"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver_ES     "Versión de Prueba Caducado"
+    IDS_MSG_About_ES        "Panoramic Calc Pro\r\n%s 2.9.2\r\nDerechos de Autor 2007-2012\r\nTodos los Derechos Reservados\r\n\r\n"
+    IDS_MSG_TrialExpired_ES "Versión de Prueba Caducado"
+    IDS_MSG_Memory_ES       "Memoria%i: %s\r\n"
+    IDS_MSG_Memory2_ES      "Memoria: %s"
+    IDS_MSG_CalcProMemory_ES "Memoria de Calc Pro"
+    IDS_MSG_Connecting_ES   "conexión ..."
+    IDS_MSG_Updated_ES      "Actualizado: %s"
+    IDS_MSG_FileExists_ES   "Archivo ya existe.  ¿Le gustaría sobrescribir?"
+    IDS_MSG_Warning_ES      "Advertencia"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro_ES    "Calc Pro - "
+    IDS_ERROR_IndexRange_ES "Índice está fuera del Intervalo"
+    IDS_ERROR_PleaseContact_ES 
+                            "Por favor, póngase en contacto con Panoramic Software Inc"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_ES       "Diseño de Calc Pro"
+    IDS_OPT_QWERTY_ES       "QWERTY"
+    IDS_OPT_QWERTZ_ES       "QWERTZ"
+    IDS_OPT_AZERTY_ES       "AZERTY"
+    IDS_OPT_A_ES            "inicio de Números en A"
+    IDS_OPT_Q_ES            "inicio de Números en Q"
+    IDS_OPT_Z_ES            "inicio de Números en Z"
+    IDS_OPT_W_ES            "inicio de Números en W"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E_ES            "inicio de Números en E"
+    IDS_OPT_R_ES            "inicio de Números en R"
+    IDS_OPT_T_ES            "inicio de Números en T"
+    IDS_OPT_Normal_ES       "Normal"
+    IDS_OPT_NormalWide_ES   "Normal (Amplia)"
+    IDS_OPT_Small_ES        "Pequeño"
+    IDS_OPT_SmallWide_ES    "Pequeño (Amplia)"
+    IDS_OPT_Large_ES        "Grandes"
+    IDS_OPT_LargeWide_ES    "Grandes (Amplia"
+    IDS_OPT_Monthly_ES      "Mensual"
+    IDS_OPT_MonthlyAccel_ES "10"
+    IDS_OPT_BiWeekly_ES     "10"
+    IDS_OPT_BiWeeklyAccel_ES "10"
+    IDS_OPT_Weekly_ES       "Semanal"
+    IDS_OPT_WeeklyAccel_ES  "10"
+    IDS_OPT_SemiMonthly_ES  "10"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel_ES "10"
+    IDS_OPT_BiMonthly_ES    "10"
+    IDS_OPT_BiMonthlyAccel_ES "10"
+    IDS_OPT_Fixed_ES        "10"
+    IDS_OPT_Scientific_ES   "Científico"
+    IDS_OPT_Engineering_ES  "Ingeniería"
+    IDS_OPT_Fractions_ES    "Fracciones"
+    IDS_OPT_BinaryDec_ES    "10"
+    IDS_OPT_Algebraic_ES    "Algebraico"
+    IDS_OPT_DirectAlgebraic_ES "D.A.L."
+    IDS_OPT_RPN_ES          "R.P.N."
+    IDS_OPT_Expression_ES   "Expresión"
+    IDS_OPT_RegionalSettings_ES "Configuración Regional:"
+    IDS_OPT_PlaySounds_ES   "Reproducir Sonidos:"
+    IDS_OPT_RecordTape_ES   "Registro de Cinta:"
+    IDS_OPT_AdvancedMemory_ES "Avanzadas de Memoria:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_CalculatorMode_ES "Modo de Calculadora:"
+    IDS_OPT_Notation_ES     "Notación:"
+    IDS_OPT_ConversionBuffer_ES "Búfer de Conversión:"
+    IDS_OPT_RPNStackSize_ES "Tamaño Pila RPN:"
+    IDS_OPT_Skin_ES         "Piel:"
+    IDS_OPT_FixedDigits_ES  "Dígitos Fijos:"
+    IDS_OPT_FastGraphing_ES "Rápido de Gráficos:"
+    IDS_OPT_ShowPointsOnly_ES "Mostrar Puntos de Sólo:"
+    IDS_OPT_EndPeriodPayments_ES "10"
+    IDS_OPT_PaymentSched_ES "10"
+    IDS_OPT_CalculatorSize_ES "Tamaño de Calculadora:"
+    IDS_OPT_KeyboardType_ES "Tipo de Teclado:"
+    IDS_OPT_1Key_ES         "Ubicación de la 1 Clave:"
+    IDS_OPT_KeyboardLetters_ES "Mostrar Letras del Teclado:"
+    IDS_OPT_FRAC_ES         "10"
+    IDS_OPT_ENG_ES          "10"
+    IDS_OPT_Fullscreen_ES   "Usar Pantalla completa:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_ES       "Precio"
+    IDS_INFO_SalesTax_ES    "Impuesto de Ventas"
+    IDS_INFO_OtherFees_ES   "Otros Cargos"
+    IDS_INFO_DownPayment_ES "Pago Inicial"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn_ES     "10"
+    IDS_INFO_NumberOfMonths_ES "Número de Meses"
+    IDS_INFO_InterestRate_ES "Tasa de Interés"
+    IDS_INFO_MonthlyPayment_ES "Pago Mensual"
+    IDS_INFO_TotalInterest_ES "Intereses Totales"
+    IDS_INFO_TotalRepaid_ES "Total Reembolsada"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_ES        "Vida"
+    IDS_INFO_StartMonth_ES  "Mes de Inicio"
+    IDS_INFO_StartYear_ES   "Año de Inicio"
+    IDS_INFO_StartDay_ES    "Día de Inicio"
+    IDS_INFO_Salary_ES      "Valor Residual"
+    IDS_INFO_Year_ES        "Año"
+    IDS_INFO_Depreciation_ES "Depreciación"
+    IDS_INFO_Cost_ES        "Costo"
+    IDS_INFO_RBVal_ES       "RB Valor"
+    IDS_INFO_RDVal_ES       "RD Valor"
+    IDS_INFO_EndYear_ES     "Año de Fin"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth_ES    "Mes de Fin"
+    IDS_INFO_EndDay_ES      "Día de Fin"
+    IDS_INFO_Difference_ES  "Diferencia"
+    IDS_INFO_Diff360_ES     "Dif. 360"
+    IDS_INFO_Periods_ES     "# de Períodos"
+    IDS_INFO_StartValue_ES  "Iniciar el Valor"
+    IDS_INFO_FinalValue_ES  "Valor Final"
+    IDS_INFO_Profit_ES      "Beneficios"
+    IDS_INFO_FixedCost_ES   "Coste Fijo"
+    IDS_INFO_VarCost_ES     "10"
+    IDS_INFO_Quantity_ES    "Cantidad"
+    IDS_INFO_Terms_ES       "Términos (Años)"
+    IDS_INFO_MonthlyFees_ES "Tarifas Mensuales"
+    IDS_INFO_TotalPayments_ES "Total de Pagos"
+    IDS_INFO_Principal_ES   "10"
+    IDS_INFO_PeriodsYear_ES "Períodos / Año"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_ES "Azul metálico"
+    IDS_OPT_MidnightBlack_ES "Medianoche negro"
+    IDS_OPT_WirelessGreen_ES "Verde inalámbrica"
+    IDS_OPT_GlamPink_ES     "Rosa"
+    IDS_OPT_BlueSteel_ES    "Acero azul"
+    IDS_OPT_Brown_ES        "Marrón"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate_ES "Tasa Nominal"
+    IDS_INFO_EffectiveRate_ES "Tasa Efectiva"
+    IDS_INFO_PowerRegression_ES "Regresión de Poder"
+    IDS_INFO_LogRegression_ES "Log Regresión"
+    IDS_INFO_ExpRegression_ES "Exp Regresión"
+    IDS_INFO_LinearRegression_ES "Regresión Lineal"
+    IDS_INFO_BillAmount_ES  "Importe de la Factura"
+    IDS_INFO_TipPercent_ES  "Porcentaje de Punta"
+    IDS_INFO_NumPeople_ES   "Número de Personas"
+    IDS_INFO_TipAmount_ES   "Cantidad de Punta"
+    IDS_INFO_TotalPer_ES    "Total por Persona"
+    IDS_INFO_BillTotal_ES   "Total de la Factura"
+    IDS_INFO_NumTerms_ES    "Número de Términos"
+    IDS_INFO_InterestYear_ES "Interés por Año"
+    IDS_INFO_PresentValue_ES "Valor Actual"
+    IDS_INFO_Payment_ES     "Pago"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_ES     "10"
+    IDS_CALC_DevOfX_ES      "10"
+    IDS_CALC_MeanOfY_ES     "10"
+    IDS_CALC_DevOfY_ES      "10"
+    IDS_CALC_Equation_ES    "Ecuación"
+    IDS_CALC_YIntercept_ES  "10"
+    IDS_CALC_Slope_ES       "10"
+    IDS_CALC_Regression_ES  "Regresión (r)"
+    IDS_CALC_Determination_ES "Determinación (r²)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile_ES   "Error - no se puede abrir el archivo"
+    IDS_ERROR_CalcPro_ES    "Calc Pro"
+    IDS_ERROR_Error_ES      "Error"
+    IDS_ERROR_UnableToConnect_ES "no se Puede Conectar"
+    IDS_ERROR_FileDoesNotExist_ES "Archivo no Existe"
+    IDS_INFO_RetailVersion_ES "Versión Comercial"
+    IDS_INFO_DemoDays_ES    "10"
+    IDS_INFO_Expired_ES     "Caducado"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue_ES "Valor Futuro"
+    IDS_INFO_PaymentsYear_ES "Pagos/Año"
+    IDS_INFO_CompYear_ES    "10"
+    IDS_INFO_BidAsk_ES      "puja:%s pedir"
+    IDS_INFO_Bid_ES         "puja:%s"
+    IDS_INFO_Ask_ES         "pedir:%s"
+    IDS_INFO_Name_ES        "Nombre:"
+    IDS_INFO_Type_ES        "Tipo:"
+    IDS_INFO_MyDevice_ES    "10"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_ES          "10"
+    IDS_BTN_Binary_ES       "BIN"
+    IDS_BTN_Octal_ES        "10"
+    IDS_BTN_Hex_ES          "10"
+    IDS_BTN_Decimal_ES      "DEC"
+    IDS_BTN_Degrees_ES      "10"
+    IDS_BTN_Radians_ES      "RAD"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Grad_ES         "10"
+    IDS_BTN_SecondFunction_ES "10"
+    IDS_BTN_From_ES         "De"
+    IDS_BTN_To_ES           "Para"
+    IDS_BTN_Update_ES       "Actualización"
+    IDS_BTN_Calc_ES         "Calc"
+    IDS_BTN_Conversion_ES   "Conversione"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_ES        "Días"
+    IDS_DATE_Hours_ES       "Horas"
+    IDS_DATE_Min_ES         "Min"
+    IDS_DATE_Sec_ES         "Seg"
+    IDS_DATE_Start_ES       "Fecha/Hora de Inicio"
+    IDS_DATE_Interval_ES    "Intervalo de Fecha/Hora"
+    IDS_DATE_End_ES         "Fin de Fecha/Hora"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile_ES    "Abrir Archivo"
+    IDS_MENU_SaveFile_ES    "Guardar Archivo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_FR        "Panoramic Calc Pro"
+    IDS_MSG_DemoOverShort_FR "Nous espérons que vous avez apprécié Panoramic Calc Pro, votre période d'essai a expiré."
+    IDS_MENU_MoreApps_FR    "Autres apps..."
+    IDS_TITLE_DateCalculator_FR "12"
+    IDS_TITLE_Depreciation_FR "Amortissement"
+    IDS_TITLE_CompoundInterest_FR "Intérêts composés"
+    IDS_TITLE_BreakEvenSales_FR "12"
+    IDS_TITLE_LoanCalculator_FR "Calculatrice de prêt"
+    IDS_TITLE_Worksheet_FR  "Feuille de calcul"
+    IDS_TITLE_Mortgage_FR   "Hypothéquer"
+    IDS_TITLE_PercentChange_FR "12"
+    IDS_TITLE_ProfitMargin_FR "ProfitMargin"
+    IDS_TITLE_TipCalculator_FR "Calc des pourboires"
+    IDS_TITLE_TVM_FR        "12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_FR  "Calculatrice"
+    IDS_MENU_General_FR     "12"
+    IDS_MENU_On_FR          "Oui"
+    IDS_MENU_Off_FR         "Non"
+    IDS_MENU_SaveGraph_FR   "12"
+    IDS_MENU_Open_FR        "12"
+    IDS_MENU_CalcProGraph_FR "Calc Pro Graph"
+    IDS_MENU_ViewTape_FR    "12"
+    IDS_MENU_Quiet_FR       "12"
+    IDS_MENU_Ok_FR          "OK"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies_FR "Actualiser les monnaies"
+    IDS_MENU_Graph_FR       "Graph"
+    IDS_MENU_File_FR        "Fichier"
+    IDS_MENU_AboutCalcPro_FR "A propos de Calc Pro"
+    IDS_MENU_About2_FR      "A propos"
+    IDS_MENU_Options_FR     "Options..."
+    IDS_MENU_Options2_FR    "Options"
+    IDS_MENU_CalcProOptions_FR "Calc Pro Options"
+    IDS_MENU_RPNStack_FR    "Taille de pile:"
+    IDS_MENU_ConstantFavorites_FR "Constantes favourite"
+    IDS_MENU_Group_FR       "Groupe"
+    IDS_MENU_Recent_FR      "Récent"
+    IDS_MENU_FullList_FR    "Liste complète"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel_FR      "Annuler"
+    IDS_MENU_Graphing_FR    "Graphing"
+    IDS_MENU_Unit_FR        "Convertisseur d'Unité"
+    IDS_MENU_Currency_FR    "Devises"
+    IDS_MENU_DateTime_FR    "Date et Temps"
+    IDS_MENU_Translate_FR   "Traduire graphique"
+    IDS_MENU_ZoomOut_FR     "Zoom arrière"
+    IDS_MENU_ZoomIn_FR      "Zoom dans"
+    IDS_MENU_Reset_FR       "Reset "
+    IDS_MENU_Mode_FR        "Mode"
+    IDS_MENU_PointOnGraph_FR "Point sur le graphique"
+    IDS_MENU_CenterGraph_FR "Centre sur le graphique"
+    IDS_MENU_Zoom_FR        "Sélectionnez et zoom"
+    IDS_MENU_Constants_FR   "Constantes"
+    IDS_MENU_Back_FR        "Arrière"
+    IDS_MENU_Stats_FR       "Statistiques"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit_FR        "Arrêt"
+    IDS_MENU_About_FR       "A propos..."
+    IDS_MENU_Help_FR        "Aide..."
+    IDS_MENU_Edit_FR        "éditer"
+    IDS_MENU_Copy_FR        "Copier"
+    IDS_MENU_Paste_FR       "Coller"
+    IDS_MENU_View_FR        "Voir"
+    IDS_MENU_Standard_FR    "12"
+    IDS_MENU_BaseConv_FR    "Binaire/Hexadéc"
+    IDS_MENU_Financial_FR   "Financier"
+    IDS_MENU_Menu_FR        "Menu"
+    IDS_MENU_Save_FR        "12"
+    IDS_MENU_ZoomNormal_FR  "Normal (XY)"
+    IDS_MENU_ZoomX_FR       "X seulement"
+    IDS_MENU_ZoomY_FR       "Y seulement"
+    IDS_MENU_ZoomMode_FR    "Zoom Mode"
+    IDS_MENU_SelectGraph_FR "Sélectionnez le graphique"
+    IDS_MENU_FitToData_FR   "Adapté à des données"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver_FR     "Nous espérons que vous avez apprécié Panoramic Calc Pro, votre période d'essai a expiré.\r\n\r\nPour l'achat: S'il vous plaît retourner au site qui a fourni le logiciel d'essai."
+    IDS_MSG_About_FR        "Panoramic Calc Pro\r\n%s 2.9.2\r\nDroit d'auteur 2007-2012\r\nTous droits réservés\r\n\r\n"
+    IDS_MSG_TrialExpired_FR "De première instance périmée"
+    IDS_MSG_Memory_FR       "Mémoire%i: %s\r\n"
+    IDS_MSG_Memory2_FR      "Mémoire: %s"
+    IDS_MSG_CalcProMemory_FR "Calc Pro Mémoire"
+    IDS_MSG_Connecting_FR   "12"
+    IDS_MSG_Updated_FR      "Mise à jour: %s"
+    IDS_MSG_FileExists_FR   "Le fichier existe déjà. Souhaitez-vous remplacer?"
+    IDS_MSG_Warning_FR      "Avertissement"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro_FR    "Calc Pro - "
+    IDS_ERROR_IndexRange_FR "Index hors de portée"
+    IDS_ERROR_PleaseContact_FR "S'il vous plaît contacter Panoramic Software Inc"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_FR       "Calc Pro disposition"
+    IDS_OPT_QWERTY_FR       "12"
+    IDS_OPT_QWERTZ_FR       "12"
+    IDS_OPT_AZERTY_FR       "12"
+    IDS_OPT_A_FR            "Numéros de commencer à A"
+    IDS_OPT_Q_FR            "Numéros de commencer à Q"
+    IDS_OPT_Z_FR            "Numéros de commencer à Z"
+    IDS_OPT_W_FR            "Numéros de commencer à W"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E_FR            "Numéros de commencer à E"
+    IDS_OPT_R_FR            "Numéros de commencer à R"
+    IDS_OPT_T_FR            "Numéros de commencer à T"
+    IDS_OPT_Normal_FR       "Normal"
+    IDS_OPT_NormalWide_FR   "Normal (large)"
+    IDS_OPT_Small_FR        "Petit"
+    IDS_OPT_SmallWide_FR    "Petit (large)"
+    IDS_OPT_Large_FR        "Grand"
+    IDS_OPT_LargeWide_FR    "Grand (large)"
+    IDS_OPT_Monthly_FR      "Mensuel"
+    IDS_OPT_MonthlyAccel_FR "Mensuel Accéléré"
+    IDS_OPT_BiWeekly_FR     "Bihebdomadaire"
+    IDS_OPT_BiWeeklyAccel_FR "Bihebdomadaire Accéléré"
+    IDS_OPT_Weekly_FR       "Hebdomadaire"
+    IDS_OPT_WeeklyAccel_FR  "Hebdomadaire Accéléré"
+    IDS_OPT_SemiMonthly_FR  "12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel_FR "12"
+    IDS_OPT_BiMonthly_FR    "Bimensuel"
+    IDS_OPT_BiMonthlyAccel_FR "Bimensuel Accéléré"
+    IDS_OPT_Fixed_FR        "Fixe"
+    IDS_OPT_Scientific_FR   "Scientifique"
+    IDS_OPT_Engineering_FR  "Ingénieur"
+    IDS_OPT_Fractions_FR    "12"
+    IDS_OPT_BinaryDec_FR    "12"
+    IDS_OPT_Algebraic_FR    "Algébrique"
+    IDS_OPT_DirectAlgebraic_FR "Direct algébrique"
+    IDS_OPT_RPN_FR          "R.P.N."
+    IDS_OPT_Expression_FR   "12"
+    IDS_OPT_RegionalSettings_FR "Utilis param régionaux:"
+    IDS_OPT_PlaySounds_FR   "Emettre sons"
+    IDS_OPT_RecordTape_FR   "12"
+    IDS_OPT_AdvancedMemory_FR "12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_CalculatorMode_FR "Type de Calculatrice:"
+    IDS_OPT_Notation_FR     "Affichage:"
+    IDS_OPT_ConversionBuffer_FR "12"
+    IDS_OPT_RPNStackSize_FR "12"
+    IDS_OPT_Skin_FR         "Peau:"
+    IDS_OPT_FixedDigits_FR  "Chiffres fixes:"
+    IDS_OPT_FastGraphing_FR "Graphique rapide:"
+    IDS_OPT_ShowPointsOnly_FR "Afficher les seuls points:"
+    IDS_OPT_EndPeriodPayments_FR "12"
+    IDS_OPT_PaymentSched_FR "12"
+    IDS_OPT_CalculatorSize_FR "Taille de la calculatrice:"
+    IDS_OPT_KeyboardType_FR "Type de clavier:"
+    IDS_OPT_1Key_FR         "Emplacement de la touche 1:"
+    IDS_OPT_KeyboardLetters_FR "Voir les lettres du clavier:"
+    IDS_OPT_FRAC_FR         "12"
+    IDS_OPT_ENG_FR          "12"
+    IDS_OPT_Fullscreen_FR "Utiliser tout l'écran:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_FR       "Prix"
+    IDS_INFO_SalesTax_FR    "La taxe de vente"
+    IDS_INFO_OtherFees_FR   "Autres frais"
+    IDS_INFO_DownPayment_FR "Acompte"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn_FR     "Valeur d'échange"
+    IDS_INFO_NumberOfMonths_FR "Nombre de mois"
+    IDS_INFO_InterestRate_FR "Taux d'intérêt"
+    IDS_INFO_MonthlyPayment_FR "Paiement mensuel"
+    IDS_INFO_TotalInterest_FR "Total des intérêts"
+    IDS_INFO_TotalRepaid_FR "Total remboursé"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_FR        "Vie"
+    IDS_INFO_StartMonth_FR  "Premier mois"
+    IDS_INFO_StartYear_FR   "Premier année"
+    IDS_INFO_StartDay_FR    "Premier jour"
+    IDS_INFO_Salary_FR      "Valeur Résiduelle"
+    IDS_INFO_Year_FR        "Année"
+    IDS_INFO_Depreciation_FR "Dépréciation"
+    IDS_INFO_Cost_FR        "Coût"
+    IDS_INFO_RBVal_FR       "RB Valeur"
+    IDS_INFO_RDVal_FR       "RD Valeur"
+    IDS_INFO_EndYear_FR     "Année se terminant"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth_FR    "Mois se terminant"
+    IDS_INFO_EndDay_FR      "Jour se terminant"
+    IDS_INFO_Difference_FR  "Différence"
+    IDS_INFO_Diff360_FR     "Diff. 360"
+    IDS_INFO_Periods_FR     "Nombre de périodes"
+    IDS_INFO_StartValue_FR  "Valeur initiale"
+    IDS_INFO_FinalValue_FR  "Valeur finale"
+    IDS_INFO_Profit_FR      "Profit"
+    IDS_INFO_FixedCost_FR   "Coût fixe"
+    IDS_INFO_VarCost_FR     "12"
+    IDS_INFO_Quantity_FR    "Quantité"
+    IDS_INFO_Terms_FR       "12"
+    IDS_INFO_MonthlyFees_FR "Les frais mensuels"
+    IDS_INFO_TotalPayments_FR "Le total des paiements"
+    IDS_INFO_Principal_FR   "Principal"
+    IDS_INFO_PeriodsYear_FR "Périodes / année"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_FR "Bleu clair"
+    IDS_OPT_MidnightBlack_FR "Noir"
+    IDS_OPT_WirelessGreen_FR "Vert"
+    IDS_OPT_GlamPink_FR     "Rose"
+    IDS_OPT_BlueSteel_FR    "Bleu"
+    IDS_OPT_Brown_FR        "Marron"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate_FR "12"
+    IDS_INFO_EffectiveRate_FR "12"
+    IDS_INFO_PowerRegression_FR "12"
+    IDS_INFO_LogRegression_FR "12"
+    IDS_INFO_ExpRegression_FR "12"
+    IDS_INFO_LinearRegression_FR "12"
+    IDS_INFO_BillAmount_FR  "Montant de la note"
+    IDS_INFO_TipPercent_FR  "% pourboire"
+    IDS_INFO_NumPeople_FR   "Gens"
+    IDS_INFO_TipAmount_FR   "Pourboire"
+    IDS_INFO_TotalPer_FR    "Total par convive"
+    IDS_INFO_BillTotal_FR   "12"
+    IDS_INFO_NumTerms_FR    "12"
+    IDS_INFO_InterestYear_FR "Intérêts / Année"
+    IDS_INFO_PresentValue_FR "Valeur actuelle"
+    IDS_INFO_Payment_FR     "Paiement"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_FR     "12"
+    IDS_CALC_DevOfX_FR      "12"
+    IDS_CALC_MeanOfY_FR     "12"
+    IDS_CALC_DevOfY_FR      "12"
+    IDS_CALC_Equation_FR    "Équation:"
+    IDS_CALC_YIntercept_FR  "12"
+    IDS_CALC_Slope_FR       "Pente (b)"
+    IDS_CALC_Regression_FR  "12"
+    IDS_CALC_Determination_FR "12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile_FR   "Erreur - Impossible d'ouvrir le fichier."
+    IDS_ERROR_CalcPro_FR    "Calc Pro"
+    IDS_ERROR_Error_FR      "Erreur"
+    IDS_ERROR_UnableToConnect_FR "Impossible de se connecter"
+    IDS_ERROR_FileDoesNotExist_FR "Le fichier n'existe pas"
+    IDS_INFO_RetailVersion_FR "Version au détail"
+    IDS_INFO_DemoDays_FR    "12"
+    IDS_INFO_Expired_FR     "Expiré"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue_FR "Valeur futur"
+    IDS_INFO_PaymentsYear_FR "Paiements / Année"
+    IDS_INFO_CompYear_FR    "12"
+    IDS_INFO_BidAsk_FR      "offre:%s demander:%s"
+    IDS_INFO_Bid_FR         "offre:%s"
+    IDS_INFO_Ask_FR         "demander:%s"
+    IDS_INFO_Name_FR        "Nom:"
+    IDS_INFO_Type_FR        "12"
+    IDS_INFO_MyDevice_FR    "Mon périphérique"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_FR          "12"
+    IDS_BTN_Binary_FR       "12"
+    IDS_BTN_Octal_FR        "12"
+    IDS_BTN_Hex_FR          "12"
+    IDS_BTN_Decimal_FR      "12"
+    IDS_BTN_Degrees_FR      "12"
+    IDS_BTN_Radians_FR      "12"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Grad_FR         "12"
+    IDS_BTN_SecondFunction_FR "12"
+    IDS_BTN_From_FR         "de"
+    IDS_BTN_To_FR           "à"
+    IDS_BTN_Update_FR       "Mise à jour"
+    IDS_BTN_Calc_FR         "Calc"
+    IDS_BTN_Conversion_FR   "Conversion"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_FR        "Journées"
+    IDS_DATE_Hours_FR       "Heures"
+    IDS_DATE_Min_FR         "Min"
+    IDS_DATE_Sec_FR         "Sec"
+    IDS_DATE_Start_FR       "Date / heure de début"
+    IDS_DATE_Interval_FR    "Intervalle de Date / Heure"
+    IDS_DATE_End_FR         "Date / Heure de fin"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile_FR    "Fichier ouvert"
+    IDS_MENU_SaveFile_FR    "Sauver le fichier"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_IT        "16"
+	IDS_MSG_DemoOverShort_IT "16"
+    IDS_MENU_MoreApps_IT    "16"
+    IDS_TITLE_DateCalculator_IT "16"
+    IDS_TITLE_Depreciation_IT "16"
+    IDS_TITLE_CompoundInterest_IT "16"
+    IDS_TITLE_BreakEvenSales_IT "16"
+    IDS_TITLE_LoanCalculator_IT "16"
+    IDS_TITLE_Worksheet_IT  "16"
+    IDS_TITLE_Mortgage_IT   "16"
+    IDS_TITLE_PercentChange_IT "16"
+    IDS_TITLE_ProfitMargin_IT "16"
+    IDS_TITLE_TipCalculator_IT "16"
+    IDS_TITLE_TVM_IT        "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_IT  "16"
+    IDS_MENU_General_IT     "16"
+    IDS_MENU_On_IT          "16"
+    IDS_MENU_Off_IT         "16"
+    IDS_MENU_SaveGraph_IT   "16"
+    IDS_MENU_Open_IT        "16"
+    IDS_MENU_CalcProGraph_IT "16"
+    IDS_MENU_ViewTape_IT    "16"
+    IDS_MENU_Quiet_IT       "16"
+    IDS_MENU_Ok_IT          "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies_IT "16"
+    IDS_MENU_Graph_IT       "16"
+    IDS_MENU_File_IT        "16"
+    IDS_MENU_AboutCalcPro_IT "16"
+    IDS_MENU_About2_IT      "16"
+    IDS_MENU_Options_IT     "16"
+    IDS_MENU_Options2_IT    "16"
+    IDS_MENU_CalcProOptions_IT "16"
+    IDS_MENU_RPNStack_IT    "16"
+    IDS_MENU_ConstantFavorites_IT "16"
+    IDS_MENU_Group_IT       "16"
+    IDS_MENU_Recent_IT      "16"
+    IDS_MENU_FullList_IT    "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel_IT      "16"
+    IDS_MENU_Graphing_IT    "16"
+    IDS_MENU_Unit_IT        "16"
+    IDS_MENU_Currency_IT    "16"
+    IDS_MENU_DateTime_IT    "16"
+    IDS_MENU_Translate_IT   "16"
+    IDS_MENU_ZoomOut_IT     "16"
+    IDS_MENU_ZoomIn_IT      "16"
+    IDS_MENU_Reset_IT       "16"
+    IDS_MENU_Mode_IT        "16"
+    IDS_MENU_PointOnGraph_IT "16"
+    IDS_MENU_CenterGraph_IT "16"
+    IDS_MENU_Zoom_IT        "16"
+    IDS_MENU_Constants_IT   "16"
+    IDS_MENU_Back_IT        "16"
+    IDS_MENU_Stats_IT       "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit_IT        "16"
+    IDS_MENU_About_IT       "16"
+    IDS_MENU_Help_IT        "16"
+    IDS_MENU_Edit_IT        "16"
+    IDS_MENU_Copy_IT        "16"
+    IDS_MENU_Paste_IT       "16"
+    IDS_MENU_View_IT        "16"
+    IDS_MENU_Standard_IT    "16"
+    IDS_MENU_BaseConv_IT    "16"
+    IDS_MENU_Financial_IT   "16"
+    IDS_MENU_Menu_IT        "16"
+    IDS_MENU_Save_IT        "16"
+    IDS_MENU_ZoomNormal_IT  "16"
+    IDS_MENU_ZoomX_IT       "16"
+    IDS_MENU_ZoomY_IT       "16"
+    IDS_MENU_ZoomMode_IT    "16"
+    IDS_MENU_SelectGraph_IT "16"
+    IDS_MENU_FitToData_IT   "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver_IT     "16"
+    IDS_MSG_About_IT        "16"
+    IDS_MSG_TrialExpired_IT "16"
+    IDS_MSG_Memory_IT       "16"
+    IDS_MSG_Memory2_IT      "16"
+    IDS_MSG_CalcProMemory_IT "16"
+    IDS_MSG_Connecting_IT   "16"
+    IDS_MSG_Updated_IT      "16"
+    IDS_MSG_FileExists_IT   "16"
+    IDS_MSG_Warning_IT      "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro_IT    "16"
+    IDS_ERROR_IndexRange_IT "16"
+    IDS_ERROR_PleaseContact_IT "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_IT       "16"
+    IDS_OPT_QWERTY_IT       "16"
+    IDS_OPT_QWERTZ_IT       "16"
+    IDS_OPT_AZERTY_IT       "16"
+    IDS_OPT_A_IT            "16"
+    IDS_OPT_Q_IT            "16"
+    IDS_OPT_Z_IT            "16"
+    IDS_OPT_W_IT            "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E_IT            "16"
+    IDS_OPT_R_IT            "16"
+    IDS_OPT_T_IT            "16"
+    IDS_OPT_Normal_IT       "16"
+    IDS_OPT_NormalWide_IT   "16"
+    IDS_OPT_Small_IT        "16"
+    IDS_OPT_SmallWide_IT    "16"
+    IDS_OPT_Large_IT        "16"
+    IDS_OPT_LargeWide_IT    "16"
+    IDS_OPT_Monthly_IT      "16"
+    IDS_OPT_MonthlyAccel_IT "16"
+    IDS_OPT_BiWeekly_IT     "16"
+    IDS_OPT_BiWeeklyAccel_IT "16"
+    IDS_OPT_Weekly_IT       "16"
+    IDS_OPT_WeeklyAccel_IT  "16"
+    IDS_OPT_SemiMonthly_IT  "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel_IT "16"
+    IDS_OPT_BiMonthly_IT    "16"
+    IDS_OPT_BiMonthlyAccel_IT "16"
+    IDS_OPT_Fixed_IT        "16"
+    IDS_OPT_Scientific_IT   "16"
+    IDS_OPT_Engineering_IT  "16"
+    IDS_OPT_Fractions_IT    "16"
+    IDS_OPT_BinaryDec_IT    "16"
+    IDS_OPT_Algebraic_IT    "16"
+    IDS_OPT_DirectAlgebraic_IT "16"
+    IDS_OPT_RPN_IT          "16"
+    IDS_OPT_Expression_IT   "16"
+    IDS_OPT_RegionalSettings_IT "16"
+    IDS_OPT_PlaySounds_IT   "16"
+    IDS_OPT_RecordTape_IT   "16"
+    IDS_OPT_AdvancedMemory_IT "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_CalculatorMode_IT "16"
+    IDS_OPT_Notation_IT     "16"
+    IDS_OPT_ConversionBuffer_IT "16"
+    IDS_OPT_RPNStackSize_IT "16"
+    IDS_OPT_Skin_IT         "16"
+    IDS_OPT_FixedDigits_IT  "16"
+    IDS_OPT_FastGraphing_IT "16"
+    IDS_OPT_ShowPointsOnly_IT "16"
+    IDS_OPT_EndPeriodPayments_IT "16"
+    IDS_OPT_PaymentSched_IT "16"
+    IDS_OPT_CalculatorSize_IT "16"
+    IDS_OPT_KeyboardType_IT "16"
+    IDS_OPT_1Key_IT         "16"
+    IDS_OPT_KeyboardLetters_IT "16"
+    IDS_OPT_FRAC_IT         "16"
+    IDS_OPT_ENG_IT          "16"
+    IDS_OPT_Fullscreen_IT "Schermo intero:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_IT       "16"
+    IDS_INFO_SalesTax_IT    "16"
+    IDS_INFO_OtherFees_IT   "16"
+    IDS_INFO_DownPayment_IT "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn_IT     "16"
+    IDS_INFO_NumberOfMonths_IT "16"
+    IDS_INFO_InterestRate_IT "16"
+    IDS_INFO_MonthlyPayment_IT "16"
+    IDS_INFO_TotalInterest_IT "16"
+    IDS_INFO_TotalRepaid_IT "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_IT        "16"
+    IDS_INFO_StartMonth_IT  "16"
+    IDS_INFO_StartYear_IT   "16"
+    IDS_INFO_StartDay_IT    "16"
+    IDS_INFO_Salary_IT      "16"
+    IDS_INFO_Year_IT        "16"
+    IDS_INFO_Depreciation_IT "16"
+    IDS_INFO_Cost_IT        "16"
+    IDS_INFO_RBVal_IT       "16"
+    IDS_INFO_RDVal_IT       "16"
+    IDS_INFO_EndYear_IT     "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth_IT    "16"
+    IDS_INFO_EndDay_IT      "16"
+    IDS_INFO_Difference_IT  "16"
+    IDS_INFO_Diff360_IT     "16"
+    IDS_INFO_Periods_IT     "16"
+    IDS_INFO_StartValue_IT  "16"
+    IDS_INFO_FinalValue_IT  "16"
+    IDS_INFO_Profit_IT      "16"
+    IDS_INFO_FixedCost_IT   "16"
+    IDS_INFO_VarCost_IT     "16"
+    IDS_INFO_Quantity_IT    "16"
+    IDS_INFO_Terms_IT       "16"
+    IDS_INFO_MonthlyFees_IT "16"
+    IDS_INFO_TotalPayments_IT "16"
+    IDS_INFO_Principal_IT   "16"
+    IDS_INFO_PeriodsYear_IT "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_IT "16"
+    IDS_OPT_MidnightBlack_IT "16"
+    IDS_OPT_WirelessGreen_IT "16"
+    IDS_OPT_GlamPink_IT     "16"
+    IDS_OPT_BlueSteel_IT    "16"
+    IDS_OPT_Brown_IT        "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate_IT "16"
+    IDS_INFO_EffectiveRate_IT "16"
+    IDS_INFO_PowerRegression_IT "16"
+    IDS_INFO_LogRegression_IT "16"
+    IDS_INFO_ExpRegression_IT "16"
+    IDS_INFO_LinearRegression_IT "16"
+    IDS_INFO_BillAmount_IT  "16"
+    IDS_INFO_TipPercent_IT  "16"
+    IDS_INFO_NumPeople_IT   "16"
+    IDS_INFO_TipAmount_IT   "16"
+    IDS_INFO_TotalPer_IT    "16"
+    IDS_INFO_BillTotal_IT   "16"
+    IDS_INFO_NumTerms_IT    "16"
+    IDS_INFO_InterestYear_IT "16"
+    IDS_INFO_PresentValue_IT "16"
+    IDS_INFO_Payment_IT     "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_IT     "16"
+    IDS_CALC_DevOfX_IT      "16"
+    IDS_CALC_MeanOfY_IT     "16"
+    IDS_CALC_DevOfY_IT      "16"
+    IDS_CALC_Equation_IT    "16"
+    IDS_CALC_YIntercept_IT  "16"
+    IDS_CALC_Slope_IT       "16"
+    IDS_CALC_Regression_IT  "16"
+    IDS_CALC_Determination_IT "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile_IT   "16"
+    IDS_ERROR_CalcPro_IT    "16"
+    IDS_ERROR_Error_IT      "16"
+    IDS_ERROR_UnableToConnect_IT "16"
+    IDS_ERROR_FileDoesNotExist_IT "16"
+    IDS_INFO_RetailVersion_IT "16"
+    IDS_INFO_DemoDays_IT    "16"
+    IDS_INFO_Expired_IT     "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue_IT "16"
+    IDS_INFO_PaymentsYear_IT "16"
+    IDS_INFO_CompYear_IT    "16"
+    IDS_INFO_BidAsk_IT      "16"
+    IDS_INFO_Bid_IT         "16"
+    IDS_INFO_Ask_IT         "16"
+    IDS_INFO_Name_IT        "16"
+    IDS_INFO_Type_IT        "16"
+    IDS_INFO_MyDevice_IT    "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_IT          "16"
+    IDS_BTN_Binary_IT       "16"
+    IDS_BTN_Octal_IT        "16"
+    IDS_BTN_Hex_IT          "16"
+    IDS_BTN_Decimal_IT      "16"
+    IDS_BTN_Degrees_IT      "16"
+    IDS_BTN_Radians_IT      "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Grad_IT         "16"
+    IDS_BTN_SecondFunction_IT "16"
+    IDS_BTN_From_IT         "16"
+    IDS_BTN_To_IT           "16"
+    IDS_BTN_Update_IT       "16"
+    IDS_BTN_Calc_IT         "16"
+    IDS_BTN_Conversion_IT   "Convertitore"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_IT        "16"
+    IDS_DATE_Hours_IT       "16"
+    IDS_DATE_Min_IT         "16"
+    IDS_DATE_Sec_IT         "16"
+    IDS_DATE_Start_IT       "16"
+    IDS_DATE_Interval_IT    "16"
+    IDS_DATE_End_IT         "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile_IT    "16"
+    IDS_MENU_SaveFile_IT    "16"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_JP        "17"
+	IDS_MSG_DemoOverShort_JP "17"
+    IDS_MENU_MoreApps_JP    "17"
+    IDS_TITLE_DateCalculator_JP "17"
+    IDS_TITLE_Depreciation_JP "17"
+    IDS_TITLE_CompoundInterest_JP "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_BreakEvenSales_JP "17"
+    IDS_TITLE_LoanCalculator_JP "17"
+    IDS_TITLE_Worksheet_JP  "17"
+    IDS_TITLE_Mortgage_JP   "17"
+    IDS_TITLE_PercentChange_JP "17"
+    IDS_TITLE_ProfitMargin_JP "17"
+    IDS_TITLE_TipCalculator_JP "17"
+    IDS_TITLE_TVM_JP        "17"
+    IDS_TITLE_CalcPro_JP    "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_JP  "17"
+    IDS_MENU_General_JP     "17"
+    IDS_MENU_On_JP          "17"
+    IDS_MENU_Off_JP         "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_SaveGraph_JP   "17"
+    IDS_MENU_Open_JP        "17"
+    IDS_MENU_CalcProGraph_JP "17"
+    IDS_MENU_ViewTape_JP    "17"
+    IDS_MENU_Quiet_JP       "17"
+    IDS_MENU_Ok_JP          "17"
+    IDS_MENU_Exit_JP        "17"
+    IDS_MENU_About_JP       "17"
+    IDS_MENU_Help_JP        "17"
+    IDS_MENU_Edit_JP        "17"
+    IDS_MENU_Copy_JP        "17"
+    IDS_MENU_Paste_JP       "17"
+    IDS_MENU_View_JP        "17"
+    IDS_MENU_Standard_JP    "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Reset_JP       "17"
+    IDS_MENU_Mode_JP        "17"
+    IDS_MENU_PointOnGraph_JP "17"
+    IDS_MENU_CenterGraph_JP "17"
+    IDS_MENU_Zoom_JP        "17"
+    IDS_MENU_Constants_JP   "17"
+    IDS_MENU_Back_JP        "17"
+    IDS_MENU_Stats_JP       "17"
+    IDS_MENU_UpdateCurrencies_JP "17"
+    IDS_MENU_Graph_JP       "17"
+    IDS_MENU_File_JP        "17"
+    IDS_MENU_AboutCalcPro_JP "17"
+    IDS_MENU_About2_JP      "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_JP     "17"
+    IDS_MENU_Options2_JP    "17"
+    IDS_MENU_CalcProOptions_JP "17"
+    IDS_MENU_RPNStack_JP    "17"
+    IDS_MENU_ConstantFavorites_JP "17"
+    IDS_MENU_Group_JP       "17"
+    IDS_MENU_Recent_JP      "17"
+    IDS_MENU_FullList_JP    "17"
+    IDS_MENU_OpenFile_JP    "17"
+    IDS_MENU_SaveFile_JP    "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_BaseConv_JP    "17"
+    IDS_MENU_Financial_JP   "17"
+    IDS_MENU_Menu_JP        "17"
+    IDS_MENU_Save_JP        "17"
+    IDS_MENU_ZoomNormal_JP  "17"
+    IDS_MENU_ZoomX_JP       "17"
+    IDS_MENU_ZoomY_JP       "17"
+    IDS_MENU_ZoomMode_JP    "17"
+    IDS_MENU_SelectGraph_JP "17"
+    IDS_MENU_FitToData_JP   "17"
+    IDS_MENU_Cancel_JP      "17"
+    IDS_MENU_Graphing_JP    "17"
+    IDS_MENU_Unit_JP        "17"
+    IDS_MENU_Currency_JP    "17"
+    IDS_MENU_DateTime_JP    "17"
+    IDS_MENU_Translate_JP   "17"
+    IDS_MENU_ZoomOut_JP     "17"
+    IDS_MENU_ZoomIn_JP      "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_RetailVersion_JP "17"
+    IDS_INFO_DemoDays_JP    "17"
+    IDS_INFO_Expired_JP     "17"
+    IDS_MSG_DemoOver_JP     "17"
+    IDS_MSG_About_JP        "17"
+    IDS_MSG_TrialExpired_JP "17"
+    IDS_MSG_Memory_JP       "17"
+    IDS_MSG_Memory2_JP      "17"
+    IDS_MSG_CalcProMemory_JP "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_Connecting_JP   "17"
+    IDS_MSG_Updated_JP      "17"
+    IDS_MSG_FileExists_JP   "17"
+    IDS_MSG_Warning_JP      "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_IndexRange_JP "17"
+    IDS_ERROR_PleaseContact_JP "17"
+    IDS_ERROR_OpenFile_JP   "17"
+    IDS_ERROR_CalcPro_JP    "17"
+    IDS_ERROR_Error_JP      "17"
+    IDS_ERROR_UnableToConnect_JP "17"
+    IDS_ERROR_FileDoesNotExist_JP "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_JP       "17"
+    IDS_OPT_QWERTY_JP       "17"
+    IDS_OPT_QWERTZ_JP       "17"
+    IDS_OPT_AZERTY_JP       "17"
+    IDS_OPT_A_JP            "17"
+    IDS_OPT_Q_JP            "17"
+    IDS_OPT_Z_JP            "17"
+    IDS_OPT_W_JP            "17"
+    IDS_OPT_E_JP            "17"
+    IDS_OPT_R_JP            "17"
+    IDS_OPT_T_JP            "17"
+    IDS_OPT_Normal_JP       "17"
+    IDS_OPT_NormalWide_JP   "17"
+    IDS_OPT_Small_JP        "17"
+    IDS_OPT_SmallWide_JP    "17"
+    IDS_OPT_Large_JP        "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_LargeWide_JP    "17"
+    IDS_OPT_Monthly_JP      "17"
+    IDS_OPT_MonthlyAccel_JP "17"
+    IDS_OPT_BiWeekly_JP     "17"
+    IDS_OPT_BiWeeklyAccel_JP "17"
+    IDS_OPT_Weekly_JP       "17"
+    IDS_OPT_WeeklyAccel_JP  "17"
+    IDS_OPT_SemiMonthly_JP  "17"
+    IDS_OPT_SemiMonthlyAccel_JP "17"
+    IDS_OPT_BiMonthly_JP    "17"
+    IDS_OPT_BiMonthlyAccel_JP "17"
+    IDS_OPT_Fixed_JP        "17"
+    IDS_OPT_Scientific_JP   "17"
+    IDS_OPT_Engineering_JP  "17"
+    IDS_OPT_Fractions_JP    "17"
+    IDS_OPT_BinaryDec_JP    "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Algebraic_JP    "17"
+    IDS_OPT_DirectAlgebraic_JP "17"
+    IDS_OPT_RPN_JP          "17"
+    IDS_OPT_Expression_JP   "17"
+    IDS_OPT_RegionalSettings_JP "17"
+    IDS_OPT_PlaySounds_JP   "17"
+    IDS_OPT_RecordTape_JP   "17"
+    IDS_OPT_AdvancedMemory_JP "17"
+    IDS_OPT_CalculatorMode_JP "17"
+    IDS_OPT_Notation_JP     "17"
+    IDS_OPT_ConversionBuffer_JP "17"
+    IDS_OPT_RPNStackSize_JP "17"
+    IDS_OPT_Skin_JP         "17"
+    IDS_OPT_FixedDigits_JP  "17"
+    IDS_OPT_FastGraphing_JP "17"
+    IDS_OPT_ShowPointsOnly_JP "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_EndPeriodPayments_JP "17"
+    IDS_OPT_PaymentSched_JP "17"
+    IDS_OPT_CalculatorSize_JP "17"
+    IDS_OPT_KeyboardType_JP "17"
+    IDS_OPT_1Key_JP         "17"
+    IDS_OPT_KeyboardLetters_JP "17"
+    IDS_OPT_FRAC_JP         "17"
+    IDS_OPT_ENG_JP          "17"
+    IDS_OPT_Fullscreen_JP "?????:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_JP       "17"
+    IDS_INFO_SalesTax_JP    "17"
+    IDS_INFO_OtherFees_JP   "17"
+    IDS_INFO_DownPayment_JP "17"
+    IDS_INFO_TradeIn_JP     "17"
+    IDS_INFO_NumberOfMonths_JP "17"
+    IDS_INFO_InterestRate_JP "17"
+    IDS_INFO_MonthlyPayment_JP "17"
+    IDS_INFO_TotalInterest_JP "17"
+    IDS_INFO_TotalRepaid_JP "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_JP        "17"
+    IDS_INFO_StartMonth_JP  "17"
+    IDS_INFO_StartYear_JP   "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_StartDay_JP    "17"
+    IDS_INFO_Salary_JP      "17"
+    IDS_INFO_Year_JP        "17"
+    IDS_INFO_Depreciation_JP "17"
+    IDS_INFO_Cost_JP        "17"
+    IDS_INFO_RBVal_JP       "17"
+    IDS_INFO_RDVal_JP       "17"
+    IDS_INFO_EndYear_JP     "17"
+    IDS_INFO_EndMonth_JP    "17"
+    IDS_INFO_EndDay_JP      "17"
+    IDS_INFO_Difference_JP  "17"
+    IDS_INFO_Diff360_JP     "17"
+    IDS_INFO_Periods_JP     "17"
+    IDS_INFO_StartValue_JP  "17"
+    IDS_INFO_FinalValue_JP  "17"
+    IDS_INFO_Profit_JP      "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FixedCost_JP   "17"
+    IDS_INFO_VarCost_JP     "17"
+    IDS_INFO_Quantity_JP    "17"
+    IDS_INFO_Terms_JP       "17"
+    IDS_INFO_MonthlyFees_JP "17"
+    IDS_INFO_TotalPayments_JP "17"
+    IDS_INFO_Principal_JP   "17"
+    IDS_INFO_PeriodsYear_JP "17"
+    IDS_INFO_NominalRate_JP "17"
+    IDS_INFO_EffectiveRate_JP "17"
+    IDS_INFO_PowerRegression_JP "17"
+    IDS_INFO_LogRegression_JP "17"
+    IDS_INFO_ExpRegression_JP "17"
+    IDS_INFO_LinearRegression_JP "17"
+    IDS_INFO_BillAmount_JP  "17"
+    IDS_INFO_TipPercent_JP  "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_JP "17"
+    IDS_OPT_MidnightBlack_JP "17"
+    IDS_OPT_WirelessGreen_JP "17"
+    IDS_OPT_GlamPink_JP     "17"
+    IDS_OPT_BlueSteel_JP    "17"
+    IDS_OPT_Brown_JP        "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NumPeople_JP   "17"
+    IDS_INFO_TipAmount_JP   "17"
+    IDS_INFO_TotalPer_JP    "17"
+    IDS_INFO_BillTotal_JP   "17"
+    IDS_INFO_NumTerms_JP    "17"
+    IDS_INFO_InterestYear_JP "17"
+    IDS_INFO_PresentValue_JP "17"
+    IDS_INFO_Payment_JP     "17"
+    IDS_INFO_FutureValue_JP "17"
+    IDS_INFO_PaymentsYear_JP "17"
+    IDS_INFO_CompYear_JP    "17"
+    IDS_INFO_BidAsk_JP      "17"
+    IDS_INFO_Bid_JP         "17"
+    IDS_INFO_Ask_JP         "17"
+    IDS_INFO_Name_JP        "17"
+    IDS_INFO_Type_JP        "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_JP     "17"
+    IDS_CALC_DevOfX_JP      "17"
+    IDS_CALC_MeanOfY_JP     "17"
+    IDS_CALC_DevOfY_JP      "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_Equation_JP    "17"
+    IDS_CALC_YIntercept_JP  "17"
+    IDS_CALC_Slope_JP       "17"
+    IDS_CALC_Regression_JP  "17"
+    IDS_CALC_Determination_JP "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_MyDevice_JP    "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_JP          "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Binary_JP       "17"
+    IDS_BTN_Octal_JP        "17"
+    IDS_BTN_Hex_JP          "17"
+    IDS_BTN_Decimal_JP      "17"
+    IDS_BTN_Degrees_JP      "17"
+    IDS_BTN_Radians_JP      "17"
+    IDS_BTN_Grad_JP         "17"
+    IDS_BTN_SecondFunction_JP "17"
+    IDS_BTN_From_JP         "17"
+    IDS_BTN_To_JP           "17"
+    IDS_BTN_Update_JP       "17"
+    IDS_BTN_Calc_JP         "17"
+    IDS_BTN_Conversion_JP   "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_JP        "17"
+    IDS_DATE_Hours_JP       "17"
+    IDS_DATE_Min_JP         "17"
+    IDS_DATE_Sec_JP         "17"
+    IDS_DATE_Start_JP       "17"
+    IDS_DATE_Interval_JP    "17"
+    IDS_DATE_End_JP         "17"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_KO        "18"
+	IDS_MSG_DemoOverShort_KO "18"
+    IDS_MENU_MoreApps_KO    "18"
+    IDS_TITLE_DateCalculator_KO "18"
+    IDS_TITLE_Depreciation_KO "18"
+    IDS_TITLE_CompoundInterest_KO "18"
+    IDS_TITLE_BreakEvenSales_KO "18"
+    IDS_TITLE_LoanCalculator_KO "18"
+    IDS_TITLE_Worksheet_KO  "18"
+    IDS_TITLE_Mortgage_KO   "18"
+    IDS_TITLE_PercentChange_KO "18"
+    IDS_TITLE_ProfitMargin_KO "18"
+    IDS_TITLE_TipCalculator_KO "18"
+    IDS_TITLE_TVM_KO        "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_KO  "18"
+    IDS_MENU_General_KO     "18"
+    IDS_MENU_On_KO          "18"
+    IDS_MENU_Off_KO         "18"
+    IDS_MENU_SaveGraph_KO   "18"
+    IDS_MENU_Open_KO        "18"
+    IDS_MENU_CalcProGraph_KO "18"
+    IDS_MENU_ViewTape_KO    "18"
+    IDS_MENU_Quiet_KO       "18"
+    IDS_MENU_Ok_KO          "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies_KO "18"
+    IDS_MENU_Graph_KO       "18"
+    IDS_MENU_File_KO        "18"
+    IDS_MENU_AboutCalcPro_KO "18"
+    IDS_MENU_About2_KO      "18"
+    IDS_MENU_Options_KO     "18"
+    IDS_MENU_Options2_KO    "18"
+    IDS_MENU_CalcProOptions_KO "18"
+    IDS_MENU_RPNStack_KO    "18"
+    IDS_MENU_ConstantFavorites_KO "18"
+    IDS_MENU_Group_KO       "18"
+    IDS_MENU_Recent_KO      "18"
+    IDS_MENU_FullList_KO    "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel_KO      "18"
+    IDS_MENU_Graphing_KO    "18"
+    IDS_MENU_Unit_KO        "18"
+    IDS_MENU_Currency_KO    "18"
+    IDS_MENU_DateTime_KO    "18"
+    IDS_MENU_Translate_KO   "18"
+    IDS_MENU_ZoomOut_KO     "18"
+    IDS_MENU_ZoomIn_KO      "18"
+    IDS_MENU_Reset_KO       "18"
+    IDS_MENU_Mode_KO        "18"
+    IDS_MENU_PointOnGraph_KO "18"
+    IDS_MENU_CenterGraph_KO "18"
+    IDS_MENU_Zoom_KO        "18"
+    IDS_MENU_Constants_KO   "18"
+    IDS_MENU_Back_KO        "18"
+    IDS_MENU_Stats_KO       "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit_KO        "18"
+    IDS_MENU_About_KO       "18"
+    IDS_MENU_Help_KO        "18"
+    IDS_MENU_Edit_KO        "18"
+    IDS_MENU_Copy_KO        "18"
+    IDS_MENU_Paste_KO       "18"
+    IDS_MENU_View_KO        "18"
+    IDS_MENU_Standard_KO    "18"
+    IDS_MENU_BaseConv_KO    "18"
+    IDS_MENU_Financial_KO   "18"
+    IDS_MENU_Menu_KO        "18"
+    IDS_MENU_Save_KO        "18"
+    IDS_MENU_ZoomNormal_KO  "18"
+    IDS_MENU_ZoomX_KO       "18"
+    IDS_MENU_ZoomY_KO       "18"
+    IDS_MENU_ZoomMode_KO    "18"
+    IDS_MENU_SelectGraph_KO "18"
+    IDS_MENU_FitToData_KO   "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver_KO     "18"
+    IDS_MSG_About_KO        "18"
+    IDS_MSG_TrialExpired_KO "18"
+    IDS_MSG_Memory_KO       "18"
+    IDS_MSG_Memory2_KO      "18"
+    IDS_MSG_CalcProMemory_KO "18"
+    IDS_MSG_Connecting_KO   "18"
+    IDS_MSG_Updated_KO      "18"
+    IDS_MSG_FileExists_KO   "18"
+    IDS_MSG_Warning_KO      "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro_KO    "18"
+    IDS_ERROR_IndexRange_KO "18"
+    IDS_ERROR_PleaseContact_KO "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_KO       "18"
+    IDS_OPT_QWERTY_KO       "18"
+    IDS_OPT_QWERTZ_KO       "18"
+    IDS_OPT_AZERTY_KO       "18"
+    IDS_OPT_A_KO            "18"
+    IDS_OPT_Q_KO            "18"
+    IDS_OPT_Z_KO            "18"
+    IDS_OPT_W_KO            "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E_KO            "18"
+    IDS_OPT_R_KO            "18"
+    IDS_OPT_T_KO            "18"
+    IDS_OPT_Normal_KO       "18"
+    IDS_OPT_NormalWide_KO   "18"
+    IDS_OPT_Small_KO        "18"
+    IDS_OPT_SmallWide_KO    "18"
+    IDS_OPT_Large_KO        "18"
+    IDS_OPT_LargeWide_KO    "18"
+    IDS_OPT_Monthly_KO      "18"
+    IDS_OPT_MonthlyAccel_KO "18"
+    IDS_OPT_BiWeekly_KO     "18"
+    IDS_OPT_BiWeeklyAccel_KO "18"
+    IDS_OPT_Weekly_KO       "18"
+    IDS_OPT_WeeklyAccel_KO  "18"
+    IDS_OPT_SemiMonthly_KO  "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel_KO "18"
+    IDS_OPT_BiMonthly_KO    "18"
+    IDS_OPT_BiMonthlyAccel_KO "18"
+    IDS_OPT_Fixed_KO        "18"
+    IDS_OPT_Scientific_KO   "18"
+    IDS_OPT_Engineering_KO  "18"
+    IDS_OPT_Fractions_KO    "18"
+    IDS_OPT_BinaryDec_KO    "18"
+    IDS_OPT_Algebraic_KO    "18"
+    IDS_OPT_DirectAlgebraic_KO "18"
+    IDS_OPT_RPN_KO          "18"
+    IDS_OPT_Expression_KO   "18"
+    IDS_OPT_RegionalSettings_KO "18"
+    IDS_OPT_PlaySounds_KO   "18"
+    IDS_OPT_RecordTape_KO   "18"
+    IDS_OPT_AdvancedMemory_KO "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_CalculatorMode_KO "18"
+    IDS_OPT_Notation_KO     "18"
+    IDS_OPT_ConversionBuffer_KO "18"
+    IDS_OPT_RPNStackSize_KO "18"
+    IDS_OPT_Skin_KO         "18"
+    IDS_OPT_FixedDigits_KO  "18"
+    IDS_OPT_FastGraphing_KO "18"
+    IDS_OPT_ShowPointsOnly_KO "18"
+    IDS_OPT_EndPeriodPayments_KO "18"
+    IDS_OPT_PaymentSched_KO "18"
+    IDS_OPT_CalculatorSize_KO "18"
+    IDS_OPT_KeyboardType_KO "18"
+    IDS_OPT_1Key_KO         "18"
+    IDS_OPT_KeyboardLetters_KO "18"
+    IDS_OPT_FRAC_KO         "18"
+    IDS_OPT_ENG_KO          "18"
+    IDS_OPT_Fullscreen_KO "???? ??:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_KO       "18"
+    IDS_INFO_SalesTax_KO    "18"
+    IDS_INFO_OtherFees_KO   "18"
+    IDS_INFO_DownPayment_KO "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn_KO     "18"
+    IDS_INFO_NumberOfMonths_KO "18"
+    IDS_INFO_InterestRate_KO "18"
+    IDS_INFO_MonthlyPayment_KO "18"
+    IDS_INFO_TotalInterest_KO "18"
+    IDS_INFO_TotalRepaid_KO "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_KO        "18"
+    IDS_INFO_StartMonth_KO  "18"
+    IDS_INFO_StartYear_KO   "18"
+    IDS_INFO_StartDay_KO    "18"
+    IDS_INFO_Salary_KO      "18"
+    IDS_INFO_Year_KO        "18"
+    IDS_INFO_Depreciation_KO "18"
+    IDS_INFO_Cost_KO        "18"
+    IDS_INFO_RBVal_KO       "18"
+    IDS_INFO_RDVal_KO       "18"
+    IDS_INFO_EndYear_KO     "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth_KO    "18"
+    IDS_INFO_EndDay_KO      "18"
+    IDS_INFO_Difference_KO  "18"
+    IDS_INFO_Diff360_KO     "18"
+    IDS_INFO_Periods_KO     "18"
+    IDS_INFO_StartValue_KO  "18"
+    IDS_INFO_FinalValue_KO  "18"
+    IDS_INFO_Profit_KO      "18"
+    IDS_INFO_FixedCost_KO   "18"
+    IDS_INFO_VarCost_KO     "18"
+    IDS_INFO_Quantity_KO    "18"
+    IDS_INFO_Terms_KO       "18"
+    IDS_INFO_MonthlyFees_KO "18"
+    IDS_INFO_TotalPayments_KO "18"
+    IDS_INFO_Principal_KO   "18"
+    IDS_INFO_PeriodsYear_KO "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_KO "18"
+    IDS_OPT_MidnightBlack_KO "18"
+    IDS_OPT_WirelessGreen_KO "18"
+    IDS_OPT_GlamPink_KO     "18"
+    IDS_OPT_BlueSteel_KO    "18"
+    IDS_OPT_Brown_KO        "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate_KO "18"
+    IDS_INFO_EffectiveRate_KO "18"
+    IDS_INFO_PowerRegression_KO "18"
+    IDS_INFO_LogRegression_KO "18"
+    IDS_INFO_ExpRegression_KO "18"
+    IDS_INFO_LinearRegression_KO "18"
+    IDS_INFO_BillAmount_KO  "18"
+    IDS_INFO_TipPercent_KO  "18"
+    IDS_INFO_NumPeople_KO   "18"
+    IDS_INFO_TipAmount_KO   "18"
+    IDS_INFO_TotalPer_KO    "18"
+    IDS_INFO_BillTotal_KO   "18"
+    IDS_INFO_NumTerms_KO    "18"
+    IDS_INFO_InterestYear_KO "18"
+    IDS_INFO_PresentValue_KO "18"
+    IDS_INFO_Payment_KO     "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_KO     "18"
+    IDS_CALC_DevOfX_KO      "18"
+    IDS_CALC_MeanOfY_KO     "18"
+    IDS_CALC_DevOfY_KO      "18"
+    IDS_CALC_Equation_KO    "18"
+    IDS_CALC_YIntercept_KO  "18"
+    IDS_CALC_Slope_KO       "18"
+    IDS_CALC_Regression_KO  "18"
+    IDS_CALC_Determination_KO "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile_KO   "18"
+    IDS_ERROR_CalcPro_KO    "18"
+    IDS_ERROR_Error_KO      "18"
+    IDS_ERROR_UnableToConnect_KO "18"
+    IDS_ERROR_FileDoesNotExist_KO "18"
+    IDS_INFO_RetailVersion_KO "18"
+    IDS_INFO_DemoDays_KO    "18"
+    IDS_INFO_Expired_KO     "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue_KO "18"
+    IDS_INFO_PaymentsYear_KO "18"
+    IDS_INFO_CompYear_KO    "18"
+    IDS_INFO_BidAsk_KO      "18"
+    IDS_INFO_Bid_KO         "18"
+    IDS_INFO_Ask_KO         "18"
+    IDS_INFO_Name_KO        "18"
+    IDS_INFO_Type_KO        "18"
+    IDS_INFO_MyDevice_KO    "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_KO          "18"
+    IDS_BTN_Binary_KO       "18"
+    IDS_BTN_Octal_KO        "18"
+    IDS_BTN_Hex_KO          "18"
+    IDS_BTN_Decimal_KO      "18"
+    IDS_BTN_Degrees_KO      "18"
+    IDS_BTN_Radians_KO      "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Grad_KO         "18"
+    IDS_BTN_SecondFunction_KO "18"
+    IDS_BTN_From_KO         "18"
+    IDS_BTN_To_KO           "18"
+    IDS_BTN_Update_KO       "18"
+    IDS_BTN_Calc_KO         "18"
+    IDS_BTN_Conversion_KO   "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_KO        "18"
+    IDS_DATE_Hours_KO       "18"
+    IDS_DATE_Min_KO         "18"
+    IDS_DATE_Sec_KO         "18"
+    IDS_DATE_Start_KO       "18"
+    IDS_DATE_Interval_KO    "18"
+    IDS_DATE_End_KO         "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile_KO    "18"
+    IDS_MENU_SaveFile_KO    "18"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_DU        "19"
+	IDS_MSG_DemoOverShort_DU "19"
+    IDS_MENU_MoreApps_DU    "19"
+    IDS_TITLE_DateCalculator_DU "19"
+    IDS_TITLE_Depreciation_DU "19"
+    IDS_TITLE_CompoundInterest_DU "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_BreakEvenSales_DU "19"
+    IDS_TITLE_LoanCalculator_DU "19"
+    IDS_TITLE_Worksheet_DU  "19"
+    IDS_TITLE_Mortgage_DU   "19"
+    IDS_TITLE_PercentChange_DU "19"
+    IDS_TITLE_ProfitMargin_DU "19"
+    IDS_TITLE_TipCalculator_DU "19"
+    IDS_TITLE_TVM_DU        "19"
+    IDS_TITLE_CalcPro_DU    "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_DU  "19"
+    IDS_MENU_General_DU     "19"
+    IDS_MENU_On_DU          "19"
+    IDS_MENU_Off_DU         "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_SaveGraph_DU   "19"
+    IDS_MENU_Open_DU        "19"
+    IDS_MENU_CalcProGraph_DU "19"
+    IDS_MENU_ViewTape_DU    "19"
+    IDS_MENU_Quiet_DU       "19"
+    IDS_MENU_Ok_DU          "19"
+    IDS_MENU_Exit_DU        "19"
+    IDS_MENU_About_DU       "19"
+    IDS_MENU_Help_DU        "19"
+    IDS_MENU_Edit_DU        "19"
+    IDS_MENU_Copy_DU        "19"
+    IDS_MENU_Paste_DU       "19"
+    IDS_MENU_View_DU        "19"
+    IDS_MENU_Standard_DU    "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Reset_DU       "19"
+    IDS_MENU_Mode_DU        "19"
+    IDS_MENU_PointOnGraph_DU "19"
+    IDS_MENU_CenterGraph_DU "19"
+    IDS_MENU_Zoom_DU        "19"
+    IDS_MENU_Constants_DU   "19"
+    IDS_MENU_Back_DU        "19"
+    IDS_MENU_Stats_DU       "19"
+    IDS_MENU_UpdateCurrencies_DU "19"
+    IDS_MENU_Graph_DU       "19"
+    IDS_MENU_File_DU        "19"
+    IDS_MENU_AboutCalcPro_DU "19"
+    IDS_MENU_About2_DU      "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_DU     "19"
+    IDS_MENU_Options2_DU    "19"
+    IDS_MENU_CalcProOptions_DU "19"
+    IDS_MENU_RPNStack_DU    "19"
+    IDS_MENU_ConstantFavorites_DU "19"
+    IDS_MENU_Group_DU       "19"
+    IDS_MENU_Recent_DU      "19"
+    IDS_MENU_FullList_DU    "19"
+    IDS_MENU_OpenFile_DU    "19"
+    IDS_MENU_SaveFile_DU    "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_BaseConv_DU    "19"
+    IDS_MENU_Financial_DU   "19"
+    IDS_MENU_Menu_DU        "19"
+    IDS_MENU_Save_DU        "19"
+    IDS_MENU_ZoomNormal_DU  "19"
+    IDS_MENU_ZoomX_DU       "19"
+    IDS_MENU_ZoomY_DU       "19"
+    IDS_MENU_ZoomMode_DU    "19"
+    IDS_MENU_SelectGraph_DU "19"
+    IDS_MENU_FitToData_DU   "19"
+    IDS_MENU_Cancel_DU      "19"
+    IDS_MENU_Graphing_DU    "19"
+    IDS_MENU_Unit_DU        "19"
+    IDS_MENU_Currency_DU    "19"
+    IDS_MENU_DateTime_DU    "19"
+    IDS_MENU_Translate_DU   "19"
+    IDS_MENU_ZoomOut_DU     "19"
+    IDS_MENU_ZoomIn_DU      "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_RetailVersion_DU "19"
+    IDS_INFO_DemoDays_DU    "19"
+    IDS_INFO_Expired_DU     "19"
+    IDS_MSG_DemoOver_DU     "19"
+    IDS_MSG_About_DU        "19"
+    IDS_MSG_TrialExpired_DU "19"
+    IDS_MSG_Memory_DU       "19"
+    IDS_MSG_Memory2_DU      "19"
+    IDS_MSG_CalcProMemory_DU "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_Connecting_DU   "19"
+    IDS_MSG_Updated_DU      "19"
+    IDS_MSG_FileExists_DU   "19"
+    IDS_MSG_Warning_DU      "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_IndexRange_DU "19"
+    IDS_ERROR_PleaseContact_DU "19"
+    IDS_ERROR_OpenFile_DU   "19"
+    IDS_ERROR_CalcPro_DU    "19"
+    IDS_ERROR_Error_DU      "19"
+    IDS_ERROR_UnableToConnect_DU "19"
+    IDS_ERROR_FileDoesNotExist_DU "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_DU       "19"
+    IDS_OPT_QWERTY_DU       "19"
+    IDS_OPT_QWERTZ_DU       "19"
+    IDS_OPT_AZERTY_DU       "19"
+    IDS_OPT_A_DU            "19"
+    IDS_OPT_Q_DU            "19"
+    IDS_OPT_Z_DU            "19"
+    IDS_OPT_W_DU            "19"
+    IDS_OPT_E_DU            "19"
+    IDS_OPT_R_DU            "19"
+    IDS_OPT_T_DU            "19"
+    IDS_OPT_Normal_DU       "19"
+    IDS_OPT_NormalWide_DU   "19"
+    IDS_OPT_Small_DU        "19"
+    IDS_OPT_SmallWide_DU    "19"
+    IDS_OPT_Large_DU        "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_LargeWide_DU    "19"
+    IDS_OPT_Monthly_DU      "19"
+    IDS_OPT_MonthlyAccel_DU "19"
+    IDS_OPT_BiWeekly_DU     "19"
+    IDS_OPT_BiWeeklyAccel_DU "19"
+    IDS_OPT_Weekly_DU       "19"
+    IDS_OPT_WeeklyAccel_DU  "19"
+    IDS_OPT_SemiMonthly_DU  "19"
+    IDS_OPT_SemiMonthlyAccel_DU "19"
+    IDS_OPT_BiMonthly_DU    "19"
+    IDS_OPT_BiMonthlyAccel_DU "19"
+    IDS_OPT_Fixed_DU        "19"
+    IDS_OPT_Scientific_DU   "19"
+    IDS_OPT_Engineering_DU  "19"
+    IDS_OPT_Fractions_DU    "19"
+    IDS_OPT_BinaryDec_DU    "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Algebraic_DU    "19"
+    IDS_OPT_DirectAlgebraic_DU "19"
+    IDS_OPT_RPN_DU          "19"
+    IDS_OPT_Expression_DU   "19"
+    IDS_OPT_RegionalSettings_DU "19"
+    IDS_OPT_PlaySounds_DU   "19"
+    IDS_OPT_RecordTape_DU   "19"
+    IDS_OPT_AdvancedMemory_DU "19"
+    IDS_OPT_CalculatorMode_DU "19"
+    IDS_OPT_Notation_DU     "19"
+    IDS_OPT_ConversionBuffer_DU "19"
+    IDS_OPT_RPNStackSize_DU "19"
+    IDS_OPT_Skin_DU         "19"
+    IDS_OPT_FixedDigits_DU  "19"
+    IDS_OPT_FastGraphing_DU "19"
+    IDS_OPT_ShowPointsOnly_DU "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_EndPeriodPayments_DU "19"
+    IDS_OPT_PaymentSched_DU "19"
+    IDS_OPT_CalculatorSize_DU "19"
+    IDS_OPT_KeyboardType_DU "19"
+    IDS_OPT_1Key_DU         "19"
+    IDS_OPT_KeyboardLetters_DU "19"
+    IDS_OPT_FRAC_DU         "19"
+    IDS_OPT_ENG_DU          "19"
+    IDS_OPT_Fullscreen_DU "Volledig scherm gebruiken:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_DU       "19"
+    IDS_INFO_SalesTax_DU    "19"
+    IDS_INFO_OtherFees_DU   "19"
+    IDS_INFO_DownPayment_DU "19"
+    IDS_INFO_TradeIn_DU     "19"
+    IDS_INFO_NumberOfMonths_DU "19"
+    IDS_INFO_InterestRate_DU "19"
+    IDS_INFO_MonthlyPayment_DU "19"
+    IDS_INFO_TotalInterest_DU "19"
+    IDS_INFO_TotalRepaid_DU "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_DU        "19"
+    IDS_INFO_StartMonth_DU  "19"
+    IDS_INFO_StartYear_DU   "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_StartDay_DU    "19"
+    IDS_INFO_Salary_DU      "19"
+    IDS_INFO_Year_DU        "19"
+    IDS_INFO_Depreciation_DU "19"
+    IDS_INFO_Cost_DU        "19"
+    IDS_INFO_RBVal_DU       "19"
+    IDS_INFO_RDVal_DU       "19"
+    IDS_INFO_EndYear_DU     "19"
+    IDS_INFO_EndMonth_DU    "19"
+    IDS_INFO_EndDay_DU      "19"
+    IDS_INFO_Difference_DU  "19"
+    IDS_INFO_Diff360_DU     "19"
+    IDS_INFO_Periods_DU     "19"
+    IDS_INFO_StartValue_DU  "19"
+    IDS_INFO_FinalValue_DU  "19"
+    IDS_INFO_Profit_DU      "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FixedCost_DU   "19"
+    IDS_INFO_VarCost_DU     "19"
+    IDS_INFO_Quantity_DU    "19"
+    IDS_INFO_Terms_DU       "19"
+    IDS_INFO_MonthlyFees_DU "19"
+    IDS_INFO_TotalPayments_DU "19"
+    IDS_INFO_Principal_DU   "19"
+    IDS_INFO_PeriodsYear_DU "19"
+    IDS_INFO_NominalRate_DU "19"
+    IDS_INFO_EffectiveRate_DU "19"
+    IDS_INFO_PowerRegression_DU "19"
+    IDS_INFO_LogRegression_DU "19"
+    IDS_INFO_ExpRegression_DU "19"
+    IDS_INFO_LinearRegression_DU "19"
+    IDS_INFO_BillAmount_DU  "19"
+    IDS_INFO_TipPercent_DU  "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_DU "19"
+    IDS_OPT_MidnightBlack_DU "19"
+    IDS_OPT_WirelessGreen_DU "19"
+    IDS_OPT_GlamPink_DU     "19"
+    IDS_OPT_BlueSteel_DU    "19"
+    IDS_OPT_Brown_DU        "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NumPeople_DU   "19"
+    IDS_INFO_TipAmount_DU   "19"
+    IDS_INFO_TotalPer_DU    "19"
+    IDS_INFO_BillTotal_DU   "19"
+    IDS_INFO_NumTerms_DU    "19"
+    IDS_INFO_InterestYear_DU "19"
+    IDS_INFO_PresentValue_DU "19"
+    IDS_INFO_Payment_DU     "19"
+    IDS_INFO_FutureValue_DU "19"
+    IDS_INFO_PaymentsYear_DU "19"
+    IDS_INFO_CompYear_DU    "19"
+    IDS_INFO_BidAsk_DU      "19"
+    IDS_INFO_Bid_DU         "19"
+    IDS_INFO_Ask_DU         "19"
+    IDS_INFO_Name_DU        "19"
+    IDS_INFO_Type_DU        "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_DU     "19"
+    IDS_CALC_DevOfX_DU      "19"
+    IDS_CALC_MeanOfY_DU     "19"
+    IDS_CALC_DevOfY_DU      "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_Equation_DU    "19"
+    IDS_CALC_YIntercept_DU  "19"
+    IDS_CALC_Slope_DU       "19"
+    IDS_CALC_Regression_DU  "19"
+    IDS_CALC_Determination_DU "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_MyDevice_DU    "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_DU          "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Binary_DU       "19"
+    IDS_BTN_Octal_DU        "19"
+    IDS_BTN_Hex_DU          "19"
+    IDS_BTN_Decimal_DU      "19"
+    IDS_BTN_Degrees_DU      "19"
+    IDS_BTN_Radians_DU      "19"
+    IDS_BTN_Grad_DU         "19"
+    IDS_BTN_SecondFunction_DU "19"
+    IDS_BTN_From_DU         "19"
+    IDS_BTN_To_DU           "19"
+    IDS_BTN_Update_DU       "19"
+    IDS_BTN_Calc_DU         "19"
+    IDS_BTN_Conversion_DU   "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_DU        "19"
+    IDS_DATE_Hours_DU       "19"
+    IDS_DATE_Min_DU         "19"
+    IDS_DATE_Sec_DU         "19"
+    IDS_DATE_Start_DU       "19"
+    IDS_DATE_Interval_DU    "19"
+    IDS_DATE_End_DU         "19"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_PT        "Panoramic CalcPro"
+	IDS_MSG_DemoOverShort_PT "Esperamos que tenha gostado de experimentar Panoramic Calc Pro, o seu período experimental expirou."
+    IDS_MENU_MoreApps_PT    "Mais Apps..."
+    IDS_TITLE_DateCalculator_PT "Calulador de Datas"
+    IDS_TITLE_Depreciation_PT "Depreciação"
+    IDS_TITLE_CompoundInterest_PT "Juro Composto"
+    IDS_TITLE_BreakEvenSales_PT "Ponto de Vendas"
+    IDS_TITLE_LoanCalculator_PT "Calculador de Empestimos"
+    IDS_TITLE_Worksheet_PT  "Folha de Trabalho"
+    IDS_TITLE_Mortgage_PT   "Hipoteca - "
+    IDS_TITLE_PercentChange_PT "Mudar Percentagem"
+    IDS_TITLE_ProfitMargin_PT "Margem de Lucro"
+    IDS_TITLE_TipCalculator_PT "Calculador de Grojetas"
+    IDS_TITLE_TVM_PT        "Tempo Valor Dinheiro"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_PT  "Calculadora"
+    IDS_MENU_General_PT     "Geral"
+    IDS_MENU_On_PT          "Ligar"
+    IDS_MENU_Off_PT         "Desligar"
+    IDS_MENU_SaveGraph_PT   "Gravar Bitmap"
+    IDS_MENU_Open_PT        "Abrir"
+    IDS_MENU_CalcProGraph_PT "Grafico Calc Pro"
+    IDS_MENU_ViewTape_PT    "Ver Fita..."
+    IDS_MENU_Quiet_PT       "Silêncio"
+    IDS_MENU_Ok_PT          "OK"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_UpdateCurrencies_PT "Actualizar Moedas"
+    IDS_MENU_Graph_PT       "Grafico"
+    IDS_MENU_File_PT        "Ficheiro"
+    IDS_MENU_AboutCalcPro_PT "Acerca de Calc Pro"
+    IDS_MENU_About2_PT      "Acerca"
+    IDS_MENU_Options_PT     "Opções..."
+    IDS_MENU_Options2_PT    "Opções"
+    IDS_MENU_CalcProOptions_PT "Opções Calc Pro"
+    IDS_MENU_RPNStack_PT    "Pilha RPN"
+    IDS_MENU_ConstantFavorites_PT "Favoritos Constantes"
+    IDS_MENU_Group_PT       "Grupo"
+    IDS_MENU_Recent_PT      "Recente"
+    IDS_MENU_FullList_PT    "Lista Completa"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Cancel_PT      "Cancelar"
+    IDS_MENU_Graphing_PT    "Gráfica"
+    IDS_MENU_Unit_PT        "Conversor Unidades"
+    IDS_MENU_Currency_PT    "Moedas do Mundo"
+    IDS_MENU_DateTime_PT    "Data e Hora"
+    IDS_MENU_Translate_PT   "Traduzir Gráfico"
+    IDS_MENU_ZoomOut_PT     "Diminuir"
+    IDS_MENU_ZoomIn_PT      "Aumentar"
+    IDS_MENU_Reset_PT       "Restablecer"
+    IDS_MENU_Mode_PT        "Modo"
+    IDS_MENU_PointOnGraph_PT "Ponto de Gráfico"
+    IDS_MENU_CenterGraph_PT "Centro no Gráfico"
+    IDS_MENU_Zoom_PT        "Selecionar e Aumentar"
+    IDS_MENU_Constants_PT   "Constantes"
+    IDS_MENU_Back_PT        "Voltar"
+    IDS_MENU_Stats_PT       "Estatísticas"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Exit_PT        "Sair"
+    IDS_MENU_About_PT       "Àcerca"
+    IDS_MENU_Help_PT        "Ajuda..."
+    IDS_MENU_Edit_PT        "Editar"
+    IDS_MENU_Copy_PT        "Copiar"
+    IDS_MENU_Paste_PT       "Colar"
+    IDS_MENU_View_PT        "Ver"
+    IDS_MENU_Standard_PT    "Standard"
+    IDS_MENU_BaseConv_PT    "Conversões Base"
+    IDS_MENU_Financial_PT   "Financeiro"
+    IDS_MENU_Menu_PT        "Menu"
+    IDS_MENU_Save_PT        "Gravar"
+
+    IDS_MENU_ZoomNormal_PT  "Normal (XY)"
+    IDS_MENU_ZoomX_PT       "X Apenas"
+    IDS_MENU_ZoomY_PT       "Y Apenas"
+    IDS_MENU_ZoomMode_PT    "Zoom Modo"
+    IDS_MENU_SelectGraph_PT "Selecione gráfico"
+    IDS_MENU_FitToData_PT   "22"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_DemoOver_PT     "Esperamos que tenha disfrutado de usar Panoramic Calc Pro, o seu periodo exprimental expirou.\r\n\r\nPara adequirir por favor volte ao sitio onde lhe foi fornecido a versão de teste."
+    IDS_MSG_About_PT        "Panoramic Calc Pro\r\n%s 2.9.2\r\nCopyright 2007-2012\r\nTodos os direitos reservados\r\n\r\n"
+    IDS_MSG_TrialExpired_PT "Periodo de exprimentação expirado"
+    IDS_MSG_Memory_PT       "Memoria%i: %s\r\n"
+    IDS_MSG_Memory2_PT      "Memoria: %s"
+    IDS_MSG_CalcProMemory_PT "Memoria Calc Pro"
+    IDS_MSG_Connecting_PT   "A ligar..."
+    IDS_MSG_Updated_PT      "Actualizado: %s"
+    IDS_MSG_FileExists_PT   "Ficheiro já existe. Deseja escrever por cima?"
+    IDS_MSG_Warning_PT      "Aviso"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_CalcPro_PT    "Calc Pro - "
+    IDS_ERROR_IndexRange_PT "Índice fora do intervalo"
+    IDS_ERROR_PleaseContact_PT "Por favor Contacte Panoramic Software Inc"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_PT       "Calc Pro layout"
+    IDS_OPT_QWERTY_PT       "QWERTY"
+    IDS_OPT_QWERTZ_PT       "QWERTZ"
+    IDS_OPT_AZERTY_PT       "AZERTY"
+    IDS_OPT_A_PT            "Os números começam com A"
+    IDS_OPT_Q_PT            "Os números começam com Q"
+    IDS_OPT_Z_PT            "Os números começam com Z"
+    IDS_OPT_W_PT            "Os números começam com W"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_E_PT            "Os números começam com E"
+    IDS_OPT_R_PT            "Os números começam com R"
+    IDS_OPT_T_PT            "Os números começam com T"
+    IDS_OPT_Normal_PT       "Normal"
+    IDS_OPT_NormalWide_PT   "Normal (amplo)"
+    IDS_OPT_Small_PT        "Pequeno"
+    IDS_OPT_SmallWide_PT    "Pequeno (amplo)"
+    IDS_OPT_Large_PT        "Largo"
+    IDS_OPT_LargeWide_PT    "Largo (amplo)"
+    IDS_OPT_Monthly_PT      "Mensal"
+    IDS_OPT_MonthlyAccel_PT "Mensal Acel"
+    IDS_OPT_BiWeekly_PT     "Quinzenal"
+    IDS_OPT_BiWeeklyAccel_PT "Quinzenal Acel"
+    IDS_OPT_Weekly_PT       "Semanal"
+    IDS_OPT_WeeklyAccel_PT  "Semanal Acel"
+    IDS_OPT_SemiMonthly_PT  "Semi Mensal"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SemiMonthlyAccel_PT "Semi Mensal Acel"
+    IDS_OPT_BiMonthly_PT    "Bi-Mensal"
+    IDS_OPT_BiMonthlyAccel_PT "Bi-Mensal Acel"
+    IDS_OPT_Fixed_PT        "Fixado"
+    IDS_OPT_Scientific_PT   "Scientifico"
+    IDS_OPT_Engineering_PT  "Engenharia"
+    IDS_OPT_Fractions_PT    "Fracções"
+    IDS_OPT_BinaryDec_PT    "Binario Dec"
+    IDS_OPT_Algebraic_PT    "Algrebrico"
+    IDS_OPT_DirectAlgebraic_PT "Algrebrico Direto"
+    IDS_OPT_RPN_PT          "R.P.N."
+    IDS_OPT_Expression_PT   "Expressão"
+    IDS_OPT_RegionalSettings_PT "Usar definições regionais"
+    IDS_OPT_PlaySounds_PT   "Tocar sons:"
+    IDS_OPT_RecordTape_PT   "Gravar fita:"
+    IDS_OPT_AdvancedMemory_PT "Memória avançada:"
+END
+
+STRINGTABLE 
+BEGIN
+IDS_OPT_CalculatorMode_PT "Modo de calculadora:"
+    IDS_OPT_Notation_PT     "Notação:"
+    IDS_OPT_ConversionBuffer_PT "Buffer de conversão:"
+    IDS_OPT_RPNStackSize_PT "Tamanho da pilha RPN:"
+    IDS_OPT_Skin_PT         "Tema:"
+    IDS_OPT_FixedDigits_PT  "Digitos fixos:"
+    IDS_OPT_FastGraphing_PT "Graficos rápidos:"
+    IDS_OPT_ShowPointsOnly_PT "Mostrar pontos apenas:"
+    IDS_OPT_EndPeriodPayments_PT "Term periodo pagamentos:"
+    IDS_OPT_PaymentSched_PT "Agend pagamentos (MORT):"
+    IDS_OPT_CalculatorSize_PT "Tamanho da calculadora:"
+    IDS_OPT_KeyboardType_PT "Tipo de teclado:"
+    IDS_OPT_1Key_PT         "Localização do botão 1:"
+    IDS_OPT_KeyboardLetters_PT "Mostrar letras de teclado:"
+    IDS_OPT_FRAC_PT         "FRAC"
+    IDS_OPT_ENG_PT          "ENG"
+    IDS_OPT_Fullscreen_PT "Usar ecrã completo:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_PT       "Preço"
+    IDS_INFO_SalesTax_PT    "Imposto sobre Vendas"
+    IDS_INFO_OtherFees_PT   "Outras taxas"
+    IDS_INFO_DownPayment_PT "Baixar pagamento:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_TradeIn_PT     "Comerçio de"
+    IDS_INFO_NumberOfMonths_PT "Número de meses:"
+    IDS_INFO_InterestRate_PT "Taxa de juro"
+    IDS_INFO_MonthlyPayment_PT "Pagamento Mensal"
+    IDS_INFO_TotalInterest_PT "Interesse total"
+    IDS_INFO_TotalRepaid_PT "Total reeembolsado"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_PT        "Vida"
+    IDS_INFO_StartMonth_PT  "Mês inicial"
+    IDS_INFO_StartYear_PT   "Ano inicial"
+    IDS_INFO_StartDay_PT    "Dia inicial"
+    IDS_INFO_Salary_PT      "Valor Residual"
+    IDS_INFO_Year_PT        "Ano"
+    IDS_INFO_Depreciation_PT "Depreciação"
+    IDS_INFO_Cost_PT        "Custo"
+    IDS_INFO_RBVal_PT       "RB Valor"
+    IDS_INFO_RDVal_PT       "RD Valor"
+    IDS_INFO_EndYear_PT     "Ano final"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_EndMonth_PT    "Mês final"
+    IDS_INFO_EndDay_PT      "Dia final"
+    IDS_INFO_Difference_PT  "Diferença"
+    IDS_INFO_Diff360_PT     "Dif. 360"
+    IDS_INFO_Periods_PT     "# de Periodos"
+    IDS_INFO_StartValue_PT  "Valor inicial"
+    IDS_INFO_FinalValue_PT  "Valor final"
+    IDS_INFO_Profit_PT      "Lucro"
+    IDS_INFO_FixedCost_PT   "Custo fixo"
+    IDS_INFO_VarCost_PT     "Custo variavel"
+    IDS_INFO_Quantity_PT    "Quantidade"
+    IDS_INFO_Terms_PT       "Termos (anos)"
+    IDS_INFO_MonthlyFees_PT "Taxas mensais"
+    IDS_INFO_TotalPayments_PT "Pagamentos totais"
+    IDS_INFO_Principal_PT   "Principal"
+    IDS_INFO_PeriodsYear_PT "Periodos / Ano"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_PT "Azul Metálico"
+    IDS_OPT_MidnightBlack_PT "Preto meia noite"
+    IDS_OPT_WirelessGreen_PT "Fio Verde"
+    IDS_OPT_GlamPink_PT     "Glam cor de rosa"
+    IDS_OPT_BlueSteel_PT    "Aço azul"
+    IDS_OPT_Brown_PT        "Marrom"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NominalRate_PT "Nominais"
+    IDS_INFO_EffectiveRate_PT "Taxa efectiva"
+    IDS_INFO_PowerRegression_PT "Poder de regressão"
+    IDS_INFO_LogRegression_PT "Guardar regressão"
+    IDS_INFO_ExpRegression_PT "Exp. Regressão"
+    IDS_INFO_LinearRegression_PT "Regressão linear"
+    IDS_INFO_BillAmount_PT  "Valor de conta"
+    IDS_INFO_TipPercent_PT  "Precentagem de grojeta"
+    IDS_INFO_NumPeople_PT   "Num. Pessoas"
+    IDS_INFO_TipAmount_PT   "Valor de grojeta"
+    IDS_INFO_TotalPer_PT    "Total por Pess."
+    IDS_INFO_BillTotal_PT   "Total de conta"
+    IDS_INFO_NumTerms_PT    "Num. Termos"
+    IDS_INFO_InterestYear_PT "Interesse/Ano"
+    IDS_INFO_PresentValue_PT "Valor Presente"
+    IDS_INFO_Payment_PT     "Pagamento"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_PT     "Media de X"
+    IDS_CALC_DevOfX_PT      "Devio de X"
+    IDS_CALC_MeanOfY_PT     "Media de Y"
+    IDS_CALC_DevOfY_PT      "Media de Y"
+    IDS_CALC_Equation_PT    "Equação:"
+    IDS_CALC_YIntercept_PT  "Y Intercepta (a)"
+    IDS_CALC_Slope_PT       "Declive (b)"
+    IDS_CALC_Regression_PT  "Regrassão (r)"
+    IDS_CALC_Determination_PT "Determinação (r)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_OpenFile_PT   "Erro - Incapaz de abrir ficheiro."
+    IDS_ERROR_CalcPro_PT    "Calc Pro"
+    IDS_ERROR_Error_PT      "Erro"
+    IDS_ERROR_UnableToConnect_PT "Não é possível ligar"
+    IDS_ERROR_FileDoesNotExist_PT "Ficheiro não existe"
+    IDS_INFO_RetailVersion_PT "Versão Retail"
+    IDS_INFO_DemoDays_PT    "Demo [%i Dia(s)]"
+    IDS_INFO_Expired_PT     "Espirado"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FutureValue_PT "Valor Futuro"
+    IDS_INFO_PaymentsYear_PT "Pagamentos/Ano"
+    IDS_INFO_CompYear_PT    "Comp./Ano"
+    IDS_INFO_BidAsk_PT      "Oferta:%s Perguntar:%s"
+    IDS_INFO_Bid_PT         "oferta:%s"
+    IDS_INFO_Ask_PT         "perguntar:%s"
+    IDS_INFO_Name_PT        "Nome:"
+    IDS_INFO_Type_PT        "Tipo:"
+    IDS_INFO_MyDevice_PT    "Meu Dispositivo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_PT          "Hyp"
+    IDS_BTN_Binary_PT       "BIN"
+    IDS_BTN_Octal_PT        "OCT"
+    IDS_BTN_Hex_PT          "HEX"
+    IDS_BTN_Decimal_PT      "DEC"
+    IDS_BTN_Degrees_PT      "DEG"
+    IDS_BTN_Radians_PT      "RAD"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Grad_PT         "GRAD"
+    IDS_BTN_SecondFunction_PT "2ndF"
+    IDS_BTN_From_PT         "De"
+    IDS_BTN_To_PT           "Para"
+    IDS_BTN_Update_PT       "Atualizar"
+    IDS_BTN_Calc_PT         "Calc"
+    IDS_BTN_Conversion_PT   "Conversões"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_PT        "Dias"
+    IDS_DATE_Hours_PT       "Horas"
+    IDS_DATE_Min_PT         "Min"
+    IDS_DATE_Sec_PT         "Seg"
+    IDS_DATE_Start_PT       "Data Inicial/Tempo"
+    IDS_DATE_Interval_PT    "Data/Intrevalo Tempo"
+    IDS_DATE_End_PT         "Data Final/Tempo"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_OpenFile_PT    "Abrir Ficheiro"
+    IDS_MENU_SaveFile_PT    "Gravar Ficheiro"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE_RU        "25"
+	IDS_MSG_DemoOverShort_RU "25"
+    IDS_MENU_MoreApps_RU    "25"
+    IDS_TITLE_DateCalculator_RU "25"
+    IDS_TITLE_Depreciation_RU "25"
+    IDS_TITLE_CompoundInterest_RU "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_BreakEvenSales_RU "25"
+    IDS_TITLE_LoanCalculator_RU "25"
+    IDS_TITLE_Worksheet_RU  "25"
+    IDS_TITLE_Mortgage_RU   "25"
+    IDS_TITLE_PercentChange_RU "25"
+    IDS_TITLE_ProfitMargin_RU "25"
+    IDS_TITLE_TipCalculator_RU "25"
+    IDS_TITLE_TVM_RU        "25"
+    IDS_TITLE_CalcPro_RU    "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Calculator_RU  "25"
+    IDS_MENU_General_RU     "25"
+    IDS_MENU_On_RU          "25"
+    IDS_MENU_Off_RU         "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_SaveGraph_RU   "25"
+    IDS_MENU_Open_RU        "25"
+    IDS_MENU_CalcProGraph_RU "25"
+    IDS_MENU_ViewTape_RU    "25"
+    IDS_MENU_Quiet_RU       "25"
+    IDS_MENU_Ok_RU          "25"
+    IDS_MENU_Exit_RU        "25"
+    IDS_MENU_About_RU       "25"
+    IDS_MENU_Help_RU        "25"
+    IDS_MENU_Edit_RU        "25"
+    IDS_MENU_Copy_RU        "25"
+    IDS_MENU_Paste_RU       "25"
+    IDS_MENU_View_RU        "25"
+    IDS_MENU_Standard_RU    "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Reset_RU       "25"
+    IDS_MENU_Mode_RU        "25"
+    IDS_MENU_PointOnGraph_RU "25"
+    IDS_MENU_CenterGraph_RU "25"
+    IDS_MENU_Zoom_RU        "25"
+    IDS_MENU_Constants_RU   "25"
+    IDS_MENU_Back_RU        "25"
+    IDS_MENU_Stats_RU       "25"
+    IDS_MENU_UpdateCurrencies_RU "25"
+    IDS_MENU_Graph_RU       "25"
+    IDS_MENU_File_RU        "25"
+    IDS_MENU_AboutCalcPro_RU "25"
+    IDS_MENU_About2_RU      "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_Options_RU     "25"
+    IDS_MENU_Options2_RU    "25"
+    IDS_MENU_CalcProOptions_RU "25"
+    IDS_MENU_RPNStack_RU    "25"
+    IDS_MENU_ConstantFavorites_RU "25"
+    IDS_MENU_Group_RU       "25"
+    IDS_MENU_Recent_RU      "25"
+    IDS_MENU_FullList_RU    "25"
+    IDS_MENU_OpenFile_RU    "25"
+    IDS_MENU_SaveFile_RU    "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MENU_BaseConv_RU    "25"
+    IDS_MENU_Financial_RU   "25"
+    IDS_MENU_Menu_RU        "25"
+    IDS_MENU_Save_RU        "25"
+    IDS_MENU_ZoomNormal_RU  "25"
+    IDS_MENU_ZoomX_RU       "25"
+    IDS_MENU_ZoomY_RU       "25"
+    IDS_MENU_ZoomMode_RU    "25"
+    IDS_MENU_SelectGraph_RU "25"
+    IDS_MENU_FitToData_RU   "25"
+    IDS_MENU_Cancel_RU      "25"
+    IDS_MENU_Graphing_RU    "25"
+    IDS_MENU_Unit_RU        "25"
+    IDS_MENU_Currency_RU    "25"
+    IDS_MENU_DateTime_RU    "25"
+    IDS_MENU_Translate_RU   "25"
+    IDS_MENU_ZoomOut_RU     "25"
+    IDS_MENU_ZoomIn_RU      "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_RetailVersion_RU "25"
+    IDS_INFO_DemoDays_RU    "25"
+    IDS_INFO_Expired_RU     "25"
+    IDS_MSG_DemoOver_RU     "25"
+    IDS_MSG_About_RU        "25"
+    IDS_MSG_TrialExpired_RU "25"
+    IDS_MSG_Memory_RU       "25"
+    IDS_MSG_Memory2_RU      "25"
+    IDS_MSG_CalcProMemory_RU "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MSG_Connecting_RU   "25"
+    IDS_MSG_Updated_RU      "25"
+    IDS_MSG_FileExists_RU   "25"
+    IDS_MSG_Warning_RU      "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERROR_IndexRange_RU "25"
+    IDS_ERROR_PleaseContact_RU "25"
+    IDS_ERROR_OpenFile_RU   "25"
+    IDS_ERROR_CalcPro_RU    "25"
+    IDS_ERROR_Error_RU      "25"
+    IDS_ERROR_UnableToConnect_RU "25"
+    IDS_ERROR_FileDoesNotExist_RU "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Layout_RU       "25"
+    IDS_OPT_QWERTY_RU       "25"
+    IDS_OPT_QWERTZ_RU       "25"
+    IDS_OPT_AZERTY_RU       "25"
+    IDS_OPT_A_RU            "25"
+    IDS_OPT_Q_RU            "25"
+    IDS_OPT_Z_RU            "25"
+    IDS_OPT_W_RU            "25"
+    IDS_OPT_E_RU            "25"
+    IDS_OPT_R_RU            "25"
+    IDS_OPT_T_RU            "25"
+    IDS_OPT_Normal_RU       "25"
+    IDS_OPT_NormalWide_RU   "25"
+    IDS_OPT_Small_RU        "25"
+    IDS_OPT_SmallWide_RU    "25"
+    IDS_OPT_Large_RU        "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_LargeWide_RU    "25"
+    IDS_OPT_Monthly_RU      "25"
+    IDS_OPT_MonthlyAccel_RU "25"
+    IDS_OPT_BiWeekly_RU     "25"
+    IDS_OPT_BiWeeklyAccel_RU "25"
+    IDS_OPT_Weekly_RU       "25"
+    IDS_OPT_WeeklyAccel_RU  "25"
+    IDS_OPT_SemiMonthly_RU  "25"
+    IDS_OPT_SemiMonthlyAccel_RU "25"
+    IDS_OPT_BiMonthly_RU    "25"
+    IDS_OPT_BiMonthlyAccel_RU "25"
+    IDS_OPT_Fixed_RU        "25"
+    IDS_OPT_Scientific_RU   "25"
+    IDS_OPT_Engineering_RU  "25"
+    IDS_OPT_Fractions_RU    "25"
+    IDS_OPT_BinaryDec_RU    "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_Algebraic_RU    "25"
+    IDS_OPT_DirectAlgebraic_RU "25"
+    IDS_OPT_RPN_RU          "25"
+    IDS_OPT_Expression_RU   "25"
+    IDS_OPT_RegionalSettings_RU "25"
+    IDS_OPT_PlaySounds_RU   "25"
+    IDS_OPT_RecordTape_RU   "25"
+    IDS_OPT_AdvancedMemory_RU "25"
+    IDS_OPT_CalculatorMode_RU "25"
+    IDS_OPT_Notation_RU     "25"
+    IDS_OPT_ConversionBuffer_RU "25"
+    IDS_OPT_RPNStackSize_RU "25"
+    IDS_OPT_Skin_RU         "25"
+    IDS_OPT_FixedDigits_RU  "25"
+    IDS_OPT_FastGraphing_RU "25"
+    IDS_OPT_ShowPointsOnly_RU "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_EndPeriodPayments_RU "25"
+    IDS_OPT_PaymentSched_RU "25"
+    IDS_OPT_CalculatorSize_RU "25"
+    IDS_OPT_KeyboardType_RU "25"
+    IDS_OPT_1Key_RU         "25"
+    IDS_OPT_KeyboardLetters_RU "25"
+    IDS_OPT_FRAC_RU         "25"
+    IDS_OPT_ENG_RU          "25"
+    IDS_OPT_Fullscreen_RU "???????? ?? ?????? ?????:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Price_RU       "25"
+    IDS_INFO_SalesTax_RU    "25"
+    IDS_INFO_OtherFees_RU   "25"
+    IDS_INFO_DownPayment_RU "25"
+    IDS_INFO_TradeIn_RU     "25"
+    IDS_INFO_NumberOfMonths_RU "25"
+    IDS_INFO_InterestRate_RU "25"
+    IDS_INFO_MonthlyPayment_RU "25"
+    IDS_INFO_TotalInterest_RU "25"
+    IDS_INFO_TotalRepaid_RU "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_Life_RU        "25"
+    IDS_INFO_StartMonth_RU  "25"
+    IDS_INFO_StartYear_RU   "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_StartDay_RU    "25"
+    IDS_INFO_Salary_RU      "25"
+    IDS_INFO_Year_RU        "25"
+    IDS_INFO_Depreciation_RU "25"
+    IDS_INFO_Cost_RU        "25"
+    IDS_INFO_RBVal_RU       "25"
+    IDS_INFO_RDVal_RU       "25"
+    IDS_INFO_EndYear_RU     "25"
+    IDS_INFO_EndMonth_RU    "25"
+    IDS_INFO_EndDay_RU      "25"
+    IDS_INFO_Difference_RU  "25"
+    IDS_INFO_Diff360_RU     "25"
+    IDS_INFO_Periods_RU     "25"
+    IDS_INFO_StartValue_RU  "25"
+    IDS_INFO_FinalValue_RU  "25"
+    IDS_INFO_Profit_RU      "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_FixedCost_RU   "25"
+    IDS_INFO_VarCost_RU     "25"
+    IDS_INFO_Quantity_RU    "25"
+    IDS_INFO_Terms_RU       "25"
+    IDS_INFO_MonthlyFees_RU "25"
+    IDS_INFO_TotalPayments_RU "25"
+    IDS_INFO_Principal_RU   "25"
+    IDS_INFO_PeriodsYear_RU "25"
+    IDS_INFO_NominalRate_RU "25"
+    IDS_INFO_EffectiveRate_RU "25"
+    IDS_INFO_PowerRegression_RU "25"
+    IDS_INFO_LogRegression_RU "25"
+    IDS_INFO_ExpRegression_RU "25"
+    IDS_INFO_LinearRegression_RU "25"
+    IDS_INFO_BillAmount_RU  "25"
+    IDS_INFO_TipPercent_RU  "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_MetallicBlue_RU "25"
+    IDS_OPT_MidnightBlack_RU "25"
+    IDS_OPT_WirelessGreen_RU "25"
+    IDS_OPT_GlamPink_RU     "25"
+    IDS_OPT_BlueSteel_RU    "25"
+    IDS_OPT_Brown_RU        "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_NumPeople_RU   "25"
+    IDS_INFO_TipAmount_RU   "25"
+    IDS_INFO_TotalPer_RU    "25"
+    IDS_INFO_BillTotal_RU   "25"
+    IDS_INFO_NumTerms_RU    "25"
+    IDS_INFO_InterestYear_RU "25"
+    IDS_INFO_PresentValue_RU "25"
+    IDS_INFO_Payment_RU     "25"
+    IDS_INFO_FutureValue_RU "25"
+    IDS_INFO_PaymentsYear_RU "25"
+    IDS_INFO_CompYear_RU    "25"
+    IDS_INFO_BidAsk_RU      "25"
+    IDS_INFO_Bid_RU         "25"
+    IDS_INFO_Ask_RU         "25"
+    IDS_INFO_Name_RU        "25"
+    IDS_INFO_Type_RU        "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_MeanOfX_RU     "25"
+    IDS_CALC_DevOfX_RU      "25"
+    IDS_CALC_MeanOfY_RU     "25"
+    IDS_CALC_DevOfY_RU      "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CALC_Equation_RU    "25"
+    IDS_CALC_YIntercept_RU  "25"
+    IDS_CALC_Slope_RU       "25"
+    IDS_CALC_Regression_RU  "25"
+    IDS_CALC_Determination_RU "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFO_MyDevice_RU    "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Hyp_RU          "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BTN_Binary_RU       "25"
+    IDS_BTN_Octal_RU        "25"
+    IDS_BTN_Hex_RU          "25"
+    IDS_BTN_Decimal_RU      "25"
+    IDS_BTN_Degrees_RU      "25"
+    IDS_BTN_Radians_RU      "25"
+    IDS_BTN_Grad_RU         "25"
+    IDS_BTN_SecondFunction_RU "25"
+    IDS_BTN_From_RU         "25"
+    IDS_BTN_To_RU           "25"
+    IDS_BTN_Update_RU       "25"
+    IDS_BTN_Calc_RU         "25"
+    IDS_BTN_Conversion_RU   "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DATE_Days_RU        "25"
+    IDS_DATE_Hours_RU       "25"
+    IDS_DATE_Min_RU         "25"
+    IDS_DATE_Sec_RU         "25"
+    IDS_DATE_Start_RU       "25"
+    IDS_DATE_Interval_RU    "25"
+    IDS_DATE_End_RU         "25"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPT_SCI             "SCI"
+    IDS_OPT_FIX             "FIX"
+    IDS_OPT_DMS             "DMS"
+    IDS_OPT_BCD             "BCD"
+    IDS_OPT_NORM            "NORM"
+END
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_TICKSOFT       WAVE                    "..\\CalcPro\\res\\clicksoft.wav"
+IDR_WAVE_TICK           WAVE                    "..\\CalcPro\\res\\click.wav"
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

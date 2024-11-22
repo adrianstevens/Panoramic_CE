@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_APP_TITLE" xml:space="preserve">
+    <value>Panoramic Blackjack</value>
+  </data>
+  <data name="IDS_MENU_MoreApps" xml:space="preserve">
+    <value>Mais Apps</value>
+  </data>
+  <data name="IDS_MSG_TrialOverShort" xml:space="preserve">
+    <value>Esperamos que tenha gostado de experimentar Panoramic Blackjack, o seu período experimental expirou.</value>
+  </data>
+  <data name="IDS_BGCOLOR_BLUE" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="IDS_BGCOLOR_GREEN" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="IDS_BGCOLOR_PURPLE" xml:space="preserve">
+    <value>Rouxo</value>
+  </data>
+  <data name="IDS_BGCOLOR_RED" xml:space="preserve">
+    <value>Vermelho</value>
+  </data>
+  <data name="IDS_BTNS_Split" xml:space="preserve">
+    <value>Dividir</value>
+  </data>
+  <data name="IDS_BTNS_Late" xml:space="preserve">
+    <value>Atrazar</value>
+  </data>
+  <data name="IDS_BTNS_Double" xml:space="preserve">
+    <value>Dobrar</value>
+  </data>
+  <data name="IDS_BTNS_Hit" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="IDS_BTNS_Deal" xml:space="preserve">
+    <value>Dar</value>
+  </data>
+  <data name="IDS_BTNS_Reset" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="IDS_CMB_GD_Easy" xml:space="preserve">
+    <value>Fácil</value>
+  </data>
+  <data name="IDS_CMB_GD_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="IDS_CMB_GD_Difficult" xml:space="preserve">
+    <value>Dificuldade</value>
+  </data>
+  <data name="IDS_CMB_GD_Custom" xml:space="preserve">
+    <value>Customizado</value>
+  </data>
+  <data name="IDS_CMB_GD_Learn" xml:space="preserve">
+    <value>Aprender a Jogar</value>
+  </data>
+  <data name="IDS_MENU_ResumeGame" xml:space="preserve">
+    <value>Resumir Jogo</value>
+  </data>
+  <data name="IDS_MENU_Options" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="IDS_MENU_Help" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="IDS_MENU_Quit" xml:space="preserve">
+    <value>Abandonar</value>
+  </data>
+  <data name="IDS_MENU_Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="IDS_MENU_Save" xml:space="preserve">
+    <value>Gravar</value>
+  </data>
+  <data name="IDS_MENU_Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="IDS_MENU_Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="IDS_MENU_HiScores" xml:space="preserve">
+    <value>Pontuações Altas</value>
+  </data>
+  <data name="IDS_MENU_About" xml:space="preserve">
+    <value>Acerca</value>
+  </data>
+  <data name="IDS_MENU_Exit" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="IDS_MENU_NewGame" xml:space="preserve">
+    <value>Novo Jogo</value>
+  </data>
+  <data name="IDS_MENU_Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="IDS_MENU_No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="IDS_MENU_Back" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="IDS_MENU_Resume" xml:space="preserve">
+    <value>Resumir</value>
+  </data>
+  <data name="IDS_CMB_CCV_On" xml:space="preserve">
+    <value>Ligado</value>
+  </data>
+  <data name="IDS_CMB_CCV_Semi" xml:space="preserve">
+    <value>A Pedido</value>
+  </data>
+  <data name="IDS_CMB_CCV_Off" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="IDS_CMB_CC_Wizard" xml:space="preserve">
+    <value>Assistente</value>
+  </data>
+  <data name="IDS_CMB_CC_KO" xml:space="preserve">
+    <value>KO</value>
+  </data>
+  <data name="IDS_CMB_CC_HiLow" xml:space="preserve">
+    <value>Alta Baixa</value>
+  </data>
+  <data name="IDS_CMB_CC_HiOpt1" xml:space="preserve">
+    <value>Alta Opç1</value>
+  </data>
+  <data name="IDS_CMB_CC_HiOpt2" xml:space="preserve">
+    <value>Alta Opc2</value>
+  </data>
+  <data name="IDS_CMB_CC_Zen" xml:space="preserve">
+    <value>Zen</value>
+  </data>
+  <data name="IDS_CMB_CC_OmegaII" xml:space="preserve">
+    <value>Omega II</value>
+  </data>
+  <data name="IDS_MSG_Broke" xml:space="preserve">
+    <value>Está Falido! Deseja começar um novo jogo?</value>
+  </data>
+  <data name="IDS_MSG_DemoOver" xml:space="preserve">
+    <value>Esperamos que tenha gostado de experimentar Panoramic Blackjack, o seu período experimental expirou. Para comprar: Por favor, visite o site onde efectuou a descarga.</value>
+  </data>
+  <data name="IDS_MSG_Exit" xml:space="preserve">
+    <value>Tem a certeza que quer abandonar o Panoramic Blackjack?</value>
+  </data>
+  <data name="IDS_ABOUT_1" xml:space="preserve">
+    <value>Versão 1.4.0.1\r\nCopyright 2008-2013\r\n\r\n Panoramic Software Inc.\r\nwww.panoramicsoft.com</value>
+  </data>
+  <data name="IDS_MSG_HiEndGame" xml:space="preserve">
+    <value>O seu jogo terminou, mas conseguiu uma pontuação alta! Deseja começar um novo jogo?</value>
+  </data>
+  <data name="IDS_MSG_NewGame" xml:space="preserve">
+    <value>Tem a certeza que quer começar um novo Jogo?</value>
+  </data>
+  <data name="IDS_LBL_Bank" xml:space="preserve">
+    <value>Banco</value>
+  </data>
+  <data name="IDS_LBL_Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="IDS_LBL_PlaySounds" xml:space="preserve">
+    <value>Tocar Sons:</value>
+  </data>
+  <data name="IDS_LBL_CardCountView" xml:space="preserve">
+    <value>Contagem de Carta</value>
+  </data>
+  <data name="IDS_LBL_CardCounting" xml:space="preserve">
+    <value>Estilo de contagem de carta</value>
+  </data>
+  <data name="IDS_LBL_GameDifficulty" xml:space="preserve">
+    <value>Dificuldade de Jogo</value>
+  </data>
+  <data name="IDS_LBL_Language" xml:space="preserve">
+    <value>Linguagem:</value>
+  </data>
+  <data name="IDS_RESULT_Win" xml:space="preserve">
+    <value>Ganhar</value>
+  </data>
+  <data name="IDS_RESULT_Win2" xml:space="preserve">
+    <value>Ganhar!</value>
+  </data>
+  <data name="IDS_RESULT_Draw" xml:space="preserve">
+    <value>Dar</value>
+  </data>
+  <data name="IDS_RESULT_Lose" xml:space="preserve">
+    <value>Perder</value>
+  </data>
+  <data name="IDS_RESULT_Surrender" xml:space="preserve">
+    <value>Render</value>
+  </data>
+  <data name="IDS_RESULT_DealerBusts" xml:space="preserve">
+    <value>Revendedor Bustos-Ganha!</value>
+  </data>
+  <data name="IDS_RESULT_Blackjack" xml:space="preserve">
+    <value>Blackjack!</value>
+  </data>
+  <data name="IDS_INFO_BankDemo" xml:space="preserve">
+    <value>Banco: Demo</value>
+  </data>
+  <data name="IDS_INFO_BankAmt" xml:space="preserve">
+    <value>Banco: $%i</value>
+  </data>
+  <data name="IDS_INFO_BetDemo" xml:space="preserve">
+    <value>Apostar: Demo</value>
+  </data>
+  <data name="IDS_INFO_BetAmt" xml:space="preserve">
+    <value>Apostar: $%i</value>
+  </data>
+  <data name="IDS_INFO_Count" xml:space="preserve">
+    <value>Contar</value>
+  </data>
+  <data name="IDS_INFO_CardCount" xml:space="preserve">
+    <value>Contar\r\nCartas</value>
+  </data>
+  <data name="IDS_BTNS_Insurance" xml:space="preserve">
+    <value>Seguro</value>
+  </data>
+  <data name="IDS_BTNS_Bet" xml:space="preserve">
+    <value>Apostar</value>
+  </data>
+  <data name="IDS_BTNS_Stand" xml:space="preserve">
+    <value>Ficar</value>
+  </data>
+  <data name="IDS_ACH10_DESC" xml:space="preserve">
+    <value>Dealer rebentar 5 vezes em uma fileira</value>
+  </data>
+  <data name="IDS_ACH10_TITLE" xml:space="preserve">
+    <value>Subida</value>
+  </data>
+  <data name="IDS_ACH11_DESC" xml:space="preserve">
+    <value>Win 10 mãos em uma linha de cartão de contagem</value>
+  </data>
+  <data name="IDS_ACH11_TITLE" xml:space="preserve">
+    <value>Running Count</value>
+  </data>
+  <data name="IDS_ACH12_DESC" xml:space="preserve">
+    <value>Max aposta em uma alta contagem</value>
+  </data>
+  <data name="IDS_ACH12_TITLE" xml:space="preserve">
+    <value>High Roller</value>
+  </data>
+  <data name="IDS_ACH13_DESC" xml:space="preserve">
+    <value>Hit em 18</value>
+  </data>
+  <data name="IDS_ACH13_TITLE" xml:space="preserve">
+    <value>O Jogador</value>
+  </data>
+  <data name="IDS_ACH14_DESC" xml:space="preserve">
+    <value>dobrar em 12 ou mais 5 vezes em um jogo e ganhando cada mão</value>
+  </data>
+  <data name="IDS_ACH14_TITLE" xml:space="preserve">
+    <value>Double Trouble</value>
+  </data>
+  <data name="IDS_ACH1_DESC" xml:space="preserve">
+    <value>Par de 8s duas vezes em um jogo</value>
+  </data>
+  <data name="IDS_ACH1_TITLE" xml:space="preserve">
+    <value>Eu odeio 8s</value>
+  </data>
+  <data name="IDS_ACH2_DESC" xml:space="preserve">
+    <value>5 cartas-21 - todas de 5 fazer uma aparição</value>
+  </data>
+  <data name="IDS_ACH2_TITLE" xml:space="preserve">
+    <value>Woooh</value>
+  </data>
+  <data name="IDS_ACH3_DESC" xml:space="preserve">
+    <value>Hit blackjack três vezes seguidas</value>
+  </data>
+  <data name="IDS_ACH3_TITLE" xml:space="preserve">
+    <value>On Fire</value>
+  </data>
+  <data name="IDS_ACH4_DESC" xml:space="preserve">
+    <value>Pontuação 21 em ambas as mãos divididas</value>
+  </data>
+  <data name="IDS_ACH4_TITLE" xml:space="preserve">
+    <value>O Split</value>
+  </data>
+  <data name="IDS_ACH5_DESC" xml:space="preserve">
+    <value>Pontuação 25.000</value>
+  </data>
+  <data name="IDS_ACH5_TITLE" xml:space="preserve">
+    <value>25K!</value>
+  </data>
+  <data name="IDS_ACH6_DESC" xml:space="preserve">
+    <value>Pontuação 50.000</value>
+  </data>
+  <data name="IDS_ACH6_TITLE" xml:space="preserve">
+    <value>50K!</value>
+  </data>
+  <data name="IDS_ACH7_DESC" xml:space="preserve">
+    <value>Pontuação 75.000</value>
+  </data>
+  <data name="IDS_ACH7_TITLE" xml:space="preserve">
+    <value>75Gs</value>
+  </data>
+  <data name="IDS_ACH8_DESC" xml:space="preserve">
+    <value>Pontuação 100.000</value>
+  </data>
+  <data name="IDS_ACH8_TITLE" xml:space="preserve">
+    <value>100K!</value>
+  </data>
+  <data name="IDS_ACH9_DESC" xml:space="preserve">
+    <value>Ganhar a mão com 8 ou mais cartões</value>
+  </data>
+  <data name="IDS_ACH9_TITLE" xml:space="preserve">
+    <value>Lucky Break</value>
+  </data>
+  <data name="IDS_MENU_Achievements" xml:space="preserve">
+    <value>Conquistas</value>
+  </data>
+  <data name="IDS_OPT_BJPayout" xml:space="preserve">
+    <value>Tipo de Pagamento</value>
+  </data>
+  <data name="IDS_OPT_BurnFirst" xml:space="preserve">
+    <value>Burn primeiro cartão</value>
+  </data>
+  <data name="IDS_OPT_DealerHitSoft17" xml:space="preserve">
+    <value>Dealer hits em 17 moles</value>
+  </data>
+  <data name="IDS_OPT_NumDecks" xml:space="preserve">
+    <value>Número de Decks</value>
+  </data>
+  <data name="IDS_OPT_ShowDealerCard" xml:space="preserve">
+    <value>Mostrar Dealer</value>
+  </data>
+  <data name="IDS_OPT_ShowScores" xml:space="preserve">
+    <value>Mostrar Índices</value>
+  </data>
+  <data name="IDS_LBL_AchievementUnlock" xml:space="preserve">
+    <value>Realização desbloqueado!</value>
+  </data>
+  <data name="IDS_MSG_BrokeShort" xml:space="preserve">
+    <value>Está Falido</value>
+  </data>
+  <data name="IDS_OPT_InitialBank" xml:space="preserve">
+    <value>Iniciando o Banco</value>
+  </data>
+</root>

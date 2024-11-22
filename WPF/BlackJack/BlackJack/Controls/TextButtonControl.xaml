@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="BlackJack.Controls.TextButtonControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:my="clr-namespace:BlackJack.Controls"
+    Foreground="White"
+    d:DesignHeight="72" d:DesignWidth="130" >
+
+    <!--<my:TiltContentControl Width="Auto" Height="50" Margin="0" ManipulationCompleted="TiltContentControl_ManipulationCompleted">
+        -->
+    <Grid x:Name="LayoutMain" Background="#01000000" MouseLeftButtonDown="UserControl_MouseLeftButtonDown">
+            <TextBlock VerticalAlignment="Center" x:Name="txtMain" HorizontalAlignment="Stretch" FontSize="24" TextAlignment="Center" IsHitTestVisible="False" />
+       </Grid>
+    <!-- </my:TiltContentControl>-->
+</UserControl>

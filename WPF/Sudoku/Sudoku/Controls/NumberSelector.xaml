@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Sudoku.NumberSelector"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="100" d:DesignWidth="60">
+
+    <Canvas x:Name="LayoutRoot" Loaded="LayoutRoot_Loaded" SizeChanged="LayoutRoot_SizeChanged" IsHitTestVisible="False">
+        <Grid Height="Auto" HorizontalAlignment="Left" Canvas.Top="47" Name="gridSelector" VerticalAlignment="Top" Width="Auto"  IsHitTestVisible="False">
+            <Image Height="Auto" HorizontalAlignment="Left" Margin="0,0,0,0" Name="imgButton" Stretch="Uniform" VerticalAlignment="Top" Width="Auto" IsHitTestVisible="False" />
+
+            <Canvas Height="33" HorizontalAlignment="Left" Margin="13,15,0,0" Name="canvasNumbers" VerticalAlignment="Top" Width="26" IsHitTestVisible="False">
+                <Canvas.Clip>
+                    <RectangleGeometry Rect="0,0,26,33"/>
+                </Canvas.Clip>
+                <Image HorizontalAlignment="Left" Name="imgNumbersWhite" Stretch="Uniform" Width="234" Height="33" VerticalAlignment="Top" IsHitTestVisible="False" />
+                <Image HorizontalAlignment="Left" Name="imgNumbersGrey" Stretch="Uniform" Width="234" Height="33" VerticalAlignment="Top" IsHitTestVisible="False" />
+            </Canvas>
+        </Grid>
+    </Canvas>
+</UserControl>

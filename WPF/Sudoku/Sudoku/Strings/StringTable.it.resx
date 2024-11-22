@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_Kakuro" xml:space="preserve">
+    <value>Kakuro</value>
+  </data>
+  <data name="IDS_KillerSudoku" xml:space="preserve">
+    <value>Killer Sudoku</value>
+  </data>
+  <data name="IDS_Sudoku" xml:space="preserve">
+    <value>Sudoku</value>
+  </data>
+  <data name="IDS_KenKen" xml:space="preserve">
+    <value>KenKen</value>
+  </data>
+  <data name="IDS_Greater" xml:space="preserve">
+    <value>Maggiore Di</value>
+  </data>
+  <data name="IDS_MENU_MoreApps" xml:space="preserve">
+    <value>Più App</value>
+  </data>
+  <data name="IDS_DEMO_Over" xml:space="preserve">
+    <value>Ci auguriamo che vi sia piaciuto giocare Panoramic Ultimate Sudoku, la versione di prova è terminato.</value>
+  </data>
+  <data name="IDS_MAIN_CLASS" xml:space="preserve">
+    <value>SudokuClass</value>
+  </data>
+  <data name="IDS_NAME_Sudoku" xml:space="preserve">
+    <value>Ultimate Sudoku</value>
+  </data>
+  <data name="IDS_MENU_AutoPencil" xml:space="preserve">
+    <value>Auto Matita Segna</value>
+  </data>
+  <data name="IDS_MENU_ClearPencil" xml:space="preserve">
+    <value>Cancella Matita Segna</value>
+  </data>
+  <data name="IDS_MENU_Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="IDS_MENU_Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="IDS_MENU_Undo" xml:space="preserve">
+    <value>Disfare</value>
+  </data>
+  <data name="IDS_MENU_RestartGame" xml:space="preserve">
+    <value>Riavviare il Gioco</value>
+  </data>
+  <data name="IDS_MENU_SelectGame" xml:space="preserve">
+    <value>Selezionare il Gioco</value>
+  </data>
+  <data name="IDS_MENU_NewGame" xml:space="preserve">
+    <value>Nuovo Gioco</value>
+  </data>
+  <data name="IDS_TOOLS" xml:space="preserve">
+    <value>Strumenti</value>
+  </data>
+  <data name="IDS_ABOUT_1" xml:space="preserve">
+    <value>versione 1.4.0.1\r\nDiritto d'autore 2009-2013\r\n\r\n Panoramic Software Inc.\r\n</value>
+  </data>
+  <data name="IDS_MENU_Game" xml:space="preserve">
+    <value>Gioco</value>
+  </data>
+  <data name="IDS_MENU_Resume" xml:space="preserve">
+    <value>Riprendere</value>
+  </data>
+  <data name="IDS_MENU_Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="IDS_MENU_Options" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="IDS_MENU_Help" xml:space="preserve">
+    <value>Aiuto</value>
+  </data>
+  <data name="IDS_MENU_Quit" xml:space="preserve">
+    <value>Smettere</value>
+  </data>
+  <data name="IDS_MENU_Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="IDS_MENU_No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="IDS_MENU_Ok" xml:space="preserve">
+    <value>Bene</value>
+  </data>
+  <data name="IDS_MENU_About" xml:space="preserve">
+    <value>Informazioni</value>
+  </data>
+  <data name="IDS_MENU_Exit" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="IDS_MENU_Back" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="IDS_MENU_Camera" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="IDS_MENU_Image" xml:space="preserve">
+    <value>Immagine</value>
+  </data>
+  <data name="IDS_LOSE2" xml:space="preserve">
+    <value>Gioco è Finita\r\nTi piacerebbe iniziare\r\n una nuova partita?</value>
+  </data>
+  <data name="IDS_LOSE_IT" xml:space="preserve">
+    <value>Hai perso</value>
+  </data>
+  <data name="IDS_MSG_Exit" xml:space="preserve">
+    <value>Sei sicuro di voler uscire Panoramic Ultimate Sudoku?</value>
+  </data>
+  <data name="IDS_MSG_ClearStatistic" xml:space="preserve">
+    <value>Sei sicuro di voler cancellare tutte le statistiche?</value>
+  </data>
+  <data name="IDS_MSG_NewGame" xml:space="preserve">
+    <value>Sei sicuro di voler iniziare una nuova partita?</value>
+  </data>
+  <data name="IDS_MSG_RestartGame" xml:space="preserve">
+    <value>Sei sicuro di voler riavviare il gioco?</value>
+  </data>
+  <data name="IDS_MSG_NewGame2" xml:space="preserve">
+    <value>Ti piacerebbe giocare una nuova partita?</value>
+  </data>
+  <data name="IDS_MSG_Congrats" xml:space="preserve">
+    <value>Congratulazioni! Hai completato il {0} {1} puzzle in {2}. Ti piacerebbe giocare una nuova partita?</value>
+  </data>
+  <data name="IDS_MENU_Save" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="IDS_PREF_Custom" xml:space="preserve">
+    <value>Personalizzato</value>
+  </data>
+  <data name="IDS_PREF_5x5" xml:space="preserve">
+    <value>5x5</value>
+  </data>
+  <data name="IDS_PREF_7x7" xml:space="preserve">
+    <value>7x7</value>
+  </data>
+  <data name="IDS_PREF_9x9" xml:space="preserve">
+    <value>9x9</value>
+  </data>
+  <data name="IDS_PREF_VeryEasy" xml:space="preserve">
+    <value>Molto Facile</value>
+  </data>
+  <data name="IDS_PREF_Easy" xml:space="preserve">
+    <value>Facile</value>
+  </data>
+  <data name="IDS_PREF_Normal" xml:space="preserve">
+    <value>Normale</value>
+  </data>
+  <data name="IDS_PREF_Hard" xml:space="preserve">
+    <value>Difficile</value>
+  </data>
+  <data name="IDS_PREF_Expert" xml:space="preserve">
+    <value>Esperto</value>
+  </data>
+  <data name="IDS_PREF_Genius" xml:space="preserve">
+    <value>Genio</value>
+  </data>
+  <data name="IDS_PREF_Cust1" xml:space="preserve">
+    <value>Personalizzato 1</value>
+  </data>
+  <data name="IDS_PREF_Cust2" xml:space="preserve">
+    <value>Personalizzato 2</value>
+  </data>
+  <data name="IDS_PREF_Cust3" xml:space="preserve">
+    <value>Personalizzato 3</value>
+  </data>
+  <data name="IDS_PREF_Cust4" xml:space="preserve">
+    <value>Personalizzato 4</value>
+  </data>
+  <data name="IDS_PREF_Cust5" xml:space="preserve">
+    <value>Personalizzato 5</value>
+  </data>
+  <data name="IDS_PREF_Cust6" xml:space="preserve">
+    <value>Personalizzato 6</value>
+  </data>
+  <data name="IDS_PREF_Glass" xml:space="preserve">
+    <value>Vetro</value>
+  </data>
+  <data name="IDS_PREF_Wood" xml:space="preserve">
+    <value>Legno</value>
+  </data>
+  <data name="IDS_PREF_Notepad" xml:space="preserve">
+    <value>Blocco Note</value>
+  </data>
+  <data name="IDS_PREF_Grey" xml:space="preserve">
+    <value>Grigio</value>
+  </data>
+  <data name="IDS_PREF_DefWhite" xml:space="preserve">
+    <value>Predef. (bianco)</value>
+  </data>
+  <data name="IDS_PREF_CustImage" xml:space="preserve">
+    <value>Immagine Personalizzata</value>
+  </data>
+  <data name="IDS_PREF_White" xml:space="preserve">
+    <value>Bianco</value>
+  </data>
+  <data name="IDS_PREF_Black" xml:space="preserve">
+    <value>Nero</value>
+  </data>
+  <data name="IDS_PREF_Green" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="IDS_PREF_LtPink" xml:space="preserve">
+    <value>Rosa Chiaro</value>
+  </data>
+  <data name="IDS_PREF_Orange" xml:space="preserve">
+    <value>Arancione</value>
+  </data>
+  <data name="IDS_PREF_Blue" xml:space="preserve">
+    <value>Blu</value>
+  </data>
+  <data name="IDS_PREF_DkBlue" xml:space="preserve">
+    <value>Blu Scuro</value>
+  </data>
+  <data name="IDS_PREF_DkGreen" xml:space="preserve">
+    <value>Verde Scuro</value>
+  </data>
+  <data name="IDS_PREF_Pink" xml:space="preserve">
+    <value>Rosa</value>
+  </data>
+  <data name="IDS_PREF_Purple" xml:space="preserve">
+    <value>Viola</value>
+  </data>
+  <data name="IDS_PREF_PurpleWhite" xml:space="preserve">
+    <value>Viola-Bianco</value>
+  </data>
+  <data name="IDS_PREF_BlackWhite" xml:space="preserve">
+    <value>Nero-Bianco</value>
+  </data>
+  <data name="IDS_PREF_GreenWhite" xml:space="preserve">
+    <value>Verde-Bianco</value>
+  </data>
+  <data name="IDS_PREF_BlueWhite" xml:space="preserve">
+    <value>Blu-Bianco</value>
+  </data>
+  <data name="IDS_PREF_DkBlueWhite" xml:space="preserve">
+    <value>Blu Scuro-Bianco</value>
+  </data>
+  <data name="IDS_PREF_PinkWhite" xml:space="preserve">
+    <value>Rosa-Bianco</value>
+  </data>
+  <data name="IDS_PREF_OrangeWhite" xml:space="preserve">
+    <value>Arancione-Bianco</value>
+  </data>
+  <data name="IDS_PREF_GreyBlack" xml:space="preserve">
+    <value>Grigio-Nero</value>
+  </data>
+  <data name="IDS_PREF_RedBlack" xml:space="preserve">
+    <value>Rosso-Nero</value>
+  </data>
+  <data name="IDS_PREF_PurpleBlac" xml:space="preserve">
+    <value>Viola-Nero</value>
+  </data>
+  <data name="IDS_PREF_BlueBlack" xml:space="preserve">
+    <value>Blu-Nero</value>
+  </data>
+  <data name="IDS_PREF_GreenBlack" xml:space="preserve">
+    <value>Verde-Nero</value>
+  </data>
+  <data name="IDS_PREF_DkBlueBlue" xml:space="preserve">
+    <value>Blu Scuro-Blu</value>
+  </data>
+  <data name="IDS_PREF_BlueGreen" xml:space="preserve">
+    <value>Blu-Verde</value>
+  </data>
+  <data name="IDS_PREF_DkGreenGreen" xml:space="preserve">
+    <value>Verde Scuro-Verde</value>
+  </data>
+  <data name="IDS_PREF_DrawCells" xml:space="preserve">
+    <value>Disegnare le celle vuote (Kakuro)</value>
+  </data>
+  <data name="IDS_PREF_ShowHighlights" xml:space="preserve">
+    <value>Mostra mette in luce</value>
+  </data>
+  <data name="IDS_PREF_PlaySounds" xml:space="preserve">
+    <value>Riprodurre i suoni</value>
+  </data>
+  <data name="IDS_PREF_Skin" xml:space="preserve">
+    <value>Pelle:</value>
+  </data>
+  <data name="IDS_PREF_Background" xml:space="preserve">
+    <value>Sfondo</value>
+  </data>
+  <data name="IDS_PREF_LockCompleted" xml:space="preserve">
+    <value>Blocca completato</value>
+  </data>
+  <data name="IDS_PREF_ShowErrors" xml:space="preserve">
+    <value>Mostra errori</value>
+  </data>
+  <data name="IDS_PREF_ShowHints" xml:space="preserve">
+    <value>Mostra suggerimenti</value>
+  </data>
+  <data name="IDS_PREF_AutoClear" xml:space="preserve">
+    <value>Segni di matita auto-cancellazione</value>
+  </data>
+  <data name="IDS_MENU_Picture" xml:space="preserve">
+    <value>Immagine</value>
+  </data>
+  <data name="IDS_MENU_Stats" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="IDS_MENU_Free" xml:space="preserve">
+    <value>Libero</value>
+  </data>
+  <data name="IDS_MENU_Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="IDS_MENU_Solve" xml:space="preserve">
+    <value>Risolvere</value>
+  </data>
+  <data name="IDS_MSG_Loading" xml:space="preserve">
+    <value>Caricamento</value>
+  </data>
+  <data name="IDS_MSG_Trial" xml:space="preserve">
+    <value>Prova</value>
+  </data>
+  <data name="IDS_MENU_Hint" xml:space="preserve">
+    <value>Suggerimento</value>
+  </data>
+  <data name="IDS_MENU_Pen" xml:space="preserve">
+    <value>Penna</value>
+  </data>
+  <data name="IDS_MENU_Pencil" xml:space="preserve">
+    <value>Matita</value>
+  </data>
+</root>

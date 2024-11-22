@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{82D282B7-39D1-4734-BE3C-14793647D698}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CalcPro</RootNamespace>
+    <AssemblyName>CalcPro</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>CalcPro.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Controls\OptionControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\BaseConversions.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Constants.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\CurrencyConverter.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\DateAndTime.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Financial.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Graph.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Graphing.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\GraphScale.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\GraphWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="screens\OptionsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="screens\Scientific.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Standard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Statistics.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="screens\Worksheet.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Window1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\IssDateTime.cs" />
+    <Compile Include="CalcEngine\BaseConverter.cs" />
+    <Compile Include="CalcEngine\ButtonLabels.cs" />
+    <Compile Include="CalcEngine\CalcEngine.cs" />
+    <Compile Include="CalcEngine\CalcGlobals.cs" />
+    <Compile Include="CalcEngine\CalcUtil.cs" />
+    <Compile Include="CalcEngine\Financial\IssBreakEven.cs" />
+    <Compile Include="CalcEngine\Financial\IssCashFlow.cs" />
+    <Compile Include="CalcEngine\Financial\IssDrepreciation.cs" />
+    <Compile Include="CalcEngine\Financial\IssFDateCalc.cs" />
+    <Compile Include="CalcEngine\Financial\IssLeaseCalc.cs" />
+    <Compile Include="CalcEngine\Financial\IssLoan.cs" />
+    <Compile Include="CalcEngine\Financial\IssMortgage.cs" />
+    <Compile Include="CalcEngine\Financial\IssPcntChange.cs" />
+    <Compile Include="CalcEngine\Financial\IssPcntCompound.cs" />
+    <Compile Include="CalcEngine\Financial\IssProfitMargin.cs" />
+    <Compile Include="CalcEngine\Financial\IssStats.cs" />
+    <Compile Include="CalcEngine\Financial\IssTip.cs" />
+    <Compile Include="CalcEngine\Financial\IssTVM.cs" />
+    <Compile Include="CalcEngine\IssCalculator.cs" />
+    <Compile Include="CalcEngine\IssChainCalc.cs" />
+    <Compile Include="CalcEngine\IssDALCalc.cs" />
+    <Compile Include="CalcEngine\IssEquationBuffer.cs" />
+    <Compile Include="CalcEngine\IssFormatCalcDisplay.cs" />
+    <Compile Include="CalcEngine\IssFormatFractions.cs" />
+    <Compile Include="CalcEngine\IssOOOCalc.cs" />
+    <Compile Include="CalcEngine\IssRPNCalc.cs" />
+    <Compile Include="CalcEngine\IssStringCalc.cs" />
+    <Compile Include="CalcEngine\ObjConstants.cs" />
+    <Compile Include="CalcEngine\ObjCurrency.cs" />
+    <Compile Include="CalcEngine\ObjUnitConverter.cs" />
+    <Compile Include="Common\AppSettings.cs" />
+    <Compile Include="Common\BrushFactory.cs" />
+    <Compile Include="Common\BtnManager.cs" />
+    <Compile Include="Common\ICalcProBtn.cs" />
+    <Compile Include="Common\ICalcProDisplay.cs" />
+    <Compile Include="Common\ICalcProScreen.cs" />
+    <Compile Include="Common\IssIniEx.cs" />
+    <Compile Include="Controls\ButtonSkin.cs" />
+    <Compile Include="Controls\ButtonSkinClassic.cs" />
+    <Compile Include="Controls\ButtonSkinMetro.cs" />
+    <Compile Include="Controls\ButtonSkinMetro2.cs" />
+    <Compile Include="Controls\ButtonSkinShine.cs" />
+    <Compile Include="Controls\ButtonSkinType.cs" />
+    <Compile Include="Controls\CalcProBtn.cs" />
+    <Compile Include="Controls\CalcProDisplay.cs" />
+    <Compile Include="Controls\DisplaySkin.cs" />
+    <Compile Include="Controls\IButtonSkin.cs" />
+    <Compile Include="Controls\OptionControl.xaml.cs">
+      <DependentUpon>OptionControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="screens\BaseConversions.xaml.cs">
+      <DependentUpon>BaseConversions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Constants.xaml.cs">
+      <DependentUpon>Constants.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\CurrencyConverter.xaml.cs">
+      <DependentUpon>CurrencyConverter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\DateAndTime.xaml.cs">
+      <DependentUpon>DateAndTime.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Financial.xaml.cs">
+      <DependentUpon>Financial.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Graph.xaml.cs">
+      <DependentUpon>Graph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Graphing.xaml.cs">
+      <DependentUpon>Graphing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\GraphScale.xaml.cs">
+      <DependentUpon>GraphScale.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\GraphWindow.xaml.cs">
+      <DependentUpon>GraphWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\IWorkSheet.cs" />
+    <Compile Include="screens\OptionsWindow.xaml.cs">
+      <DependentUpon>OptionsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Scientific.xaml.cs">
+      <DependentUpon>Scientific.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Standard.xaml.cs">
+      <DependentUpon>Standard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Statistics.xaml.cs">
+      <DependentUpon>Statistics.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\Worksheet.xaml.cs">
+      <DependentUpon>Worksheet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="screens\WSBreakEven.cs" />
+    <Compile Include="screens\WSCashFlow.cs" />
+    <Compile Include="screens\WSCompound.cs" />
+    <Compile Include="screens\WSDate.cs" />
+    <Compile Include="screens\WSDepreciation.cs" />
+    <Compile Include="screens\WSLease.cs" />
+    <Compile Include="screens\WSLoan.cs" />
+    <Compile Include="screens\WSMort.cs" />
+    <Compile Include="screens\WSPcntChange.cs" />
+    <Compile Include="screens\WSProfitMargin.cs" />
+    <Compile Include="screens\WSStats.cs" />
+    <Compile Include="screens\WSTip.cs" />
+    <Compile Include="screens\WSTVM.cs" />
+    <Compile Include="Strings\StringTable.Designer.cs" />
+    <Compile Include="Strings\StringTable.fr.Designer.cs" />
+    <Compile Include="Strings\StringTable.ja.Designer.cs" />
+    <Compile Include="Strings\StringTable.nl.Designer.cs" />
+    <Compile Include="Strings\StringTable1.Designer.cs" />
+    <Compile Include="Strings\UnitConverterRes.Designer.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.ja.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.nl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\StringTable.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.ja.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.nl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings\UnitConverterRes.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Assets\currency-nozip.ini" />
+    <Resource Include="Files\btn-black.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_base.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_const.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_financial.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_graph.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_sci.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_sci_rpn.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_standard.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_stats.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_timedate.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_unit.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_worksheet.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Files\layout_wsstats.ini">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Fonts\panoramic_calc_pro_digital_font.ttf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\appbar_accept.png" />
+    <Resource Include="Assets\appbar_add.png" />
+    <Resource Include="Assets\appbar_back.png" />
+    <Resource Include="Assets\appbar_calcmode.png" />
+    <Resource Include="Assets\appbar_cancel.png" />
+    <Resource Include="Assets\appbar_down.png" />
+    <Resource Include="Assets\appbar_graph.png" />
+    <Resource Include="Assets\appbar_listmenu.png" />
+    <Resource Include="Assets\appbar_minus.png" />
+    <Resource Include="Assets\appbar_toggle.png" />
+    <Resource Include="Assets\appbar_up.png" />
+    <Resource Include="Assets\Base_icon.jpg" />
+    <Resource Include="Assets\CalcPro_logo.png" />
+    <Resource Include="Assets\CalcPro.ico" />
+    <Content Include="Assets\click.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\clicksoft.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="CalcPro.ico" />
+    <Resource Include="Assets\constants.txt" />
+    <Resource Include="Assets\Constants_icon.jpg" />
+    <Resource Include="Assets\DateTime_icon.jpg" />
+    <Resource Include="Assets\Financial_icon.jpg" />
+    <Resource Include="Assets\Flags\AED.jpg" />
+    <Resource Include="Assets\Flags\ALL.jpg" />
+    <Resource Include="Assets\Flags\ANG.jpg" />
+    <Resource Include="Assets\Flags\ARS.jpg" />
+    <Resource Include="Assets\Flags\ATS.jpg" />
+    <Resource Include="Assets\Flags\AUD.jpg" />
+    <Resource Include="Assets\Flags\AWG.jpg" />
+    <Resource Include="Assets\Flags\BBD.jpg" />
+    <Resource Include="Assets\Flags\BDT.jpg" />
+    <Resource Include="Assets\Flags\BEF.jpg" />
+    <Resource Include="Assets\Flags\BGN.jpg" />
+    <Resource Include="Assets\Flags\BHD.jpg" />
+    <Resource Include="Assets\Flags\BIF.jpg" />
+    <Resource Include="Assets\Flags\BMD.jpg" />
+    <Resource Include="Assets\Flags\BND.jpg" />
+    <Resource Include="Assets\Flags\BOB.jpg" />
+    <Resource Include="Assets\Flags\BRL.jpg" />
+    <Resource Include="Assets\Flags\BSD.jpg" />
+    <Resource Include="Assets\Flags\BTN.jpg" />
+    <Resource Include="Assets\Flags\BWP.jpg" />
+    <Resource Include="Assets\Flags\BYR.jpg" />
+    <Resource Include="Assets\Flags\BZD.jpg" />
+    <Resource Include="Assets\Flags\CAD.jpg" />
+    <Resource Include="Assets\Flags\CHF.jpg" />
+    <Resource Include="Assets\Flags\CLP.jpg" />
+    <Resource Include="Assets\Flags\CNY.jpg" />
+    <Resource Include="Assets\Flags\COP.jpg" />
+    <Resource Include="Assets\Flags\CRC.jpg" />
+    <Resource Include="Assets\Flags\CUP.jpg" />
+    <Resource Include="Assets\Flags\CVE.jpg" />
+    <Resource Include="Assets\Flags\CYP.jpg" />
+    <Resource Include="Assets\Flags\CZK.jpg" />
+    <Resource Include="Assets\Flags\DEM.jpg" />
+    <Resource Include="Assets\Flags\DJF.jpg" />
+    <Resource Include="Assets\Flags\DKK.jpg" />
+    <Resource Include="Assets\Flags\DOP.jpg" />
+    <Resource Include="Assets\Flags\DZD.jpg" />
+    <Resource Include="Assets\Flags\ECS.jpg" />
+    <Resource Include="Assets\Flags\EEK.jpg" />
+    <Resource Include="Assets\Flags\EGP.jpg" />
+    <Resource Include="Assets\Flags\ERN.jpg" />
+    <Resource Include="Assets\Flags\ESP.jpg" />
+    <Resource Include="Assets\Flags\ETB.jpg" />
+    <Resource Include="Assets\Flags\EUR.jpg" />
+    <Resource Include="Assets\Flags\FIM.jpg" />
+    <Resource Include="Assets\Flags\FJD.jpg" />
+    <Resource Include="Assets\Flags\FKP.jpg" />
+    <Resource Include="Assets\Flags\FRF.jpg" />
+    <Resource Include="Assets\Flags\GBP.jpg" />
+    <Resource Include="Assets\Flags\GHC.jpg" />
+    <Resource Include="Assets\Flags\GIP.jpg" />
+    <Resource Include="Assets\Flags\GMD.jpg" />
+    <Resource Include="Assets\Flags\GNF.jpg" />
+    <Resource Include="Assets\Flags\GRD.jpg" />
+    <Resource Include="Assets\Flags\GTQ.jpg" />
+    <Resource Include="Assets\Flags\GYD.jpg" />
+    <Resource Include="Assets\Flags\HKD.jpg" />
+    <Resource Include="Assets\Flags\HNL.jpg" />
+    <Resource Include="Assets\Flags\HRK.jpg" />
+    <Resource Include="Assets\Flags\HTG.jpg" />
+    <Resource Include="Assets\Flags\HUF.jpg" />
+    <Resource Include="Assets\Flags\IDR.jpg" />
+    <Resource Include="Assets\Flags\IEP.jpg" />
+    <Resource Include="Assets\Flags\ILS.jpg" />
+    <Resource Include="Assets\Flags\INR.jpg" />
+    <Resource Include="Assets\Flags\IQD.jpg" />
+    <Resource Include="Assets\Flags\IRR.jpg" />
+    <Resource Include="Assets\Flags\ISK.jpg" />
+    <Resource Include="Assets\Flags\ITL.jpg" />
+    <Resource Include="Assets\Flags\JMD.jpg" />
+    <Resource Include="Assets\Flags\JOD.jpg" />
+    <Resource Include="Assets\Flags\JPY.jpg" />
+    <Resource Include="Assets\Flags\KES.jpg" />
+    <Resource Include="Assets\Flags\KHR.jpg" />
+    <Resource Include="Assets\Flags\KMF.jpg" />
+    <Resource Include="Assets\Flags\KPW.jpg" />
+    <Resource Include="Assets\Flags\KRW.jpg" />
+    <Resource Include="Assets\Flags\KWD.jpg" />
+    <Resource Include="Assets\Flags\KYD.jpg" />
+    <Resource Include="Assets\Flags\KZT.jpg" />
+    <Resource Include="Assets\Flags\LAK.jpg" />
+    <Resource Include="Assets\Flags\LBP.jpg" />
+    <Resource Include="Assets\Flags\LKR.jpg" />
+    <Resource Include="Assets\Flags\LRD.jpg" />
+    <Resource Include="Assets\Flags\LSL.jpg" />
+    <Resource Include="Assets\Flags\LTL.jpg" />
+    <Resource Include="Assets\Flags\LUF.jpg" />
+    <Resource Include="Assets\Flags\LVL.jpg" />
+    <Resource Include="Assets\Flags\LYD.jpg" />
+    <Resource Include="Assets\Flags\MAD.jpg" />
+    <Resource Include="Assets\Flags\MDL.jpg" />
+    <Resource Include="Assets\Flags\MKD.jpg" />
+    <Resource Include="Assets\Flags\MMK.jpg" />
+    <Resource Include="Assets\Flags\MNT.jpg" />
+    <Resource Include="Assets\Flags\MOP.jpg" />
+    <Resource Include="Assets\Flags\MRO.jpg" />
+    <Resource Include="Assets\Flags\MTL.jpg" />
+    <Resource Include="Assets\Flags\MUR.jpg" />
+    <Resource Include="Assets\Flags\MVR.jpg" />
+    <Resource Include="Assets\Flags\MWK.jpg" />
+    <Resource Include="Assets\Flags\MXN.jpg" />
+    <Resource Include="Assets\Flags\MYR.jpg" />
+    <Resource Include="Assets\Flags\NAD.jpg" />
+    <Resource Include="Assets\Flags\NGN.jpg" />
+    <Resource Include="Assets\Flags\NIO.jpg" />
+    <Resource Include="Assets\Flags\NLG.jpg" />
+    <Resource Include="Assets\Flags\NOK.jpg" />
+    <Resource Include="Assets\Flags\NPR.jpg" />
+    <Resource Include="Assets\Flags\NZD.jpg" />
+    <Resource Include="Assets\Flags\OMR.jpg" />
+    <Resource Include="Assets\Flags\PAB.jpg" />
+    <Resource Include="Assets\Flags\PEN.jpg" />
+    <Resource Include="Assets\Flags\PGK.jpg" />
+    <Resource Include="Assets\Flags\PHP.jpg" />
+    <Resource Include="Assets\Flags\PKR.jpg" />
+    <Resource Include="Assets\Flags\PLN.jpg" />
+    <Resource Include="Assets\Flags\PTE.jpg" />
+    <Resource Include="Assets\Flags\PYG.jpg" />
+    <Resource Include="Assets\Flags\QAR.jpg" />
+    <Resource Include="Assets\Flags\RON.jpg" />
+    <Resource Include="Assets\Flags\RUB.jpg" />
+    <Resource Include="Assets\Flags\RWF.jpg" />
+    <Resource Include="Assets\Flags\SAR.jpg" />
+    <Resource Include="Assets\Flags\SBD.jpg" />
+    <Resource Include="Assets\Flags\SCR.jpg" />
+    <Resource Include="Assets\Flags\SDD.jpg" />
+    <Resource Include="Assets\Flags\SEK.jpg" />
+    <Resource Include="Assets\Flags\SGD.jpg" />
+    <Resource Include="Assets\Flags\SHP.jpg" />
+    <Resource Include="Assets\Flags\SIT.jpg" />
+    <Resource Include="Assets\Flags\SKK.jpg" />
+    <Resource Include="Assets\Flags\SLL.jpg" />
+    <Resource Include="Assets\Flags\SOS.jpg" />
+    <Resource Include="Assets\Flags\STD.jpg" />
+    <Resource Include="Assets\Flags\SVC.jpg" />
+    <Resource Include="Assets\Flags\SYP.jpg" />
+    <Resource Include="Assets\Flags\SZL.jpg" />
+    <Resource Include="Assets\Flags\THB.jpg" />
+    <Resource Include="Assets\Flags\TND.jpg" />
+    <Resource Include="Assets\Flags\TOP.jpg" />
+    <Resource Include="Assets\Flags\TRY.jpg" />
+    <Resource Include="Assets\Flags\TTD.jpg" />
+    <Resource Include="Assets\Flags\TWD.jpg" />
+    <Resource Include="Assets\Flags\TZS.jpg" />
+    <Resource Include="Assets\Flags\UAH.jpg" />
+    <Resource Include="Assets\Flags\UGX.jpg" />
+    <Resource Include="Assets\Flags\USD.jpg" />
+    <Resource Include="Assets\Flags\UYU.jpg" />
+    <Resource Include="Assets\Flags\VEB.jpg" />
+    <Resource Include="Assets\Flags\VND.jpg" />
+    <Resource Include="Assets\Flags\VUV.jpg" />
+    <Resource Include="Assets\Flags\WST.jpg" />
+    <Resource Include="Assets\Flags\XCD.jpg" />
+    <Resource Include="Assets\Flags\YER.jpg" />
+    <Resource Include="Assets\Flags\ZAR.jpg" />
+    <Resource Include="Assets\Flags\ZMK.jpg" />
+    <Resource Include="Assets\Flags\ZWD.jpg" />
+    <Resource Include="Assets\Graphing_icon.jpg" />
+    <Resource Include="Assets\logo.png" />
+    <Resource Include="Assets\Options\black.jpg" />
+    <Resource Include="Assets\Options\blue.jpg" />
+    <Resource Include="Assets\Options\bluesteel.jpg" />
+    <Resource Include="Assets\Options\brown.jpg" />
+    <Resource Include="Assets\Options\facebook.jpg" />
+    <Resource Include="Assets\Options\GetNow.png" />
+    <Resource Include="Assets\Options\green.jpg" />
+    <Resource Include="Assets\Options\grey.jpg" />
+    <Resource Include="Assets\Options\OptionsBG.jpg" />
+    <Resource Include="Assets\Options\orange.jpg" />
+    <Resource Include="Assets\Options\pink.jpg" />
+    <Resource Include="Assets\Options\Style_classic.jpg" />
+    <Resource Include="Assets\Options\Style_shine.jpg" />
+    <Resource Include="Assets\Options\Style_standard.jpg" />
+    <Resource Include="Assets\Options\Style_standardplus.jpg" />
+    <Resource Include="Assets\Options\Style_typ.jpg" />
+    <Resource Include="Assets\Options\twitter.png" />
+    <Resource Include="Assets\Options\youtube.png" />
+    <Resource Include="Assets\Scientific_icon.jpg" />
+    <Resource Include="Assets\Standard_icon.jpg" />
+    <Resource Include="Assets\Statistics_icon.jpg" />
+    <Resource Include="Assets\Unit\Icon_acel.png" />
+    <Resource Include="Assets\Unit\Icon_angle.png" />
+    <Resource Include="Assets\Unit\Icon_area.png" />
+    <Resource Include="Assets\Unit\Icon_cooking.png" />
+    <Resource Include="Assets\Unit\Icon_currency.png" />
+    <Resource Include="Assets\Unit\Icon_data.png" />
+    <Resource Include="Assets\Unit\Icon_density.png" />
+    <Resource Include="Assets\Unit\Icon_energy.png" />
+    <Resource Include="Assets\Unit\Icon_force.png" />
+    <Resource Include="Assets\Unit\Icon_fuel.png" />
+    <Resource Include="Assets\Unit\Icon_length.png" />
+    <Resource Include="Assets\Unit\Icon_power.png" />
+    <Resource Include="Assets\Unit\Icon_pressure.png" />
+    <Resource Include="Assets\Unit\Icon_speed.png" />
+    <Resource Include="Assets\Unit\Icon_temp.png" />
+    <Resource Include="Assets\Unit\Icon_time.png" />
+    <Resource Include="Assets\Unit\Icon_torque.png" />
+    <Resource Include="Assets\Unit\Icon_volume.png" />
+    <Resource Include="Assets\Unit\Icon_weight.png" />
+    <Resource Include="Assets\Unit_icon.jpg" />
+    <Resource Include="Assets\World_icon.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,203 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "resourcesp.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+LANGUAGE 9, 4
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+
+IDI_EULA       ICON         "Eula.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDM_MENU SHMENUBAR MOVEABLE PURE 
+BEGIN
+    IDM_MENU, 1,
+    I_IMAGENONE, IDM_MAIN_COMMAND1, TBSTATE_ENABLED, 
+    TBSTYLE_DROPDOWN | TBSTYLE_AUTOSIZE, IDS_HELP, 0, 0,
+END
+
+IDR_MENU_AD SHMENUBAR DISCARDABLE 
+BEGIN
+    IDR_MENU_AD, 2,
+    I_IMAGENONE, IDMENU_Accept, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_ACCEPT, 0, NOMENU,
+    I_IMAGENONE, IDMENU_Deny, TBSTATE_ENABLED, TBSTYLE_AUTOSIZE, 
+    IDS_CAP_DENY, 0, NOMENU,
+END
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 140, 57
+STYLE WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About eula"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_EULA,IDC_STATIC,11,17,20,20
+    LTEXT           "eula Version 1.0",IDC_STATIC,40,10,70,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,70,8
+END
+
+IDD_DLG_EULA DIALOG DISCARDABLE  0, 0, 162, 116
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EULA"
+FONT 8, "Tahoma"
+BEGIN
+    EDITTEXT        IDC_EDT_EULA,7,7,148,102,ES_MULTILINE | ES_READONLY | 
+                    ES_WANTRETURN | WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_EULA ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDOK,                   VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 133
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 50
+    END
+
+    IDD_DLG_EULA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 109
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE  
+BEGIN
+    "resourcesp.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)\r\n"
+    "LANGUAGE 9, 4\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""Eulasp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "eula"
+    IDC_EULA                "EULA"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP                "Tools"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_COMMAND1            "Done "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CAP_ACCEPT          "Accept"
+    IDS_CAP_DENY            "Deny"
+    IDS_LICENSETEXT         "SINGLE END-USER LICENSE AGREEMENT FOR IMPLICIT SOFTWARE SOLUTIONS SOFTWARE\r\n\r\nThis Implicit Software Solutions End-User License Agreement (""EULA"") is a legal AGREEMENT between you and Implicit Software Solutions for the Implicit Software Solutions software product purchased, which product includes computer software and may include associated media, printed materials, and ""online"" or electronic documentation (""SOFTWARE PRODUCT""). By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA.\r\n\r\nSOFTWARE PRODUCT LICENSE The SOFTWARE PRODUCT is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold. \r\n\r\n 1) GRANT OF LICENSE. This EULA grants you, the computer software end-user, the following rights:\r\nApplications Software. The SOFTWARE PRODUCT may be used only by you.  You may install and use one copy of the SOFTWARE PRODUCT, or any p"
+    IDS_LICENSETEXT2        "rior version thereof for the same operating system, on a single computer.\r\n\r\n2) DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS.\r\n* The SOFTWARE PRODUCT is licensed as a single product. Its component parts may not be separated for use on more than one computer.\r\n* Rental. You may not rent, lease, or lend the SOFTWARE PRODUCT to any party.\r\n* Support Services. If this product was received as part of a ""bundle"" with an other software or hardware manufacturer's product, end-users are required to contact that manufacturer for first level support. Otherwise, Implicit Software Solutions may provide you with support services related to the SOFTWARE PRODUCT (""Support Services""). With respect to technical information you provide to Implicit Software Solutions as part of the Support Services, Implicit Software Solutions may use such information for its busin"
+    IDS_LICENSETEXT3        "ess purpose, including for product updates and development.\r\n* Termination. Without prejudice to any of Implicit Software Solutions's other rights, Implicit Software Solutions may terminate this EULA if you fail to comply with the terms and conditions of this EULA. In such event, you must destroy all copies of the SOFTWARE PRODUCT and all of its component parts. \r\n\r\n3) COPYRIGHT AND TRADEMARKS. All title, trademarks and copyrights in and pertaining to the SOFTWARE PRODUCT (including but not limited to any images, animation, and text. You may not copy the printed materials accompanying the SOFTWARE PRODUCT.\r\n\r\n4) LIMITED WA"
+    IDS_LICENSETEXT4        "RRANTY. Implicit Software Solutions warrants that (a) the SOFTWARE PRODUCT will, for a period of ninety (90) days from the date of your receipt, perform substantially in accordance with Implicit Software Solutions' written materials accompanying it, and (b) any Support Services provided by Implicit Software Solutions shall be substantially as described in applicable written materials provided to you by Implicit S"
+    IDS_LICENSETEXT5        "oftware Solutions, and (c) Implicit Software Solutions support engineers will make commercially reasonable efforts to solve any problem issues with the SOFTWARE PRODUCT.\r\n\r\n5) LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL IMPLICIT SOFTWARE SOLUTIONS OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVERARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE PRODUCT OR THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES, EVEN IF IMPLICIT SOFTWARE SOLUTIONS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. IN ANY CASE, IMPLICIT SOFTWARE SOLUTIONS'S ENTIRE LIABILITY UNDE"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_LICENSETEXT6        "R ANY PROVISION OF THIS EULA SHALL BE LIMITED TO TEN CANADIAN DOLLARS (CND $10.00)."
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+LANGUAGE 9, 4
+#pragma code_page(1252)
+#include "Eulasp.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

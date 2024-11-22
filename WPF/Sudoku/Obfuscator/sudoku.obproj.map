@@ -1,0 +1,675 @@
+﻿<Mappings><Entry OldName="Sudoku.Options.gridMain" NewName="Sudoku.Options.c7628228f371b706bd55a33e2ad9c6e5b" />
+<Entry OldName="Sudoku.Options.stackPanel1" NewName="Sudoku.Options.c5a482bd3dde4b693785f8a596f644ba9" />
+<Entry OldName="Sudoku.Options.optSkin" NewName="Sudoku.Options.c00d35d4f662e70345bee2ccd51fe3913" />
+<Entry OldName="Sudoku.Options.optPlaySounds" NewName="Sudoku.Options.cb1026472d3912378e3e909375d8f8f9f" />
+<Entry OldName="Sudoku.Options.optShowErrors" NewName="Sudoku.Options.c24fdd637f27bdfe9ef7e226a4ffdc723" />
+<Entry OldName="Sudoku.Options.optLockCompleted" NewName="Sudoku.Options.c389cb51cffdaf7525a8ac0f6ce27e755" />
+<Entry OldName="Sudoku.Options.optShowHints" NewName="Sudoku.Options.c796be7c5a29aaadcb75261a5770aa3bc" />
+<Entry OldName="Sudoku.Options.optShowHighlights" NewName="Sudoku.Options.cfa3a3d8574742c50b90261222a9d4115" />
+<Entry OldName="Sudoku.Options.optAutoPencil" NewName="Sudoku.Options.cb825406bf829fd13c26b887d7b20ebce" />
+<Entry OldName="Sudoku.Options.optAutoClearPencilMarks" NewName="Sudoku.Options.c4fcb31020f6c84fbb1f1adeaccee715e" />
+<Entry OldName="Sudoku.Options.optDrawBlankCells" NewName="Sudoku.Options.c502f69adaaa0f9236cd84c6a8d595b93" />
+<Entry OldName="Sudoku.Options.txtAboutCopyright" NewName="Sudoku.Options.cd3fb35484dfa109130380f998942cf82" />
+<Entry OldName="Sudoku.Options._contentLoaded" NewName="Sudoku.Options.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate9" NewName="Sudoku.Options.ce3f737d77c427c51bdcb5f5ec343b76a" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatea" NewName="Sudoku.Options.c87883100b394a67c0b19735e6775bc5d" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegateb" NewName="Sudoku.Options.c7a21266a5bdd3301f9b8afe08c66fb51" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatec" NewName="Sudoku.Options.c6c47721559e7dc30725ef3d855612f0a" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegated" NewName="Sudoku.Options.c990db5d35b80a4ffeb1aae5dd82cb260" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatee" NewName="Sudoku.Options.c78d2f234ac72186e05780b1285572184" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegatef" NewName="Sudoku.Options.c2e423668d5a812bf49a65402d1e6f43b" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate10" NewName="Sudoku.Options.c20d72ed4c6dca77ab840a842df2c5bd7" />
+<Entry OldName="Sudoku.Options.CS$&lt;&gt;9__CachedAnonymousMethodDelegate11" NewName="Sudoku.Options.ccbc957e91ed76ea729cc5d7a8a0e83c0" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.NUM_FIRST_REMOVE" NewName="Sudoku.Engine.SudokuPuzzle.c441ae4c6cdc75d2aacaaef393dc9e242" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.NUM_CELLS_REMOVE_TARGET" NewName="Sudoku.Engine.SudokuPuzzle.cc067dc3de551ad141dc46218f4ed2826" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.ePuzType" NewName="Sudoku.Engine.SudokuPuzzle.c0529d8d266e5de1e547f111170d41912" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.eGridType" NewName="Sudoku.Engine.SudokuPuzzle.ced5740bc540b43a1b0309cd57a9bc003" />
+<Entry OldName="System.Windows.Media.Imaging.WriteableBitmapExtensions.SizeOfArgb" NewName="System.Windows.Media.Imaging.WriteableBitmapExtensions.c39ec8057739e35582006d6c0ca2132f2" />
+<Entry OldName="Sudoku.Engine.SudokuGame.FILE_SudokuBoard" NewName="Sudoku.Engine.SudokuGame.c294e6efa599348b4ba725c0418bf5dd6" />
+<Entry OldName="Sudoku.Engine.SudokuGame.FILE_SudokuValues" NewName="Sudoku.Engine.SudokuGame.c04c4e3ebfd0ed092e7d1d386a1ed7807" />
+<Entry OldName="Sudoku.Engine.SudokuGame.POINTS_PER_CELL" NewName="Sudoku.Engine.SudokuGame.ca361a291a1c51bf62d36611acc3000c4" />
+<Entry OldName="Sudoku.Engine.SudokuGame.POINTS_PER_ERROR" NewName="Sudoku.Engine.SudokuGame.c9569820e067bfd0810aea8d1c236dc4f" />
+<Entry OldName="Sudoku.Engine.SudokuGame.POINTS_PER_HINT" NewName="Sudoku.Engine.SudokuGame.cecc1a5879173251ce168caffaa4db549" />
+<Entry OldName="Sudoku.Engine.SudokuGame.POINTS_MIN" NewName="Sudoku.Engine.SudokuGame.c90c9a8b0ab0249725fe70a0762cbab3b" />
+<Entry OldName="Sudoku.Engine.SudokuGame.SUDOKU_Size" NewName="Sudoku.Engine.SudokuGame.c5d6742f4a81677379d20d9cca16cf8a9" />
+<Entry OldName="Sudoku.Engine.SudokuGame.rand" NewName="Sudoku.Engine.SudokuGame.c9037618f9ce1f2c383ebe24720665010" />
+<Entry OldName="Sudoku.ItemsControlHelper._itemsHost" NewName="Sudoku.ItemsControlHelper.ce2dc6d1ad36f0a424a098cd1e73fc46b" />
+<Entry OldName="Sudoku.ItemsControlHelper._scrollHost" NewName="Sudoku.ItemsControlHelper.c0f3247baf838824996c04f2672202647" />
+<Entry OldName="Sudoku.ItemsControlHelper.&lt;ItemsControl&gt;k__BackingField" NewName="Sudoku.ItemsControlHelper.ccce6866d57c46d11138dffe6066795d1" />
+<Entry OldName="Sudoku.ScreenSudoku.BOARD_SIZE" NewName="Sudoku.ScreenSudoku.c76c780780642cc30bf3bfe9751e6f47a" />
+<Entry OldName="Sudoku.Controls.ImageButtonControl.OnClick" NewName="Sudoku.Controls.ImageButtonControl.cc260af21ebad89e32f44524cb8c17dc7" />
+<Entry OldName="Sudoku.Controls.ImageButtonControl.LayoutMain" NewName="Sudoku.Controls.ImageButtonControl.c012f9931d20cab0c58dda30c9c08fd9b" />
+<Entry OldName="Sudoku.Controls.ImageButtonControl.baseCircle" NewName="Sudoku.Controls.ImageButtonControl.cc1d08074cba1529c0b9fba1ae6c1a99b" />
+<Entry OldName="Sudoku.Controls.ImageButtonControl.imgMain" NewName="Sudoku.Controls.ImageButtonControl.c2d3e13d1dadd54cb7aa39ec4ef8b73cb" />
+<Entry OldName="Sudoku.Controls.ImageButtonControl._contentLoaded" NewName="Sudoku.Controls.ImageButtonControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.OptionItemCategory.LayoutRoot" NewName="Sudoku.OptionItemCategory.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.OptionItemCategory.txtTitle" NewName="Sudoku.OptionItemCategory.c6f669d156ce85b9d8f4d5151376d1346" />
+<Entry OldName="Sudoku.OptionItemCategory._contentLoaded" NewName="Sudoku.OptionItemCategory.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.LocalizedStrings._localizedresources" NewName="Sudoku.LocalizedStrings.c20cefc8f6fef1989721b99d557bbcfdf" />
+<Entry OldName="Visual.MagicDot.ELLIPSE_COUNT" NewName="Visual.MagicDot.c76e5abc837faa7d5162de2628796a1e9" />
+<Entry OldName="Visual.MagicDot.OPACITY" NewName="Visual.MagicDot.c250357f379f0f9c3a1211027cd1a9c93" />
+<Entry OldName="Visual.MagicDot.OPACITY_INC" NewName="Visual.MagicDot.c2fab831bce9303e0bbe1836a310ad93c" />
+<Entry OldName="Sudoku.Engine.BoardTileEventArgs.&lt;x&gt;k__BackingField" NewName="Sudoku.Engine.BoardTileEventArgs.c9bdb6e83a122483a191e7637b08d6cc3" />
+<Entry OldName="Sudoku.Engine.BoardTileEventArgs.&lt;y&gt;k__BackingField" NewName="Sudoku.Engine.BoardTileEventArgs.ce6a59efa0f26f34828a7cabfa9a49fc8" />
+<Entry OldName="Sudoku.Engine.SEngine.FILE_BestTimes" NewName="Sudoku.Engine.SEngine.cf610266542187b3b2673c4049339d67c" />
+<Entry OldName="Sudoku.Engine.SEngine.FILE_AvgTimes" NewName="Sudoku.Engine.SEngine.cc350c28b494d839dbd3e2fc2adf892ef" />
+<Entry OldName="Sudoku.Engine.SEngine.FILE_PlayCounts" NewName="Sudoku.Engine.SEngine.c5cb9a1a56d2d9c23f4ea3c9ed9f8f11b" />
+<Entry OldName="Sudoku.Engine.SEngine.DEFAULT_TIME" NewName="Sudoku.Engine.SEngine.c9caca82ea548bba432f395987ff829f6" />
+<Entry OldName="Sudoku.Engine.SEngine.m_oSudoku" NewName="Sudoku.Engine.SEngine.c86f01903bedf2536cf8f79356e9ce270" />
+<Entry OldName="Sudoku.Engine.SEngine.m_oKakuro" NewName="Sudoku.Engine.SEngine.c7b9903b273d097a6cc4ab8b4b2602448" />
+<Entry OldName="Sudoku.Engine.SEngine.m_oKiller" NewName="Sudoku.Engine.SEngine.c179a6f34fa1d185fc716608b9bd8ae53" />
+<Entry OldName="Sudoku.Engine.SEngine.m_oKenKen" NewName="Sudoku.Engine.SEngine.cd6a2cfa793e1cbc196df55e5387e6460" />
+<Entry OldName="Sudoku.Engine.SEngine.m_oGreater" NewName="Sudoku.Engine.SEngine.c4b0a74fa9439738b8f24b7032cfa67b8" />
+<Entry OldName="Sudoku.Engine.SEngine.m_eGameType" NewName="Sudoku.Engine.SEngine.cc9214ce98f43b738e20651c6b6527748" />
+<Entry OldName="Sudoku.Engine.SEngine.m_eDiff" NewName="Sudoku.Engine.SEngine.c2d1e746ed191542f6c42f4da491e811f" />
+<Entry OldName="Sudoku.Engine.SEngine.m_bShowHints" NewName="Sudoku.Engine.SEngine.c44e1451007e21e62134558479ff2468e" />
+<Entry OldName="Sudoku.Engine.SEngine.m_bIsGameInPlay" NewName="Sudoku.Engine.SEngine.c38d15ce0249bd5a574cd673b69532e09" />
+<Entry OldName="Sudoku.Engine.SEngine.m_iGameTimer" NewName="Sudoku.Engine.SEngine.cad43239ff29083dd0fe212df9d6e856e" />
+<Entry OldName="Sudoku.Engine.SEngine.m_bIsBoardSet" NewName="Sudoku.Engine.SEngine.cc2cb27116a81d293e78d42ff7efde106" />
+<Entry OldName="Sudoku.Engine.SEngine.m_iAvgTimes" NewName="Sudoku.Engine.SEngine.c1f5ab67dbb581a70ed68a430bf69a55c" />
+<Entry OldName="Sudoku.Engine.SEngine.m_iBestTimes" NewName="Sudoku.Engine.SEngine.c328e08933162c35ec34a17d1dc9c7f9d" />
+<Entry OldName="Sudoku.Engine.SEngine.m_iGameCounts" NewName="Sudoku.Engine.SEngine.c303daf76beaa43075de6d7841f4b84b6" />
+<Entry OldName="Sudoku.OptionItem._iCurrentIndex" NewName="Sudoku.OptionItem.cbef92b511ca44b225954e67ba0ef295a" />
+<Entry OldName="Sudoku.OptionItem._iYPosition" NewName="Sudoku.OptionItem.c26dc59035c0b07823b0a56f4e07504e3" />
+<Entry OldName="Sudoku.OptionItem._iXPosition" NewName="Sudoku.OptionItem.c7cc66bbd4cf8c625325065ac9ec3356a" />
+<Entry OldName="Sudoku.OptionItem._dtNow" NewName="Sudoku.OptionItem.c888671bfd8ca754571a68c4ab722d1f9" />
+<Entry OldName="Sudoku.OptionItem._bBtnDown" NewName="Sudoku.OptionItem.cf957df6f145fb8fa1e3a4adbcbff2024" />
+<Entry OldName="Sudoku.OptionItem._arrItems" NewName="Sudoku.OptionItem.c5c069ad0bf20a79e3a15446c2691ea45" />
+<Entry OldName="Sudoku.OptionItem._iRefID" NewName="Sudoku.OptionItem.c55be00a10754fd5b0b2208913c576f80" />
+<Entry OldName="Sudoku.OptionItem._IndexUpdate" NewName="Sudoku.OptionItem.cac52b1c6725051e4934ae2f263ac94f1" />
+<Entry OldName="Sudoku.OptionItem.LayoutRoot" NewName="Sudoku.OptionItem.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.OptionItem.LayoutMain" NewName="Sudoku.OptionItem.c012f9931d20cab0c58dda30c9c08fd9b" />
+<Entry OldName="Sudoku.OptionItem.txtTitle" NewName="Sudoku.OptionItem.c6f669d156ce85b9d8f4d5151376d1346" />
+<Entry OldName="Sudoku.OptionItem.txtSubItem" NewName="Sudoku.OptionItem.c2a2d92bd533d9530ed934acb7aefe380" />
+<Entry OldName="Sudoku.OptionItem._contentLoaded" NewName="Sudoku.OptionItem.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem.&lt;szItem&gt;k__BackingField" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc.cf374056629d4e5e44b6fedd1de612dd2" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem.&lt;szImage&gt;k__BackingField" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc.ca91199e5c980b947e64cc4b7fc988269" />
+<Entry OldName="Sudoku.Window1._contentLoaded" NewName="Sudoku.Window1.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.Engine.KillerGame.FILE_SamuIndex" NewName="Sudoku.Engine.KillerGame.c702655f8888af310cf27baef500d1ac6" />
+<Entry OldName="Sudoku.Engine.KillerGame.FILE_SamuValue" NewName="Sudoku.Engine.KillerGame.c758cf2153ffaf99b0097cf7a710c9756" />
+<Entry OldName="Sudoku.Engine.KakuroGame.FILE_KakuroBoard" NewName="Sudoku.Engine.KakuroGame.c1524844a7f600e2780a78f450d9b0b6f" />
+<Entry OldName="Sudoku.Engine.KakuroGame.FILE_KakuroValues" NewName="Sudoku.Engine.KakuroGame.c09b75a3d93e97fd0a756f58abce03064" />
+<Entry OldName="Sudoku.Engine.KakuroGame.rand" NewName="Sudoku.Engine.KakuroGame.c9037618f9ce1f2c383ebe24720665010" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_iBoardSize" NewName="Sudoku.Engine.KakuroGame.c5b2d4680f2ba7175bde4fa3465563bf6" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_iTile" NewName="Sudoku.Engine.KakuroGame.cdd835b15ac34f32513a8f1408f5de735" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_eLevel" NewName="Sudoku.Engine.KakuroGame.c5660f227ab2d8079ae6fd5dcbab71835" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_eSize" NewName="Sudoku.Engine.KakuroGame.cdc962f71d789846f5e29d594d08132c1" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_bIsGameInPlay" NewName="Sudoku.Engine.KakuroGame.c38d15ce0249bd5a574cd673b69532e09" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_bAutoPencilMarks" NewName="Sudoku.Engine.KakuroGame.cefc6e0d87c97a83ce547f6a5781c847e" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_bShowErrors" NewName="Sudoku.Engine.KakuroGame.c89be9d2f855945ebb3f453ec8b3a7040" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_bAutoRemovePencilMarks" NewName="Sudoku.Engine.KakuroGame.c3692181c0d87436e73f24dad18d49079" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_iNumFreeCells" NewName="Sudoku.Engine.KakuroGame.cb11b43affee555ac0ee6cf92dd6e32bf" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_iMistakeCounter" NewName="Sudoku.Engine.KakuroGame.c43010473e45967496f9d9f848f499f2e" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_iTotalPlayableCells" NewName="Sudoku.Engine.KakuroGame.c607136797995853dd3d5ea03e3c6c16d" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_iNumSeconds" NewName="Sudoku.Engine.KakuroGame.cbf9e5169afe34ddf1c24cc0d6be9006a" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_ptLastCorrectGuess" NewName="Sudoku.Engine.KakuroGame.caa7a73b731ddaa87777f3fbdbcdfb8dd" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_ptLastHint" NewName="Sudoku.Engine.KakuroGame.c15ffd1e0317e1031a0194ab195d1c247" />
+<Entry OldName="Sudoku.Engine.KakuroGame.m_sLastMove" NewName="Sudoku.Engine.KakuroGame.cb8e8bd6d3e1f4accf959d67912079067" />
+<Entry OldName="Sudoku.BoardPiece.SIZE_CELLARRAY" NewName="Sudoku.BoardPiece.c52493b874bc5c874985403f04f8e7ce0" />
+<Entry OldName="Sudoku.BoardPiece.gridPencilMarks" NewName="Sudoku.BoardPiece.c6f1ad90c33e237201d4d4254eacd5647" />
+<Entry OldName="Sudoku.BoardPiece.imgFont" NewName="Sudoku.BoardPiece.c2dfd0b6ba59fb8f3c570ed6c5804bfad" />
+<Entry OldName="Sudoku.BoardPiece.iGuess" NewName="Sudoku.BoardPiece.c24476e12013e35b3c6b0c92ad64e6ce1" />
+<Entry OldName="Sudoku.BoardPiece.dbFontWidth" NewName="Sudoku.BoardPiece.c36a70c4cea42e18fe032745fa1b6323c" />
+<Entry OldName="Sudoku.BoardPiece.dbGridSize" NewName="Sudoku.BoardPiece.cf6d5e3ed73151af432cd96d1e68894df" />
+<Entry OldName="Sudoku.BoardPiece.eSelectState" NewName="Sudoku.BoardPiece.ca8e93d2b91ec8d77d04d93b603f1e85d" />
+<Entry OldName="Sudoku.BoardPiece.eCurrentSq" NewName="Sudoku.BoardPiece.c3033a1c1d25a5a69260dfbb4955c98e4" />
+<Entry OldName="Sudoku.BoardPiece.LayoutRoot" NewName="Sudoku.BoardPiece.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.BoardPiece.canvasBackground" NewName="Sudoku.BoardPiece.cd08ec83f2d6685845d503baf4415a99a" />
+<Entry OldName="Sudoku.BoardPiece.imgBackground" NewName="Sudoku.BoardPiece.cbc032f2f6f5493e4d316b66e803d034b" />
+<Entry OldName="Sudoku.BoardPiece.imgBackground2" NewName="Sudoku.BoardPiece.c9dec7f3d3b9ad282e76bdc7264884088" />
+<Entry OldName="Sudoku.BoardPiece.canvasFont" NewName="Sudoku.BoardPiece.c6eb206787c7b27d1489bae8d634c87ae" />
+<Entry OldName="Sudoku.BoardPiece.imgFont1" NewName="Sudoku.BoardPiece.ce74c8188a0d8f1c1fa964c5f4037920f" />
+<Entry OldName="Sudoku.BoardPiece.imgFont2" NewName="Sudoku.BoardPiece.cd520da1fae559dc25cf1d52505e43395" />
+<Entry OldName="Sudoku.BoardPiece.txtError" NewName="Sudoku.BoardPiece.c105992edafa2c3ce66b71a5587887270" />
+<Entry OldName="Sudoku.BoardPiece.layoutTotals" NewName="Sudoku.BoardPiece.c5bc4e84eed41d824bc19d88224d49eea" />
+<Entry OldName="Sudoku.BoardPiece.textTopLeft" NewName="Sudoku.BoardPiece.c884a31f0abcee8550cb5be257ac6d65f" />
+<Entry OldName="Sudoku.BoardPiece.textTopRight" NewName="Sudoku.BoardPiece.c1f2290a6663075f900248b35a9cd40ab" />
+<Entry OldName="Sudoku.BoardPiece.textBottomLeft" NewName="Sudoku.BoardPiece.c910024f44cac6ae6a1d376cb3f97cb54" />
+<Entry OldName="Sudoku.BoardPiece._contentLoaded" NewName="Sudoku.BoardPiece.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.value__" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.value__" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.Guess" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.Guess" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.Given" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.Given" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.PencilMarks" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.PencilMarks" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.Kakuro" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.Kakuro" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.Blank" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.Blank" />
+<Entry OldName="Sudoku.BoardPiece.EnumDraw.None" NewName="Sudoku.BoardPiece.cda8c96d412ae3744ce97c649dce08c09.None" />
+<Entry OldName="Sudoku.GameScreen.SOUND_FIREWORKS" NewName="Sudoku.GameScreen.c78adf3584d8c7a99c1c76847fab31071" />
+<Entry OldName="Sudoku.GameScreen.SOUND_HINT" NewName="Sudoku.GameScreen.c7c260d7d48014065e2bb136f9afd91de" />
+<Entry OldName="Sudoku.GameScreen.SOUND_UNDO" NewName="Sudoku.GameScreen.cc7be854450e2dee0baeb26ce80858792" />
+<Entry OldName="Sudoku.GameScreen.SOUND_MENU" NewName="Sudoku.GameScreen.c1bf737704ed64662bf31eaec82bc98ec" />
+<Entry OldName="Sudoku.GameScreen.SOUND_SET" NewName="Sudoku.GameScreen.cdb1bd15a5a2901c7032124facdfb5797" />
+<Entry OldName="Sudoku.GameScreen.SOUND_UNSET" NewName="Sudoku.GameScreen.cc1d82cda248eeede5a2f17776ab24b7c" />
+<Entry OldName="Sudoku.GameScreen.SOUND_GAMESTART" NewName="Sudoku.GameScreen.cfda11aea3c144a30be689c5a952c3d94" />
+<Entry OldName="Sudoku.GameScreen.SOUND_SILENCE" NewName="Sudoku.GameScreen.c56bcb5044907000173f12e7201bc5560" />
+<Entry OldName="Sudoku.GameScreen._objGameScreen" NewName="Sudoku.GameScreen.c638a236c83de1f1ed505de9359133ebc" />
+<Entry OldName="Sudoku.GameScreen._arrSelectors" NewName="Sudoku.GameScreen.c3036bed1b1ba80083bbb4feb13886165" />
+<Entry OldName="Sudoku.GameScreen.fire" NewName="Sudoku.GameScreen.c313e66a98952eba6e706645874e8e98a" />
+<Entry OldName="Sudoku.GameScreen.bPen" NewName="Sudoku.GameScreen.cadfa06848166e355e4661a877cb1564b" />
+<Entry OldName="Sudoku.GameScreen._iSelectedNumber" NewName="Sudoku.GameScreen.c02c7b4d6c81c0be766c58616a32a4bd7" />
+<Entry OldName="Sudoku.GameScreen.GameTimer" NewName="Sudoku.GameScreen.c3031619bce0dbbdbd43c26c353732dda" />
+<Entry OldName="Sudoku.GameScreen.FireTimer" NewName="Sudoku.GameScreen.c76bd7e5ea753395104ef20e699f8ea67" />
+<Entry OldName="Sudoku.GameScreen.iFireCount" NewName="Sudoku.GameScreen.c4b037510d112b6f9c08ba895ad7ba96d" />
+<Entry OldName="Sudoku.GameScreen.rand" NewName="Sudoku.GameScreen.c9037618f9ce1f2c383ebe24720665010" />
+<Entry OldName="Sudoku.GameScreen.LayoutRoot" NewName="Sudoku.GameScreen.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.GameScreen.gridBoard" NewName="Sudoku.GameScreen.c172af621467034148185fee8f5abee48" />
+<Entry OldName="Sudoku.GameScreen.gridBoardOverlay" NewName="Sudoku.GameScreen.c4012d909258d39899fd58777e5872804" />
+<Entry OldName="Sudoku.GameScreen.rectangle1" NewName="Sudoku.GameScreen.cfd0f5f7838347dc0e4c111cdf13600c8" />
+<Entry OldName="Sudoku.GameScreen.gridNumbers" NewName="Sudoku.GameScreen.cfd2fa98fe577f2f7b73ea0a289b8da7d" />
+<Entry OldName="Sudoku.GameScreen.imgLogo" NewName="Sudoku.GameScreen.c56ba3f1d280fd03c0bfab499d715f0ff" />
+<Entry OldName="Sudoku.GameScreen.gridRightPane" NewName="Sudoku.GameScreen.cbe751b65863879da6d9f4603b8d85f64" />
+<Entry OldName="Sudoku.GameScreen.textTime" NewName="Sudoku.GameScreen.c372fc23cfc6f183f5c49e3c48e81f100" />
+<Entry OldName="Sudoku.GameScreen.textFree" NewName="Sudoku.GameScreen.c4d469df9805a47a9e76eed3a0dffc3f6" />
+<Entry OldName="Sudoku.GameScreen.textTotals" NewName="Sudoku.GameScreen.c8f43676b24a9eb8e5aaf9af19756c051" />
+<Entry OldName="Sudoku.GameScreen.gridMenu" NewName="Sudoku.GameScreen.ca542ebe5ba7c6475fa207cc019268557" />
+<Entry OldName="Sudoku.GameScreen.btnUndo" NewName="Sudoku.GameScreen.c29cba6d0404e86072c86664e2e968a1a" />
+<Entry OldName="Sudoku.GameScreen.btnHint" NewName="Sudoku.GameScreen.c191e449512814f78c917ec6509440d5d" />
+<Entry OldName="Sudoku.GameScreen.btnPenPencil" NewName="Sudoku.GameScreen.c366b6f84e007f9698ee5d969d0d932a1" />
+<Entry OldName="Sudoku.GameScreen.btnMenu" NewName="Sudoku.GameScreen.c2bb720b02f6f75cc685cb7050b935e17" />
+<Entry OldName="Sudoku.GameScreen.menuPopup" NewName="Sudoku.GameScreen.cd852c07459e958a8ea4aff4adf0ee16f" />
+<Entry OldName="Sudoku.GameScreen.textLevel" NewName="Sudoku.GameScreen.c65a861dc67e30adf06b0c4618d0f4cde" />
+<Entry OldName="Sudoku.GameScreen._contentLoaded" NewName="Sudoku.GameScreen.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Visual.Fireworks.FIREWORK_NUM" NewName="Visual.Fireworks.c9a7d27ca6d37b99c99c7b6dd52f9b59c" />
+<Entry OldName="Visual.Fireworks.X_VELOCITY" NewName="Visual.Fireworks.cb8bb2aa51082886a0f3f68c9a37f9cff" />
+<Entry OldName="Visual.Fireworks.Y_VELOCITY" NewName="Visual.Fireworks.c56afec8344d7ca366766b052966c4078" />
+<Entry OldName="Visual.Fireworks.SIZE_MIN" NewName="Visual.Fireworks.c07d0436aa863bebf74fcd434717725f7" />
+<Entry OldName="Visual.Fireworks.SIZE_MAX" NewName="Visual.Fireworks.cf406c80ebbd7699be81a576357c983c7" />
+<Entry OldName="Visual.Fireworks._fireworks" NewName="Visual.Fireworks.c58acae24cf67faa6e3a57ba77d28af21" />
+<Entry OldName="Visual.Fireworks._timer" NewName="Visual.Fireworks.cc4263fea7034aee93683feba052082f6" />
+<Entry OldName="Visual.Fireworks.FPS" NewName="Visual.Fireworks.cc34d1d71b436ed1da86a8d560050a196" />
+<Entry OldName="Visual.Fireworks.particleColor" NewName="Visual.Fireworks.cab03124c9375b6a3bdccecc920f478c7" />
+<Entry OldName="Visual.Fireworks.LayoutRoot" NewName="Visual.Fireworks.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Visual.Fireworks._contentLoaded" NewName="Visual.Fireworks.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.Engine.KenKenPuzzle.m_iKenKens" NewName="Sudoku.Engine.KenKenPuzzle.c435f87ab20708c8ab376d1eb34dad562" />
+<Entry OldName="Sudoku.Engine.KenKenPuzzle.m_eKenKenOps" NewName="Sudoku.Engine.KenKenPuzzle.c4609c26c0595421174c91a2e70417a62" />
+<Entry OldName="Sudoku.NumberSelector.CONST_VerticalOffset" NewName="Sudoku.NumberSelector.cae0be1098c59890804c2d205e3c869df" />
+<Entry OldName="Sudoku.NumberSelector._storyAni" NewName="Sudoku.NumberSelector.ca00ca45d6935ecebb183ce5b957f3952" />
+<Entry OldName="Sudoku.NumberSelector._storyAniDown" NewName="Sudoku.NumberSelector.c96c179ac4177b30cd7d66e4b182470e9" />
+<Entry OldName="Sudoku.NumberSelector._bBtnDown" NewName="Sudoku.NumberSelector.cf957df6f145fb8fa1e3a4adbcbff2024" />
+<Entry OldName="Sudoku.NumberSelector._bAniUpDown" NewName="Sudoku.NumberSelector.c8d24533dc98c8164d1bd93a4f882813c" />
+<Entry OldName="Sudoku.NumberSelector.LayoutRoot" NewName="Sudoku.NumberSelector.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.NumberSelector.gridSelector" NewName="Sudoku.NumberSelector.c1c3080719937d70566474fb48b91af7a" />
+<Entry OldName="Sudoku.NumberSelector.imgButton" NewName="Sudoku.NumberSelector.ce5572a033c8ff1877c389c111dbae78f" />
+<Entry OldName="Sudoku.NumberSelector.canvasNumbers" NewName="Sudoku.NumberSelector.c68a27938410480ff16955b1b467618c0" />
+<Entry OldName="Sudoku.NumberSelector.imgNumbersWhite" NewName="Sudoku.NumberSelector.c047b979f5ecf8e2cd14ab29e6b6e4ddf" />
+<Entry OldName="Sudoku.NumberSelector.imgNumbersGrey" NewName="Sudoku.NumberSelector.c3652a4478f3509a062b33722483f08f0" />
+<Entry OldName="Sudoku.NumberSelector._contentLoaded" NewName="Sudoku.NumberSelector.c03517cef879489da80417d0254baff47" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.OnClick" NewName="BlackJack.Controls.TextButtonControl.cc260af21ebad89e32f44524cb8c17dc7" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.LayoutMain" NewName="BlackJack.Controls.TextButtonControl.c012f9931d20cab0c58dda30c9c08fd9b" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.txtMain" NewName="BlackJack.Controls.TextButtonControl.cd6aa74daa9336815ed0aaaeaf7117934" />
+<Entry OldName="BlackJack.Controls.TextButtonControl._contentLoaded" NewName="BlackJack.Controls.TextButtonControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.Properties.Resources.resourceMan" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77.c12d8af5beb18a0afd3978a998eb350a7" />
+<Entry OldName="Sudoku.Properties.Resources.resourceCulture" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77.cc30e9eb58e653aae921816ca633755da" />
+<Entry OldName="Sudoku.PopupMenu._dbOriginX" NewName="Sudoku.PopupMenu.cd93a92ee2e4f35953073c850a3d69a4e" />
+<Entry OldName="Sudoku.PopupMenu._dbOriginY" NewName="Sudoku.PopupMenu.c3b91305527bc99f676120172ac01ca7b" />
+<Entry OldName="Sudoku.PopupMenu._dbDestinationX" NewName="Sudoku.PopupMenu.c956cf3397a34cfb954f9abc63d439cb0" />
+<Entry OldName="Sudoku.PopupMenu._dbDestinationY" NewName="Sudoku.PopupMenu.c0d60707e95f332dca4855d8936c35801" />
+<Entry OldName="Sudoku.PopupMenu._gridParentLayout" NewName="Sudoku.PopupMenu.c792634af101fe3f008ccc3141825a826" />
+<Entry OldName="Sudoku.PopupMenu._dtPopupTime" NewName="Sudoku.PopupMenu.c402942e001da8e0e276f8e4db58a2efe" />
+<Entry OldName="Sudoku.PopupMenu._ctrlItem" NewName="Sudoku.PopupMenu.c2dd4d31de74dafe17249caf5dd083f12" />
+<Entry OldName="Sudoku.PopupMenu._iLastSelectedItem" NewName="Sudoku.PopupMenu.cc6bab0344edec6e93cc72de2ac19bb5e" />
+<Entry OldName="Sudoku.PopupMenu.szTitle" NewName="Sudoku.PopupMenu.cc976dc5b7c379a94ca9d3fac447c4c48" />
+<Entry OldName="Sudoku.PopupMenu.LayoutRoot" NewName="Sudoku.PopupMenu.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.PopupMenu.MyBackground" NewName="Sudoku.PopupMenu.c8793d9e0de8906f47cbfd40e6bf41521" />
+<Entry OldName="Sudoku.PopupMenu.gridMain" NewName="Sudoku.PopupMenu.c7628228f371b706bd55a33e2ad9c6e5b" />
+<Entry OldName="Sudoku.PopupMenu.mainBorder" NewName="Sudoku.PopupMenu.cfec934c566b86b3d4f4670b1ac889122" />
+<Entry OldName="Sudoku.PopupMenu.myListBox" NewName="Sudoku.PopupMenu.ca642132b63e1dbfba78be30786db485e" />
+<Entry OldName="Sudoku.PopupMenu._contentLoaded" NewName="Sudoku.PopupMenu.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.PopupMenuEventArgs.&lt;iSelected&gt;k__BackingField" NewName="Sudoku.PopupMenuEventArgs.c927b307f9dd7ba50208a3a6770407c8c" />
+<Entry OldName="Sudoku.PopupMenuItems.PropertyChanged" NewName="Sudoku.PopupMenuItems.c38eec4c25aebd4d3581714a506e34181" />
+<Entry OldName="Sudoku.PopupMenuItems.&lt;szItem&gt;k__BackingField" NewName="Sudoku.PopupMenuItems.cf374056629d4e5e44b6fedd1de612dd2" />
+<Entry OldName="Sudoku.PopupMenuItems.&lt;szSubItem&gt;k__BackingField" NewName="Sudoku.PopupMenuItems.c03214224fcdea26ae0374b69947a0947" />
+<Entry OldName="Sudoku.PopupMenuItems.&lt;eItem&gt;k__BackingField" NewName="Sudoku.PopupMenuItems.c492054eae68b92f6aa4583af223c329a" />
+<Entry OldName="Sudoku.OptionItemToggle.PropertyChanged" NewName="Sudoku.OptionItemToggle.c38eec4c25aebd4d3581714a506e34181" />
+<Entry OldName="Sudoku.OptionItemToggle._iRefID" NewName="Sudoku.OptionItemToggle.c55be00a10754fd5b0b2208913c576f80" />
+<Entry OldName="Sudoku.OptionItemToggle._IndexUpdate" NewName="Sudoku.OptionItemToggle.cac52b1c6725051e4934ae2f263ac94f1" />
+<Entry OldName="Sudoku.OptionItemToggle.LayoutRoot" NewName="Sudoku.OptionItemToggle.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.OptionItemToggle.txtTitle" NewName="Sudoku.OptionItemToggle.c6f669d156ce85b9d8f4d5151376d1346" />
+<Entry OldName="Sudoku.OptionItemToggle.btnToggle" NewName="Sudoku.OptionItemToggle.c02247f068dacd5e0fd8084832725b086" />
+<Entry OldName="Sudoku.OptionItemToggle._contentLoaded" NewName="Sudoku.OptionItemToggle.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.TypeGradientItem.&lt;cr&gt;k__BackingField" NewName="Sudoku.TypeGradientItem.c025bee25d0fcefe0b21c57d47f6c8b24" />
+<Entry OldName="Sudoku.TypeGradientItem.&lt;dbOffset&gt;k__BackingField" NewName="Sudoku.TypeGradientItem.c65c63af8046b053c6d10c6e01d739a64" />
+<Entry OldName="Sudoku.BrushFactory._arrBrush" NewName="Sudoku.BrushFactory.cc18eb69f548d0d89f23ae43a51ea6ea6" />
+<Entry OldName="Sudoku.BrushFactory._arrGradientBrush" NewName="Sudoku.BrushFactory.cd5d419e9b28db986cfefc3b95c1c8eee" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegate3" NewName="A.cec1a865245d567d28685cf0382e6882c.c9d3967e341acb6dce5a789f3e06c733b" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegate4" NewName="A.cec1a865245d567d28685cf0382e6882c.c8a0c9a338bd7ca7c3dccf03bf208ec80" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegate5" NewName="A.cec1a865245d567d28685cf0382e6882c.cdb4bdedaa3177e8e6c5c3c749abf0e3b" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegate7" NewName="A.cec1a865245d567d28685cf0382e6882c.cfc927ad6e8959361bad01eacb8872b2a" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegate9" NewName="A.cec1a865245d567d28685cf0382e6882c.ce3f737d77c427c51bdcb5f5ec343b76a" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegateb" NewName="A.cec1a865245d567d28685cf0382e6882c.c7a21266a5bdd3301f9b8afe08c66fb51" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegated" NewName="A.cec1a865245d567d28685cf0382e6882c.c990db5d35b80a4ffeb1aae5dd82cb260" />
+<Entry OldName="Sudoku.CollectionHelper.CS$&lt;&gt;9__CachedAnonymousMethodDelegatef" NewName="A.cec1a865245d567d28685cf0382e6882c.c2e423668d5a812bf49a65402d1e6f43b" />
+<Entry OldName="Sudoku.AppSettings.REG_Skin" NewName="Sudoku.AppSettings.c5524269e3c5543916aa9b113bbfc51c9" />
+<Entry OldName="Sudoku.AppSettings.REG_Background" NewName="Sudoku.AppSettings.c932da5c2ff4496f8233be0fdaf95a955" />
+<Entry OldName="Sudoku.AppSettings.REG_SelectorX" NewName="Sudoku.AppSettings.c41c5c619754dea4cd3b9384384b2618b" />
+<Entry OldName="Sudoku.AppSettings.REG_SelectorY" NewName="Sudoku.AppSettings.ca29918705bfd49c41e2d562345c5e994" />
+<Entry OldName="Sudoku.AppSettings.REG_ShowHighLights" NewName="Sudoku.AppSettings.c80bb6dae5c7ca23268ccd4a17871ef44" />
+<Entry OldName="Sudoku.AppSettings.REG_DrawBlanks" NewName="Sudoku.AppSettings.c1197583f9f258857a895b675c1603e8c" />
+<Entry OldName="Sudoku.AppSettings.REG_PlaySounds" NewName="Sudoku.AppSettings.c176bda38c5d1e090b1185d2324ed1e93" />
+<Entry OldName="Sudoku.AppSettings.REG_ShowErrors" NewName="Sudoku.AppSettings.cb963c2fc12bc2c5d15dc95ec7ea833b3" />
+<Entry OldName="Sudoku.AppSettings.REG_LockCompleted" NewName="Sudoku.AppSettings.c23e5e2009adc682be13400349eb41262" />
+<Entry OldName="Sudoku.AppSettings.REG_ShowHints" NewName="Sudoku.AppSettings.c5b385e9961e65de67d7979d4b1ec8bb7" />
+<Entry OldName="Sudoku.AppSettings.REG_AutoRemovePencil" NewName="Sudoku.AppSettings.c327952c071e10730d73ae94d95d37d1f" />
+<Entry OldName="Sudoku.AppSettings.REG_GameType" NewName="Sudoku.AppSettings.c5bf46ad42e82c5f1058b08c9122e5624" />
+<Entry OldName="Sudoku.AppSettings.REG_Difficulty" NewName="Sudoku.AppSettings.c174ca12db4405922d2836289aa4e3e72" />
+<Entry OldName="Sudoku.AppSettings.REG_IsGameInPlay" NewName="Sudoku.AppSettings.c4701ba1f008474d79c66c5ecd1d46028" />
+<Entry OldName="Sudoku.AppSettings.REG_BoardSize" NewName="Sudoku.AppSettings.cc542672e27cfcb941cb39250057a6f5a" />
+<Entry OldName="Sudoku.AppSettings.REG_GameTimer" NewName="Sudoku.AppSettings.c6ecefd61764d8f9ef0d811906d73df17" />
+<Entry OldName="Sudoku.AppSettings.REG_AutoPencil" NewName="Sudoku.AppSettings.c01ebe01720d44d07dd9ab220e16341c0" />
+<Entry OldName="Sudoku.AppSettings._bAutoRemovePencil" NewName="Sudoku.AppSettings.c6fe28a9e9831623795f1fa0ccc2c6275" />
+<Entry OldName="Sudoku.AppSettings._bLockCompleted" NewName="Sudoku.AppSettings.cf7ae29a9b2bdfa623351aaf3223eb9ae" />
+<Entry OldName="Sudoku.Engine.Solver.i" NewName="Sudoku.Engine.Solver.c04c92b0b1dc5d150d24e455e2afcd0f4" />
+<Entry OldName="Sudoku.Engine.Solver.j" NewName="Sudoku.Engine.Solver.c1b96db018bd609d82ed315cb8d306541" />
+<Entry OldName="Sudoku.Engine.Solver.k" NewName="Sudoku.Engine.Solver.cf4bc9870e7353dfd13a5792a39554930" />
+<Entry OldName="Sudoku.Engine.Solver.r" NewName="Sudoku.Engine.Solver.c37fa34a45456da61891597c8f5416609" />
+<Entry OldName="Sudoku.Engine.Solver.c" NewName="Sudoku.Engine.Solver.c95f63953d86690027fc09a6a072f9d47" />
+<Entry OldName="Sudoku.Engine.Solver.d" NewName="Sudoku.Engine.Solver.ce7ca198948665848e38ce9772b4f3257" />
+<Entry OldName="Sudoku.Engine.Solver.n" NewName="Sudoku.Engine.Solver.c95bddeab09e7d8c8daa851d8dcb5d863" />
+<Entry OldName="Sudoku.Engine.Solver.m" NewName="Sudoku.Engine.Solver.c4bc5f0b796c068bdb042a2118f11f984" />
+<Entry OldName="Sudoku.Engine.Solver.x" NewName="Sudoku.Engine.Solver.c833236d09bde5a866e7444582dec417b" />
+<Entry OldName="Sudoku.Engine.Solver.y" NewName="Sudoku.Engine.Solver.c0233374c462eca9edbbddaad442b7494" />
+<Entry OldName="Sudoku.Engine.Solver.s" NewName="Sudoku.Engine.Solver.c616ef10a066ca02eeff0122a8a526eed" />
+<Entry OldName="Sudoku.Engine.Solver.min" NewName="Sudoku.Engine.Solver.cb8ce5bdff146376a3f77b1a8b80c3c39" />
+<Entry OldName="Sudoku.Engine.Solver.clues" NewName="Sudoku.Engine.Solver.c5ae2a7568fb5507910965a2a5b141ba9" />
+<Entry OldName="Sudoku.Engine.Solver.match" NewName="Sudoku.Engine.Solver.c80b50e70163bcbc26a6fdb5391d95c2b" />
+<Entry OldName="Sudoku.EnumPicSelection.value__" NewName="A.c86559b7f27e6172b677bf3eb1250d5f3.value__" />
+<Entry OldName="Sudoku.EnumPicSelection.PIC_Camera" NewName="A.c86559b7f27e6172b677bf3eb1250d5f3.cfb206f0a9bde76d0d637f1dcd41b054b" />
+<Entry OldName="Sudoku.EnumPicSelection.PIC_Picture" NewName="A.c86559b7f27e6172b677bf3eb1250d5f3.c57c8fba261c5b73a677b42362c42f568" />
+<Entry OldName="Sudoku.EnumPicSelection.PIC_Given" NewName="A.c86559b7f27e6172b677bf3eb1250d5f3.c798a463dc383a27de440a7f54b9eb4f1" />
+<Entry OldName="Sudoku.EnumPicSelection.PIC_None" NewName="A.c86559b7f27e6172b677bf3eb1250d5f3.c79ab896e96cae7650e76e6e9c2b55c9c" />
+<Entry OldName="Sudoku.ObjGui._dbGridSize" NewName="Sudoku.ObjGui.c6dd64d333a1ce0bcd0d2869b6dd84a8d" />
+<Entry OldName="Sudoku.Controls.OptionControl._IndexUpdate" NewName="Sudoku.Controls.OptionControl.cac52b1c6725051e4934ae2f263ac94f1" />
+<Entry OldName="Sudoku.Controls.OptionControl._iRefID" NewName="Sudoku.Controls.OptionControl.c55be00a10754fd5b0b2208913c576f80" />
+<Entry OldName="Sudoku.Controls.OptionControl.comboBox" NewName="Sudoku.Controls.OptionControl.c1f793e662ed8d9953cb4fa790a7e93b6" />
+<Entry OldName="Sudoku.Controls.OptionControl.textBox" NewName="Sudoku.Controls.OptionControl.cc398b9f01c65c44f821a313b0dd84d30" />
+<Entry OldName="Sudoku.Controls.OptionControl._contentLoaded" NewName="Sudoku.Controls.OptionControl.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.MainMenu._arrItems" NewName="Sudoku.MainMenu.c5c069ad0bf20a79e3a15446c2691ea45" />
+<Entry OldName="Sudoku.MainMenu._eState" NewName="Sudoku.MainMenu.cb2cc0f13e42816e7272efc576a1474d3" />
+<Entry OldName="Sudoku.MainMenu._visual" NewName="Sudoku.MainMenu.cb00e4497d91519f8c79b3b9e837c54ba" />
+<Entry OldName="Sudoku.MainMenu._bHoldSelectedItem" NewName="Sudoku.MainMenu.c4651c2c90d58ce87ea03ec6403303728" />
+<Entry OldName="Sudoku.MainMenu._bIsTrial" NewName="Sudoku.MainMenu.c7a348c7017b21e4a7f0f6a386c1fe121" />
+<Entry OldName="Sudoku.MainMenu._direction" NewName="Sudoku.MainMenu.c9ff36c22be847413ed4644a027f9f157" />
+<Entry OldName="Sudoku.MainMenu.LayoutRoot" NewName="Sudoku.MainMenu.c87375dd54b5953e4f7f4aa778abe5a19" />
+<Entry OldName="Sudoku.MainMenu.txtLoading" NewName="Sudoku.MainMenu.c1414cdb090e53fa11b19e4d54b1bd987" />
+<Entry OldName="Sudoku.MainMenu.ctrlProgress" NewName="Sudoku.MainMenu.cbdc84612c282f1ba8744751ef7dee10e" />
+<Entry OldName="Sudoku.MainMenu.listTitles" NewName="Sudoku.MainMenu.c4ae02d103545c341cefa73327ed6a344" />
+<Entry OldName="Sudoku.MainMenu.txtTrial" NewName="Sudoku.MainMenu.c54a165bacd4c2f9e67708e94901ecbaa" />
+<Entry OldName="Sudoku.MainMenu.mediaMusic" NewName="Sudoku.MainMenu.c12bdf0651dade8f5cc5fc34dc11621ee" />
+<Entry OldName="Sudoku.MainMenu.btnResume" NewName="Sudoku.MainMenu.c15ae5c9c8591a26b0ed2ece2d9227865" />
+<Entry OldName="Sudoku.MainMenu.textResume" NewName="Sudoku.MainMenu.c44dd56e17a732d04a68ecd6e9a90133f" />
+<Entry OldName="Sudoku.MainMenu._contentLoaded" NewName="Sudoku.MainMenu.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.MainMenu.&lt;_iDuration&gt;k__BackingField" NewName="Sudoku.MainMenu.c66ccf77320ef16796971f8bddd58ae74" />
+<Entry OldName="Sudoku.MainMenu.&lt;_iAngle&gt;k__BackingField" NewName="Sudoku.MainMenu.c68fa73c843c467d66fb55261c34478d2" />
+<Entry OldName="Sudoku.MainMenu.&lt;_iFeatherDelay&gt;k__BackingField" NewName="Sudoku.MainMenu.ce2c26878f750f43c95e71e90e4fef668" />
+<Entry OldName="Sudoku.MainMenu.&lt;_iInitialDelay&gt;k__BackingField" NewName="Sudoku.MainMenu.c1bac15226ef48405342dcfc6297caedd" />
+<Entry OldName="Sudoku.MainMenu.&lt;RootElement&gt;k__BackingField" NewName="Sudoku.MainMenu.cef418225c7de9a30c593c73ed548f95c" />
+<Entry OldName="Sudoku.TitleItems.&lt;szTitle&gt;k__BackingField" NewName="Sudoku.TitleItems.cbee2d01449888efad834ae78b7afbcf2" />
+<Entry OldName="Sudoku.TitleItems.&lt;brColor&gt;k__BackingField" NewName="Sudoku.TitleItems.cf099f5e6b24ee6da79e008b0abf674b2" />
+<Entry OldName="Sudoku.TitleItems.&lt;bItemEnabled&gt;k__BackingField" NewName="Sudoku.TitleItems.cf4253f19c793f2076b2fa516efea72a7" />
+<Entry OldName="Sudoku.Engine.KenKenGame.FILE_KenKen" NewName="Sudoku.Engine.KenKenGame.c857e94655ba7fcf1accaaef2c5a5723a" />
+<Entry OldName="Sudoku.Engine.KenKenGame.FILE_KenKenOps" NewName="Sudoku.Engine.KenKenGame.cd821efba2816719e83779c15cc236775" />
+<Entry OldName="Sudoku.Engine.KenKenGame.MAX_SAMUNAMPURES" NewName="Sudoku.Engine.KenKenGame.c36294793b8d714d74960d7b67b645c7a" />
+<Entry OldName="Sudoku.Engine.KenKenGame.m_iKenKens" NewName="Sudoku.Engine.KenKenGame.c435f87ab20708c8ab376d1eb34dad562" />
+<Entry OldName="Sudoku.Engine.KenKenGame.m_eKenKenOps" NewName="Sudoku.Engine.KenKenGame.c4609c26c0595421174c91a2e70417a62" />
+<Entry OldName="Sudoku.App._contentLoaded" NewName="Sudoku.App.c03517cef879489da80417d0254baff47" />
+<Entry OldName="Sudoku.Strings.StringTable.resourceMan" NewName="Sudoku.Strings.StringTable.c12d8af5beb18a0afd3978a998eb350a7" />
+<Entry OldName="Sudoku.Strings.StringTable.resourceCulture" NewName="Sudoku.Strings.StringTable.cc30e9eb58e653aae921816ca633755da" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x600001b-1" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.c360ecbf97b6d4343f699f5a3aad2dcb3" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x6000022-1" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.cd760784a567c6202731b4a4878275ebf" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x600033f-1" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.c74e58c3510335d9b5d1ad903d5a9c3cd" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x600033f-2" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.ce536d559de4215918cf7da5999367c5e" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x600033f-3" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.c93b6423bb994f34f7f27045e4f20d38b" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x600033f-4" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.c2cd22027380fdede8cf75a2c6892aae9" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}.$$method0x60001ca-1" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2.c3588c2c62c074a569b6c4838445c4ad9" />
+<Entry OldName="Sudoku.GameScreen.&lt;&gt;c__DisplayClass1.iTemp" NewName="Sudoku.GameScreen.ce7fc429984b967db6f2f4d42417f2862.iTemp" />
+<Entry OldName="Sudoku.GameScreen.&lt;&gt;c__DisplayClass1.&lt;&gt;4__this" NewName="Sudoku.GameScreen.ce7fc429984b967db6f2f4d42417f2862.&lt;&gt;4__this" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass2`1.prop" NewName="Sudoku.CollectionExtensions.cb3274df3e0a87cd3f9bc4817936a5fe1`1.prop" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.&lt;&gt;2__current" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.&lt;&gt;1__state" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.c426218035e672470cf816125fae2a164" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.&lt;&gt;l__initialThreadId" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.c52207c27f8a76791205a513cf1fd3cdc" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.value" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.value" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.&lt;&gt;3__value" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.&lt;&gt;3__value" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.next" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.next" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.&lt;&gt;3__next" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.&lt;&gt;3__next" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;2__current" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;1__state" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.c426218035e672470cf816125fae2a164" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;l__initialThreadId" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.c52207c27f8a76791205a513cf1fd3cdc" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.that" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.that" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;3__that" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.&lt;&gt;3__that" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.value" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.value" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;3__value" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.&lt;&gt;3__value" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;item&gt;5__8" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.&lt;item&gt;5__8" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;7__wrap9" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.&lt;&gt;7__wrap9" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;&gt;2__current" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.cdead2412edcce2ace4eeafcbc0008d84" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;&gt;1__state" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.c426218035e672470cf816125fae2a164" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;&gt;l__initialThreadId" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.c52207c27f8a76791205a513cf1fd3cdc" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.enumerable0" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.enumerable0" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;&gt;3__enumerable0" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.&lt;&gt;3__enumerable0" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.enumerable1" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.enumerable1" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;&gt;3__enumerable1" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.&lt;&gt;3__enumerable1" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.func" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.func" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;&gt;3__func" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.&lt;&gt;3__func" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;enumerator0&gt;5__e" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.&lt;enumerator0&gt;5__e" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.&lt;enumerator1&gt;5__f" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.&lt;enumerator1&gt;5__f" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass13`1.collection" NewName="Sudoku.CollectionExtensions.cfc922d04a97e55d2b7e7f71b3db44296`1.collection" />
+<Entry OldName="Sudoku.Options.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.Options.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__0(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.c7b4d172ab9c82db4b4fa2b2368c7aa38(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__1(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.cd3c5a738435847092c1e651266fa22d3(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__2(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.ced863907bed40b16be4972e9eca766e7(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__3(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.c8bbb3f237ae679f541a3439e6528c8e1(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__4(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.ce1f5b71ed8dfeaf1c5cdcfba87e4bab7(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__5(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.c3cf557d173fdc69407c6fd1db67bd157(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__6(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.c30a57fc074d66c5b0290992a50d2fe2e(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__7(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.cf599218c069dacaa58b090187e355a6d(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Options.&lt;.ctor&gt;b__8(Int32 iID, Int32 iSelIndex)" NewName="Sudoku.Options.ce6667c1ebaa379fee4c42ed7a11e49af(Int32 c69765707bbde2d6b88bd6984228a5cd6, Int32 c228c5eb89fcbeb54780cf42e0aeabe88)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.INDEX(Int32 row, Int32 col)" NewName="Sudoku.Engine.SudokuPuzzle.c2457cc37c296c6ffcc386f0247a60a6b(Int32 c9eb1790a16ae71882c3f28e77ac49fb8, Int32 cf1614057157ecd73f0284d9d86dce7e4)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.ROW(Int32 idx)" NewName="Sudoku.Engine.SudokuPuzzle.c7132a25094b892febc29a516cd581604(Int32 c31c21fe6c7f03910b49673fc4209a03a)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.COLUMN(Int32 idx)" NewName="Sudoku.Engine.SudokuPuzzle.c9de610026dcfee1c8489967c820bf3ec(Int32 c31c21fe6c7f03910b49673fc4209a03a)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.BLOCK(Int32 idx)" NewName="Sudoku.Engine.SudokuPuzzle.c7f236369a79edabc90421c719adca400(Int32 c31c21fe6c7f03910b49673fc4209a03a)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.GetNewGeniusPuzzle(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c86ca382e48dad6839ea6596cc6fc6c27(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapNumbers(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray, Int32 iNumSwaps)" NewName="Sudoku.Engine.SudokuPuzzle.c7ffc7d35b9ed25441c9cfae1288726ec(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763, Int32 c20498fdca471881a19bab9e72f22fc8c)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.ManipulatePuzzle(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.ca3c094b312e93e9e5c00ce8a8e2bdc77(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.Rotate90(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c2454193c7eabf24e1b95ed6174dc978b(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.Rotate270(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c5252f18244db2a59f390c6eb0f635ec3(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.Rotate180(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c2690414005c600c07ce8d1a360446077(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.MirrorXY(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c1ad3c5cad603aeb4257b2f5eaf272832(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.MirrorHorizontal(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c1b6451bb54cce60cddf03990e6ee76e2(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.MirrorVertical(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.cbf5a76919b20432f235efac9f4b6666c(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapColumns(Int32[,]&amp; iPuzzleArray, Int32 iColumn1, Int32 iColumn2)" NewName="Sudoku.Engine.SudokuPuzzle.c6652bb113b4a4638d878c68f2ac99645(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32 ce031b0fe5ae14218acf1aaf086fd12dd, Int32 cc7a1bf2f5dcbed7df526091666a03044)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapRows(Int32[,]&amp; iPuzzleArray, Int32 iRow1, Int32 iRow2)" NewName="Sudoku.Engine.SudokuPuzzle.c9d0a1291df2f9839bfc695d164c9fd5d(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32 ce85d761b70702d8b25380689859be84c, Int32 c108016f24bb98176f1a1758fa1723e47)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapColumnSections(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.cf01c8ecc7d2ec67f81c1cad02dc62df5(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapRowSections(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c3cf763c54e7c411c434b0720f9e32ace(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapColumnSingle(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c2e433076466ce9155def8c336ba3e253(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.SwapRowSingle(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c06205b70daeb29c729fddb71e666766f(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.PopulateCell(Int32 iCellIndex)" NewName="Sudoku.Engine.SudokuPuzzle.c1c3758ef9241ae47f5008623eae905df(Int32 c736b743ac18d5c15f8e3318a734f47e6)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.IsDiagonalValid()" NewName="Sudoku.Engine.SudokuPuzzle.cc67f6a0727ca6b45c46f5c29b36a3a2a()" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.IsHyperSecValid(Int32 iSec)" NewName="Sudoku.Engine.SudokuPuzzle.c02da9aa17ffd4f71d83b2432116b323a(Int32 cb273bf0b525b50fdbd4373941388c664)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.IsColumnValid(Int32 iColumnIndex)" NewName="Sudoku.Engine.SudokuPuzzle.cffff555a7dcf37cfc5f43dbf2243cd49(Int32 c49d98fa2b551b5e4230977b79e8894dd)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.IsRowValid(Int32 iRowIndex)" NewName="Sudoku.Engine.SudokuPuzzle.c499558d31ef66d2d16092ad163920f5b(Int32 cff5c067f7022c1cde78512b8bb1f1b85)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.IsSectionValid(Int32 iRowIndex, Int32 iColumnIndex)" NewName="Sudoku.Engine.SudokuPuzzle.ceac669ee6e22b29e69d2310382065911(Int32 cff5c067f7022c1cde78512b8bb1f1b85, Int32 c49d98fa2b551b5e4230977b79e8894dd)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.IsSectionValid(Int32 iSectionIndex)" NewName="Sudoku.Engine.SudokuPuzzle.ceac669ee6e22b29e69d2310382065911(Int32 c62d81c2965abdc2551ee2f77216c5e3f)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.MyQSort(Int32[] iSortArray, Int32[] iCompanionArray, Int32 iFirst, Int32 iLast)" NewName="Sudoku.Engine.SudokuPuzzle.c13c1b04e5c61782cfc229138bdaa7593(Int32[] c8412d9081b000a81a21322b611068e4c, Int32[] ce7cc7e69cbd4bbb7b02e6c6fb4570e18, Int32 cff677a70d45d52d0c8d5ea28adf28f6d, Int32 cdc374ef956a5e64ba5efffe2b36220de)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.Cardinality(Int32[,]&amp; iPuzzleArray, Int32 iRow, Int32 iColumn)" NewName="Sudoku.Engine.SudokuPuzzle.c4c94003a950af6bfe97c12f2bf8f75b9(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32 c595d84de8a09c56966ceb658881af303, Int32 cb11b4f8e47e03e283de0bec18ae28963)" />
+<Entry OldName="Sudoku.Engine.SudokuPuzzle.FixNonSolvable(Int32[,]&amp; iPuzzleArray, Int32[,]&amp; iSolutionArray)" NewName="Sudoku.Engine.SudokuPuzzle.c91b275f46453b953c278107735902eb4(Int32[,]&amp; c6591456fdf01efb89828c6b0bb88605d, Int32[,]&amp; c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.StopGame()" NewName="Sudoku.Engine.SudokuGame.ccc77e4647a535642b56cdbf06e85e6a7()" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IsValid(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.SudokuGame.c750ed4a7ccbb9608834d7481a798b672(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.GetTile(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.SudokuGame.c1a16b791fd2dc3af5671f7c3006c933d(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.SetIsLocked(Int32 iX, Int32 iY, Boolean bIsLocked)" NewName="Sudoku.Engine.SudokuGame.ca84ac5b157208a9e9d87e51a24a1bc32(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Boolean cea3ba0158779236bd3f98d544323c457)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.SetTile(Int32 iX, Int32 iY, Int32 iTile)" NewName="Sudoku.Engine.SudokuGame.c3a4fef53fcba333e6565ffa3bf0945d5(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Int32 c331e675ac525f1b5e8d30085a691f530)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IncrementTimer()" NewName="Sudoku.Engine.SudokuGame.c2325e57682b5d689856876417cfd6f6a()" />
+<Entry OldName="Sudoku.Engine.SudokuGame.CheckCellSolution(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.SudokuGame.c10fd7ddcda9e2dd30cb68afe2129691d(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IsGameSolved()" NewName="Sudoku.Engine.SudokuGame.c904621de32049a777037b2d00739fb3e()" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IsColumnSolved(Int32 iColumnIndex)" NewName="Sudoku.Engine.SudokuGame.c9b703163a58c5d65d092ba0f830c9000(Int32 c49d98fa2b551b5e4230977b79e8894dd)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IsRowSolved(Int32 iRowIndex)" NewName="Sudoku.Engine.SudokuGame.c9666d31e9de2935c2cdf148e9676b1a3(Int32 cff5c067f7022c1cde78512b8bb1f1b85)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IsSubsectionSolved(Int32 iRowIndex, Int32 iColumnIndex)" NewName="Sudoku.Engine.SudokuGame.c6b174aa4f4d1e0a421d1f52ed5e4f7ea(Int32 cff5c067f7022c1cde78512b8bb1f1b85, Int32 c49d98fa2b551b5e4230977b79e8894dd)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.GetSubsection(Int32 iRowColumnIndex)" NewName="Sudoku.Engine.SudokuGame.c12922337c5c57b2e32dba48b6e58c5d9(Int32 c3822a94348b06daa4c3c254e0b8b2884)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.IsSolved(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.SudokuGame.cf302caa824fd1e194e4e47b50b737e6b(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.ResetLockedItems()" NewName="Sudoku.Engine.SudokuGame.c33d825a76d33b09bd3fd594e9226f4fb()" />
+<Entry OldName="Sudoku.Engine.SudokuGame.ReCalcCell(Int32 iX, Int32 iY, Int32 iXCell, Int32 iYCell)" NewName="Sudoku.Engine.SudokuGame.c3bb97d522a5f091deba808778e51ce34(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Int32 c84ed41196728f9201a3543b68a288797, Int32 c70ab21c826e3532d838e382d8d2a573a)" />
+<Entry OldName="Sudoku.Engine.SudokuGame.RecalcPencilMarks(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.SudokuGame.c9b56251f906bac35751a5e4982b9f562(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.ItemsControlHelper.get_ItemsControl()" NewName="Sudoku.ItemsControlHelper.get_c1ae89c95d89f388348429170ee403ce9()" />
+<Entry OldName="Sudoku.ItemsControlHelper.set_ItemsControl(ItemsControl value)" NewName="Sudoku.ItemsControlHelper.set_c1ae89c95d89f388348429170ee403ce9(ItemsControl cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="Sudoku.IScreenGame.Initialize(Grid&amp; gridBoard, Grid&amp; gridOverlay)" NewName="A.c43c013d1243c0c7be9c311ff5f963ccd.Initialize(Grid&amp; gridBoard, Grid&amp; gridOverlay)" />
+<Entry OldName="Sudoku.IScreenGame.InputNumber(Int32 iNum)" NewName="A.c43c013d1243c0c7be9c311ff5f963ccd.InputNumber(Int32 iNum)" />
+<Entry OldName="Sudoku.IScreenGame.ResetBoard(Grid&amp; gridBoard, Grid&amp; gridOverlay)" NewName="A.c43c013d1243c0c7be9c311ff5f963ccd.ResetBoard(Grid&amp; gridBoard, Grid&amp; gridOverlay)" />
+<Entry OldName="Sudoku.IScreenGame.UpdateOverlay(Grid&amp; gridBoard, Grid&amp; gridOverlay)" NewName="A.c43c013d1243c0c7be9c311ff5f963ccd.UpdateOverlay(Grid&amp; gridBoard, Grid&amp; gridOverlay)" />
+<Entry OldName="Sudoku.ScreenSudoku.SetPiece(BoardPiece&amp; b, Int32 x, Int32 y)" NewName="Sudoku.ScreenSudoku.c5a9b7d77da9e34b40e8faab4fa103756(BoardPiece&amp; cf6602b13624a3b992d3ea3c18dc12a25, Int32 c833236d09bde5a866e7444582dec417b, Int32 c0233374c462eca9edbbddaad442b7494)" />
+<Entry OldName="Sudoku.ScreenGreaterThan.DrawSymbols(Grid&amp; gridOverlay, Grid&amp; gridBoard)" NewName="Sudoku.ScreenGreaterThan.c94b0978ed93486336ba1a281d51f32ac(Grid&amp; cec0b69ffae044b0e00d3aaebdeab976d, Grid&amp; c172af621467034148185fee8f5abee48)" />
+<Entry OldName="Sudoku.Controls.ImageButtonControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.Controls.ImageButtonControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.ScreenKillerSudoku.DrawLine(Int32 x1, Int32 y1, Int32 x2, Int32 y2, Color crOutline, Grid&amp; gridOver)" NewName="Sudoku.ScreenKillerSudoku.ce0d33eb84952c86dd890d9359e8e34d2(Int32 c580fdcdf2de7886aa6ffc4681f317883, Int32 c353ebe00047d4c647e34489dfebd2e0f, Int32 ce07d42df7e1f553e097b4b1cbc032349, Int32 c26b120b1b940905aa3bd7a3493f5e320, Color ce36df535121072d8649eac37a72b134e, Grid&amp; c25009d43ac15558084ebe3136ae4ad8a)" />
+<Entry OldName="HslColorSample.HslColor.ByteToPct(Byte v)" NewName="HslColorSample.HslColor.cd1f5ebf9eefabc3ace1598b34f3d6a49(Byte c6a5cc6f32a99c418a1ab2c18966c18e4)" />
+<Entry OldName="HslColorSample.HslColor.PctToByte(Double pct)" NewName="HslColorSample.HslColor.cf32672f87d6d814d6781959e90f12e99(Double c5f61a3fef6a46d17562b8f3686b4c439)" />
+<Entry OldName="HslColorSample.HslColor.norm(Double d)" NewName="HslColorSample.HslColor.c629f33ace4e6202188da06101db3563a(Double ce7ca198948665848e38ce9772b4f3257)" />
+<Entry OldName="HslColorSample.HslColor.getComponent(Double tc, Double p, Double q)" NewName="HslColorSample.HslColor.c11a433a50529cb0af0dd00b106cb33a4(Double c93701f2058f0235d2d9de9721b5de3b9, Double c834ce90f44f759353adb0f3045854d24, Double c7e652f812f1ccfb2111b33afa607f08d)" />
+<Entry OldName="Sudoku.OptionItemCategory.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.OptionItemCategory.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.Engine.SEngine.BoardUpdateTile(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.SEngine.c456290b97a0fa7a763f853847d6b02b8(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.SEngine.BoardUpdateAll()" NewName="Sudoku.Engine.SEngine.cdc753137eaf5d65fede34f44a6448fc9()" />
+<Entry OldName="Sudoku.Engine.SEngine.CheckComplete()" NewName="Sudoku.Engine.SEngine.c7b9f53f9d7e58882a5a63e92f3774312()" />
+<Entry OldName="Sudoku.OptionItem.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.OptionItem.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem..ctor()" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc..ctor()" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem.get_szItem()" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc.get_szItem()" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem.set_szItem(String value)" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc.set_szItem(String value)" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem.get_szImage()" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc.get_szImage()" />
+<Entry OldName="Sudoku.OptionItem.TypeOptionItem.set_szImage(String value)" NewName="Sudoku.OptionItem.c8f37f48f3d15c80cbdb9ec0ce6fecfbc.set_szImage(String value)" />
+<Entry OldName="Sudoku.Window1.CheckIntel()" NewName="Sudoku.Window1.c6a2c6cb983d995f8478375b2fd54db46()" />
+<Entry OldName="Sudoku.Window1.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.Window1.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.RandomizeBoard(String szBoard)" NewName="Sudoku.Engine.KakuroGame.c01a99140a04690ca04afbc5d5509fc9e(String c675eae8d69c3fdc4fe998fdff0797554)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.MirrorXY(String szBoard)" NewName="Sudoku.Engine.KakuroGame.c1ad3c5cad603aeb4257b2f5eaf272832(String c675eae8d69c3fdc4fe998fdff0797554)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.Rotate90(String szBoard)" NewName="Sudoku.Engine.KakuroGame.c2454193c7eabf24e1b95ed6174dc978b(String c675eae8d69c3fdc4fe998fdff0797554)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.Rotate180(String szBoard)" NewName="Sudoku.Engine.KakuroGame.c2690414005c600c07ce8d1a360446077(String c675eae8d69c3fdc4fe998fdff0797554)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.Rotate270(String szBoard)" NewName="Sudoku.Engine.KakuroGame.c5252f18244db2a59f390c6eb0f635ec3(String c675eae8d69c3fdc4fe998fdff0797554)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.GetType(Int32 d)" NewName="Sudoku.Engine.KakuroGame.cc6318dd466f60dee4baaaf466a59da30(Int32 ce7ca198948665848e38ce9772b4f3257)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.SetType(Int32&amp; iCurrent, Int32 iType)" NewName="Sudoku.Engine.KakuroGame.ced7557e4601d4bf3e46f2d9119e12653(Int32&amp; ca3728a4b6e3f4836f20041bcb0dabbea, Int32 c6968a23ebd478b751cae4d7e3f24ba0b)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.SetPencil(Int32&amp; iCurrent, Int32 iPencil)" NewName="Sudoku.Engine.KakuroGame.cc6706288972300e6760ac8dcccd6c5e9(Int32&amp; ca3728a4b6e3f4836f20041bcb0dabbea, Int32 c99513094b20caea51a4b99eae8fdcee5)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.SetGuess(Int32&amp; iCurrent, Int32 iGuess)" NewName="Sudoku.Engine.KakuroGame.ca9610b246315be2a1f4d0be522898a82(Int32&amp; ca3728a4b6e3f4836f20041bcb0dabbea, Int32 c24476e12013e35b3c6b0c92ad64e6ce1)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.SetSolution(Int32&amp; iCurrent, Int32 iSolution)" NewName="Sudoku.Engine.KakuroGame.c1558d70bbe9a245458d5a2c57f52746b(Int32&amp; ca3728a4b6e3f4836f20041bcb0dabbea, Int32 ccbe0fde4d0d5b74ab957e30c08658c77)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.SetHorzTotal(Int32&amp; iCurrent, Int32 iHorzTotal)" NewName="Sudoku.Engine.KakuroGame.cc882b342e20a22725e6b73e7a3524a9f(Int32&amp; ca3728a4b6e3f4836f20041bcb0dabbea, Int32 c3adc272b02e267aa907bae267b2e1c1d)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.SetVertTotal(Int32&amp; iCurrent, Int32 iVertTotal)" NewName="Sudoku.Engine.KakuroGame.c8163078b92345eac45ea5734ff799c21(Int32&amp; ca3728a4b6e3f4836f20041bcb0dabbea, Int32 cf6d5f040a46f9832a000df9571fb72d4)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.IsTileValid(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.KakuroGame.cd1498ccb7ca16e9a48997be2c7caccec(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.IsPencilMarkValid(Int32 iX, Int32 iY, Int32 iValue)" NewName="Sudoku.Engine.KakuroGame.c374682a93346696adfa48ad7a11b2e5f(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Int32 c699f28575f0083d2fbf9b5e4f4c735f2)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.FindHorzTotal(Int32 iX, Int32 iY, Boolean bCheat)" NewName="Sudoku.Engine.KakuroGame.cd6c629ce722b033da068cf134be303a8(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Boolean cb9fe5f0e6d5833a7af249f7eba51ab20)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.FindVertTotal(Int32 iX, Int32 iY, Boolean bCheat)" NewName="Sudoku.Engine.KakuroGame.caebd774b17ded33aea4508dc39a25eb6(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Boolean cb9fe5f0e6d5833a7af249f7eba51ab20)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.FindHorzCWSize(Int32 iX, Int32 iY, Boolean bCheat)" NewName="Sudoku.Engine.KakuroGame.cc504807b179d43e392f4ebd12b9c679c(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Boolean cb9fe5f0e6d5833a7af249f7eba51ab20)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.FindVertCWSize(Int32 iX, Int32 iY, Boolean bCheat)" NewName="Sudoku.Engine.KakuroGame.cc28c4cbc10638c3eb5454cd72cc02c4f(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3, Boolean cb9fe5f0e6d5833a7af249f7eba51ab20)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.GetHorzGuesses(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.KakuroGame.c98bfa8110881ed9fd40f50e3b351a315(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.GetVertGuesses(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.KakuroGame.c0181c53a705fc363791a777eae65f776(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.IsPencilValueValid(Int32 iValue, Int32 iTotal, Int32 iGroupSize)" NewName="Sudoku.Engine.KakuroGame.c2ca589acc2bf165dfa4ebc81437aab2b(Int32 c699f28575f0083d2fbf9b5e4f4c735f2, Int32 c937e032cc9313a0dbeabc0480ad4b1f6, Int32 c716cd930e396dd49b9be67dd5f28ce04)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.IncrementTimer()" NewName="Sudoku.Engine.KakuroGame.c2325e57682b5d689856876417cfd6f6a()" />
+<Entry OldName="Sudoku.Engine.KakuroGame.CalcFreeCells()" NewName="Sudoku.Engine.KakuroGame.c8c71d71fa8b4023c30e65a1eb3dad48e()" />
+<Entry OldName="Sudoku.Engine.KakuroGame.AutoFillPencilMarks()" NewName="Sudoku.Engine.KakuroGame.c96a6cca4a7d5323f17f4d121c30fdf47()" />
+<Entry OldName="Sudoku.Engine.KakuroGame.RecalcPencilMarks(Int32 iX, Int32 iY)" NewName="Sudoku.Engine.KakuroGame.c9b56251f906bac35751a5e4982b9f562(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.GetAccuracy()" NewName="Sudoku.Engine.KakuroGame.c43aee7fc31864b57bff131ef3cdfcfa2()" />
+<Entry OldName="Sudoku.Engine.KakuroGame.GetGuessPossibilities(Int32 iNumCells, Int32 iTotal)" NewName="Sudoku.Engine.KakuroGame.cf83732bb23ff2fb18390f9c84dd0abaf(Int32 ced653fdc26a9e005aedacf22a05c11db, Int32 c937e032cc9313a0dbeabc0480ad4b1f6)" />
+<Entry OldName="Sudoku.Engine.KakuroGame.IsGuessValid(Int32 iGuess, Int32 iNumberToCheck)" NewName="Sudoku.Engine.KakuroGame.c0d8d1ee13edde5c6ad158a42b64a382a(Int32 c24476e12013e35b3c6b0c92ad64e6ce1, Int32 c188c04b33b38808ccc45be76d6465cb7)" />
+<Entry OldName="Sudoku.BoardPiece.ShowGuessText()" NewName="Sudoku.BoardPiece.c2a0a8cfe846ac41c0f3c8b620ef58684()" />
+<Entry OldName="Sudoku.BoardPiece.ShowPencilText()" NewName="Sudoku.BoardPiece.c3d7007e84ce5349d6229b5299571133a()" />
+<Entry OldName="Sudoku.BoardPiece.GetBackground()" NewName="Sudoku.BoardPiece.cafa616b1aaaa8a6938b28b58f4a8a1d6()" />
+<Entry OldName="Sudoku.BoardPiece.UpdateBackground(EnumSquares eSquare)" NewName="Sudoku.BoardPiece.c8429e3282a6a4ecec5d1001e1403d330(EnumSquares c3bd249e39ef2b418492b063056507698)" />
+<Entry OldName="Sudoku.BoardPiece.IsAltColor(Int32 iX, Int32 iY)" NewName="Sudoku.BoardPiece.c4d6fc4574d06df9b84d49bcb4022a871(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.BoardPiece.DrawHighlight(Int32 iX, Int32 iY)" NewName="Sudoku.BoardPiece.c612f7c4a5046f74afd8cfc82c43ee5fa(Int32 c6c3c4b1f03f3417a6008f6b5bafc41f3, Int32 c650c0fe3ea4928208b473c957db348d3)" />
+<Entry OldName="Sudoku.BoardPiece.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.BoardPiece.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.GameScreen.NewGame()" NewName="Sudoku.GameScreen.c13018e7b413255cfcf091fe30e9c96e9()" />
+<Entry OldName="Sudoku.GameScreen.UpdateFreeCells()" NewName="Sudoku.GameScreen.c21aa7f7751bdbd14f8d6b24bff8f98c2()" />
+<Entry OldName="Sudoku.GameScreen.StartGameTimer()" NewName="Sudoku.GameScreen.c3ec92af84039c23620a501d6c341f8e5()" />
+<Entry OldName="Sudoku.GameScreen.StopGameTimer()" NewName="Sudoku.GameScreen.cd544ab2fec350d9dc82932252e9246f5()" />
+<Entry OldName="Sudoku.GameScreen.StartFireTimer()" NewName="Sudoku.GameScreen.cb5364952853171b2ba71b42746b6a884()" />
+<Entry OldName="Sudoku.GameScreen.StopFireTimer()" NewName="Sudoku.GameScreen.c4bf1c00b7149fa41f17168146833cf3a()" />
+<Entry OldName="Sudoku.GameScreen.AnimateTiles()" NewName="Sudoku.GameScreen.ca8c1ce9f7cfbce0b65f316307a98088d()" />
+<Entry OldName="Sudoku.GameScreen.UpdateTotals()" NewName="Sudoku.GameScreen.c525709c2092b9229bc78ed5e96833e6b()" />
+<Entry OldName="Sudoku.GameScreen.InitializeBoard()" NewName="Sudoku.GameScreen.c74f24fdbd5f46bb58d43d8c42ac5fe54()" />
+<Entry OldName="Sudoku.GameScreen._CreateDelegate(Type delegateType, String handler)" NewName="Sudoku.GameScreen.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="Sudoku.GameScreen.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.GameScreen.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Visual.Fireworks.moveFirework()" NewName="Visual.Fireworks.c06a594d6cd3c0d61fb8a5ed4f9b37a51()" />
+<Entry OldName="Visual.Fireworks.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Visual.Fireworks.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.INDEX(Int32 row, Int32 col)" NewName="Sudoku.Engine.KillerPuzzle.c2457cc37c296c6ffcc386f0247a60a6b(Int32 c9eb1790a16ae71882c3f28e77ac49fb8, Int32 cf1614057157ecd73f0284d9d86dce7e4)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.ROW(Int32 idx)" NewName="Sudoku.Engine.KillerPuzzle.c7132a25094b892febc29a516cd581604(Int32 c31c21fe6c7f03910b49673fc4209a03a)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.GetSamuSize(EnumDifficulty eDiff)" NewName="Sudoku.Engine.KillerPuzzle.c424a562c1c90f13ffe3a8997e822be96(EnumDifficulty c9ff28e7f4bf1e833b371cb604af1b255)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.IsLeftAval(Int32 iRow, Int32 iColumn, Boolean[] bNumArray)" NewName="Sudoku.Engine.KillerPuzzle.c64c6e2072ab385763b8db2251bd429bf(Int32 c595d84de8a09c56966ceb658881af303, Int32 cb11b4f8e47e03e283de0bec18ae28963, Boolean[] cbb5d79f4d7430579202a52c769be817c)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.IsRightAval(Int32 iRow, Int32 iColumn, Boolean[] bNumArray)" NewName="Sudoku.Engine.KillerPuzzle.cfa2fdda48fc1d1be39c75ff9ea0e81bb(Int32 c595d84de8a09c56966ceb658881af303, Int32 cb11b4f8e47e03e283de0bec18ae28963, Boolean[] cbb5d79f4d7430579202a52c769be817c)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.IsAboveAval(Int32 iRow, Int32 iColumn, Boolean[] bNumArray)" NewName="Sudoku.Engine.KillerPuzzle.cd9008e68c7c7b62a2c47855514174083(Int32 c595d84de8a09c56966ceb658881af303, Int32 cb11b4f8e47e03e283de0bec18ae28963, Boolean[] cbb5d79f4d7430579202a52c769be817c)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.IsBelowAval(Int32 iRow, Int32 iColumn, Boolean[] bNumArray)" NewName="Sudoku.Engine.KillerPuzzle.c84b2c063048b6d6dd82a337ac6dfb071(Int32 c595d84de8a09c56966ceb658881af303, Int32 cb11b4f8e47e03e283de0bec18ae28963, Boolean[] cbb5d79f4d7430579202a52c769be817c)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.IsSamuExpansionPossible(Int32 iRow, Int32 iColumn, Boolean[] bNumArray)" NewName="Sudoku.Engine.KillerPuzzle.c699751664b9a1c46a30cbdadd514782f(Int32 c595d84de8a09c56966ceb658881af303, Int32 cb11b4f8e47e03e283de0bec18ae28963, Boolean[] cbb5d79f4d7430579202a52c769be817c)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.PopulateCell(Int32 iCellIndex)" NewName="Sudoku.Engine.KillerPuzzle.c1c3758ef9241ae47f5008623eae905df(Int32 c736b743ac18d5c15f8e3318a734f47e6)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.OutputGrid(String szName, Int32[,] iArray)" NewName="Sudoku.Engine.KillerPuzzle.c44325c149f469f4e0fd0b0ef191557ea(String ccd0a794f41c2f055c22502f0c7e7a8e4, Int32[,] c64377f81880d7635f46d34deac5e27f2)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.OutputKiller()" NewName="Sudoku.Engine.KillerPuzzle.c182315ef202be68e216ac8b92a21dedb()" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.SplitKiller(Int32[,] iPuzzleArray, Int32[,] iSolutionArray, POINT pt1, POINT pt2, Boolean bHorizontal)" NewName="Sudoku.Engine.KillerPuzzle.c72c10d72a0824780db762c99cc7a9cfd(Int32[,] c6591456fdf01efb89828c6b0bb88605d, Int32[,] c5b8d26aa2ada0ee8c3fdba24a776d763, POINT c13bd5c2f8ae32970d10ffbc7e658fc3d, POINT c43bb34d13f1f9f0e217b56b8ac5e70d2, Boolean ca32c26c1c9714c261db08814c72e9a0e)" />
+<Entry OldName="Sudoku.Engine.KillerPuzzle.FixNonSolvable2(Int32[,] iPuzzleArray, Int32[,] iSolutionArray)" NewName="Sudoku.Engine.KillerPuzzle.c269e93e33426209f3f8c5b2d25d8594b(Int32[,] c6591456fdf01efb89828c6b0bb88605d, Int32[,] c5b8d26aa2ada0ee8c3fdba24a776d763)" />
+<Entry OldName="Sudoku.Engine.KenKenPuzzle.GenerateKenKen(EnumDifficulty eDiff)" NewName="Sudoku.Engine.KenKenPuzzle.c0d687aac3eea5bf14e3ff1ee06dfcdcb(EnumDifficulty c9ff28e7f4bf1e833b371cb604af1b255)" />
+<Entry OldName="Sudoku.Engine.KenKenPuzzle.GetSamuSize(EnumDifficulty eDiff)" NewName="Sudoku.Engine.KenKenPuzzle.c424a562c1c90f13ffe3a8997e822be96(EnumDifficulty c9ff28e7f4bf1e833b371cb604af1b255)" />
+<Entry OldName="Sudoku.NumberSelector.AnimateDown()" NewName="Sudoku.NumberSelector.ce1c89e0d79cf9aebd77de3eb823ec3b7()" />
+<Entry OldName="Sudoku.NumberSelector.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.NumberSelector.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="BlackJack.Controls.TextButtonControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="BlackJack.Controls.TextButtonControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.Properties.Resources..ctor()" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77..ctor()" />
+<Entry OldName="Sudoku.Properties.Resources.get_ResourceManager()" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77.get_ResourceManager()" />
+<Entry OldName="Sudoku.Properties.Resources.get_Culture()" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77.get_Culture()" />
+<Entry OldName="Sudoku.Properties.Resources.set_Culture(CultureInfo value)" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77.set_Culture(CultureInfo value)" />
+<Entry OldName="Sudoku.PopupMenu.getSplineDoubleKeyFrame(Double seconds, Double value)" NewName="Sudoku.PopupMenu.c089c378a8e46bb496fa06720b0aeb83a(Double ca10bf7d4f279f3d118656db63c891aad, Double cb9604a98f5818cc6d465b9a224b31cd8)" />
+<Entry OldName="Sudoku.PopupMenu.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.PopupMenu.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.PopupMenu.&lt;Launch&gt;b__0()" NewName="Sudoku.PopupMenu.c745723196a9eb712db848425b129e7a4()" />
+<Entry OldName="Sudoku.OptionItemToggle.NotifyPropertyChanged(String propertyName)" NewName="Sudoku.OptionItemToggle.c0ba774e6fa19b3e6b539741450ed4709(String cf048353223f29717dca92644fcbf5d99)" />
+<Entry OldName="Sudoku.OptionItemToggle.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.OptionItemToggle.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.CollectionHelper.IsReadOnly(IEnumerable collection)" NewName="A.cec1a865245d567d28685cf0382e6882c.IsReadOnly(IEnumerable collection)" />
+<Entry OldName="Sudoku.CollectionHelper.CanInsert(IEnumerable collection, Object item)" NewName="A.cec1a865245d567d28685cf0382e6882c.CanInsert(IEnumerable collection, Object item)" />
+<Entry OldName="Sudoku.CollectionHelper.Insert(IEnumerable collection, Int32 index, Object item)" NewName="A.cec1a865245d567d28685cf0382e6882c.Insert(IEnumerable collection, Int32 index, Object item)" />
+<Entry OldName="Sudoku.CollectionHelper.Count(IEnumerable collection)" NewName="A.cec1a865245d567d28685cf0382e6882c.Count(IEnumerable collection)" />
+<Entry OldName="Sudoku.CollectionHelper.Add(IEnumerable collection, Object item)" NewName="A.cec1a865245d567d28685cf0382e6882c.Add(IEnumerable collection, Object item)" />
+<Entry OldName="Sudoku.CollectionHelper.Remove(IEnumerable collection, Object item)" NewName="A.cec1a865245d567d28685cf0382e6882c.Remove(IEnumerable collection, Object item)" />
+<Entry OldName="Sudoku.CollectionHelper.RemoveAt(IEnumerable collection, Int32 index)" NewName="A.cec1a865245d567d28685cf0382e6882c.RemoveAt(IEnumerable collection, Int32 index)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;IsReadOnly&gt;b__0(Type type)" NewName="A.cec1a865245d567d28685cf0382e6882c.cc2ae0a540e4d2d9b51a7c169288bb7e7(Type c1fd0b9a724e9d1e196bfa56aab1e896e)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;IsReadOnly&gt;b__1(Type type)" NewName="A.cec1a865245d567d28685cf0382e6882c.c14ede6b4c6793f6440c7393779895920(Type c1fd0b9a724e9d1e196bfa56aab1e896e)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;IsReadOnly&gt;b__2(Type type)" NewName="A.cec1a865245d567d28685cf0382e6882c.c17d0721a85d0a644a38d1990d0a96cb0(Type c1fd0b9a724e9d1e196bfa56aab1e896e)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;CanInsert&gt;b__6(Type interfaceType)" NewName="A.cec1a865245d567d28685cf0382e6882c.c8c21a736cfb62a97d5d1128591b21a4a(Type c4992e6c53ad6df160c06a6c99005f342)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;Insert&gt;b__8(Type interfaceType)" NewName="A.cec1a865245d567d28685cf0382e6882c.c14b4034d38266809db7ac3cb3be9ac7d(Type c4992e6c53ad6df160c06a6c99005f342)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;Count&gt;b__a(Type interfaceType)" NewName="A.cec1a865245d567d28685cf0382e6882c.c6dd8926fa6e02074e2e013dd2ad5d99e(Type c4992e6c53ad6df160c06a6c99005f342)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;Remove&gt;b__c(Type interfaceType)" NewName="A.cec1a865245d567d28685cf0382e6882c.c3e52bf98858414da58b3e6ab002b4518(Type c4992e6c53ad6df160c06a6c99005f342)" />
+<Entry OldName="Sudoku.CollectionHelper.&lt;RemoveAt&gt;b__e(Type interfaceType)" NewName="A.cec1a865245d567d28685cf0382e6882c.ce2860bfbf5be4ce1ae22d159d1160ff9(Type c4992e6c53ad6df160c06a6c99005f342)" />
+<Entry OldName="Sudoku.ScreenKakuro.SetPiece(BoardPiece&amp; b, Int32 x, Int32 y)" NewName="Sudoku.ScreenKakuro.c5a9b7d77da9e34b40e8faab4fa103756(BoardPiece&amp; cf6602b13624a3b992d3ea3c18dc12a25, Int32 c833236d09bde5a866e7444582dec417b, Int32 c0233374c462eca9edbbddaad442b7494)" />
+<Entry OldName="Sudoku.ObjGui.RGB(Byte R, Byte G, Byte B)" NewName="Sudoku.ObjGui.c47901c1b506f83736c648af18c6d088a(Byte c93f94bf06ab4017d2df9989c42d29a96, Byte cd4537e8f3d9aff92abd110d4eff2a9a8, Byte c5e8777e65e5507f9b562f0f3f2575853)" />
+<Entry OldName="Sudoku.ObjGui.RGB(UInt32 uiColor)" NewName="Sudoku.ObjGui.c47901c1b506f83736c648af18c6d088a(UInt32 c48e3f0193adb8600b6cffcdcbc3d5b0d)" />
+<Entry OldName="Sudoku.ObjGui.UseNotePadBG(EnumSudokuType eType)" NewName="Sudoku.ObjGui.c91173efc549067ecbc741c8627ff152d(EnumSudokuType cf389909f59a5530e4412b7266d52f277)" />
+<Entry OldName="Sudoku.Controls.OptionControl.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.Controls.OptionControl.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.MainMenu.StartMusic()" NewName="Sudoku.MainMenu.c94fc9f1308db22215a96d3db8c088c3b()" />
+<Entry OldName="Sudoku.MainMenu.StopMusic()" NewName="Sudoku.MainMenu.c197cdb61aed73586b3c2d747d1c908de()" />
+<Entry OldName="Sudoku.MainMenu.GetStats(EnumDifficulty eDiff, EnumSudokuType eType)" NewName="Sudoku.MainMenu.c617c900e8e81dac31f8b5a0a7323056e(EnumDifficulty c9ff28e7f4bf1e833b371cb604af1b255, EnumSudokuType cf389909f59a5530e4412b7266d52f277)" />
+<Entry OldName="Sudoku.MainMenu.UpdateList()" NewName="Sudoku.MainMenu.c2c8275817faf2676ca3f05edf96c04bc()" />
+<Entry OldName="Sudoku.MainMenu.Animation()" NewName="Sudoku.MainMenu.c8f3ebdb54887e419787337afdd13716a()" />
+<Entry OldName="Sudoku.MainMenu.IsOnCurrentPage(ListBoxItem item)" NewName="Sudoku.MainMenu.c37f4fbee407ac4c0b74c0934ef402a2e(ListBoxItem c4b2b31628062a48a52c1e2c4c4a9c77c)" />
+<Entry OldName="Sudoku.MainMenu._CreateDelegate(Type delegateType, String handler)" NewName="Sudoku.MainMenu.c85bfd02f6466313caaf4a2563cf23df7(Type cd3dbf24b0ce99228467f685374d9d345, String c090f7758f4e2a818d89b8b9ed9321299)" />
+<Entry OldName="Sudoku.MainMenu.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)" NewName="Sudoku.MainMenu.c93ef157a483e03cb856a7d05c5cfbefa(Int32 c5d11ce67a100406b9fc8267585ed3d02, Object c24b174f828237899bee48081036d3c45)" />
+<Entry OldName="Sudoku.MainMenu.&lt;UpdateList&gt;b__0(Object o)" NewName="Sudoku.MainMenu.ccceda49c0d602b30f23199040261c796(Object c947193f7e719889bac8ec694ef057f10)" />
+<Entry OldName="Sudoku.MainMenu.&lt;UpdateList&gt;b__1()" NewName="Sudoku.MainMenu.c6770c8f7eeec769388d3dbd1fa7f21f7()" />
+<Entry OldName="Sudoku.MainMenu.&lt;btnResume_OnClick&gt;b__3(Object o)" NewName="Sudoku.MainMenu.c71fdd4983a711207ae55632a15cd94f8(Object c947193f7e719889bac8ec694ef057f10)" />
+<Entry OldName="Sudoku.MainMenu.&lt;btnResume_OnClick&gt;b__4()" NewName="Sudoku.MainMenu.c527f68859e0c916cc9716bcc3df032aa()" />
+<Entry OldName="Sudoku.Engine.KenKenGame.GetSubtractPossibilities(Int32 iSize, Int32 iTotal)" NewName="Sudoku.Engine.KenKenGame.c79ab25f4ce9cda408db571c1731bf5e5(Int32 c6fb406c3b0f25a480e8466f2c31d9a09, Int32 c937e032cc9313a0dbeabc0480ad4b1f6)" />
+<Entry OldName="Sudoku.Engine.KenKenGame.GetMultiplyPossibilities(Int32 iSize, Int32 iTotal)" NewName="Sudoku.Engine.KenKenGame.c7efaf2746ccbb496c450bf402590c5ff(Int32 c6fb406c3b0f25a480e8466f2c31d9a09, Int32 c937e032cc9313a0dbeabc0480ad4b1f6)" />
+<Entry OldName="Sudoku.Engine.KenKenGame.GetDividePossibilities(Int32 iSize, Int32 iTotal)" NewName="Sudoku.Engine.KenKenGame.c5322b7c52501c3d0e7445db36c1ec2db(Int32 c6fb406c3b0f25a480e8466f2c31d9a09, Int32 c937e032cc9313a0dbeabc0480ad4b1f6)" />
+<Entry OldName="Sudoku.Engine.KenKenGame.GetAddPossibilities(Int32 iSize, Int32 iTotal)" NewName="Sudoku.Engine.KenKenGame.c2fdaf4e796ec70570cdc07de07d2039e(Int32 c6fb406c3b0f25a480e8466f2c31d9a09, Int32 c937e032cc9313a0dbeabc0480ad4b1f6)" />
+<Entry OldName="Sudoku.GameScreen.&lt;&gt;c__DisplayClass1..ctor()" NewName="Sudoku.GameScreen.ce7fc429984b967db6f2f4d42417f2862..ctor()" />
+<Entry OldName="Sudoku.GameScreen.&lt;&gt;c__DisplayClass1.&lt;InitializeBoard&gt;b__0(Object o, EventArgs ee)" NewName="Sudoku.GameScreen.ce7fc429984b967db6f2f4d42417f2862.&lt;InitializeBoard&gt;b__0(Object o, EventArgs ee)" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass2`1..ctor()" NewName="Sudoku.CollectionExtensions.cb3274df3e0a87cd3f9bc4817936a5fe1`1..ctor()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass2`1.&lt;OrderBy&gt;b__0(T x)" NewName="Sudoku.CollectionExtensions.cb3274df3e0a87cd3f9bc4817936a5fe1`1.&lt;OrderBy&gt;b__0(c9f617dd6f3fa90e5c9764d3438420115 x)" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass2`1.&lt;OrderBy&gt;b__1(T x)" NewName="Sudoku.CollectionExtensions.cb3274df3e0a87cd3f9bc4817936a5fe1`1.&lt;OrderBy&gt;b__1(c9f617dd6f3fa90e5c9764d3438420115 x)" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1..ctor(Int32 &lt;&gt;1__state)" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.c01c3b2dbc37594f69939e2550da648ac()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.System.Collections.IEnumerable.GetEnumerator()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.c8edd2b6d1d88dd8387a0e19eb3ff6729()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.MoveNext()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.MoveNext()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.System.Collections.Generic.IEnumerator&lt;T&gt;.get_Current()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.System.Collections.Generic.IEnumerator&lt;T&gt;.get_Current()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.System.Collections.IEnumerator.Reset()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.System.IDisposable.Dispose()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Iterate&gt;d__4`1.System.Collections.IEnumerator.get_Current()" NewName="Sudoku.CollectionExtensions.cfd0be255ac9eed9f08b021590169fa94`1.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1..ctor(Int32 &lt;&gt;1__state)" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.c01c3b2dbc37594f69939e2550da648ac()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.System.Collections.IEnumerable.GetEnumerator()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.c8edd2b6d1d88dd8387a0e19eb3ff6729()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.MoveNext()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.MoveNext()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.System.Collections.Generic.IEnumerator&lt;T&gt;.get_Current()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.System.Collections.Generic.IEnumerator&lt;T&gt;.get_Current()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.System.Collections.IEnumerator.Reset()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.System.IDisposable.Dispose()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.System.Collections.IEnumerator.get_Current()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Prepend&gt;d__7`1.&lt;&gt;m__Finallya()" NewName="Sudoku.CollectionExtensions.c6fe19d2a4a846ba0bb6d98006fbff1b8`1.cb1b44e8352f7041b9ca6322885c62c0a()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3..ctor(Int32 &lt;&gt;1__state)" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3..ctor(Int32 &lt;&gt;1__state)" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.System.Collections.Generic.IEnumerable&lt;R&gt;.GetEnumerator()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.cc42ba3c7429b496909a3de68254f8d2a()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.System.Collections.IEnumerable.GetEnumerator()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.c8edd2b6d1d88dd8387a0e19eb3ff6729()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.MoveNext()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.MoveNext()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.System.Collections.Generic.IEnumerator&lt;R&gt;.get_Current()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.System.Collections.Generic.IEnumerator&lt;R&gt;.get_Current()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.System.Collections.IEnumerator.Reset()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.ca335c7bffc060d1a62f92d33518691fa()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.System.IDisposable.Dispose()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.ca24f9b30c407abbfd81439d978f491e3()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;Zip&gt;d__d`3.System.Collections.IEnumerator.get_Current()" NewName="Sudoku.CollectionExtensions.c4b0e909932e612ec8c853b71f060b4de`3.System.Collections.IEnumerator.get_Current()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass13`1..ctor()" NewName="Sudoku.CollectionExtensions.cfc922d04a97e55d2b7e7f71b3db44296`1..ctor()" />
+<Entry OldName="Sudoku.CollectionExtensions.&lt;&gt;c__DisplayClass13`1.&lt;Remove&gt;b__12(T r)" NewName="Sudoku.CollectionExtensions.cfc922d04a97e55d2b7e7f71b3db44296`1.&lt;Remove&gt;b__12(c9f617dd6f3fa90e5c9764d3438420115 r)" />
+<Entry OldName="Sudoku.IScreenGame" NewName="A.c43c013d1243c0c7be9c311ff5f963ccd" />
+<Entry OldName="Sudoku.OptionItem+TypeOptionItem" NewName="Sudoku.OptionItem+c8f37f48f3d15c80cbdb9ec0ce6fecfbc" />
+<Entry OldName="Sudoku.BoardPiece+EnumDraw" NewName="Sudoku.BoardPiece+cda8c96d412ae3744ce97c649dce08c09" />
+<Entry OldName="Sudoku.GameScreen+&lt;&gt;c__DisplayClass1" NewName="Sudoku.GameScreen+ce7fc429984b967db6f2f4d42417f2862" />
+<Entry OldName="Sudoku.Properties.Resources" NewName="A.cb4e81c47937e936a3d9157efdbfd1c77" />
+<Entry OldName="Sudoku.CollectionHelper" NewName="A.cec1a865245d567d28685cf0382e6882c" />
+<Entry OldName="Sudoku.EnumPicSelection" NewName="A.c86559b7f27e6172b677bf3eb1250d5f3" />
+<Entry OldName="Sudoku.CollectionExtensions+&lt;&gt;c__DisplayClass2`1" NewName="Sudoku.CollectionExtensions+cb3274df3e0a87cd3f9bc4817936a5fe1`1" />
+<Entry OldName="Sudoku.CollectionExtensions+&lt;Iterate&gt;d__4`1" NewName="Sudoku.CollectionExtensions+cfd0be255ac9eed9f08b021590169fa94`1" />
+<Entry OldName="Sudoku.CollectionExtensions+&lt;Prepend&gt;d__7`1" NewName="Sudoku.CollectionExtensions+c6fe19d2a4a846ba0bb6d98006fbff1b8`1" />
+<Entry OldName="Sudoku.CollectionExtensions+&lt;Zip&gt;d__d`3" NewName="Sudoku.CollectionExtensions+c4b0e909932e612ec8c853b71f060b4de`3" />
+<Entry OldName="Sudoku.CollectionExtensions+&lt;&gt;c__DisplayClass13`1" NewName="Sudoku.CollectionExtensions+cfc922d04a97e55d2b7e7f71b3db44296`1" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}+__StaticArrayInitTypeSize=36" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2+cef9646bea700f402eb7f903ed9b2e1a9" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}+__StaticArrayInitTypeSize=12" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2+c16aa4fb63395e7f1c12dc0451193f94a" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}+__StaticArrayInitTypeSize=1548" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2+cfdb54bc4354392e3c9a468ddb970b82c" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}+__StaticArrayInitTypeSize=3708" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2+c2e56620d6b3b5f9fd4c254405f3f686b" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}+__StaticArrayInitTypeSize=228" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2+c659126109854587e13b86721c3ef2a55" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}+__StaticArrayInitTypeSize=144" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2+c943254a3889433e69c97f93b25909e2c" />
+<Entry OldName="&lt;PrivateImplementationDetails&gt;{552E8919-90D3-4F32-95AF-652B8BD8C42F}" NewName="A.ca26f9f1f33ff6f5f0b3b734a44eb2fd2" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Options.xaml.cs" NewName="File0" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Options.g.cs" NewName="File1" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Options.xaml" NewName="File2" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\SudokuPuzzle.cs" NewName="File3" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\WriteableBitmapEx\WriteableBitmapBaseExtensions.cs" NewName="File4" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\WriteableBitmapEx\WriteableBitmapShapeExtensions.cs" NewName="File5" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\SudokuGame.cs" NewName="File6" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\GreaterGame.cs" NewName="File7" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\Globals.cs" NewName="File8" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Common\ItemsControlHelper.cs" NewName="File9" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Screens\ScreenSudoku.cs" NewName="File10" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Screens\ScreenGreaterThan.cs" NewName="File11" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\ImageButtonControl.xaml.cs" NewName="File12" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\ImageButtonControl.g.cs" NewName="File13" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\ImageButtonControl.xaml" NewName="File14" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Screens\ScreenKillerSudoku.cs" NewName="File15" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Screens\ScreenKenKen.cs" NewName="File16" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Properties\Settings.Designer.cs" NewName="File17" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Fireworks\HslColor.cs" NewName="File18" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionItemCategory.xaml.cs" NewName="File19" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\OptionItemCategory.g.cs" NewName="File20" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionItemCategory.xaml" NewName="File21" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\LocalizedStrings.cs" NewName="File22" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Fireworks\MagicDot.cs" NewName="File23" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\SEngine.cs" NewName="File24" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionItem.xaml.cs" NewName="File25" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\OptionItem.g.cs" NewName="File26" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionItem.xaml" NewName="File27" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Window1.xaml.cs" NewName="File28" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Window1.g.cs" NewName="File29" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Window1.xaml" NewName="File30" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\KillerGame.cs" NewName="File31" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\KakuroGame.cs" NewName="File32" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\GreaterPuzzle.cs" NewName="File33" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\BoardPiece.xaml.cs" NewName="File34" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\BoardPiece.g.cs" NewName="File35" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\BoardPiece.xaml" NewName="File36" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\GameScreen.xaml.cs" NewName="File37" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\GameScreen.g.cs" NewName="File38" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\GameScreen.xaml" NewName="File39" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Fireworks\Fireworks.xaml.cs" NewName="File40" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Fireworks\Fireworks.g.cs" NewName="File41" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Fireworks\Fireworks.xaml" NewName="File42" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\KillerPuzzle.cs" NewName="File43" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\KenKenPuzzle.cs" NewName="File44" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\NumberSelector.xaml.cs" NewName="File45" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\NumberSelector.g.cs" NewName="File46" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\NumberSelector.xaml" NewName="File47" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\TextButtonControl.xaml.cs" NewName="File48" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\TextButtonControl.g.cs" NewName="File49" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\TextButtonControl.xaml" NewName="File50" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Properties\Resources.Designer.cs" NewName="File51" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Globals.cs" NewName="File52" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\PopupMenu.xaml.cs" NewName="File53" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\PopupMenu.g.cs" NewName="File54" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\PopupMenu.xaml" NewName="File55" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionItemToggle.xaml.cs" NewName="File56" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\OptionItemToggle.g.cs" NewName="File57" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionItemToggle.xaml" NewName="File58" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Common\BrushFactory.cs" NewName="File59" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Common\CollectionHelper.cs" NewName="File60" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\AppSettings.cs" NewName="File61" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Screens\ScreenKakuro.cs" NewName="File62" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\solver.cs" NewName="File63" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\ObjGui.cs" NewName="File64" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionControl.xaml.cs" NewName="File65" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\Controls\OptionControl.g.cs" NewName="File66" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\Controls\OptionControl.xaml" NewName="File67" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\MainMenu.xaml.cs" NewName="File68" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\MainMenu.g.cs" NewName="File69" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\MainMenu.xaml" NewName="File70" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Engine\KenKenGame.cs" NewName="File71" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\app.xaml.cs" NewName="File72" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\App.g.cs" NewName="File73" />
+<Entry OldName="c:\dev\Panoramic\WPF\Sudoku\Sudoku\App.xaml" NewName="File74" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Strings\StringTable.Designer.cs" NewName="File75" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\Common\CollectionExtensions.cs" NewName="File76" />
+<Entry OldName="C:\dev\Panoramic\WPF\Sudoku\Sudoku\obj\Release\GeneratedInternalTypeHelper.g.cs" NewName="File77" />
+</Mappings>

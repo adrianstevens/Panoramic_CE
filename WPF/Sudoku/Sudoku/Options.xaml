@@ -1,0 +1,37 @@
+﻿<Page x:Class="Sudoku.Options"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Sudoku.Controls"
+    Background="Black"
+    Title="Panoramic Ultimate Sudoku - Options">
+    <Grid x:Name="gridMain" Width="800" Height="540" Loaded="Grid_Loaded">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/OptionsBG.jpg" />
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel HorizontalAlignment="Left" x:Name="stackPanel1" VerticalAlignment="Top">
+            <local:OptionControl x:Name="optSkin" />
+            <local:OptionControl x:Name="optPlaySounds" />
+            <local:OptionControl x:Name="optShowErrors" />
+            <local:OptionControl x:Name="optLockCompleted" />
+            <local:OptionControl x:Name="optShowHints" />
+            <local:OptionControl x:Name="optShowHighlights" />
+            <local:OptionControl x:Name="optAutoPencil" />
+            <local:OptionControl x:Name="optAutoClearPencilMarks" />
+            <local:OptionControl x:Name="optDrawBlankCells" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1">
+            <Image Source="/Assets/Sudoku_logo.png" Stretch="Uniform" VerticalAlignment="Top" Margin="10" Width="315" Height="107"/>
+            <TextBlock FontSize="20" Text="Copyright" TextWrapping="Wrap" TextAlignment="Center" Height="101" Width="Auto" Name="txtAboutCopyright" Margin="0,2"  Foreground="#FFFFFFFF"/>
+            <TextBlock FontSize="20" Text="http://www.panoramicsoft.com" Margin="0,2"  Foreground="#FFFFFFFF" TextAlignment="Center" Height="60"/>
+            <Image Source="/Assets/logo.png" Stretch="Uniform" Width="342" Height="123" Margin="0,2" />
+        </StackPanel>
+
+
+    </Grid>
+</Page>

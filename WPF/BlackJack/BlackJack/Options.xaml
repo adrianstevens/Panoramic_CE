@@ -1,0 +1,139 @@
+﻿<Page x:Class="BlackJack.Options"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:BlackJack.Controls"
+    Background="#FF000000"
+    Title="Options" Loaded="Page_Loaded">
+    <Page.Resources>
+        <DataTemplate x:Key="DataTemplate1">
+            <StackPanel>
+                <Grid Height="Auto" Width="417" Visibility="{Binding visContent}">
+                    <Image HorizontalAlignment="Left" Margin="8,16,0,0" Width="62" Height="62" Source="{Binding imageSource}" VerticalAlignment="Top" />
+                    <Image HorizontalAlignment="Left" Margin="8,88,0,0" Width="62" Height="21" Source="/Assets/GetNow.png" VerticalAlignment="Top" />
+                    <TextBlock Foreground="Black" Margin="86,8,8,0" TextWrapping="Wrap" Text="{Binding szTitle}" FontSize="40" Height="46" VerticalAlignment="Top"/>
+                    <TextBlock Foreground="Black" Margin="86,58,8,0" TextWrapping="Wrap" Text="{Binding szDesc}" FontSize="21" VerticalAlignment="Top"/>
+                </Grid>
+                <Grid Height="Auto" Width="417" Visibility="{Binding visYouTubeSpecials}">
+                    <TextBlock Foreground="Black" Margin="8,6,86,0" TextWrapping="Wrap" Text="{Binding szSpecials}" FontSize="17" VerticalAlignment="Top"/>
+                    <Image HorizontalAlignment="Right" Stretch="None" Margin="2" Source="/Assets/youtube.png" VerticalAlignment="Top" />
+                </Grid>
+            </StackPanel>
+        </DataTemplate>
+        
+        <DataTemplate x:Key="AchievementTemplate">
+            <Grid Height="Auto" Width="370">
+                <Image HorizontalAlignment="Left" Margin="8,16,0,0" Width="62" Height="62" Source="{Binding Image}" VerticalAlignment="Top" />
+                <Image HorizontalAlignment="Left" Margin="8,16,0,0" Width="62" Height="62" Opacity="{Binding Locked}" Source="/Assets/achieve_locked.png" VerticalAlignment="Top" />
+                <TextBlock Margin="86,8,63,8" TextWrapping="Wrap" Text="{Binding Title}" Foreground="{Binding Color}" FontSize="21" Height="46" VerticalAlignment="Top"/>
+                <TextBlock Margin="86,38,63,0" TextWrapping="Wrap" Text="{Binding Desc}" Foreground="{Binding Color}" FontSize="18" VerticalAlignment="Top"/>
+                <Image HorizontalAlignment="Right" Margin="0,10,8,0" Width="48" Height="48" Source="{Binding PointImage}" VerticalAlignment="Top" />
+            </Grid>
+        </DataTemplate>
+        
+        
+    </Page.Resources>    
+    
+    
+    <Grid x:Name="LayoutRoot" Width="800" Height="480">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/menu.jpg" />
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="72"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="gridSettings">
+            <!--  <ScrollViewer HorizontalAlignment="Right" x:Name="scrollViewer1" VerticalAlignment="Top" Width="600"> -->
+                <StackPanel Width="410" HorizontalAlignment="Right" x:Name="stackPanel1" VerticalAlignment="Top">
+                
+                <local:OptionControl  x:Name="optGameDifficulty" />
+                <local:OptionControl  x:Name="optPlaySounds" />
+                <local:OptionControl  x:Name="optCardCount" />
+                <local:OptionControl  x:Name="optCardCountStyle" />
+                <local:OptionControl  x:Name="optShowDealerCard" />
+                <local:OptionControl  x:Name="optBurnFirst" />
+                <local:OptionControl  x:Name="optShowScores" />
+                <local:OptionControl  x:Name="optDealerSoft17" />
+                <local:OptionControl  x:Name="optNumDecks" />
+                <local:OptionControl  x:Name="optPayout" />
+                <local:OptionControl  x:Name="optBankRoll" />
+                    
+                    
+                    <!--  <local:OptionItem x:Name="optGameDifficulty" />
+                    <local:OptionItem x:Name="optPlaySounds" />
+                    <local:OptionItem x:Name="optCardCount" />
+                    <local:OptionItem x:Name="optCardCountStyle" />
+                    <local:OptionItem x:Name="optShowDealerCard" />
+                    <local:OptionItem x:Name="optBurnFirst" />
+                    <local:OptionItem x:Name="optShowScores" />
+                    <local:OptionItem x:Name="optDealerSoft17" />
+                    <local:OptionItem x:Name="optNumDecks" />
+                    <local:OptionItem x:Name="optPayout" />
+                    <local:OptionItem x:Name="optBankRoll" /> -->
+                </StackPanel>
+  
+
+        </Grid>
+        
+
+        <Grid x:Name="gridHiScores" Visibility="Collapsed" IsHitTestVisible="False">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Name="lblHiScores" Foreground="Yellow" Margin="15,10,0,0" Grid.Column="0" Text="HiScores" FontSize="28" />
+                
+                    <StackPanel Grid.Column="1" x:Name="lstHiScores" Margin="0,20,0,0"  HorizontalAlignment="Left">
+                        <TextBlock FontSize="30" Text="1. $10,000" Foreground="Black"/>
+                        <TextBlock FontSize="30" Text="2. $10,000" Foreground="Black" />
+                        <TextBlock FontSize="30" Text="3. $10,000" Foreground="Black" />
+                        <TextBlock FontSize="30" Text="4. $10,000" Foreground="Black" />
+                        <TextBlock FontSize="30" Text="5. $10,000" Foreground="Black" />
+                    </StackPanel>
+                
+            </Grid>
+            <Grid Grid.Column="1" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="50" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="lblAchievements" Foreground="Yellow"  VerticalAlignment="Center" Margin="10,0,0,0" FontSize="28" Grid.Column="0" Text="Achievements" />
+                    <TextBlock x:Name="lblAchievePoints" Foreground="Yellow"  VerticalAlignment="Center" TextAlignment="Center" FontSize="28" Grid.Column="1" Text="30" />
+                </Grid>
+                <ListBox Grid.Row="1" x:Name="lbAchievements" ItemTemplate="{StaticResource AchievementTemplate}" ItemsSource="{Binding}" Foreground="#FFFFFFFF" Background="Transparent" BorderBrush="Transparent" Focusable="False" IsHitTestVisible="True" />
+            </Grid>
+        </Grid>
+
+        <Grid HorizontalAlignment="Center" x:Name="gridAbout" Visibility="Collapsed" IsHitTestVisible="False">
+               <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="600">
+                    <Image Source="/Assets/Blackjack_logo.png" Stretch="Uniform" Width="521" Height="177" VerticalAlignment="Top" Margin="0,2" />
+                    <TextBlock FontSize="24" Text="Copyright" TextWrapping="Wrap" TextAlignment="Center" Height="75" Width="Auto" Name="txtAboutCopyright" Margin="0,2"  Foreground="Yellow"/>
+                    <TextBlock FontSize="26" Text="http://www.panoramicsoft.com" TextAlignment="Center" Margin="0,2"  Foreground="Yellow"/>
+               </StackPanel>
+        </Grid>
+
+        <Grid Canvas.Top="410" Width="800" Grid.Row="1" VerticalAlignment="Bottom" x:Name="appBar" Background="Black" Opacity="0.7">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="72"/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Height="70" Orientation="Horizontal" >
+                <local:ImageButtonControl x:Name="btnBack" Margin="0,0,0,0" OnClick="btnBack_OnClick" Width="90"/>
+                <local:TextButtonControl x:Name="btnSettings" Margin="40,0,0,0" Text="settings" OnClick="btnSettings_OnClick" />
+                <local:TextButtonControl x:Name="btnHiScores" Margin="40,0,0,0" Text="achievements" OnClick="btnHiScores_OnClick" />
+                <local:TextButtonControl x:Name="btnAbout" Margin="40,0,0,0" Text="about" OnClick="btAbout_OnClick"/>
+                <!--"<local:TextButtonControl x:Name="btnMoreApps" Margin="40,0,0,0" Text="more apps" OnClick="btnMoreApps_OnClick"/>  -->
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

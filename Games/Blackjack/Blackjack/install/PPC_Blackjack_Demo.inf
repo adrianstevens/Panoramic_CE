@@ -1,0 +1,70 @@
+[Version]
+Signature="$Windows NT$"
+Provider="Panoramic"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="Blackjack"
+InstallDir=%CE1%\Panoramic\Blackjack
+
+[DestinationDirs]
+Files00.ARM720 = 0, %InstallDir%
+Files01.ARM720 = 0, %CE2%
+Shortcuts00.ARM720 = 0, %CE14%
+Shortcuts01.ARM720 = 0, %CE2%\Help
+
+[CEDevice.ARM720]
+ProcessorType = 0 ; StrongARM
+BuildMax=0xE0000000
+;UnsupportedPlatforms = "HPC","Palm PC"
+;VersionMin=3.00
+;VersionMax=4.10
+
+[SourceDisksNames.ARM720]
+1=, "SourceDisk01",,
+
+[SourceDisksFiles.ARM720]
+"Blackjack.exe" = 1
+"PanoBlackjack.htm" = 1
+"PanoBlackjack_pt.htm" = 1
+"PanoBlackjack_de.htm" = 1
+"PanoBlackjack_fr.htm" = 1
+"PanoBlackjack_du.htm" = 1
+"PanoBlackjack_es.htm" = 1
+"PanoBlackjack_jp.htm" = 1
+"setupdll.dll" = 1
+"Blackjack90x90_192.png" = 1
+
+
+[DefaultInstall.ARM720]
+CopyFiles = Files00.ARM720, Files01.ARM720
+AddReg = RegSettings
+CEShortcuts = Shortcuts00.ARM720, Shortcuts01.ARM720
+CESetupDLL  = "Setupdll.dll"
+
+[RegSettings]
+HKCU,SOFTWARE\Panoramic\PanoBlackjack,StartUp,0x00000001,00,00,00,00 ;Add a value to tell the system to add a demo key.
+;HKLM,Security\Shell\StartInfo\Start\Games\Panoramic Blackjack.lnk,Icon,0x00000000,%InstallDir%\Blackjack90x90_192.png
+
+[Files00.ARM720]
+"Blackjack.exe",,,0x40000003
+"Blackjack90x90_192.png",,,0x40000003
+
+[Files01.ARM720]
+"PanoBlackjack.htm",,,0x40000003
+"PanoBlackjack_pt.htm",,,0x40000003
+"PanoBlackjack_de.htm",,,0x40000003
+"PanoBlackjack_fr.htm",,,0x40000003
+"PanoBlackjack_du.htm",,,0x40000003
+"PanoBlackjack_es.htm",,,0x40000003
+"PanoBlackjack_jp.htm",,,0x40000003
+
+[Shortcuts00.ARM720]
+"Panoramic Blackjack", 0, "Blackjack.exe"
+
+[Shortcuts01.ARM720]
+"Panoramic Blackjack.lnk", 0, "PanoBlackjack.htm"
+
+
+
+

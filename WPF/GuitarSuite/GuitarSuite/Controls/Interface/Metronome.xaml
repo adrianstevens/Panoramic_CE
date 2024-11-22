@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="GuitarSuite.Controls.Metronome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="480">
+    <Grid x:Name="LayoutRoot" VerticalAlignment="Top">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/Metronome/metro.png" Stretch="None" />
+        </Grid.Background>
+        <TextBlock Height="50" Foreground="White" HorizontalAlignment="Left" Margin="45,208,0,0" x:Name="textBlock1" Text="{Binding Path=Localizedresources.IDS_INFO_Tempo, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" Width="143" TextAlignment="Center" FontSize="22"/>
+        <TextBlock Height="50" Foreground="White" HorizontalAlignment="Left" Margin="289,208,0,0" x:Name="textBlock2" Text="{Binding Path=Localizedresources.IDS_INFO_Meter, Source={StaticResource LocalizedStrings}}" TextAlignment="Center" VerticalAlignment="Top" Width="143" FontSize="22"/>
+        <TextBlock Height="96" Foreground="White" HorizontalAlignment="Left" Margin="341,53,0,0" x:Name="txtTempo" Text="{Binding szTempo}" VerticalAlignment="Top" Width="107" FontSize="56" />
+        <TextBlock Height="30" Foreground="White" HorizontalAlignment="Left" Margin="40,19,0,0" x:Name="textBlock3" Text="{Binding Path=Localizedresources.IDS_INFO_Meter, Source={StaticResource LocalizedStrings}}" VerticalAlignment="Top" FontSize="22" />
+        <TextBlock Height="30" Foreground="White" HorizontalAlignment="Left" Margin="145,19,0,0" x:Name="txtMeter" Text="{Binding szMeter}" VerticalAlignment="Top" Width="107" FontSize="22" />
+        <Image HorizontalAlignment="Left" Margin="33,134,0,0" x:Name="imgGreen" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/Metronome/led_green_On.png" Opacity="0" Width="58" Height="60" />
+        <Image HorizontalAlignment="Left" Margin="388,132,0,0" x:Name="imgRed" Source="/Assets/Metronome/led_red_On.png" Stretch="Uniform" VerticalAlignment="Top" Opacity="0" Width="58" Height="60" />
+        <!--<MediaElement x:Name="myMediaPlayer" AutoPlay="false" MediaFailed="myMediaPlayer_MediaFailed" MediaOpened="myMediaPlayer_MediaOpened" DownloadProgressChanged="myMediaPlayer_DownloadProgressChanged" CurrentStateChanged="myMediaPlayer_CurrentStateChanged" BufferingProgressChanged="myMediaPlayer_BufferingProgressChanged" Margin="0,0,478,798"></MediaElement>-->
+        <Grid Height="39" HorizontalAlignment="Left" Margin="89,145,0,0" Name="gridTicks" VerticalAlignment="Top" Width="301"/>
+        <TextBlock FontSize="56" Foreground="White" Height="96" HorizontalAlignment="Left" Margin="145,53,0,0" Name="txtMeterIndex" Text="" VerticalAlignment="Top" Width="107" />
+
+        <Canvas Height="16" HorizontalAlignment="Left" Margin="40,103,0,0" Name="canvasPlayPause" VerticalAlignment="Top" Width="16" >
+            <Canvas.Clip>
+                <RectangleGeometry Rect="0,0,16,16"/>
+            </Canvas.Clip>
+            <Image Width="32" Height="16" HorizontalAlignment="Left" Name="imgPlayPause" Stretch="Fill" VerticalAlignment="Top"  Source="/Assets/Metronome/OnOff.png"/>
+        </Canvas>
+        <TextBlock Height="30" Foreground="White" HorizontalAlignment="Left" Margin="300,19,0,0" Name="textBlock4" Text="{Binding szTempoMarking}" VerticalAlignment="Top" Width="148" TextAlignment="Right" FontSize="22"/>
+        <TextBlock Height="51" Foreground="White" HorizontalAlignment="Left" Margin="263,372,0,0" Name="txtTimer" Text="" VerticalAlignment="Top" Width="194" TextAlignment="Center" FontSize="36" />
+        <TextBlock Height="51" Foreground="White" HorizontalAlignment="Left" Margin="326,474,0,0" Name="txtBtnPlayPause" Text="{Binding szStartStop}" VerticalAlignment="Top" Width="131" FontSize="40" TextAlignment="Center" />
+        <Image HorizontalAlignment="Left" Margin="290,640,0,0" Name="imgBtnPlayPause" Stretch="None" VerticalAlignment="Top" Source="/Assets/Metronome/OnOff.png" Visibility="Collapsed" />
+        <Rectangle Height="100" HorizontalAlignment="Left" Margin="283,448,0,0" Name="rectBtnPlayPause" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="188" MouseLeave="rectBtnPlayPause_MouseLeave" MouseLeftButtonDown="rectBtnPlayPause_MouseLeftButtonDown" MouseLeftButtonUp="rectBtnPlayPause_MouseLeftButtonUp" Fill="#01000000"></Rectangle>
+        <Image HorizontalAlignment="Left" Margin="21,271,0,0" Name="imgBtnTempoUp" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/Metronome/Arw_Up_On.png" Visibility="Collapsed" Width="73" Height="47"/>
+        <Image HorizontalAlignment="Left" Margin="266,271,0,0" Name="imgBtnMeterUp" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/Metronome/Arw_Up_On.png" Visibility="Collapsed" Width="73" Height="47" />
+        <Image HorizontalAlignment="Left" Margin="138,272,0,0" Name="imgBtnTempoDown" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/Metronome/Arw_Down_On.png" Visibility="Collapsed" Width="73" Height="47" />
+        <Image HorizontalAlignment="Left" Margin="382,272,0,0" Name="imgBtnMeterDown" Stretch="Uniform" VerticalAlignment="Top" Source="/Assets/Metronome/Arw_Down_On.png" Visibility="Collapsed" Width="73" Height="47" />
+        <Rectangle Height="106" HorizontalAlignment="Left" Margin="6,271,0,0" Name="rectBtnTempUp" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="106"  Fill="#01000000" MouseLeave="rectBtn_MouseLeave" MouseLeftButtonDown="rectBtn_MouseLeftButtonDown" MouseLeftButtonUp="rectBtn_MouseLeftButtonUp" />
+        <Rectangle Height="106" HorizontalAlignment="Left" Margin="122,271,0,0" Name="rectBtnTempDown" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="106"  Fill="#01000000" MouseLeave="rectBtn_MouseLeave" MouseLeftButtonDown="rectBtn_MouseLeftButtonDown" MouseLeftButtonUp="rectBtn_MouseLeftButtonUp" />
+        <Rectangle Height="106" HorizontalAlignment="Left" Margin="251,271,0,0" Name="rectBtnMeterUp" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="106"  Fill="#01000000" MouseLeave="rectBtn_MouseLeave" MouseLeftButtonDown="rectBtn_MouseLeftButtonDown" MouseLeftButtonUp="rectBtn_MouseLeftButtonUp" />
+        <Rectangle Height="106" HorizontalAlignment="Left" Margin="365,271,0,0" Name="rectBtnMeterDown" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="106"  Fill="#01000000" MouseLeave="rectBtn_MouseLeave" MouseLeftButtonDown="rectBtn_MouseLeftButtonDown" MouseLeftButtonUp="rectBtn_MouseLeftButtonUp" />
+        <Canvas Height="203" HorizontalAlignment="Left" Margin="31,360,0,0" Name="canvasKnob" VerticalAlignment="Top" Width="173" MouseLeftButtonDown="canvasKnob_MouseLeftButtonDown" MouseLeftButtonUp="canvasKnob_MouseLeftButtonUp" MouseMove="canvasKnob_MouseMove">
+            <Canvas.Clip>
+                <RectangleGeometry Rect="0,0,173,203"/>
+            </Canvas.Clip>
+            <Image  HorizontalAlignment="Left" Name="imgKnob" Stretch="UniformToFill" VerticalAlignment="Top"  Source="/Assets/Metronome/Knobs.png" Canvas.Left="5" Canvas.Top="0" Height="203" Width="1557"/>
+            <Rectangle Fill="#01000000" Height="55" Name="rectKnobMiddle" Stroke="Black" StrokeThickness="0" Width="64" Canvas.Left="52" Canvas.Top="66" MouseLeftButtonDown="rectKnobMiddle_MouseLeftButtonDown" />
+        </Canvas>
+        <TextBlock Height="50" Foreground="White" HorizontalAlignment="Left" Margin="6,344,0,0" Name="textBlock5" Text="{Binding Path=Localizedresources.IDS_OPT_MetronomeSound, Source={StaticResource LocalizedStrings}}" TextAlignment="Center" VerticalAlignment="Top" Width="222" FontSize="16"/>
+        <TextBlock Height="50" Foreground="White" HorizontalAlignment="Left" Margin="288,408,0,0" Name="textBlock6" Text="{Binding szSounds}" TextAlignment="Center" VerticalAlignment="Top" Width="143" FontSize="20" />
+        <TextBlock Height="129" HorizontalAlignment="Left" Margin="99,53,0,0" Name="txtTapSetBPM" Text="" VerticalAlignment="Top" Width="200" TextAlignment="Center" TextWrapping="Wrap" FontSize="26" MouseLeftButtonDown="txtTapSetBPM_MouseLeftButtonDown" Foreground="White"/>
+    </Grid>
+</UserControl>

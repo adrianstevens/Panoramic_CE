@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDS_APP_TITLE" xml:space="preserve">
+    <value>Guitar Suite</value>
+  </data>
+  <data name="IDS_MENU_MoreApps" xml:space="preserve">
+    <value>Altre Apps</value>
+  </data>
+  <data name="IDS_MENU_Cancel" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="IDS_MENU_Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="IDS_MENU_Options" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="IDS_MENU_Help" xml:space="preserve">
+    <value>Aiuto</value>
+  </data>
+  <data name="IDS_MENU_Quit" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="IDS_MENU_Yes" xml:space="preserve">
+    <value>Sì</value>
+  </data>
+  <data name="IDS_MENU_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="IDS_MENU_Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="IDS_MENU_About" xml:space="preserve">
+    <value>Informazioni</value>
+  </data>
+  <data name="IDS_MENU_Exit" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="IDS_MENU_Save" xml:space="preserve">
+    <value>Salvare</value>
+  </data>
+  <data name="IDS_MENU_Stop" xml:space="preserve">
+    <value>Ferm</value>
+  </data>
+  <data name="IDS_MENU_Start" xml:space="preserve">
+    <value>Avviare</value>
+  </data>
+  <data name="IDS_MENU_Back" xml:space="preserve">
+    <value>Tornare</value>
+  </data>
+  <data name="IDS_MENU_Play" xml:space="preserve">
+    <value>Giocare</value>
+  </data>
+  <data name="IDS_INFO_Pitch" xml:space="preserve">
+    <value>Pece</value>
+  </data>
+  <data name="IDS_INFO_SignalQuality" xml:space="preserve">
+    <value>Qualità del segnale</value>
+  </data>
+  <data name="IDS_INFO_Frequency" xml:space="preserve">
+    <value>Frequenza (Hz)</value>
+  </data>
+  <data name="IDS_INFO_Meter" xml:space="preserve">
+    <value>Metro</value>
+  </data>
+  <data name="IDS_INFO_Tempo" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="IDS_INFO_Hz" xml:space="preserve">
+    <value>%iHz</value>
+  </data>
+  <data name="IDS_MSG_DemoOver" xml:space="preserve">
+    <value>Speriamo che abbiate goduto provare Panoramic Guitar Suite, la versione di prova è scaduto.\r\n\r\nPer l'acquisto: si prega di restituire al sito che ha fornito il download di prova.</value>
+  </data>
+  <data name="IDS_MSG_Exit" xml:space="preserve">
+    <value>Sei sicuro di voler uscire Panoramic Guitar Suite?</value>
+  </data>
+  <data name="IDS_MSG_About" xml:space="preserve">
+    <value>Versione 1.5.0\r\n\r\nCopyright 2009-2011\r\nwww.panoramicsoft.com</value>
+  </data>
+  <data name="IDS_MSG_SetBPM" xml:space="preserve">
+    <value>Toccare</value>
+  </data>
+  <data name="IDS_OPT_Tempo" xml:space="preserve">
+    <value>Maschile</value>
+  </data>
+  <data name="IDS_OPT_ScalesOff" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="IDS_OPT_Off" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="IDS_OPT_On" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="IDS_OPT_RomanNumerals" xml:space="preserve">
+    <value>Numeri Romani</value>
+  </data>
+  <data name="IDS_OPT_Numbers" xml:space="preserve">
+    <value>Numeri</value>
+  </data>
+  <data name="IDS_OPT_SlowStrum" xml:space="preserve">
+    <value>Lento</value>
+  </data>
+  <data name="IDS_OPT_FastStrum" xml:space="preserve">
+    <value>Veloce</value>
+  </data>
+  <data name="IDS_OPT_FreeStrum" xml:space="preserve">
+    <value>Manuale</value>
+  </data>
+  <data name="IDS_MENU_Chords" xml:space="preserve">
+    <value>Accordi</value>
+  </data>
+  <data name="IDS_MENU_TuneByEar" xml:space="preserve">
+    <value>Tuner Orecchio</value>
+  </data>
+  <data name="IDS_MENU_Tuner" xml:space="preserve">
+    <value>Sintonizzatore</value>
+  </data>
+  <data name="IDS_MENU_Metronome" xml:space="preserve">
+    <value>Metronomo</value>
+  </data>
+  <data name="IDS_MENU_PlayMode" xml:space="preserve">
+    <value>Suonare</value>
+  </data>
+  <data name="IDS_MENU_Digital" xml:space="preserve">
+    <value>Digitale</value>
+  </data>
+  <data name="IDS_OPT_Rosewood" xml:space="preserve">
+    <value>Palissandro</value>
+  </data>
+  <data name="IDS_OPT_Alder" xml:space="preserve">
+    <value>Ontano</value>
+  </data>
+  <data name="IDS_OPT_Rebel" xml:space="preserve">
+    <value>Ribelle</value>
+  </data>
+  <data name="IDS_OPT_Fire" xml:space="preserve">
+    <value>Fuoco</value>
+  </data>
+  <data name="IDS_OPT_SonicBlue" xml:space="preserve">
+    <value>Blu</value>
+  </data>
+  <data name="IDS_OPT_Carbon" xml:space="preserve">
+    <value>Carbonio</value>
+  </data>
+  <data name="IDS_OPT_PinkBubbles" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="IDS_OPT_PlaySounds" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="IDS_OPT_LeftHanded" xml:space="preserve">
+    <value>Mancini</value>
+  </data>
+  <data name="IDS_OPT_Skin" xml:space="preserve">
+    <value>pelle</value>
+  </data>
+  <data name="IDS_OPT_FretIndicators" xml:space="preserve">
+    <value>tasti</value>
+  </data>
+  <data name="IDS_OPT_TunerFrequency" xml:space="preserve">
+    <value>Freq Sintonizzatore</value>
+  </data>
+  <data name="IDS_OPT_TunerCutoff" xml:space="preserve">
+    <value>Frequenza Limite</value>
+  </data>
+  <data name="IDS_OPT_Options" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="IDS_OPT_Metal" xml:space="preserve">
+    <value>Metallo</value>
+  </data>
+  <data name="IDS_OPT_Wood" xml:space="preserve">
+    <value>Legno</value>
+  </data>
+  <data name="IDS_OPT_BassGuitar" xml:space="preserve">
+    <value>Chitarra Basso</value>
+  </data>
+  <data name="IDS_OPT_Lute" xml:space="preserve">
+    <value>Liuto</value>
+  </data>
+  <data name="IDS_OPT_Ukulele" xml:space="preserve">
+    <value>Ukulele</value>
+  </data>
+  <data name="IDS_OPT_Banjo" xml:space="preserve">
+    <value>Banjo</value>
+  </data>
+  <data name="IDS_OPT_BassGuitar5" xml:space="preserve">
+    <value>Chitarra Basso (5)</value>
+  </data>
+  <data name="IDS_OPT_Guitar" xml:space="preserve">
+    <value>Chitarra</value>
+  </data>
+  <data name="IDS_OPT_MetronomeSound" xml:space="preserve">
+    <value>Suono del Metronomo</value>
+  </data>
+  <data name="IDS_OPT_Instrument" xml:space="preserve">
+    <value>Strumento</value>
+  </data>
+  <data name="IDS_TUN_Standard" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="IDS_TUN_Drop" xml:space="preserve">
+    <value>Goccia</value>
+  </data>
+  <data name="IDS_TUN_Fourths" xml:space="preserve">
+    <value>Quarti</value>
+  </data>
+  <data name="IDS_TUN_Open" xml:space="preserve">
+    <value>Aperto</value>
+  </data>
+  <data name="IDS_TUN_Modal" xml:space="preserve">
+    <value>Modale</value>
+  </data>
+  <data name="IDS_TUN_Shifted" xml:space="preserve">
+    <value>Spostato</value>
+  </data>
+  <data name="IDS_TUN_Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="IDS_TUN_Half" xml:space="preserve">
+    <value>Metà</value>
+  </data>
+  <data name="IDS_TUN_Full" xml:space="preserve">
+    <value>Intero</value>
+  </data>
+  <data name="IDS_TUN_Down" xml:space="preserve">
+    <value>Basso</value>
+  </data>
+  <data name="IDS_TUN_Up" xml:space="preserve">
+    <value>Fino</value>
+  </data>
+  <data name="IDS_TUN_Double" xml:space="preserve">
+    <value>Doppio</value>
+  </data>
+  <data name="IDS_TUNE_Mandolin" xml:space="preserve">
+    <value>Mandolino</value>
+  </data>
+  <data name="IDS_TUNE_Mandola" xml:space="preserve">
+    <value>Mandola</value>
+  </data>
+  <data name="IDS_TUNE_Pipa" xml:space="preserve">
+    <value>Pipa</value>
+  </data>
+  <data name="IDS_TUNE_Bouzouki" xml:space="preserve">
+    <value>Bouzouki</value>
+  </data>
+  <data name="IDS_TUNE_Bouzouki2" xml:space="preserve">
+    <value>Bouzouki 2</value>
+  </data>
+  <data name="IDS_TUNE_Bouzouki3" xml:space="preserve">
+    <value>Bouzouki 3</value>
+  </data>
+  <data name="IDS_Clear" xml:space="preserve">
+    <value>Cancellare</value>
+  </data>
+  <data name="IDS_OPT_Silent" xml:space="preserve">
+    <value>Silenzioso</value>
+  </data>
+  <data name="IDS_MENU_Purchase" xml:space="preserve">
+    <value>Acquisto Guitar Suite</value>
+  </data>
+  <data name="IDS_MSG_DemoOverShort" xml:space="preserve">
+    <value>Ci auguriamo che vi sia piaciuto utilizzando Panoramic Guitar Suite, la versione di prova è terminato</value>
+  </data>
+  <data name="IDS_OPT_Accoustic" xml:space="preserve">
+    <value>Chitarra Acustica</value>
+  </data>
+  <data name="IDS_OPT_Overdrive" xml:space="preserve">
+    <value>Chitarra Elettrica</value>
+  </data>
+  <data name="IDS_OPT_SoundType" xml:space="preserve">
+    <value>suono dello strumento</value>
+  </data>
+  <data name="IDS_OPT_CustomTuning" xml:space="preserve">
+    <value>custom tuning</value>
+  </data>
+  <data name="IDS_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="IDS_OPT_Flat" xml:space="preserve">
+    <value>Flat (♭)</value>
+  </data>
+  <data name="IDS_OPT_Notation" xml:space="preserve">
+    <value>notazione diatonica</value>
+  </data>
+  <data name="IDS_OPT_Sharp" xml:space="preserve">
+    <value>Sharp (♯)</value>
+  </data>
+  <data name="IDS_OPT_Normal" xml:space="preserve">
+    <value>Normale</value>
+  </data>
+  <data name="IDS_OPT_Sensitivity" xml:space="preserve">
+    <value>Sensibilità di Sintonizzatore</value>
+  </data>
+  <data name="IDS_OPT_TuningRange" xml:space="preserve">
+    <value>Gamma di Sintonizzazione</value>
+  </data>
+</root>
